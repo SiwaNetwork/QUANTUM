@@ -1,9 +1,8 @@
 
-# Data Center PTP Profile № 1.1
+# PTP Profile для Датацентров 
 
 
-
-### Nov 2022
+### Nov 2023
 
 
 ## Executive Summary
