@@ -1,209 +1,219 @@
-*To save spec as PDF - select text below (including images) -> right click -> Print -> Save as PDF*
+Для сохранения спецификации в формате PDF, выполните следующие действия:
 
-[Back to Time Appliances Project's wiki](https://www.opencompute.org/wiki/Time_Appliance_Project)
-# Open Time Server
-#### Spec revision № 1.0
-The Open Time Server (OTS) is an Open, Scalable and Validated reference architecture that can be deployed in Data Centers or in an edge environments.  
-This spec can be accessed using http://www.opentimeserver.com
- 
+1. Выделите текст ниже (включая изображения).
+2. Щелкните правой кнопкой мыши.
+3. Выберите "Печать" (Print).
+4. Выберите "Сохранить как PDF" (Save as PDF).
 
-![GitHub Logo](https://github.com/opencomputeproject/Time-Appliance-Project/blob/master/Time-Card/images/OCP%20logo.jpg?raw=true)
+[Вернуться на страницу проекта Time Appliances (Time Appliance Project)](https://www.opencompute.org/wiki/Time_Appliance_Project)
+# Открытый временной сервер
+#### Спецификация, версия № 1.0
+Открытый временной сервер (OTS) - это открытая, масштабируемая и проверенная архитектура, которая может быть развернута в центрах обработки данных или на периферийных устройствах.
+Эту спецификацию можно найти по адресу http://www.opentimeserver.com
 
-## Table of Contents
-1. [List of images](#List-of-images)
-1. [Abbreviations](#Abbreviations)
-1. [General](#General)
-1. [High-Level Architecture](#High-Level-Architecture)
-   1. [Responsibilities and Requirements](#Responsibilities-and-Requirements)
-      1. [COTS Server](#COTS-Server)
-      1. [Network Interface Card](#Network-Interface-Card)
-      1. [Time Card](#Time-Card)
-1. [Detailed Architecture](#Detailed-Architecture)
-   1. [COTS Server](#COTS-Server-1)
-      1. [Hardware](#Hardware)
-      1. [Software](#Software)
-   1. [NIC](#NIC)
-      1. [Form-Factor](#Form-Factor)
-      1. [PCIe Interface](#Pcie-Interface)
-      1. [Network Ports](#Network-Ports)
-      1. [Hardware timestamps](#Hardware-timestamps)
-      1. [PPS out](#PPS-out)
-      1. [PPS In](#PPS-In)
-   1. [Time Card](#Time-Card-1)
-1. [License](#License)
+![Логотип GitHub](https://github.com/opencomputeproject/Time-Appliance-Project/blob/master/Time-Card/images/OCP%20logo.jpg?raw=true)
 
-## List of images
-List Of Images | Description
+## Содержание
+1. [Список изображений](#Список-изображений)
+2. [Сокращения](#Сокращения)
+3. [Общее](#Общее)
+4. [Архитектура высокого уровня](#Архитектура-высокого-уровня)
+   1. [Обязанности и требования](#Обязанности-и-требования)
+      1. [COTS-сервер](#COTS-сервер)
+      1. [Сетевая сетевая карта (NIC)](#Сетевая-сетевая-карта-(NIC))
+      1. [Временная карта (Time Card)](#Временная-карта-(Time-Card))
+5. [Подробная архитектура](#Подробная-архитектура)
+   1. [COTS-сервер](#COTS-сервер-1)
+      1. [Аппаратное обеспечение](#Аппаратное-обеспечение)
+      1. [Программное обеспечение](#Программное-обеспечение)
+   1. [Сетевая сетевая карта (NIC)](#Сетевая-сетевая-карта-(NIC)-1)
+      1. [Форм-фактор](#Форм-фактор)
+      1. [Интерфейс PCIe](#Интерфейс-PCIe)
+      1. [Сетевые порты](#Сетевые-порты)
+      1. [Аппаратные метки времени](#Аппаратные-метки-времени)
+      1. [PPS вход (вывод)](#PPS-вход-(вывод))
+   1. [Временная карта (Time Card)](#Временная-карта-(Time-Card)-1)
+6. [Лицензия](#Лицензия)
+
+## Список изображений
+Список изображений | Описание
 ------------ | -------------
-[Figure 1](#figure-1) | Open Time Server System Diagram
-[Figure 2](#figure-2) | Open Time Server Concept
-[Figure 3](#figure-3) | Open Time Server Assembly
+[Рисунок 1](#figure-1) | Диаграмма системы открытого временного сервера
+[Рисунок 2](#figure-2) | Концепция открытого временного сервера
+[Рисунок 3](#figure-3) | Сборка открытого временного сервера
 
-## Abbreviations
-Abbreviation | Description
+## Сокращения
+Сокращение | Описание
 ------------ | -------------
-AC | Atomic Clock
-COTS | Commodity off-the-shelf
-DC | Datacenter
-GNSS | Global Navigation Satellite System
-GTM | Go-To-Market
-HW | Hardware
-NIC | Network Interface Card
-NTP | Network Time Protocol
-OCP | Open Compute Project
-OCXO | Oven-Controlled Oscillator
-OTS | Open Time Server (Previously known as an **Open Grandmaster** or a **Leader**) 
-PHC | PTP Hardware Clock
-PPS | Pulse-Per-Second
-PTM | Precision Time Measurements
-PTP | Precision Time Protocol
-SW | Software
-TAP | Time Appliance Project
-TCXO | Temperature-compensated Oscillator
-ToD | Time of Day
-TS | Timestamp
-XO | Oscillator
+AC | Атомные часы (Atomic Clock)
+COTS | Готовое к использованию с оборудованием (Commodity off-the-shelf)
+DC | Центр обработки данных (Datacenter)
+GNSS | Глобальная навигационная спутниковая система (Global Navigation Satellite System)
+GTM | Старт продаж на рынок (Go-To-Market)
+HW | Аппаратное обеспечение (Hardware)
+NIC | Сетевая сетевая карта (Network Interface Card)
+NTP | Сетевой протокол времени (Network Time Protocol)
+OCP | Проект Open Compute (Open Compute Project)
+OCXO | Овен-контролируемый осциллятор (Oven-Controlled Oscillator)
+OTS | Открытый временной сервер (ранее известный как **Open Grandmaster** или **Leader**)
+PHC | Аппаратные часы PTP (PTP Hardware Clock)
+PPS | Импульсы в секунду (Pulse-Per-Second)
+PTM | Точные измерения времени (Precision Time Measurements)
+PTP | Протокол точного времени (Precision Time Protocol)
+SW | Программное обеспечение (Software)
+TAP | Проект временного устройства (Time Appliance Project)
+TCXO | Температуроустойчивый осциллятор с компенсацией температуры (Temperature-compensated Oscillator)
+ToD | Время дня (Time of Day)
+TS | Метка времени (Timestamp)
+XO | Осциллятор (Oscillator)
 
-Table 1. Abbreviations
+Таблица 1. Сокращения
 
-# General 
+# Общее
+[OCP TAP](https://www.opencompute.org/wiki/Time_Appliances_Project) нацелен на упрощение добавления синхронизации времени в качестве сервиса в центры обработки данных. Основные цели проекта - определение требований к сервису, развертывание и проектирование открытого эталонного дизайна.
 
-[OCP TAP](https://www.opencompute.org/wiki/Time_Appliances_Project) is targeting to ease the addition of Time-sync as a service to the datacenter. The Project targets are to define the service requirements, deployment, and design of an open reference design. 
+Сервис синхронизации времени базируется на технологии синхронизации, и на данный момент мы используем PTP (IEEE 1588) с некоторыми дополнениями и NTP.
 
-The time-sync service is relying on a synchronization technology, for now, we are adopting PTP (IEEE 1588) with some addition to that and NTP. 
+Архитектура
 
-PTP architecture is scalable and defines the time source from an entity called the **Time Server clock** (or stratum 1 in NTP terms).  The Open Time Server is distributing time to the entire network and usually gets its timing from an external source, (GNSS signal). 
+ PTP масштабируется и определяет источник времени сущности, называемой **часами времени сервера** (или слоем 1 в терминах NTP). Открытый временной сервер распространяет время по всей сети и обычно получает свое время из внешнего источника (сигнала GNSS).
 
-The current state-of-the-art Open Time Server implementations suffer from a few drawbacks that we wish to accommodate:
+Существующие реализации открытых временных серверов имеют несколько недостатков, которые мы хотим учесть:
 
-* They are HW appliances that usually target different GTM than a DC 
-* They expose none standard and inconsistent Interfaces and SW feature-sets
-* Development cycles and the effort needed to add new features are long and expensive
-* It doesn’t rely on open-source software
-* The accuracy/stability grades aren’t in line with DC requirements 
+* Это аппаратное оборудование, обычно ориентированное на другой рынок, чем центры обработки данных.
+* Они предоставляют нестандартные и несовместимые интерфейсы и наборы функций программного обеспечения.
+* Циклы разработки и усилия, необходимые для добавления новых функций, являются долгими и дорогостоящими.
+* Они не используют программное обеспечение с открытым исходным кодом.
+* Точность и стабильность не соответствуют требованиям центров обработки данных.
 
+# Архитектура высокого уровня
+В целом, OTS делится на 3 аппаратных компонента:
 
-# High-Level Architecture
+1. COTS-сервер
+2. Сетевая сетевая карта (NIC)
+3. Временная карта (Time Card)
 
-In general, the OTS is divided into 3 HW components:
+<a id="Рисунок-1">![Диаграмма системы открытого временного сервера](/Time-Card/images/overall.png)</a>
+<p align="center">Рисунок 1. Диаграмма системы открытого временного сервера</p>
 
-1. COTS server 
-2. Commodity NIC 
-3. Time Card 
+Философия, лежащая в основе этой фрагментации, является очень ясной, и каждое решение, модификация, которое будет принято, должно соответствовать этой философии:
 
-<a id="Figure-1">![Open Time Server System Diagram](/Time-Card/images/overall.png)</a>
-<p align="center">Figure 1. Open Time Server System Diagram</p>
-The philosophy behind this fragmentation is very clear, and each decision, modification that will be made, must look-out to this philosophy:
+* COTS-серверы сохраняют свою "ценность за деньги" благодаря большому спросу на рынке. Они обычно обновляются с последней версией ОС, обновлениями безопасности и новыми технологиями, быстрее, чем аппаратное оборудование.
+* Современные сетевые сетевые карты уже поддерживают аппаратные метки времени, лидируют на рынке с Ethernet и самыми последними скоростями и функциональностью PCIe. Современные сетевые карты также поддерживают широкий спектр версий ОС и поставляются с отличной экосистемой программного обеспечения. Сетевая карта + COTS-сервер позволит OTS выполнять полный стек программного обеспечения PTP и NTP (включая открытое программное обеспечение).
+* Временная карта будет самой маленькой (концептуально) платой аппаратного оборудования, которая предоставит входной сигнал GNSS и стабильный частотный вход. Изолирование этих функций на временной карте позволит OTS выбирать подходящую временную карту для своих потребностей (точность, стабильность, стоимость и т. д.) и оставаться при том же программном обеспечении, интерфейсе и архитектуре.
 
-* COTS servers keep their “value for money” due to huge market requirements. They are usually updated with the latest OS version, security patches, and newer technology, faster than HW appliances. 
-* Modern Commodity NICs already support HW timestamp, lead the market with Ethernet and PCIe latest Speeds and Feeds. Modern NIC also supports a wide range of OS versions and comes with a great software ecosystem. NIC + COTS server will allow the OTS to run a full software (and even open source one) PTP and NTP stack. 
-* Timecard will be the smallest (conceptually) possible HW board, which will provide the GNSS signal input and stable frequency input. Isolating these functions in a timecard will allow OTS to choose the proper timecard for their needs (accuracy, stability, cost, etc) and remain with the same SW, interface, and architecture.
+<a id="Рисунок-2">![Концепция открытого временного сервера](/Time-Card/images/OTS_concept.png)</a>
+<p align="center">Рисунок 2. Концепция открытого временного сервера</p>
 
-<a id="Figure-2">![Open Time Server Concept](/Time-Card/images/OTS_concept.png)</a>
-<p align="center">Figure 2. Open Time Server Concept</p>
+Основная идея заключается в том, что временная карта подключается через интерфейс PCIe к серверу и предоставляет время суток (ToD) через интерфейс `/dev/ptpX`. С использованием этого интерфейса `phc2sys` непрерывно синхронизирует PHC на сетевой карте с атомными часами на временной карте. Это обеспечивает точность менее 1 мкс.
 
-General Idea is the Time Card is connected via PCIe to the server and provides Time Of Day (TOD) via `/dev/ptpX` interface.  
-Using this interface `phc2sys` continuously synchronizes PHC on the network card from the atomic clock on the Time Card. This provides precision < 1us.  
-For the extremely high precision 1PPS output of the Time Card will be connected to the 1PPS input of the NIC, providing <100ns precision. 
+Для достижения крайне высокой точности 1PPS выход временной карты должен быть подключен к 1PPS входу сетевой сетевой карты, обеспечивая точность менее 100 нс.
 
-## Responsibilities and Requirements 
-### COTS Server
-* Run commodity OS
-* PCIe as an interconnect
-* [optional] PTM Support
-#### Network Interface Card
-* Hardware timestamps
-* [optional] PPS in/out
-* [optional] PTM Support
-* [optional] Time of day tunnel from timecard to SW
-#### Time Card
-* Holdover
-* GNSS in
-* PPS in/out
-* Leap second awareness
-* Time of day
-* [optional] PTM Support
+## Обязанности и требования
+### COTS-сервер
+* Запуск коммерческой ОС
+* Интерфейс PCIe
+* [необязательно] Поддержка PTM
+#### Сетевая сетевая карта (NIC)
+* Аппаратные метки времени
+* [необязательно] PPS вход/выход
+* [необязательно] Поддержка PTM
+* [необязательно] Передача времени суток от временной карты к ПО
+#### Временная карта (Time Card)
+* Задержка (Holdover)
+* Вход GNSS
+* PPS вход/выход
+* Учет секунды в случае вставки (Leap second awareness)
+* Время суток
+* [необязательно] Поддержка PTM
 
-# Detailed Architecture 
-Real life assembly components can be 
-<a id="Figure-3">![Open Time Server Assembly](/Time-Card/images/OTS_assembly.jpeg)</a>
-<p align="center">Figure 3. Open Time Server Assembly</p>
+# Подробная архитектура
+Компоненты сборки в реальной жизни могут быть
 
-## COTS Server
-### Hardware
-Most of the general purpose hardware can be used.  
-vt-d CPU support is required.  
-If multi-CPU system is chosen - we recommend connecting the Time Card and the Network Card to the same PCIe lane.  
-Synchronization between multiple CPUs will add an extra offset.  
+<a id="Рисунок-3">![Сборка
 
-We've tested and proved setup is working with the following platform spec:  
+ открытого временного сервера](/Time-Card/images/OTS_assembly.jpeg)</a>
+<p align="center">Рисунок 3. Сборка открытого временного сервера</p>
+
+## COTS-сервер
+### Аппаратное обеспечение
+Можно использовать большую часть оборудования общего назначения.
+Требуется поддержка процессоров vt-d.
+Если выбрана многопроцессорная система, рекомендуется подключить временную карту и сетевую сетевую карту к одной и той же линии PCIe. Синхронизация между несколькими процессорами добавит дополнительное смещение.
+
+Мы протестировали и подтвердили, что установка работает со следующей спецификацией платформы:
 * HPE ProLiant DL380 Gen10
 * OCP Tioga Pass
-* SuperMicro 6019U-TRT - single or dual CPU
-* SuperMicro 5019GP-TT - single socket with maximum throughput 
+* SuperMicro 6019U-TRT - однопроцессорная или двухпроцессорная
+* SuperMicro 5019GP-TT - однопроцессорная с максимальной пропускной способностью
 * Intel NUC 9 Pro
 
-### Software
-Please detailed [software description](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Software) document
-* Linux operating system with the [ocp_ptp driver](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card/DRV) (included in Linux kernel 5.12 and newer). Driver may require vt-d CPU flag enabled in BIOS
-* NTP server - [Chrony](https://github.com/mlichvar/chrony)/NTPd reading `/dev/ptpX` of the Time Card 
-* PTP server - [ptp4u](https://github.com/facebook/time) or [ptp4l](https://github.com/richardcochran/linuxptp) reading `/dev/ptpX` of the NIC
-  * [phc2sys](https://github.com/richardcochran/linuxptp)/[ts2phc](https://github.com/richardcochran/linuxptp) to copy clock values from the Time Card to the NIC
-## NIC
-Most of the general purpose hardware can be used.  
-For the improved precision of NTP or PTP there can be extra requirements below.
+### Программное обеспечение
+Пожалуйста, подробное описание [программного обеспечения](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Software) документа
+* Операционная система Linux с драйвером [ocp_ptp](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card/DRV) (включенным в ядро Linux 5.12 и более новое). Драйвер может потребовать включения флага vt-d CPU в BIOS.
+* Сервер NTP - [Chrony](https://github.com/mlichvar/chrony)/NTPd, считывающий `/dev/ptpX` с временной карты.
+* Сервер PTP - [ptp4u](https://github.com/facebook/time) или [ptp4l](https://github.com/richardcochran/linuxptp), считывающий `/dev/ptpX` с сетевой сетевой карты.
+  * [phc2sys](https://github.com/richardcochran/linuxptp)/[ts2phc](https://github.com/richardcochran/linuxptp) для копирования значений часов с временной карты на сетевую сетевую карту
+## Сетевая сетевая карта (NIC)
+Большую часть оборудования общего назначения можно использовать.
+Для улучшения точности NTP или PTP могут потребоваться дополнительные требования ниже.
 
-### Form-Factor
-* Standard PCIe Stand-up HHHL Half-Height, Half-Length -or- [OCP NIC 3.0](https://www.opencompute.org/wiki/Server/Mezz)
-* Single Slot - Passive Cooling Solution
-* Support for Standard PCIe Tall and Short brackets -or- OCP NIC 3.0 ejector types
+### Форм-фактор
+* Стандартное PCIe Stand-up HHHL Half-Height, Half-Length -или- [OCP NIC 3.0](https://www.opencompute.org/wiki/Server/Mezz)
+* Одно слот - Пассивное охлаждение
+* Поддержка стандартных PCIe для высоких и коротких кронштейнов -или- типов выбрасывателя OCP NIC 3.0
 
-### PCIe Interface
-* PCIe Gen3.0/Gen4.0 X n lanes on Gold-fingers, where n = at least 8
+### Интерфейс PCIe
+* PCIe Gen3.0/Gen4.0 X n линий на золотых контактах, где n = как минимум 8
 
-### Network Ports
-* Single or Dual-port Ethernet
+### Сетевые порты
+* Однопортовый или двухпортовый Ethernet
 
-### Hardware timestamps 
-NIC should timestamp all ingress packets.  
-Non PTP packets can be batch and have a common TS in the SW descriptor, as long as they are not distant more than TBD nanosecond.  
-NIC should timestamp all PPP egress packets.  
+### Аппаратные метки времени
+Сетевая сетевая карта должна выполнять метки времени для всех входящих пакетов.  
+Пакеты без PTP меток могут быть объединены и иметь общие метки времени в дескрипторе ПО, пока они не находятся на расстоянии более TBD наносекунд.  
+Сетевая сетевая карта должна выполнять метки времени для всех исходящих пакетов PPS.
 
 * PHC
-* PTM 
-* 1PPS input
-* [optional] 10MHz input which can be used as frequency input to the TSU unit 
-* [optional] Multi-host support
+* PTM
+* Вход 1PPS
+* [необязательно] Вход 10 МГц, который можно использовать в качестве входа частоты для устройства TSU
+* [необязательно] Поддержка мультихост
 
-### PPS out
-* PPS Out Rise/Fall Time < 5 nano Sec 
-* PPS Out Delay < 400 pico Sec
-* PPS Out Jitter < 250 femto Sec
-* PPS Out Impedance	= 50 Ohm
-* PPS Out frequency	1Hz - 10MHz
+### Вывод PPS
+* Подъем/спад PPS Out < 5 нс
+* Задержка PPS Out < 400 пс
+* Дрожание PPS Out < 250 фемтосекунд
+* Сопротивление PPS Out = 50 Ом
+* Частота PPS Out 1 Гц - 10 МГц
 
-### PPS In
-* PPS In Delay < 400 pico Sec
-* PPS In Jitter < 250 femto Sec
-* PPS In Impedance 	= 50 Ohm
-* PPS In frequency 1Hz - 10MHz
+### Вход PPS
+* Задержка входа PPS In < 400 пс
+* Дрожание входа PPS In < 250 фемтосекунд
+* Сопротивление входа PPS In = 50 Ом
+* Частота входа PPS In 1 Гц - 10 МГц
 
-Examples:
+Примеры:
 * [NVIDIA ConnectX-6 Dx](https://www.mellanox.com/products/ethernet-adapters/connectx-6-dx)
 
-## Time Card
-Please see [Time Card details architecture](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card) document or simply visit www.timingcard.com.
+## Временная карта (Time Card)
+Пожалуйста, ознакомьтесь с [подробной архитектурой временной карты](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card) или просто посетите www.timingcard.com.
 
+Основная идея заключается в том, что эта карта подключается через интерфейс PCIe к серверу и предоставляет время суток (ToD) через интерфейс `/dev/ptpX`. С использованием этого интерфейса `phc2sys` непрерывно син
 
-General Idea is this card will be connected via PCIe to the server and provide Time Of Day (TOD) via `/dev/ptpX` interface. Using this interface `phc2sys` will continuously synchronize PHC on the network card from the atomic clock on the Time Card. This provides precision < 1us.
+хронизирует PHC на сетевой карте с атомными часами на временной карте. Это обеспечивает точность менее 1 мкс.
 
-For the extremely high precision 1PPS output of the Time Card should be connected to the 1PPS input of the NIC. In this setup `ts2phc` can provide < 100ns precision. 
+Для достижения крайне высокой точности 1PPS выход временной карты должен быть подключен к 1PPS входу сетевой сетевой карты, обеспечивая точность менее 100 нс. Цена точности на входе PPS временной карты состоит в том, что она берет опорный сигнал от атомных часов (по умолчанию).
 
-# License
-OCP encourages participants to share their proposals, specifications and designs with the community. This is to promote openness and encourage continuous and open feedback. It is important to remember that by providing feedback for any such documents, whether in written or verbal form, that the contributor or the contributor's organization grants OCP and its members irrevocable right to use this feedback for any purpose without any further obligation. 
+[Схема подключения](/Time-Card/images/OTS_Connect.png)
 
-It is acknowledged that any such documentation and any ancillary materials that are provided to OCP in connection with this document, including without limitation any white papers, articles, photographs, studies, diagrams, contact information (together, “Materials”) are made available under the Creative Commons Attribution-ShareAlike 4.0 International License found here: https://creativecommons.org/licenses/by-sa/4.0/, or any later version, and without limiting the foregoing, OCP may make the Materials available under such terms.
+Примечание: Чтобы добиться максимальной точности, важно учесть задержку в соединительных кабелях между временной картой и сетевой сетевой картой. В идеале, кабель не должен иметь задержки, но на практике это невозможно. Необходимо минимизировать длину и задержку кабелей и их влияние на точность синхронизации.
 
-As a contributor to this document, all members represent that they have the authority to grant the rights and licenses herein.  They further represent and warrant that the Materials do not and will not violate the copyrights or misappropriate the trade secret rights of any third party, including without limitation rights in intellectual property.  The contributor(s) also represent that, to the extent the Materials include materials protected by copyright or trade secret rights that are owned or created by any third-party, they have obtained permission for its use consistent with the foregoing.  They will provide OCP evidence of such permission upon OCP’s request. This document and any "Materials" are published on the respective project's wiki page and are open to the public in accordance with OCP's Bylaws and IP Policy. This can be found at http://www.opencompute.org/participate/legal-documents/.  If you have any questions please contact OCP.
+# Лицензия
+Лицензия OCP применяется к этому проекту, см. Страницу проекта Time Appliance [на сайте OCP](https://www.opencompute.org/wiki/Time_Appliances_Project).
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+---
+
+Это спецификация открытого временного сервера версии 1.0. Для более подробной информации и последних обновлений следуйте по [ссылке](https://www.opencompute.org/wiki/Time_Appliance_Project).
+
+Чтобы сохранить эту спецификацию в формате PDF, выполните указанные выше действия.
