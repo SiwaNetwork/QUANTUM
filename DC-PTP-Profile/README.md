@@ -1,16 +1,7 @@
+# PTP-профиль для центров обработки данных
 
-# PTP Profile для Датацентров 
+### Обновлен ноябрь 2023
 
+## Резюме
 
-### Nov 2023
-
-
-## Executive Summary
-
-This document defines a PTP profile to support time-sensitive applications within a data center environment.
-The document is developed within the Open Compute Project (OCP) Timing Appliances Project community [1].
-The PTP profile is based on IEEE Std 1588^ TM- 2019 [2]. When applicable, the profile also references and reuses
-information from other PTP profiles or other industry specifications. The document provides a set of
-requirements for implementing, deploying, and operating timing appliances within a data center. A timing
-appliance is an element that is PTP-aware such as a switch/router, time server, NIC card, software module,
-timing card, monitoring device, etc.
+Настоящий документ определяет профиль PTP (Precision Time Protocol), предназначенный для поддержки приложений, зависящих от точности времени, в среде центра обработки данных и операторов связи. Профиль PTP основан на IEEE Std 1588^TM- 2019. Документ предоставляет набор требований для реализации, развертывания и эксплуатации временных устройств в центре обработки данных.
