@@ -1,4 +1,4 @@
 # QUANTUM PROJECT
-Добро пожаловать в квантовый проект (https://quantum.pro) - Quantum Project.  
+Добро пожаловать в проект (https://quantum.pro) - Quantum Project.  
 
 
