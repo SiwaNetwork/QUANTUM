@@ -1,0 +1,25 @@
+Record=TopLevelDocument|FileName=01-PCIe.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=02-USER_IO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=03-USER_IO_STATUS.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=04-Front Panel SFP+.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=05-High Speed MUX.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=06-1G Phy0.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=07-1G Phy1.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=08-1G Phy2.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=09-General I2C Devices.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=10-DPLL-1.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=11-DPLL-2.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=12-AM64x-01.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=13-AM64x-02.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=14-AM64x-03.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=15-AM64x-04.SchDoc|SheetNumber=15
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=16-AM64x-05.SchDoc|SheetNumber=16
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=17-AM64x-06.SchDoc|SheetNumber=17
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=18-AM64x-07.SchDoc|SheetNumber=18
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=19-AM64x-08.SchDoc|SheetNumber=19
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=20-AM64x-BootSelect.SchDoc|SheetNumber=20
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=21-M2_GNSS.SchDoc|SheetNumber=21
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=22-TimingConnections.SchDoc|SheetNumber=22
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=23-POWER-P12V.SchDoc|SheetNumber=23
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=24-Power-P3V3_P1V8DPLL.SchDoc|SheetNumber=24
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=25-Power-CPU.SchDoc|SheetNumber=25

@@ -1,0 +1,20 @@
+Record=TopLevelDocument|FileName=01-PCIe.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=02-USER_IO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=03-USER_IO_STATUS.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=04-POWER-P12V.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=05-Front Panel SFP+.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=06-General I2C Devices.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=07-DPLL-1.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=08-DPLL-2.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=09-DPLL-3.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=10-JTAG.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=11-DisplayPort.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=12-USB Phy and Hub.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=13-Experimental.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=14-FPGA-01a.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=15-FPGA-01b.SchDoc|SheetNumber=15
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=16-FPGA-02a.SchDoc|SheetNumber=16
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=17-FPGA-02b.SchDoc|SheetNumber=17
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=18-Power-P3V3.SchDoc|SheetNumber=18
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=19-Power-P5V.SchDoc|SheetNumber=19
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=20-Power-P1V8.SchDoc|SheetNumber=20

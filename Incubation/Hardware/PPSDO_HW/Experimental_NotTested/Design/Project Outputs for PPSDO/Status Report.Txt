@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PPSDO.PrjPcb]
+   Generated File[PPSDO.GTO]
+   Generated File[PPSDO.GTP]
+   Generated File[PPSDO.GTS]
+   Generated File[PPSDO.GTL]
+   Generated File[PPSDO.G1]
+   Generated File[PPSDO.G2]
+   Generated File[PPSDO.GBL]
+   Generated File[PPSDO.GBS]
+   Generated File[PPSDO.GBP]
+   Generated File[PPSDO.GBO]
+   Generated File[PPSDO.GM]
+   Generated File[PPSDO.EXTREP]
+   Generated File[PPSDO.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 4:50:48 PM On 4/12/2023

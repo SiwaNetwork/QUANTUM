@@ -1,0 +1,41 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: WR_NIC_V1.PcbDoc   8/31/2023  8:07:19 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : TOP to Bottom Layer
+ASCII RoundHoles File : WR_NIC_V1-RoundHoles.TXT
+ASCII SlotHoles File : WR_NIC_V1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.203mm)                                            Round             39        PTH        17.36inch (440.89mm)
+T2      10mil (0.249mm)                                           Round             15        PTH        6.25inch (158.69mm)
+T3      10mil (0.254mm)                                           Round             1587      PTH        149.97inch (3809.16mm)
+T4      12mil (0.3mm)                                             Round             16        PTH        0.53inch (13.50mm)
+T5      16mil (0.4mm)                                             Round             14        PTH        0.50inch (12.60mm)
+T6      24mil (0.6mm)                                             Slot              4         PTH        0.96inch (24.38mm)
+T7      24mil (0.61mm)                                            Slot              4         PTH        2.56inch (65.06mm)
+T8      33mil (0.85mm)                                            Round             3         PTH        1.67inch (42.38mm)
+T9      35mil (0.889mm)                                           Round             10        PTH        0.79inch (20.11mm)
+T10     35mil (0.89mm)                                            Round             4         PTH        0.24inch (6.00mm)
+T11     36mil (0.92mm)                                            Round             8         PTH        0.65inch (16.62mm)
+T12     37mil (0.95mm)                                            Round             27        PTH        5.19inch (131.80mm)
+T13     41mil (1.05mm)                                            Round             30        PTH        13.03inch (330.87mm)
+T14     43mil (1.1mm)                                             Round             16        PTH        4.18inch (106.29mm)
+T15     59mil (1.5mm)                                             Round             2         PTH        0.48inch (12.10mm)
+T16     67mil (1.7mm)                                             Round             8         PTH        1.68inch (42.58mm)
+T17     71mil (1.8mm)                                             Round             4         PTH        0.55inch (13.89mm)
+T18     91mil (2.3mm)                                             Round             4         PTH        0.96inch (24.50mm)
+T19     125mil (3.18mm)                                           Round             2         PTH        3.78inch (96.11mm)
+T20     37mil (0.95mm)          +/-1mil (0.025mm)                 Round             4         NPTH       6.83inch (173.51mm)
+T21     55mil (1.397mm)                                           Round             1         NPTH       0.00inch (0.00mm)
+T22     61mil (1.55mm)                                            Round             6         NPTH       2.05inch (51.98mm)
+T23     67mil (1.7mm)                                             Round             1         NPTH       0.00inch (0.00mm)
+T24     71mil (1.8mm)                                             Round             1         NPTH       0.00inch (0.00mm)
+T25     118mil (2.997mm)                                          Round             1         NPTH       0.00inch (0.00mm)
+T26     134mil (3.404mm)                                          Round             4         NPTH       7.68inch (194.95mm)
+T27     175mil (4.445mm)                                          Round             4         NPTH       2.54inch (64.55mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1819
+
+Total Processing Time (hh:mm:ss) : 00:00:01

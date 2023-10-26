@@ -1,0 +1,1713 @@
+INFO: Loaded existing interconnect file 'C:\Users\julianstj\Desktop\WorkNotes\Projects\PTP\CheapPTM\TI_AM64\ECAD\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_17.4\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_1S_1R_1143
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaag14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1144
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaah14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1145
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaai14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1146
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaaj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1147
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaak14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1148
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaal14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1149
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaam14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1150
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaan14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1151
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaao14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1152
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaap14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1153
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaaq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1154
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaar14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1155
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaas14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1156
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaat14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1157
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaau14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1158
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaav14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1159
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaaw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1160
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaax14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1161
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaay14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1162
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaaz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1163
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaba14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1164
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1165
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1166
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1167
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1168
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1169
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1170
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1171
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1172
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1173
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1174
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1175
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1176
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1177
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1178
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1179
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1180
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1181
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1182
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1183
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1184
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1185
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1186
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1187
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaby14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1188
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaabz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1189
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaca14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1190
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1191
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1192
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1193
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaace14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1194
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1195
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1196
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaach14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1197
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaci14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1198
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1199
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaack14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1200
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1201
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1202
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1203
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaco14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1204
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1205
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1206
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1207
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1208
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaact14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1209
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1210
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1211
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1212
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1213
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1214
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaacz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1215
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaada14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1216
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1217
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1218
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1219
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaade14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1220
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1221
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1222
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1223
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1224
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1225
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1226
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1227
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1228
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1229
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaado14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1230
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1231
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1232
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1233
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaads14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1234
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1235
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1236
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1237
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1238
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1239
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaady14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1240
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaadz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1241
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaea14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1242
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaeb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1243
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaec14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1244
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaed14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1245
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaee14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1246
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaef14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1247
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaeg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1248
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaeh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1249
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaei14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1250
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaej14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1251
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaek14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1252
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaael14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1253
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaem14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1254
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaen14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1255
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaeo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1256
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaep14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1257
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaeq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1258
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaer14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1259
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaes14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1260
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaet14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1261
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaeu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1262
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaev14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1263
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaew14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1264
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaex14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1265
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaey14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1266
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaez14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1267
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1268
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1269
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1270
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1271
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1272
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaff14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1273
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1274
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1275
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1276
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1277
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1278
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1279
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1280
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1281
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1282
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1283
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1284
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1285
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1286
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaft14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1287
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1288
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1289
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1290
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1291
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1292
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaafz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1293
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaga14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1294
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1295
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1296
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1297
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaage14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1298
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1299
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1300
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1301
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1302
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1303
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1304
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1305
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1306
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1307
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaago14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1308
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1309
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1310
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1311
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaags14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1312
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1313
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1314
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1315
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1316
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1317
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1318
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaagz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1319
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaha14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1320
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1321
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1322
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1323
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1324
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1325
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1326
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1327
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1328
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1329
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1330
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1331
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1332
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1333
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaho14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1334
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1335
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1336
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1337
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1338
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaht14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1339
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1340
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1341
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1342
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1343
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1344
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaahz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1345
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaia14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1346
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaib14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1347
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaic14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1348
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaid14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1349
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaie14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1350
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaif14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1351
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaig14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1352
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaih14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1353
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaii14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1354
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaij14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1355
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaik14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1356
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaail14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1357
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaim14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1358
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaain14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1359
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaio14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1360
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaip14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1361
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaiq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1362
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaair14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1363
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaais14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1364
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaait14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1365
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaiu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1366
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaiv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1367
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaiw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1368
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaix14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1369
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaiy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1370
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaiz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1371
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaja14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1372
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1373
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1374
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1375
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaje14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1376
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1377
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1378
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1379
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaji14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1380
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1381
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1382
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1383
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1384
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1385
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1386
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1387
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1388
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1389
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1390
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1391
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaju14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1392
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1393
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1394
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1395
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1396
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaajz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1397
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaka14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1398
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1399
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1400
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1401
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaake14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1402
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1403
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1404
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1405
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaki14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1406
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1407
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1408
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1409
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1410
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1411
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaako14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1412
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1413
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1414
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1415
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaks14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1416
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1417
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaku14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1418
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1419
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1420
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1421
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaky14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1422
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaakz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1423
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaala14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1424
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1425
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1426
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaald14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1427
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaale14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1428
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1429
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1430
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1431
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaali14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1432
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1433
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1434
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaall14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1435
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1436
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaln14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1437
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1438
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1439
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1440
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1441
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaals14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1442
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1443
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1444
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1445
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1446
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1447
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaly14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1448
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaalz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1449
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaama14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1450
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1451
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1452
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1453
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaame14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1454
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1455
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1456
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1457
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaami14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1458
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1459
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1460
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaml14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1461
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1462
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1463
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1464
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1465
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1466
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1467
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaams14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1468
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1469
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1470
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1471
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1472
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1473
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1474
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaamz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1475
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaana14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1476
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1477
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1478
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaand14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1479
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaane14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1480
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1481
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaang14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1482
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1483
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaani14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1484
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1485
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaank14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1486
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1487
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1488
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaann14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1489
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaano14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1490
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1491
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1492
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1493
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaans14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1494
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaant14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1495
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1496
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1497
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1498
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1499
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaany14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1500
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaanz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1501
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1502
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaob14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1503
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1504
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaod14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1505
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1506
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaof14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1507
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaog14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1508
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1509
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1510
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1511
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaok14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1512
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaol14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1513
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaom14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1514
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaon14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1515
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1516
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaop14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1517
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1518
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaor14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1519
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaos14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1520
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaot14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1521
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaou14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1522
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaov14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1523
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaow14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1524
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaox14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1525
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1526
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaoz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1527
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1528
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1529
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1530
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1531
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaape14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1532
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1533
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1534
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaph14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1535
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1536
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1537
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1538
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1539
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1540
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1541
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1542
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1543
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1544
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1545
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaps14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1546
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1547
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1548
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1549
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1550
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1551
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1552
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaapz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1553
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1554
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1555
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1556
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1557
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1558
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1559
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1560
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1561
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1562
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1563
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1564
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaql14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1565
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1566
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1567
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1568
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1569
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1570
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1571
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1572
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1573
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1574
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1575
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1576
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1577
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1578
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaqz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1579
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaara14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1580
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1581
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1582
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaard14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1583
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaare14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1584
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1585
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1586
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1587
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaari14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1588
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1589
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaark14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1590
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1591
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1592
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1593
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaro14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1594
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1595
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1596
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1597
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaars14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1598
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaart14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1599
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaru14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1600
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1601
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1602
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1603
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaary14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1604
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaarz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1605
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1606
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1607
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1608
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1609
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaase14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1610
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1611
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1612
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaash14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1613
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1614
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1615
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaask14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1616
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1617
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1618
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1619
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaso14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1620
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1621
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1622
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1623
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaass14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1624
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaast14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1625
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1626
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1627
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1628
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1629
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1630
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaasz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1631
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaata14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1632
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1633
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1634
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1635
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaate14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1636
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1637
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1638
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaath14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1639
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaati14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1640
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1641
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1642
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1643
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1644
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1645
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaato14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1646
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1647
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1648
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1649
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaats14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1650
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1651
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1652
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1653
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1654
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1655
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaty14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1656
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaatz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1657
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaua14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1658
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaub14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1659
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1660
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaud14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1661
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaue14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1662
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1663
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaug14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1664
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1665
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaui14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1666
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1667
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1668
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaul14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1669
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaum14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1670
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaun14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1671
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1672
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaup14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1673
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1674
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaur14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1675
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaus14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1676
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaut14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1677
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1678
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1679
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1680
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaux14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1681
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1682
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaauz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1683
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaava14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1684
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1685
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1686
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1687
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaave14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1688
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1689
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1690
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1691
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1692
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1693
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1694
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1695
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1696
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1697
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1698
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1699
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1700
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1701
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1702
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1703
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1704
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1705
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1706
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1707
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1708
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaavz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1709
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1710
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1711
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1712
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1713
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1714
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1715
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1716
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1717
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1718
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1719
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1720
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1721
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1722
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1723
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1724
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1725
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1726
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1727
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaws14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1728
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1729
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1730
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1731
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaww14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1732
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1733
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1734
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaawz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1735
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1736
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1737
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1738
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1739
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1740
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1741
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1742
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1743
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1744
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1745
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1746
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1747
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1748
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1749
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1750
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1751
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1752
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1753
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1754
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1755
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1756
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1757
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1758
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1759
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1760
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaxz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1761
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaya14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1762
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1763
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1764
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1765
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaye14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1766
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1767
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1768
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1769
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1770
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1771
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1772
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1773
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaym14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1774
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1775
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1776
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1777
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1778
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1779
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaays14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1780
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1781
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1782
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1783
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1784
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1785
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1786
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaayz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1787
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaza14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1788
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1789
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1790
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1791
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaaze14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1792
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1793
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1794
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1795
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1796
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1797
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1798
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1799
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1800
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1801
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1802
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1803
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1804
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1805
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1806
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1807
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1808
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1809
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1810
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1811
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1812
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaazz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1813
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabaa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1814
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabab14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1815
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabac14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1816
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabad14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1817
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabae14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1818
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabaf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1819
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabag14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1820
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabah14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1821
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabai14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1822
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabaj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1823
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabak14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1824
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabal14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1825
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabam14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1826
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaban14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1827
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabao14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1828
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabap14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1829
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabaq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1830
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabar14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1831
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabas14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1832
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabat14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1833
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabau14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1834
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabav14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1835
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabaw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1836
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabax14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1837
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabay14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1838
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabaz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1839
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabba14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1840
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1841
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1842
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1843
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1844
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1845
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1846
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1847
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1848
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1849
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1850
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1851
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1852
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1853
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1854
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1855
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1856
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1857
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1858
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1859
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1860
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1861
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1862
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1863
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabby14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1864
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabbz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1865
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabca14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1866
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1867
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1868
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1869
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabce14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1870
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1871
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1872
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabch14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1873
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabci14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1874
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1875
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabck14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1876
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1877
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1878
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1879
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabco14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1880
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1881
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1882
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1883
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1884
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabct14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1885
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1886
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1887
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1888
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1889
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1890
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabcz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1891
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabda14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1892
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1893
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1894
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1895
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabde14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1896
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1897
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1898
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1899
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1900
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1901
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1902
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1903
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1904
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1905
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1906
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1907
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1908
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1909
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabds14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1910
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1911
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1912
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1913
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1914
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1915
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1916
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabdz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1917
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabea14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1918
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabeb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1919
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabec14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1920
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabed14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1921
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabee14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1922
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabef14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1923
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabeg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1924
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabeh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1925
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabei14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1926
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabej14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1927
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabek14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1928
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabel14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1929
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabem14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1930
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaben14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1931
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabeo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1932
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabep14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1933
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabeq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1934
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaaber14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1935
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabes14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1936
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabet14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1937
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabeu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1938
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabev14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1939
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabew14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1940
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabex14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1941
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabey14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1942
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabez14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1943
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfa14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1944
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1945
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1946
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1947
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfe14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1948
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabff14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1949
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1950
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1951
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1952
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1953
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1954
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1955
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1956
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1957
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1958
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1959
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1960
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1961
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1962
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabft14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1963
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1964
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1965
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1966
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1967
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1968
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabfz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1969
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabga14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1970
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1971
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgc14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1972
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgd14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1973
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabge14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1974
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgf14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1975
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgg14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1976
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgh14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1977
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgi14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1978
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgj14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1979
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgk14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1980
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgl14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1981
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgm14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1982
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgn14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1983
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgo14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1984
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgp14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1985
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgq14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1986
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgr14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1987
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgs14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1988
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgt14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1989
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgu14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1990
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgv14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1991
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgw14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1992
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgx14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1993
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgy14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1994
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabgz14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1995
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabha14452.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_1996
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabhb14452.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_1997
+INFO: Executing command: bem2d 0 "C:/Users/JULIAN~1/AppData/Local/Temp/#Taaabhc14452.in" 0.00127

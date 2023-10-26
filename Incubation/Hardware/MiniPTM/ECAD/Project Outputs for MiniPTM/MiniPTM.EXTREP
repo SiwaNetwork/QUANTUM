@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: MiniPTM.GBR   8/27/2023  10:34:05 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                L01-TOP                                 
+.gbr                L02-GND                                 
+.gbr                L03-GND                                 
+.gbr                L04-BOT                                 
+.gbr                Board Layer Stack Bottom Solder         
+.gbr                Bottom Paste                            
+.gbr                Board Layer Stack Bottom Overlay        
+.gbr                Top Courtyard                           
+.gbr                ASSEMBLY_TOP                            
+.gbr                ASSEMBLY_BOTTOM                         
+.gbr                Top Component Center                    
+.gbr                Bottom Courtyard                        
+.gbr                Board Shape                             
+.gbr                Bottom Component Center                 
+.gbr                Profile                                 
+------------------------------------------------------------------------------------------

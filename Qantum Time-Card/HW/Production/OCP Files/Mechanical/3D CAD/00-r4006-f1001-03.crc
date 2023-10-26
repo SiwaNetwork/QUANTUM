@@ -1,0 +1,19 @@
+﻿  MODEL 00-R4006-F1001-03 :
+ 
+
+  1 CIRCULAR REFERENCE LOOPS FOUND
+ 
+
+   LOOP #  1
+
+   Depth of loop is 3
+
+Feature number 14 (COMPONENT, id = 4562) 
+  in model 00-R4006-F1001-03 refers to:
+
+Feature number 15 (COMPONENT, id = 795) 
+  in model R4006-G0001-03 refers to:
+
+Feature number 14 (COMPONENT, id = 4562) 
+  in model 00-R4006-F1001-03 - circle closed.
+
