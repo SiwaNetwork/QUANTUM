@@ -1,0 +1,48 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: TimeCard-DC-V9_EXP.GBR   8/28/2023  6:25:55 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                TOP                                     
+.gbr                SGND                                    
+.gbr                IN1                                     
+.gbr                IN2                                     
+.gbr                SGND1                                   
+.gbr                BOTTOM                                  
+.gbr                Bottom Solder                           
+.gbr                Bottom Paste                            
+.gbr                Bottom Overlay                          
+.gbr                Mechanical 1                            
+.gbr                Top 3D Body                             
+.gbr                Top Courtyard                           
+.gbr                NCLEGEND-1-6                            
+.gbr                PEN3                                    
+.gbr                DIMENSION-1                             
+.gbr                OUTLINE                                 
+.gbr                DRAWING_ORIGIN                          
+.gbr                PIN_NUMBER                              
+.gbr                ASSEMBLY_TOP                            
+.gbr                PLACE_BOUND_TOP                         
+.gbr                DIMSYM                                  
+.gbr                DIMENSION                               
+.gbr                PCI_FINGER                              
+.gbr                MECH_DIMENSION                          
+.gbr                PLACE_BOUND_BOTTOM                      
+.gbr                ASSEMBLY_BOTTOM                         
+.gbr                Top Assembly                            
+.gbr                Top Component Center                    
+.gbr                Bottom Assembly                         
+.gbr                Bottom Courtyard                        
+.gbr                Bottom 3D Body                          
+.gbr                Bottom Component Center                 
+.gbr                Mechanical 29                           
+.gbr                Mechanical 31                           
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------
