@@ -1,9 +1,9 @@
-# Firmware Update Test Version
+# Версия тестирования обновления прошивки
 
-This is two times the same firmware with only a difference in the version number.
+Это два раза одна и та же прошивка, отличающаяся только номером версии.
 
 0x0016
 
-and 
+и
 
 0x0017

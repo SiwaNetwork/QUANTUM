@@ -1,37 +1,34 @@
-# System on Module
+System on Module (SOM)
 
-![Time Card FPGA](TimeCard_FPGA.png)
+FPGA (Field-Programmable Gate Array) bitstream можно настроить на различные параметры. В настоящее время он основан на [модуле часов NetTimeLogic](https://www.nettimelogic.com/clock-products.php). <br />
 
-The FPGA bitstream can be configured to various options. Currently it is based on the [NetTimeLogic clock module](https://www.nettimelogic.com/clock-products.php).  <br />
 
-Check the [Readme.pdf](https://github.com/opencomputeproject/Time-Appliance-Project/blob/master/Time-Card/SOM/FPGA/Readme.pdf) for more details about the implementation.  <br />
+В [папке Документы]находятся все соответствующие документы о встроенных IP-ядрах (например, описания регистров). <br />
 
-In the [Doc folder](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card/SOM/FPGA/Doc) are all relevant documents about the integrated IP Cores (e.g. register description). <br />
+## FPGA начинает работу с статической конфигурацией, имеющей следующие параметры: ##
+* PPS (включая TOD) используется в качестве входа для коррекции часов
+* Обнаружение импульсов PPS Slave по фронту подъема
+* Задержка кабеля PPS Slave равна 0
+* Скорость передачи данных UART PPS Slave равна 115200
+* Полярность UART PPS Slave по умолчанию
+* PPS Slave в режиме UBX, все сообщения GNSS отключены
+* Полярность импульсов PPS Master по фронту подъема
+* Задержка кабеля PPS Master равна 0
+* Ширина импульсов PPS Master составляет 100 мс
+* Включены часы, PPS Slave, TOD Slave и PPS Master
+* Все модули метки времени отключены
+* IRIG Slave/Master отключены
+* DCF Slave/Master отключены
+* TOD/NMEA Master отключены
 
-## The FPGA starts with a static configuration with following settings: ##
-* PPS (including TOD) is used as correction input for the clock  
-* PPS Slave Pulse detection on rising edge
-* PPS Slave cable delay 0
-* TOD Slave UART Baudrate is 115200
-* TOD Slave UART polarity default
-* TOD Slave in UBX Mode, all GNSS and no messages disabled
-* PPS Master polarity rising edge
-* PPS Master cable delay 0
-* PPS Master pulse width 100 ms
-* Clock, PPS Slave, TOD Slave and PPS Master are enabled
-* All Timestampers are disabled
-* IRIG Slave/Master are disabled
-* DCF Slave/Master are disabled
-* TOD/NMEA Master is disabled
+## В папке Binaries находятся битовые потоки для модуля SOM. ## 
+* TimeCard.bit для записи в FPGA (временная конфигурация)
+* Factory_TimeCard.bin для загрузки SPI Flash через JTAG (Золотое изображение + Обновление)
+* TimeCard.bin для обновления SPI Flash через SPI, начиная с адреса 0x00400000 (только обновление)
 
-## In the Binaries folder are the bitstreams for the SOM Module. ## 
-* TimeCard.bit to flash the FPGA (volatile)
-* Factory_TimeCard.bin to load the SPI flash via JTAG (Golden Image + Update Image)
-* TimeCard.bin to updated the SPI flash via SPI starting @ 0x00400000 (Update Image only)
-    
-The version for AX7103 will be not longer maintained. 
+Версия для AX7103 больше не поддерживаться.
 
-## Firmware upgrade
+## Обновление прошивки
 ```
 $ dmesg | grep ptp_ocp | head -1
 [   21.527678] ptp_ocp 0000:11:00.0: enabling device (0140 -> 0142)

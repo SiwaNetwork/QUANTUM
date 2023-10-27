@@ -1,23 +1,23 @@
-The FPGA Binary can be used, copied, distributed without any restrictions and free of charge.
+FPGA-бинарный файл может использоваться, копироваться и распространяться без ограничений и бесплатно.
 
-Following NTL IP Cores are included in the FPGA binary license (bitstream):
- * Adjustable Clock
+В FPGA-бинарном файле включены следующие IP-ядра NTL (NetTimeLogic):
+ * Регулируемые часы (Adjustable Clock)
  * TOD Slave
  * TOD Master
  * PPS Slave
  * PPS Master
- * Signal Timestamper
+ * Меткозаписывающее устройство сигнала (Signal Timestamper)
  * NMEA Slave
  * NMEA Master
  * DCF Slave
  * DCF Master
 
-Following Xilinx IP Cores are also part of the FPGA binary:
+Кроме того, в FPGA-бинарном файле также присутствуют IP-ядра Xilinx:
  * AXI Memory Mapped to PCI Express
  * AXI UART
  * AXI IIC
  * AXI GPIO
  * AXI Interconnect
- 
-The Xilinx IP Cores are under their end user license agreement:
-https://www.xilinx.com/content/dam/xilinx/licenses/ip/end-user-license-agreement.pdf
+
+IP-ядра Xilinx подпадают под условия лицензионного соглашения конечного пользователя и доступны по следующей ссылке:
+[Условия лицензии конечного пользователя Xilinx](https://www.xilinx.com/content/dam/xilinx/licenses/ip/end-user-license-agreement.pdf)

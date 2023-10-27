@@ -1,18 +1,18 @@
-# SOM Module Binaries
-- **200T** TimeCard FPGA binaries for the SOM with the Artix7 200T FPGA (AC7200)
-- **AX7103_Baseboard** TimeCard FPGA binaries for the AX7103 base board (not maintained anymore)
-- **Debug** TimeCard FPGA binaries for special debug use cases (not maintained anymore)
-- **FirmwareUpdateTest** TimeCard FPGA binaries for firmware update tests
+# Бинарные файлы модуля SOM
 
-## In this folder are the bitstreams for the SOM Module. ## 
-* TimeCard.bit to flash the FPGA (volatile)
-* Factory_TimeCard.bin to load the SPI flash via JTAG (Golden Image + Update Image)
-* TimeCard.bin to updated the SPI flash via SPI starting @ 0x00400000 (Update Image only)
-* TimeCard_Gotham.bin is basically the same as TimeCard.bin but the file has additional header information ([See tft tool](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Software/tft))
-    
-The version for AX7103 will be not longer maintained. 
+- **200T** Бинарные файлы FPGA для модуля SOM с FPGA Artix7 200T (AC7200)
+- **AX7103_Baseboard** Бинарные файлы FPGA  для базовой платы AX7103 (больше не поддерживаются)
+- **Debug** Бинарные файлы FPGA TimeCard для особых случаев отладки (больше не поддерживаются)
+- **FirmwareUpdateTest** Бинарные файлы FPGA для тестирования обновления прошивки
 
-## Firmware upgrade
+## В этой папке находятся битовые потоки для модуля SOM. ## 
+* TimeCard.bit для записи в FPGA (временная конфигурация)
+* Factory_TimeCard.bin для загрузки SPI Flash через JTAG (Золотое изображение + Обновление)
+* TimeCard.bin для обновления SPI Flash через SPI, начиная с адреса 0x00400000 (только обновление)
+* TimeCard_Gotham.bin фактически идентичен TimeCard.bin, но файл содержит дополнительную информацию в заголовке ([См. инструмент tft]
+
+
+## Обновление прошивки
 ```
 $ dmesg | grep ptp_ocp | head -1
 [   21.527678] ptp_ocp 0000:11:00.0: enabling device (0140 -> 0142)
