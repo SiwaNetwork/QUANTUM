@@ -822,6 +822,18 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for QANTUM_PROJECT\QANTUM-DC-V1_EXP.RUL
 DItemRevisionGUID=
 
+[GeneratedDocument52]
+DocumentPath=Project Outputs for QANTUM_PROJECT\QANTUM_PROJECT1.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for QANTUM_PROJECT\QANTUM_PROJECT.xls
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for QANTUM_PROJECT\QANTUM_PROJECT.xlsx
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectDate
 Value=09/14/23
@@ -2355,7 +2367,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=ForceUpdateSettings
 Configuration1_Item2=False
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=True|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD21\Templates\Board Stack Report.XLT|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1276|FormHeight=737|SupplierProdQty=1|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Item3=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=True|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD21\Templates\BOM Template Single Supplier.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1276|FormHeight=737|SupplierProdQty=1|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=True|BomSetName=
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=
 Configuration1_Name5=SortOrder
