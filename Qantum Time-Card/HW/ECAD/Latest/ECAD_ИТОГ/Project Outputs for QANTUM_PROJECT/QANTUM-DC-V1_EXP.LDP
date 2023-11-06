@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\user\Documents\GitHub\QUANTUM\QUANTUM\Qantum Time-Card\HW\ECAD\Latest\ECAD\QANTUM-DC-V1_EXP.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=qantum-dc-v1_exp-roundholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=qantum-dc-v1_exp-slotholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=qantum-dc-v1_exp-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl

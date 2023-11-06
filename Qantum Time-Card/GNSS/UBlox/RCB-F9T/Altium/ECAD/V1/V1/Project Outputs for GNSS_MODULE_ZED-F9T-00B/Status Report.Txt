@@ -1,0 +1,10 @@
+Output: Report Board Stack
+Type  : Report Board Stack
+From  : Project [GNSS_MODULE_ZED-F9T-00B.PrjPcb]
+   Generated File[GNSS_MODULE_ZED-F9T.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 17:43:29 On 06.11.2023
