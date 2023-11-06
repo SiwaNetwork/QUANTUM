@@ -1,0 +1,13 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ESP-WiWi.PrjPcb]
+   Generated File[pcb_v1.GBO]
+   Generated File[pcb_v1.RUL]
+   Generated File[pcb_v1.EXTREP]
+   Generated File[pcb_v1.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 23:33:05 On 06.11.2023

@@ -1,0 +1,13 @@
+*************************************************************
+FileName = pcb_v1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Overlay
+      File : pcb_v1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
