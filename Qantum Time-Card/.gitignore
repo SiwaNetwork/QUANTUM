@@ -14,9 +14,6 @@ Project\ Logs*/
 
 
 
-# Auto-conversion notices
-*.PcbDoc.htm
-
 # Access lock file for dbLib sources
 **/*.ldb
 
