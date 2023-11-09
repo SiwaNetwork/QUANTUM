@@ -1,10 +1,11 @@
-Output: Report Board Stack
-Type  : Report Board Stack
-From  : Project [GNSS_MODULE_ZED-F9T-00B.PrjPcb]
-   Generated File[GNSS_MODULE_ZED-F9T.xls]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [GNSS_MODULE_ZED-F9T-00B.PrjPcb]
+   Generated File[Pick Place for GNSS_MODULE_ZED-F9T.txt]
+   Generated File[Pick Place for GNSS_MODULE_ZED-F9T.csv]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 17:43:29 On 06.11.2023
+Finished Output Generation At 20:55:49 On 09.11.2023
