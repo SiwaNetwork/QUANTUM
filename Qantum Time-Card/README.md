@@ -1,106 +1,83 @@
-To save spec as PDF - select text below (including images) -> right click -> Print -> Save as PDF
-# Time Card
-#### Spec revision № 1.0
-Time Card is the heart of the [Open Time Server](http://www.opentimeserver.com) Project.
 
-You can find the [IEEE publication](https://ieeexplore.ieee.org/document/9918379) for it.
+# Qantum Card
+#### СПЕЦИФИКАЦИЯ ВЕРСИИ n № 1.0
 
-In addition to the ongoing IEEE PAR (P3335: Standard for Architecture and Interfaces for Time Card) on this [link](https://standards.ieee.org/ieee/3335/11127/)
+Эту спецификацию можно получить, используя http://www.qantum.pro  
 
-This spec can be accessed using http://www.timingcard.com or http://timecard.ch  
+![Qantum](images)
 
-![Time Card](images/TimecardV9.png)
-
-## Table of Contents
-1. [General](#General)
-1. [Where can I get one](#Where-can-I-get-one)
-1. [Form Factor](#Form-Factor)
+## Содержание
+1. [Общее](#General)
+1. [Где купить](#Where-can-I-get-one)
+1. [Форм-фактор](#Form-Factor)
 1. [GNSS](#GNSS)
-   1. [Receiver](#Receiver)
-   1. [Security](#Security)
-1. [Clock](#Clock)
-1. [Bridge](#example)
-   1. [Hardware Implementation](#Hardware-Implementation)
-   1. [Software Implementation](#Software-Implementation)
-1. [Interfaces](#Interfaces)
+   1. [Приемник](#Receiver)
+   1. [Безопасность(#Security)
+1. [Часы](#Clock)
+1. [Мост](#example)
+   1. [Hardware реализация](#Hardware-Implementation)
+   1. [Software реализация](#Software-Implementation)
+1. [Интерфейсы](#Interfaces)
    1. [LED](#LED)
-1. [Precision](#Precision)
-1. [Repository content](#Repository-content)
-1. [License](#License)
+1. [Точность](#Precision)
 
-## List of images
-List Of Images | Description
------------- | -------------
-[Figure 1](#figure-1) | GNSS Receiver
-[Figure 2](#figure-2) | Atomic Clock Example
-[Figure 3](#figure-3) | Time Card Block Diagram
-[Figure 4](#figure-4) | Bridge Block Diagram
 
-## General
+## Общее
+Тайм-сервер - важная часть сети с поддержкой PTP. Он обеспечивает точное время через GNSS, сохраняя точность в случае отказа GNSS с помощью стабильного осциллятора высокой стабильности (и запоминающего состояние), такого как атомные часы. Существующие продукты на рынке часто закрыты и далеки от обладания достаточным набором функций. Проект тайм-карты представляет открытое решение с помощью PCIe-карты, называемой тайм-карта, которая называется Qantum.
 
-Time Server is a critical part of a PTP enabled network. It provides accurate time via GNSS while maintaining accuracy in case of GNSS failure via a high stability (and holdover) oscillator such as an atomic clock. Existing products in the market are often closed sourced and are far from having sufficient features. The Time Card project presents an open source solution via a PCIe card called Time Card which is called Open Time Server.
+## Где купить
 
-## Getting a Time Card
+Есть три варианта, как получить эту Qantum-карту.
 
-Here are 3 options to get your hands on this Time Card.
+Получить все необходимые исходные коды, спецификации материалов, файлы Gerber и исполняемые файлы для самостоятельной сборки.
+Изготавливать Qantum с помощью PCBWay и приобретайте аксессуары для их сборки.
+Возможность искать и производить тайм-карты с производителями, которых вы найдете сами.
 
-You have all necessary source code, BOM, Gerber files and binaries to build it yourself.
-Follow these videos to Fabricate Time Cards with PCBWay, and purchase the accessories to assemble them.
-* [Time Card PCBWay Fabrication and Assembly](https://www.youtube.com/watch?v=qPRaQU9TBTw)
-* [Time Card Accessories](https://www.youtube.com/watch?v=4X3i5tge4S4)
-
-The 2rd option is of course to source and produce the Time Card with the manufacturers you seek out yourself.
-
-The 3rd option is to purchase a Time Card available on the [OCP Marketplace](https://www.opencompute.org/products?refinementList%5Bhardware.categories.Cards%5D%5B0%5D=Time%20Cards) or other compatible Time Card from 3rd parties. Of course, this is the conveniet way to get your hands on a Time Card. Keep in mind, there is a cost associated with the vendors manufacturing the card and providing you all kinds of support in addition to their profit margins. It is good to know how much you are paying for parts and how much you are paying for the covenience.
-
-## What is the price for parts of a Time Card
-
-There are various parts that can sit on the Time Card as options and can change the total price. 
-Here we have a breakdown:
-* Time Card's mainboard: PCB with Assembly (Parts soldered on the PCB) should be about $200.
-* Alinx SOM (AC7100B) should be about $250.
-* GNSS recevier: The u-blox RCB-F9T is about $300. Other GNSS modules may vary in price based on their performance and capabilities in range of $50 to $500.
-* Atomic Clock: The SA-53 is about $1995 (from microchipdirect). You can use a TCXO or OCXO board as well which can be around $100 - $200
-So, in conclusion:
-* A Time Card with a RCB-F9T GNSS and a TCXO costs about $200 + $250 + $300 + $100 = $850 in parts.
-* A Time Card with a RCB-F9T GNSS and a MAC (SA-53) costs about $200 + $250 + $300 + $1995 = $2695 in parts.
 
 
 ## Time Card Derivatives
-These are Time Cards made by other companies that are developed with different hardware yet compatible with the architecure and the driver of the Time Card:
+Это тайм-карты, произведенные другими компаниями с использованием разного оборудования, но совместимые с архитектурой и драйвером Qantum-карты:
 * [Safran ART2](https://safran-navigation-timing.com/about-the-atomic-reference-time-card-art-card/) (fully open sourced and available on this [link](https://github.com/Orolia2s/art-card-board))
 * [ADVA OSA5400](https://urldefense.com/v3/__https://www.oscilloquartz.com/en/products-and-services/embedded-timing-solutions/osa-5400-timecard__;!!Bt8RZUm9aw!74Qc6wh6_yFfgOhGUCr-rX5q6hd1NxC9HwjI7CwVO24C2SXXuzDXk4W3NjlSOZtTBWtvV11UzSicxA$)
 
-## Form Factor
-* Standard PCIe Stand-up Card
-* Single Slot - Passive Cooling Solution
+## Форм-фактор
+Стандартная PCIe-карта вертикального типа
+Одноcлотовое исполнение - пассивное охлаждение
  
 ## GNSS
-### Receiver
-The GNSS receiver can be a product from ublock or any other vendor as long as it provides PPS output and the TOD using any suitable format.
+### Приемник
+Приемник GNSS может быть продуктом от ublock или Orient Systems другого производителя, пока он обеспечивает выход PPS и TOD в любом подходящем формате.
 
-This is the recommended module:  **u-blox RCB-F9T GNSS time module**
+Рекомендуемый модуль: модуль времени GNSS u-blox RCB-F9T
 
-<a id="Figure-1">![GNSS Receiver](https://content.u-blox.com/sites/default/files/products/RCB-F9T_PCBVer-C.png)</a>
-   
-<p align="center">Figure 1. GNSS Receiver</p>
 
-### Security
-There are 2 main attack vectors on GNSS receiver
-### Jamming
-Jamming is the simplest form of attack. In order to keep operations while under attack the most reliable approach is to perform a long run holdover.  
-See more about holdover in the [clock](#Clock) section.
 
-### Spoofing
-GNSS authenticity is relevant today. A mechanism to protect against over-the-air spoofing incidents is desirable.
-With special equipment it is possible to simulate a GNSS constellation and spoof the receiver. Basic principals to protect against such attack:
-* Use high-quality GNSS receivers which verify packet signature
-* Disciplining implementations see more in [bridge](#bridge) section should protect against sudden jumps in time and space. For the datacenter use cases jump in space could be completely forbidden.
+### Безопасность
+Существуют два основных вектора атак на приемник GNSS:
 
-## Clock
-GNSS requires "clear sky" to function properly. Moreover there were several historical events of a short term time jumps by some GNSS constallations.
-Because of reliability and in combination with the security concerns an additional holdover should be performed by [high quality](https://www.meinbergglobal.com/english/specs/gpsopt.htm) XO. An example could be AC, OCXO, TCXO etc.
-In order to perform sustainable operation we recommend to use an AC with a holdover ± 1us or HQ OCXO with a holdover ± 22 µs.
+Подавление
+Подавление - самая простая форма атаки. Чтобы продолжить работу во время атаки, наиболее надежным подходом является выполнение долговременного запоминания.
+Более подробно о запоминании см. в разделе часы.
+
+Фальсификация
+Аутентичность GNSS актуальна сегодня. Желательно наличие механизма защиты от подделки по воздушному каналу.
+С использованием специального оборудования можно имитировать констелляцию GNSS и фальсифицировать приемник. Основные принципы защиты от таких атак:
+
+Использование высококачественных приемников GNSS, проверяющих подпись пакета
+Реализация дисциплинирования см. более подробно в разделе мост должна защищать от внезапных скачков во времени и пространстве. Для центров обработки данных скачок в пространстве может быть полностью запрещен.  
+
+## Часы
+Для правильной работы GNSS требуется "чистое небо". Более того, были случаи кратковременных скачков времени от некоторых констелляций GNSS.
+Из-за надежности и в сочетании с обеспокоенностью безопасностью, рекомендуется проводить дополнительное запоминание с помощью высококачественных XO. Примером может быть AC, OCXO, TCXO и т.д.
+Для обеспечения устойчивой работы мы рекомендуем использовать AC с запоминанием ± 1 мкс или HQ OCXO с запоминанием ± 22 мкс.
+
+Примеры атомных часов:
+
+SA5X
+LN CSAC
+mRO-50
+SA.45s
+DTA-100
 
 Atomic clock examples:
 * [SA5X](https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x)
@@ -139,11 +116,11 @@ TCXO examples:
 
 * Taitien PN: M0166-T-001-3 , footprint compatible with SiT5501 family
 
-## Bridge
+## Мост
 
 The bridge between the GNSS receiver and the Atomic clock can be implemented using software or hardware solutions. The hardware implementation is preferred and is our end goal.
 
-### Hardware Implementation
+### Аппаратная реализация
 Here is one of the examples of hardware implementations.
 * FPGA is responsible for most of the functionality
 * Exposed /dev/phc and /dev/pps are read by open source software such as ptp4l and chronyd
@@ -158,12 +135,13 @@ Here is one of the examples of hardware implementations.
 
 <p align="center">Figure 4. Bridge Block Diagram</p>
 
-### Software Implementation
-Software implementation still requires most of the components, however the communication between components is done with user space software:
-* GPSd exposing /dev/ppsY and provides TOD via SHM
-* FPGA board reads 1 PPS from different sources
-* Host daemon monitors the offset and steers oscillator
-* phc2sys can copy data between clocks, including between GPSd and Atomic and then Atomic to PHC on the NIC
+### Программная реализация
+Программная реализация требует большую часть компонентов, однако связь между ними осуществляется при помощи программного обеспечения пользовательского уровня:
+
+* GPSd отображает /dev/ppsY и предоставляет TOD через SHM
+* Плата с FPGA считывает 1 PPS из разных источников
+* Хост-демон мониторит смещение и управляет осциллятором
+* phc2sys может копировать данные между часами, включая данные между GPSd и атомными, а затем атомные данные на PHC на сетевом интерфейсном контроллере
 
 ## Interfaces
 * PCIe
@@ -176,6 +154,18 @@ Software implementation still requires most of the components, however the commu
 * IRIG-B input output
 * DCF77 input output
 * GNSS Antenna SMA input
+## Интерфейсы
+PCIe
+   PCIe x1 (18 пинов) версии 1.0 или выше на форм-факторе x4
+   Универсальный, поддерживающий несколько версий ОС
+   Отображает устройство PHC в Linux (/dev/ptpX), а также PPS (/dev/ppsY)
+   Отображает индикатор второго високосного дня в общем сегменте памяти, считываемом chrony/ptp4l
+1PPS / 10МГц SMA выход
+1PPS / 10МГц SMA вход
+IRIG-B вход/выход
+DCF77 вход/выход
+Вход SMA для антенны GNSS
+
 
 ### LED
 
@@ -187,50 +177,7 @@ For example:
 * Flashing green - card is in warm-up, acquiring satellites
 * Solid red - alarm / malfunction
 
-# Precision
-Time card got 4 SMA connectors that can be configured as outputs and outputs for various things such as 10Mhz, PHC, MAC, GNSS, GNSS2, IRIG, DCF for output and 10Mhz, PPS1, PPS2, TS1, TS2, IRIG, DCF for input.  
-Using a Calnex Sentinel device are comparing various things. Here we are comparing the 1PPS output (Channel A) and the 10Mhz output (Channel B) from the MAC (SA.53).  
+# Точность
+Временная карта имеет 4 разъема SMA, которые могут быть сконфигурированы как выходы и входы для различных вещей, таких как 10МГц, PHC, MAC, GNSS, GNSS2, IRIG, DCF для выхода и 10МГц, PPS1, PPS2, TS1, TS2, IRIG, DCF для входа.
+С использованием устройства Calnex Sentinel происходит сравнение различных вещей. Здесь мы сравниваем выход 1PPS (Канал A) и выход 10МГц (Канал B) от MAC (SA.53).
 ![Initial design](images/MACvs10Mhz.png)
-
-
-# Repository content
-
-* Bill of Materials (parts from Digikey)
-* Schematic and PCB of the time card
-* Driver (Kernel Module) CentOS 8
-* CAD files for the custom PCIe bracket 
-
-# Credits
-Hereby we would like to thank these individuals who helped with the initiative, archirecture, design, software development, hardware issue maintanance and upgrades.
-Individual | Main Contribution
----------------- | -------------
-Mike Lambeta     | Layout and Schematic Design
-Oleg Obleukhov   | Open Time Server Software
-Jonathan Lemon   | Inital Linux Driver
-Thomas Schaub    | FPGA Design and Code
-Joyce Hsu        | Logo Design
-Armando Pinales  | RCB Boards
-Julian St.James  | Hardware Upgrade
-Vadim Fedorenko  | Driver Upgrade
-Spencer Burns    | PCIe Bracket Design
-Collin Richardson| Placement Optimization
-Nhan Hoang       | PCIe Bracket Upgrade
-Ahmad Byagowi    | Idea and Architecture
-
-# License
-Contributions to this Specification are made under the terms and conditions set forth in Open Web Foundation Contributor License Agreement (“OWF CLA 1.0”) (“Contribution License”) by: 
- 
- Facebook
-
-You can review the signed copies of the applicable Contributor License(s) for this Specification on the OCP website at http://www.opencompute.org/products/specsanddesign 
-Usage of this Specification is governed by the terms and conditions set forth in Open Web Foundation Final Specification Agreement (“OWFa 1.0”) (“Specification License”).   
- 
-You can review the applicable Specification License(s) executed by the above referenced contributors to this Specification on the OCP website at http://www.opencompute.org/participate/legal-documents/
- Notes: 
- 
-1)     The following clarifications, which distinguish technology licensed in the Contribution License and/or Specification License from those technologies merely referenced (but not licensed), were accepted by the Incubation Committee of the OCP:  
- 
-None
-
- 
-NOTWITHSTANDING THE FOREGOING LICENSES, THIS SPECIFICATION IS PROVIDED BY OCP "AS IS" AND OCP EXPRESSLY DISCLAIMS ANY WARRANTIES (EXPRESS, IMPLIED, OR OTHERWISE), INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, OR TITLE, RELATED TO THE SPECIFICATION. NOTICE IS HEREBY GIVEN, THAT OTHER RIGHTS NOT GRANTED AS SET FORTH ABOVE, INCLUDING WITHOUT LIMITATION, RIGHTS OF THIRD PARTIES WHO DID NOT EXECUTE THE ABOVE LICENSES, MAY BE IMPLICATED BY THE IMPLEMENTATION OF OR COMPLIANCE WITH THIS SPECIFICATION. OCP IS NOT RESPONSIBLE FOR IDENTIFYING RIGHTS FOR WHICH A LICENSE MAY BE REQUIRED IN ORDER TO IMPLEMENT THIS SPECIFICATION.  THE ENTIRE RISK AS TO IMPLEMENTING OR OTHERWISE USING THE SPECIFICATION IS ASSUMED BY YOU. IN NO EVENT WILL OCP BE LIABLE TO YOU FOR ANY MONETARY DAMAGES WITH RESPECT TO ANY CLAIMS RELATED TO, OR ARISING OUT OF YOUR USE OF THIS SPECIFICATION, INCLUDING BUT NOT LIMITED TO ANY LIABILITY FOR LOST PROFITS OR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL OR PUNITIVE DAMAGES OF ANY CHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TO THIS SPECIFICATION, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND EVEN IF OCP HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
