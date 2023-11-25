@@ -1,0 +1,104 @@
+*
+*
+G04 PADS VX.2.7 Build Number: 17514632 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "ART_CARD Rev5.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD011C,0.001*%
+%ADD097C,0.00787*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name ART_CARD Rev5.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name ART_CARD Rev5.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name ART_CARD Rev5.pcb - circuitry*
+%LPD*%
+*
+G54D11*
+G54D97*
+G01X496730Y407139D02*
+Y779777D01*
+X555785*
+Y744344*
+G75*
+G03X559722Y740407I3937J0D01*
+G01X1156770*
+Y439620*
+X812872*
+G03X808935Y435683I0J-3937*
+G01Y391391*
+X806967Y389423*
+X727439*
+X725470Y391391*
+Y418754*
+G03X717990I-3740J-0*
+G01Y391391*
+X716022Y389423*
+X675864*
+X673896Y391391*
+Y432533*
+G03X659526I-7185J-98*
+G01Y407139*
+X628030*
+Y435880*
+G03X624289Y439620I-3741J-0*
+G01X559526*
+G03X555785Y435880I-0J-3740*
+G01Y407139*
+X496730*
+G74*
+X0Y0D02*
+M02*

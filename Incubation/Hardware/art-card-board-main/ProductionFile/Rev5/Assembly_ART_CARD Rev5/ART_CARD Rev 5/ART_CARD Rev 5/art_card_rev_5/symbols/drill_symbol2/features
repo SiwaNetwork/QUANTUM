@@ -1,0 +1,17 @@
+UNITS=MM
+ID=777
+#
+#Num Features
+#
+F 2
+
+#
+#Feature symbol names
+#
+$0 r150
+
+#
+#Layer features
+#
+L 0 -0.75 0 0.75 0 P 0;;ID=779
+L -0.75 0 0.75 0 0 P 0;;ID=780

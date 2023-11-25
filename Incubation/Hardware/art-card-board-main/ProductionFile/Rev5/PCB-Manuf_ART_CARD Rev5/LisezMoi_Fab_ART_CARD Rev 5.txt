@@ -1,0 +1,45 @@
+                          FABRICATION DE CIRCUIT IMPRIME
+                          ------------------------------
+
+DATE: 03/03/2022
+
+CLIENT: OROLIA
+
+REFERENCE CIRCUIT: ART_CARD Rev 5
+     
+Type de circuit  : MC8
+
+_______________________________________________________________________________
+		               FICHIERS GERBER 274X
+-------------------------------------------------------------------------------
+
+FACE TOP	             : cu-comp.gbx
+FACE INTERNE 1	             : cu-int1.gbx
+FACE INTERNE 2	             : cu-int2.gbx
+FACE INTERNE 3	             : cu-int3.gbx
+FACE INTERNE 4	             : cu-int4.gbx
+FACE INTERNE 5	             : cu-int5.gbx
+FACE INTERNE 6	             : cu-int6.gbx
+FACE BOTTOM                  : cu-soud.gbx
+FACE V.E. TOP	             : ve-comp.gbx
+FACE V.E. BOTTOM             : ve-soud.gbx
+FACE SERIGRAPHIE TOP	     : ser-comp.gbx
+FACE SERIGRAPHIE BOTTOM	     : ser-comp.gbx
+FACE ECRAN BRASAGE TOP	     : pbr-comp.gbx
+FACE ECRAN BRASAGE BOTTOM    : pbr-soud.gbx
+PLAN DE PERCAGE              : plan-perc.gbx
+DETOURAGE CONTOUR CARTE      : board.gbx
+_______________________________________________________________________________
+		               FICHIERS PDF ET TEXTE
+-------------------------------------------------------------------------------
+
+FICHIER DE PERCAGE           : xy-percage.drl 
+LISTING D'OUTIL DE PERCAGE   : xy-percage.rep
+PLAN DE PERCAGE              : plan-perc.pdf
+SPECIFICATION CIRCUIT IMPRIME: ART_CARD Rev 5_SPEC.pdf
+
+-------------------------------------------------------------------------------
+ARTEMIS  Ph.BENOIT    TEL: 02.41.48.98.68 
+                      FAX: 02.41.48.41.44 
+                      INTERNET: p.benoit@artemis-cad.com                                      
+-------------------------------------------------------------------------------

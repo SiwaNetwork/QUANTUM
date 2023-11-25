@@ -1,0 +1,3442 @@
+UNITS=MM
+ID=69863
+#
+#Component attribute names
+#
+@0 .comp_height
+@1 .comp_mount_type
+
+
+# CMP 0
+CMP 0 3 9.1 0.0 N MIRE3 MIRE-ACT ;1=1;ID=69870
+PRP Design.Timestamp '2018.11.26.16.26.48' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 3 9.1 0.0 N 0 2 1
+#
+# CMP 1
+CMP 0 164.65 80.65 0.0 N MIRE4 MIRE-ACT ;1=1;ID=69874
+PRP Design.Timestamp '2018.11.26.16.26.48' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 164.65 80.65 0.0 N 0 3 1
+#
+# CMP 2
+CMP 23 104.92 57 0.0 N PD7 PT-SINGLE-SIDE-1.5 ;1=1;ID=74267
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 104.92 57 0.0 N 88 72 1
+#
+# CMP 3
+CMP 23 17.575 74.125 90.0 N PD1 PT-SINGLE-SIDE-1.5 ;1=1;ID=74276
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 17.575 74.125 90.0 N 353 5 1
+#
+# CMP 4
+CMP 23 17.35 66.025 90.0 N PD2 PT-SINGLE-SIDE-1.5 ;1=1;ID=74280
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 17.35 66.025 90.0 N 346 5 1
+#
+# CMP 5
+CMP 23 94.76 57 0.0 N PD3 PT-SINGLE-SIDE-1.5 ;1=1;ID=74284
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 94.76 57 0.0 N 81 1921 1
+#
+# CMP 6
+CMP 23 97.3 57 0.0 N PD4 PT-SINGLE-SIDE-1.5 ;1=1;ID=74288
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 97.3 57 0.0 N 92 182 1
+#
+# CMP 7
+CMP 23 99.84 57 0.0 N PD5 PT-SINGLE-SIDE-1.5 ;1=1;ID=74292
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 99.84 57 0.0 N 120 187 1
+#
+# CMP 8
+CMP 23 102.38 57 0.0 N PD6 PT-SINGLE-SIDE-1.5 ;1=1;ID=74296
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 102.38 57 0.0 N 90 484 1
+#
+# CMP 9
+CMP 24 70.65 81 0.0 N TP1 PT-SINGLE-SIDE-0.45 ;1=2;ID=74303
+PRP DATE_DE_CREATION '  SD Le 02/10/17' 
+PRP Design.Timestamp '2021.07.22.12.07.17' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 70.65 81 0.0 N 95 5 1
+#
+# CMP 10
+CMP 24 73.19 81 0.0 N TP2 PT-SINGLE-SIDE-0.45 ;1=2;ID=74309
+PRP DATE_DE_CREATION '  SD Le 02/10/17' 
+PRP Design.Timestamp '2021.07.22.12.07.17' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 73.19 81 0.0 N 96 5 1
+#
+# CMP 11
+CMP 24 75.73 81 0.0 N TP3 PT-SINGLE-SIDE-0.45 ;1=2;ID=74315
+PRP DATE_DE_CREATION '  SD Le 02/10/17' 
+PRP Design.Timestamp '2021.07.22.12.07.17' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 75.73 81 0.0 N 97 5 1
+#
+# CMP 12
+CMP 24 78.27 81 0.0 N TP4 PT-SINGLE-SIDE-0.45 ;1=2;ID=74321
+PRP DATE_DE_CREATION '  SD Le 02/10/17' 
+PRP Design.Timestamp '2021.07.22.12.07.17' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 78.27 81 0.0 N 98 5 1
+#
+# CMP 13
+CMP 24 80.81 81 0.0 N TP5 PT-SINGLE-SIDE-0.45 ;1=2;ID=74327
+PRP DATE_DE_CREATION '  SD Le 02/10/17' 
+PRP Design.Timestamp '2021.07.22.12.07.17' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 80.81 81 0.0 N 81 1922 1
+#
+# CMP 14
+CMP 25 61.3 24.35 90.0 N C1 CC0402 ;0=0.550000,1=1;ID=74337
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 24.825 90.0 N 89 311 1
+TOP 1 61.3 23.875 90.0 N 81 1923 2
+#
+# CMP 15
+CMP 25 64.6 36.85 180.0 N C10 CC0402 ;0=0.550000,1=1;ID=74351
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 64.125 36.85 180.0 N 89 312 1
+TOP 1 65.075 36.85 180.0 N 81 1924 2
+#
+# CMP 16
+CMP 26 54.925 57.375 270.0 N C100 CC1210 ;0=1.400000,1=1;ID=74364
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 54.925 55.9 270.0 N 90 485 1
+TOP 1 54.925 58.85 270.0 N 81 1925 2
+#
+# CMP 17
+CMP 26 62.625 57.375 270.0 N C101 CC1210 ;0=1.400000,1=1;ID=74377
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 62.625 55.9 270.0 N 90 486 1
+TOP 1 62.625 58.85 270.0 N 81 1926 2
+#
+# CMP 18
+CMP 25 92.6 17.45 0.0 N C102 CC0402 ;0=0.550000,1=1;ID=74390
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 93.075 17.45 0.0 N 88 73 1
+TOP 1 92.125 17.45 0.0 N 204 3 2
+#
+# CMP 19
+CMP 27 88.25 21.3 0.0 N C103 CC1206 ;0=1.600000,1=1;ID=74403
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 89.675 21.3 0.0 N 92 183 1
+TOP 1 86.825 21.3 0.0 N 81 1927 2
+#
+# CMP 20
+CMP 27 88.25 13.85 0.0 N C104 CC1206 ;0=1.600000,1=1;ID=74421
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 89.675 13.85 0.0 N 92 184 1
+TOP 1 86.825 13.85 0.0 N 81 1928 2
+#
+# CMP 21
+CMP 26 83.125 14.1 180.0 N C105 CC1210 ;0=1.400000,1=1;ID=74434
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 81.65 14.1 180.0 N 88 74 1
+TOP 1 84.6 14.1 180.0 N 81 1929 2
+#
+# CMP 22
+CMP 26 83.125 21.3 180.0 N C106 CC1210 ;0=1.400000,1=1;ID=74447
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 81.65 21.3 180.0 N 88 75 1
+TOP 1 84.6 21.3 180.0 N 81 1930 2
+#
+# CMP 23
+CMP 27 71.6175 62.625 90.0 N C107 CC1206 ;0=1.600000,1=1;ID=74460
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 71.6175 64.05 90.0 N 92 185 1
+TOP 1 71.6175 61.2 90.0 N 81 1931 2
+#
+# CMP 24
+CMP 27 79.15 62.625 90.0 N C108 CC1206 ;0=1.600000,1=1;ID=74473
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 79.15 64.05 90.0 N 92 186 1
+TOP 1 79.15 61.2 90.0 N 81 1932 2
+#
+# CMP 25
+CMP 25 75.7 67.025 90.0 N C109 CC0402 ;0=0.550000,1=1;ID=74486
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 75.7 67.5 90.0 N 89 313 1
+TOP 1 75.7 66.55 90.0 N 206 3 2
+#
+# CMP 26
+CMP 28 53.3 21.9 0.0 N C11 CC0805 ;0=1.450000,1=1;ID=74499
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 54.3 21.9 0.0 N 89 314 1
+TOP 1 52.3 21.9 0.0 N 81 1933 2
+#
+# CMP 27
+CMP 26 71.6 57.375 270.0 N C110 CC1210 ;0=1.400000,1=1;ID=74512
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 71.6 55.9 270.0 N 89 315 1
+TOP 1 71.6 58.85 270.0 N 81 1934 2
+#
+# CMP 28
+CMP 26 79.3 57.375 270.0 N C111 CC1210 ;0=1.400000,1=1;ID=74525
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 79.3 55.9 270.0 N 89 316 1
+TOP 1 79.3 58.85 270.0 N 81 1935 2
+#
+# CMP 29
+CMP 27 115 74.95 270.0 N C112 CC1206 ;0=1.600000,1=1;ID=74538
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 115 73.525 270.0 N 91 51 1
+TOP 1 115 76.375 270.0 N 81 1936 2
+#
+# CMP 30
+CMP 27 107.8 70.35 180.0 N C113 CC1206 ;0=1.600000,1=1;ID=74551
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 106.375 70.35 180.0 N 119 33 1
+TOP 1 109.225 70.35 180.0 N 81 1937 2
+#
+# CMP 31
+CMP 27 107.8 67.6 180.0 N C114 CC1206 ;0=1.600000,1=1;ID=74564
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 106.375 67.6 180.0 N 119 34 1
+TOP 1 109.225 67.6 180.0 N 81 1938 2
+#
+# CMP 32
+CMP 25 139.3 70 180.0 N C115 CC0402 ;0=0.550000,1=1;ID=74577
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 138.825 70 180.0 N 265 27 1
+TOP 1 139.775 70 180.0 N 81 1939 2
+#
+# CMP 33
+CMP 26 139.225 72.8 180.0 N C116 C1210 ;0=1.400000,1=1;ID=74586
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2021.10.21.13.29.44' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 137.75 72.8 180.0 N 265 28 1
+TOP 1 140.7 72.8 180.0 N 81 1940 2
+#
+# CMP 34
+CMP 28 69.3 29.15 180.0 N C12 CC0805 ;0=1.450000,1=1;ID=74638
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 68.3 29.15 180.0 N 89 317 1
+TOP 1 70.3 29.15 180.0 N 81 1944 2
+#
+# CMP 35
+CMP 27 127.125 63.2 270.0 N C120 CC1206 ;0=1.600000,1=1;ID=74651
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 127.125 61.775 270.0 N 209 8 1
+TOP 1 127.125 64.625 270.0 N 81 1945 2
+#
+# CMP 36
+CMP 27 135.25 63.2 270.0 N C122 CC1206 ;0=1.600000,1=1;ID=74673
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 135.25 61.775 270.0 N 85 24 1
+TOP 1 135.25 64.625 270.0 N 81 1947 2
+#
+# CMP 37
+CMP 28 69.2 47.25 0.0 N C13 CC0805 ;0=1.450000,1=1;ID=74757
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 70.2 47.25 0.0 N 89 318 1
+TOP 1 68.2 47.25 0.0 N 81 1954 2
+#
+# CMP 38
+CMP 28 51.3 32.85 0.0 N C14 CC0805 ;0=1.450000,1=1;ID=74864
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 52.3 32.85 0.0 N 89 319 1
+TOP 1 50.3 32.85 0.0 N 81 1962 2
+#
+# CMP 39
+CMP 25 28.95 57.05 270.0 N C146 CC0402 ;0=0.550000,1=1;ID=74931
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 28.95 56.575 270.0 N 167 6 1
+TOP 1 28.95 57.525 270.0 N 81 1968 2
+#
+# CMP 40
+CMP 25 23.1 56.525 270.0 N C147 CC0402 ;0=0.550000,1=1;ID=74940
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 23.1 56.05 270.0 N 375 12 1
+TOP 1 23.1 57 270.0 N 81 1969 2
+#
+# CMP 41
+CMP 25 14.025 76.5 0.0 N C149 CC0402 ;0=0.550000,1=1;ID=74958
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 14.5 76.5 0.0 N 122 11 1
+TOP 1 13.55 76.5 0.0 N 81 1971 2
+#
+# CMP 42
+CMP 25 56.6 36.6 270.0 N C15 CC0402 ;0=0.550000,1=1;ID=74967
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 56.6 36.125 270.0 N 89 320 1
+TOP 1 56.6 37.075 270.0 N 81 1972 2
+#
+# CMP 43
+CMP 25 14.8 69.1 180.0 N C150 CC0402 ;0=0.550000,1=1;ID=74976
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 14.325 69.1 180.0 N 122 12 1
+TOP 1 15.275 69.1 180.0 N 81 1973 2
+#
+# CMP 44
+CMP 25 16.15 71.725 90.0 N C152 CC0402 ;0=0.550000,1=1;ID=74994
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 16.15 72.2 90.0 N 121 102 1
+TOP 1 16.15 71.25 90.0 N 81 1975 2
+#
+# CMP 45
+CMP 25 22.9 67.45 0.0 N C153 CC0402 ;0=0.550000,1=1;ID=75003
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 23.375 67.45 0.0 N 121 103 1
+TOP 1 22.425 67.45 0.0 N 81 1976 2
+#
+# CMP 46
+CMP 25 21.35 71.725 90.0 N C154 CC0402 ;0=0.550000,1=1;ID=75012
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 21.35 72.2 90.0 N 121 104 1
+TOP 1 21.35 71.25 90.0 N 81 1977 2
+#
+# CMP 47
+CMP 25 19.65 62.975 270.0 N C155 CC0402 ;0=0.550000,1=1;ID=75021
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 19.65 62.5 270.0 N 121 105 1
+TOP 1 19.65 63.45 270.0 N 81 1978 2
+#
+# CMP 48
+CMP 25 18.95 71.725 90.0 N C156 CC0402 ;0=0.550000,1=1;ID=75030
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 18.95 72.2 90.0 N 117 22 1
+TOP 1 18.95 71.25 90.0 N 81 1979 2
+#
+# CMP 49
+CMP 25 18.225 62.975 270.0 N C157 CC0402 ;0=0.550000,1=1;ID=75039
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 18.225 62.5 270.0 N 117 23 1
+TOP 1 18.225 63.45 270.0 N 81 1980 2
+#
+# CMP 50
+CMP 25 22.9 66.05 0.0 N C158 CC0402 ;0=0.550000,1=1;ID=75048
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 23.375 66.05 0.0 N 117 24 1
+TOP 1 22.425 66.05 0.0 N 81 1981 2
+#
+# CMP 51
+CMP 25 14.55 64.15 180.0 N C159 CC0402 ;0=0.550000,1=1;ID=75057
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 14.075 64.15 180.0 N 117 25 1
+TOP 1 15.025 64.15 180.0 N 81 1982 2
+#
+# CMP 52
+CMP 25 56.8 28.35 0.0 N C16 CC0402 ;0=0.550000,1=1;ID=75066
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 57.275 28.35 0.0 N 89 321 1
+TOP 1 56.325 28.35 0.0 N 81 1983 2
+#
+# CMP 53
+CMP 25 8.425 76.65 0.0 N C161 CC0402 ;0=0.550000,1=1;ID=75084
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 8.9 76.65 0.0 N 130 8 1
+TOP 1 7.95 76.65 0.0 N 81 1985 2
+#
+# CMP 54
+CMP 25 11.875 62.8 90.0 N C162 CC0402 ;0=0.550000,1=1;ID=75093
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 11.875 63.275 90.0 N 374 24 1
+TOP 1 11.875 62.325 90.0 N 81 1986 2
+#
+# CMP 55
+CMP 25 69.55 45.025 0.0 N C17 CC0402 ;0=0.550000,1=1;ID=75169
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 70.025 45.025 0.0 N 89 322 1
+TOP 1 69.075 45.025 0.0 N 81 1994 2
+#
+# CMP 56
+CMP 25 56.95 12.9 270.0 N C176 CC0402 ;0=0.550000,1=1;ID=75236
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 56.95 12.425 270.0 N 62 2 1
+TOP 1 56.95 13.375 270.0 N 70 5 2
+#
+# CMP 57
+CMP 25 58.35 12.9 270.0 N C177 CC0402 ;0=0.550000,1=1;ID=75245
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 58.35 12.425 270.0 N 63 2 1
+TOP 1 58.35 13.375 270.0 N 337 5 2
+#
+# CMP 58
+CMP 25 59.85 12.9 270.0 N C178 CC0402 ;0=0.550000,1=1;ID=75254
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.85 12.425 270.0 N 61 2 1
+TOP 1 59.85 13.375 270.0 N 68 5 2
+#
+# CMP 59
+CMP 25 61.25 12.9 270.0 N C179 CC0402 ;0=0.550000,1=1;ID=75263
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.25 12.425 270.0 N 60 2 1
+TOP 1 61.25 13.375 270.0 N 69 5 2
+#
+# CMP 60
+CMP 25 55.25 35.8 270.0 N C18 CC0402 ;0=0.550000,1=1;ID=75272
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 55.25 35.325 270.0 N 89 323 1
+TOP 1 55.25 36.275 270.0 N 81 1998 2
+#
+# CMP 61
+CMP 25 62.75 12.9 270.0 N C180 CC0402 ;0=0.550000,1=1;ID=75281
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 62.75 12.425 270.0 N 238 2 1
+TOP 1 62.75 13.375 270.0 N 66 5 2
+#
+# CMP 62
+CMP 25 64.15 12.9 270.0 N C181 CC0402 ;0=0.550000,1=1;ID=75290
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 64.15 12.425 270.0 N 59 2 1
+TOP 1 64.15 13.375 270.0 N 67 5 2
+#
+# CMP 63
+CMP 25 65.65 12.9 270.0 N C182 CC0402 ;0=0.550000,1=1;ID=75299
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.65 12.425 270.0 N 58 2 1
+TOP 1 65.65 13.375 270.0 N 64 5 2
+#
+# CMP 64
+CMP 25 67.05 12.9 270.0 N C183 CC0402 ;0=0.550000,1=1;ID=75308
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 67.05 12.425 270.0 N 57 2 1
+TOP 1 67.05 13.375 270.0 N 65 5 2
+#
+# CMP 65
+CMP 25 43.9 37.125 180.0 N C188 CC0402 ;0=0.550000,1=1;ID=75353
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 43.425 37.125 180.0 N 90 489 1
+TOP 1 44.375 37.125 180.0 N 81 2002 2
+#
+# CMP 66
+CMP 25 41.7 37.125 0.0 N C189 CC0402 ;0=0.550000,1=1;ID=75362
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 42.175 37.125 0.0 N 120 195 1
+TOP 1 41.225 37.125 0.0 N 81 2003 2
+#
+# CMP 67
+CMP 25 61.3 36.15 270.0 N C19 CC0402 ;0=0.550000,1=1;ID=75371
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 35.675 270.0 N 89 324 1
+TOP 1 61.3 36.625 270.0 N 81 2004 2
+#
+# CMP 68
+CMP 25 20.425 20.9 180.0 N C192 CC0402 ;0=0.550000,1=1;ID=75398
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 19.95 20.9 180.0 N 92 188 1
+TOP 1 20.9 20.9 180.0 N 81 2007 2
+#
+# CMP 69
+CMP 25 43.9 30.125 180.0 N C197 CC0402 ;0=0.550000,1=1;ID=75443
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 43.425 30.125 180.0 N 90 491 1
+TOP 1 44.375 30.125 180.0 N 81 2012 2
+#
+# CMP 70
+CMP 25 41.7 30.125 0.0 N C198 CC0402 ;0=0.550000,1=1;ID=75452
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 42.175 30.125 0.0 N 120 196 1
+TOP 1 41.225 30.125 0.0 N 81 2013 2
+#
+# CMP 71
+CMP 25 15.7 49.2 180.0 N C199 CC0402 ;0=0.550000,1=1;ID=75461
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 15.225 49.2 180.0 N 120 197 1
+TOP 1 16.175 49.2 180.0 N 81 2014 2
+#
+# CMP 72
+CMP 25 63.3 26.6 90.0 N C2 CC0402 ;0=0.550000,1=1;ID=75470
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 63.3 27.075 90.0 N 89 325 1
+TOP 1 63.3 26.125 90.0 N 81 2015 2
+#
+# CMP 73
+CMP 25 61.3 26.6 270.0 N C20 CC0402 ;0=0.550000,1=1;ID=75479
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 26.125 270.0 N 89 326 1
+TOP 1 61.3 27.075 270.0 N 81 2016 2
+#
+# CMP 74
+CMP 25 10.4 52 90.0 N C200 CC0402 ;0=0.550000,1=1;ID=75488
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 10.4 52.475 90.0 N 120 198 1
+TOP 1 10.4 51.525 90.0 N 81 2017 2
+#
+# CMP 75
+CMP 25 13.425 52 0.0 N C201 CC0402 ;0=0.550000,1=1;ID=75497
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 13.9 52 0.0 N 251 2 1
+TOP 1 12.95 52 0.0 N 81 2018 2
+#
+# CMP 76
+CMP 25 11.725 52 90.0 N C202 CC0402 ;0=0.550000,1=1;ID=75506
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 11.725 52.475 90.0 N 259 2 1
+TOP 1 11.725 51.525 90.0 N 81 2019 2
+#
+# CMP 77
+CMP 25 19.925 51.175 90.0 N C203 CC0402 ;0=0.550000,1=1;ID=75515
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 19.925 51.65 90.0 N 252 1 1
+TOP 1 19.925 50.7 90.0 N 81 2020 2
+#
+# CMP 78
+CMP 25 14.625 57.825 270.0 N C204 CC0402 ;0=0.550000,1=1;ID=75524
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 14.625 57.35 270.0 N 260 1 1
+TOP 1 14.625 58.3 270.0 N 81 2021 2
+#
+# CMP 79
+CMP 25 10.925 60.8 180.0 N C206 CC0402 ;0=0.550000,1=1;ID=75542
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 10.45 60.8 180.0 N 194 5 1
+TOP 1 11.4 60.8 180.0 N 81 2023 2
+#
+# CMP 80
+CMP 25 18.95 37.7 180.0 N C207 CC0402 ;0=0.550000,1=1;ID=75551
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 18.475 37.7 180.0 N 120 199 1
+TOP 1 19.425 37.7 180.0 N 81 2024 2
+#
+# CMP 81
+CMP 25 10.45 39.125 90.0 N C208 CC0402 ;0=0.550000,1=1;ID=75560
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 10.45 39.6 90.0 N 120 200 1
+TOP 1 10.45 38.65 90.0 N 81 2025 2
+#
+# CMP 82
+CMP 25 17.05 40.65 90.0 N C209 CC0402 ;0=0.550000,1=1;ID=75569
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 17.05 41.125 90.0 N 253 2 1
+TOP 1 17.05 40.175 90.0 N 81 2026 2
+#
+# CMP 83
+CMP 25 63.8 28.85 180.0 N C21 CC0402 ;0=0.550000,1=1;ID=75578
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 63.325 28.85 180.0 N 89 327 1
+TOP 1 64.275 28.85 180.0 N 81 2027 2
+#
+# CMP 84
+CMP 25 12.5 39.125 90.0 N C210 CC0402 ;0=0.550000,1=1;ID=75587
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 12.5 39.6 90.0 N 262 2 1
+TOP 1 12.5 38.65 90.0 N 81 2028 2
+#
+# CMP 85
+CMP 25 23.3 41.125 180.0 N C211 CC0402 ;0=0.550000,1=1;ID=75596
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 22.825 41.125 180.0 N 254 1 1
+TOP 1 23.775 41.125 180.0 N 81 2029 2
+#
+# CMP 86
+CMP 25 15.025 43.8 270.0 N C212 CC0402 ;0=0.550000,1=1;ID=75605
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 15.025 43.325 270.0 N 264 1 1
+TOP 1 15.025 44.275 270.0 N 81 2030 2
+#
+# CMP 87
+CMP 25 10.5 45.325 270.0 N C213 CC0402 ;0=0.550000,1=1;ID=75614
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 10.5 44.85 270.0 N 195 5 1
+TOP 1 10.5 45.8 270.0 N 81 2031 2
+#
+# CMP 88
+CMP 25 15.875 30.3 270.0 N C214 CC0402 ;0=0.550000,1=1;ID=75623
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 15.875 29.825 270.0 N 120 201 1
+TOP 1 15.875 30.775 270.0 N 81 2032 2
+#
+# CMP 89
+CMP 25 13.55 27.7 180.0 N C215 CC0402 ;0=0.550000,1=1;ID=75632
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 13.075 27.7 180.0 N 255 2 1
+TOP 1 14.025 27.7 180.0 N 81 2033 2
+#
+# CMP 90
+CMP 25 12.325 34.8 0.0 N C216 CC0402 ;0=0.550000,1=1;ID=75641
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 12.8 34.8 0.0 N 256 1 1
+TOP 1 11.85 34.8 0.0 N 81 2034 2
+#
+# CMP 91
+CMP 25 10.8 30.325 270.0 N C217 CC0402 ;0=0.550000,1=1;ID=75650
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 10.8 29.85 270.0 N 196 5 1
+TOP 1 10.8 30.8 270.0 N 81 2035 2
+#
+# CMP 92
+CMP 25 12.3 21.375 270.0 N C219 CC0402 ;0=0.550000,1=1;ID=75668
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 12.3 20.9 270.0 N 120 202 1
+TOP 1 12.3 21.85 270.0 N 81 2037 2
+#
+# CMP 93
+CMP 25 61.3 31.65 270.0 N C22 CC0402 ;0=0.550000,1=1;ID=75677
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 31.175 270.0 N 89 328 1
+TOP 1 61.3 32.125 270.0 N 81 2038 2
+#
+# CMP 94
+CMP 25 10.95 19.05 180.0 N C220 CC0402 ;0=0.550000,1=1;ID=75686
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 10.475 19.05 180.0 N 257 2 1
+TOP 1 11.425 19.05 180.0 N 81 2039 2
+#
+# CMP 95
+CMP 25 13.1 24.7 180.0 N C221 CC0402 ;0=0.550000,1=1;ID=75695
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 12.625 24.7 180.0 N 258 1 1
+TOP 1 13.575 24.7 180.0 N 81 2040 2
+#
+# CMP 96
+CMP 25 4.025 21.175 0.0 N C222 CC0402 ;0=0.550000,1=1;ID=75704
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 4.5 21.175 0.0 N 197 5 1
+TOP 1 3.55 21.175 0.0 N 81 2041 2
+#
+# CMP 97
+CMP 25 55.8 22.85 90.0 N C23 CC0402 ;0=0.550000,1=1;ID=75713
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 55.8 23.325 90.0 N 89 329 1
+TOP 1 55.8 22.375 90.0 N 81 2042 2
+#
+# CMP 98
+CMP 25 51.85 35.35 0.0 N C24 CC0402 ;0=0.550000,1=1;ID=75722
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 52.325 35.35 0.0 N 89 330 1
+TOP 1 51.375 35.35 0.0 N 81 2043 2
+#
+# CMP 99
+CMP 25 59.6 29.35 180.0 N C25 CC0402 ;0=0.550000,1=1;ID=75731
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.125 29.35 180.0 N 89 331 1
+TOP 1 60.075 29.35 180.0 N 81 2044 2
+#
+# CMP 100
+CMP 25 61.825 37.875 0.0 N C26 CC0402 ;0=0.550000,1=1;ID=75740
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 62.3 37.875 0.0 N 89 332 1
+TOP 1 61.35 37.875 0.0 N 81 2045 2
+#
+# CMP 101
+CMP 25 61.3 28.85 270.0 N C27 CC0402 ;0=0.550000,1=1;ID=75749
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 28.375 270.0 N 89 333 1
+TOP 1 61.3 29.325 270.0 N 81 2046 2
+#
+# CMP 102
+CMP 25 66.05 28.85 180.0 N C28 CC0402 ;0=0.550000,1=1;ID=75758
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.575 28.85 180.0 N 89 334 1
+TOP 1 66.525 28.85 180.0 N 81 2047 2
+#
+# CMP 103
+CMP 25 68.75 31.35 180.0 N C29 CC0402 ;0=0.550000,1=1;ID=75767
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 68.275 31.35 180.0 N 89 335 1
+TOP 1 69.225 31.35 180.0 N 81 2048 2
+#
+# CMP 104
+CMP 25 58.8 36.35 180.0 N C3 CC0402 ;0=0.550000,1=1;ID=75776
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 58.325 36.35 180.0 N 89 336 1
+TOP 1 59.275 36.35 180.0 N 81 2049 2
+#
+# CMP 105
+CMP 25 59.3 26.6 270.0 N C30 CC0402 ;0=0.550000,1=1;ID=75785
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.3 26.125 270.0 N 89 337 1
+TOP 1 59.3 27.075 270.0 N 81 2050 2
+#
+# CMP 106
+CMP 25 63 30.35 180.0 N C31 CC0402 ;0=0.550000,1=1;ID=75794
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 62.525 30.35 180.0 N 94 49 1
+TOP 1 63.475 30.35 180.0 N 81 2051 2
+#
+# CMP 107
+CMP 25 59.6 23.6 0.0 N C32 CC0402 ;0=0.550000,1=1;ID=75803
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 60.075 23.6 0.0 N 94 50 1
+TOP 1 59.125 23.6 0.0 N 81 2052 2
+#
+# CMP 108
+CMP 25 61 45.475 180.0 N C33 CC0402 ;0=0.550000,1=1;ID=75812
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 60.525 45.475 180.0 N 94 51 1
+TOP 1 61.475 45.475 180.0 N 81 2053 2
+#
+# CMP 109
+CMP 25 63 32.35 180.0 N C34 CC0402 ;0=0.550000,1=1;ID=75821
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 62.525 32.35 180.0 N 94 52 1
+TOP 1 63.475 32.35 180.0 N 81 2054 2
+#
+# CMP 110
+CMP 28 61.35 47.25 180.0 N C35 CC0805 ;0=1.450000,1=1;ID=75830
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 60.35 47.25 180.0 N 94 53 1
+TOP 1 62.35 47.25 180.0 N 81 2055 2
+#
+# CMP 111
+CMP 25 65.75 23.85 180.0 N C36 CC0402 ;0=0.550000,1=1;ID=75843
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.275 23.85 180.0 N 94 54 1
+TOP 1 66.225 23.85 180.0 N 81 2056 2
+#
+# CMP 112
+CMP 25 70.775 36.325 180.0 N C37 CC0402 ;0=0.550000,1=1;ID=75852
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 70.3 36.325 180.0 N 90 493 1
+TOP 1 71.25 36.325 180.0 N 81 2057 2
+#
+# CMP 113
+CMP 25 55.8 41.35 0.0 N C38 CC0402 ;0=0.550000,1=1;ID=75861
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 56.275 41.35 0.0 N 90 494 1
+TOP 1 55.325 41.35 0.0 N 81 2058 2
+#
+# CMP 114
+CMP 25 57 26.35 0.0 N C39 CC0402 ;0=0.550000,1=1;ID=75870
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 57.475 26.35 0.0 N 90 495 1
+TOP 1 56.525 26.35 0.0 N 81 2059 2
+#
+# CMP 115
+CMP 25 63.3 24.05 90.0 N C4 CC0402 ;0=0.550000,1=1;ID=75879
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 63.3 24.525 90.0 N 89 338 1
+TOP 1 63.3 23.575 90.0 N 81 2060 2
+#
+# CMP 116
+CMP 25 65.8 26.35 180.0 N C40 CC0402 ;0=0.550000,1=1;ID=75888
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.325 26.35 180.0 N 90 496 1
+TOP 1 66.275 26.35 180.0 N 81 2061 2
+#
+# CMP 117
+CMP 25 56.3 30.05 90.0 N C41 CC0402 ;0=0.550000,1=1;ID=75897
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 56.3 30.525 90.0 N 90 497 1
+TOP 1 56.3 29.575 90.0 N 81 2062 2
+#
+# CMP 118
+CMP 25 73.65 34.35 180.0 N C42 CC0402 ;0=0.550000,1=1;ID=75906
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 73.175 34.35 180.0 N 90 498 1
+TOP 1 74.125 34.35 180.0 N 81 2063 2
+#
+# CMP 119
+CMP 25 72.8 31.35 180.0 N C43 CC0402 ;0=0.550000,1=1;ID=75915
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 72.325 31.35 180.0 N 90 499 1
+TOP 1 73.275 31.35 180.0 N 81 2064 2
+#
+# CMP 120
+CMP 25 54.825 26.35 0.0 N C44 CC0402 ;0=0.550000,1=1;ID=75924
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 55.3 26.35 0.0 N 90 500 1
+TOP 1 54.35 26.35 0.0 N 81 2065 2
+#
+# CMP 121
+CMP 25 46.35 18.35 0.0 N C45 CC0402 ;0=0.550000,1=1;ID=75933
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 46.825 18.35 0.0 N 90 501 1
+TOP 1 45.875 18.35 0.0 N 81 2066 2
+#
+# CMP 122
+CMP 25 70.6 27.35 180.0 N C46 CC0402 ;0=0.550000,1=1;ID=75942
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 70.125 27.35 180.0 N 90 502 1
+TOP 1 71.075 27.35 180.0 N 81 2067 2
+#
+# CMP 123
+CMP 28 45.75 41.6 0.0 N C47 CC0805 ;0=1.450000,1=1;ID=75951
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 46.75 41.6 0.0 N 90 503 1
+TOP 1 44.75 41.6 0.0 N 81 2068 2
+#
+# CMP 124
+CMP 28 56 46.825 0.0 N C48 CC0805 ;0=1.450000,1=1;ID=75964
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 57 46.825 0.0 N 90 504 1
+TOP 1 55 46.825 0.0 N 81 2069 2
+#
+# CMP 125
+CMP 28 68.6 34.35 90.0 N C49 CC0805 ;0=1.450000,1=1;ID=75977
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 68.6 35.35 90.0 N 90 505 1
+TOP 1 68.6 33.35 90.0 N 81 2070 2
+#
+# CMP 126
+CMP 25 59.8 32.85 270.0 N C5 CC0402 ;0=0.550000,1=1;ID=75990
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.8 32.375 270.0 N 89 339 1
+TOP 1 59.8 33.325 270.0 N 81 2071 2
+#
+# CMP 127
+CMP 28 45.85 20.2 0.0 N C50 CC0805 ;0=1.450000,1=1;ID=75999
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 46.85 20.2 0.0 N 90 506 1
+TOP 1 44.85 20.2 0.0 N 81 2072 2
+#
+# CMP 128
+CMP 25 46.275 39.85 0.0 N C51 CC0402 ;0=0.550000,1=1;ID=76012
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 46.75 39.85 0.0 N 90 507 1
+TOP 1 45.8 39.85 0.0 N 81 2073 2
+#
+# CMP 129
+CMP 25 53.825 24.325 0.0 N C52 CC0402 ;0=0.550000,1=1;ID=76021
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 54.3 24.325 0.0 N 90 508 1
+TOP 1 53.35 24.325 0.0 N 81 2074 2
+#
+# CMP 130
+CMP 25 51.825 30.35 0.0 N C53 CC0402 ;0=0.550000,1=1;ID=76030
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 52.3 30.35 0.0 N 90 509 1
+TOP 1 51.35 30.35 0.0 N 81 2075 2
+#
+# CMP 131
+CMP 25 58.3 31.05 90.0 N C54 CC0402 ;0=0.550000,1=1;ID=76039
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 58.3 31.525 90.0 N 90 510 1
+TOP 1 58.3 30.575 90.0 N 81 2076 2
+#
+# CMP 132
+CMP 25 56.35 45.025 0.0 N C55 CC0402 ;0=0.550000,1=1;ID=76048
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 56.825 45.025 0.0 N 90 511 1
+TOP 1 55.875 45.025 0.0 N 81 2077 2
+#
+# CMP 133
+CMP 25 50.85 25.35 0.0 N C56 CC0402 ;0=0.550000,1=1;ID=76057
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 51.325 25.35 0.0 N 90 512 1
+TOP 1 50.375 25.35 0.0 N 81 2078 2
+#
+# CMP 134
+CMP 25 70.775 34.35 180.0 N C57 CC0402 ;0=0.550000,1=1;ID=76066
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 70.3 34.35 180.0 N 90 513 1
+TOP 1 71.25 34.35 180.0 N 81 2079 2
+#
+# CMP 135
+CMP 25 54.8 32.35 0.0 N C58 CC0402 ;0=0.550000,1=1;ID=76075
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 55.275 32.35 0.0 N 90 514 1
+TOP 1 54.325 32.35 0.0 N 81 2080 2
+#
+# CMP 136
+CMP 25 54.3 28.85 90.0 N C59 CC0402 ;0=0.550000,1=1;ID=76084
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 54.3 29.325 90.0 N 90 515 1
+TOP 1 54.3 28.375 90.0 N 81 2081 2
+#
+# CMP 137
+CMP 25 61.3 33.9 270.0 N C6 CC0402 ;0=0.550000,1=1;ID=76093
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 33.425 270.0 N 89 340 1
+TOP 1 61.3 34.375 270.0 N 81 2082 2
+#
+# CMP 138
+CMP 25 65.6 32.35 180.0 N C60 CC0402 ;0=0.550000,1=1;ID=76102
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.125 32.35 180.0 N 90 516 1
+TOP 1 66.075 32.35 180.0 N 81 2083 2
+#
+# CMP 139
+CMP 25 56.8 38.35 0.0 N C61 CC0402 ;0=0.550000,1=1;ID=76111
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 57.275 38.35 0.0 N 90 517 1
+TOP 1 56.325 38.35 0.0 N 81 2084 2
+#
+# CMP 140
+CMP 25 72.8 26.35 180.0 N C62 CC0402 ;0=0.550000,1=1;ID=76120
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 72.325 26.35 180.0 N 90 518 1
+TOP 1 73.275 26.35 180.0 N 81 2085 2
+#
+# CMP 141
+CMP 25 51.8 27.35 0.0 N C63 CC0402 ;0=0.550000,1=1;ID=76129
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 52.275 27.35 0.0 N 90 519 1
+TOP 1 51.325 27.35 0.0 N 81 2086 2
+#
+# CMP 142
+CMP 25 54.8 33.7 0.0 N C64 CC0402 ;0=0.550000,1=1;ID=76138
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 55.275 33.7 0.0 N 90 520 1
+TOP 1 54.325 33.7 0.0 N 81 2087 2
+#
+# CMP 143
+CMP 25 58 40.35 0.0 N C65 CC0402 ;0=0.550000,1=1;ID=76147
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 58.475 40.35 0.0 N 90 521 1
+TOP 1 57.525 40.35 0.0 N 81 2088 2
+#
+# CMP 144
+CMP 25 71.6 24.35 180.0 N C66 CC0402 ;0=0.550000,1=1;ID=76156
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 71.125 24.35 180.0 N 90 522 1
+TOP 1 72.075 24.35 180.0 N 81 2089 2
+#
+# CMP 145
+CMP 25 64.3 19.8 90.0 N C67 CC0402 ;0=0.550000,1=1;ID=76165
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 64.3 20.275 90.0 N 88 76 1
+TOP 1 64.3 19.325 90.0 N 81 2090 2
+#
+# CMP 146
+CMP 25 61.3 21.9 270.0 N C68 CC0402 ;0=0.550000,1=1;ID=76174
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 21.425 270.0 N 88 77 1
+TOP 1 61.3 22.375 270.0 N 81 2091 2
+#
+# CMP 147
+CMP 25 59.3 21.9 270.0 N C69 CC0402 ;0=0.550000,1=1;ID=76183
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.3 21.425 270.0 N 88 78 1
+TOP 1 59.3 22.375 270.0 N 81 2092 2
+#
+# CMP 148
+CMP 25 65.6 30.35 180.0 N C7 CC0402 ;0=0.550000,1=1;ID=76192
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.125 30.35 180.0 N 89 341 1
+TOP 1 66.075 30.35 180.0 N 81 2093 2
+#
+# CMP 149
+CMP 25 64.3 21.9 270.0 N C70 CC0402 ;0=0.550000,1=1;ID=76201
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 64.3 21.425 270.0 N 88 79 1
+TOP 1 64.3 22.375 270.0 N 81 2094 2
+#
+# CMP 150
+CMP 25 77.45 23.35 270.0 N C71 CC0402 ;0=0.550000,1=1;ID=76210
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 77.45 22.875 270.0 N 88 80 1
+TOP 1 77.45 23.825 270.0 N 81 2095 2
+#
+# CMP 151
+CMP 25 66.3 21.9 270.0 N C72 CC0402 ;0=0.550000,1=1;ID=76219
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 66.3 21.425 270.0 N 88 81 1
+TOP 1 66.3 22.375 270.0 N 81 2096 2
+#
+# CMP 152
+CMP 25 66.3 19.8 90.0 N C73 CC0402 ;0=0.550000,1=1;ID=76228
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 66.3 20.275 90.0 N 88 82 1
+TOP 1 66.3 19.325 90.0 N 81 2097 2
+#
+# CMP 153
+CMP 25 61.3 19.8 90.0 N C74 CC0402 ;0=0.550000,1=1;ID=76237
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 61.3 20.275 90.0 N 88 83 1
+TOP 1 61.3 19.325 90.0 N 81 2098 2
+#
+# CMP 154
+CMP 28 79.525 23.7 270.0 N C75 CC0805 ;0=1.450000,1=1;ID=76246
+PRP Design.Timestamp '2021.01.19.16.05.29' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '1.45mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 79.525 22.7 270.0 N 88 84 1
+TOP 1 79.525 24.7 270.0 N 81 2099 2
+#
+# CMP 155
+CMP 25 59.3 19.8 90.0 N C76 CC0402 ;0=0.550000,1=1;ID=76259
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.3 20.275 90.0 N 88 85 1
+TOP 1 59.3 19.325 90.0 N 81 2100 2
+#
+# CMP 156
+CMP 25 15.25 35.35 270.0 N C77 CC0402 ;0=0.550000,1=1;ID=76268
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 15.25 34.875 270.0 N 90 523 1
+TOP 1 15.25 35.825 270.0 N 81 2101 2
+#
+# CMP 157
+CMP 25 57.8 23.85 90.0 N C8 CC0402 ;0=0.550000,1=1;ID=76295
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 57.8 24.325 90.0 N 89 342 1
+TOP 1 57.8 23.375 90.0 N 81 2104 2
+#
+# CMP 158
+CMP 25 32.475 24.725 0.0 N C81 CC0402 ;0=0.550000,1=1;ID=76313
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 32.95 24.725 0.0 N 90 525 1
+TOP 1 32 24.725 0.0 N 81 2106 2
+#
+# CMP 159
+CMP 25 39.625 45.95 180.0 N C84 CC0402 ;0=0.550000,1=1;ID=76340
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 39.15 45.95 180.0 N 90 526 1
+TOP 1 40.1 45.95 180.0 N 81 2109 2
+#
+# CMP 160
+CMP 25 31.15 37.175 180.0 N C86 CC0402 ;0=0.550000,1=1;ID=76358
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 30.675 37.175 180.0 N 90 528 1
+TOP 1 31.625 37.175 180.0 N 81 2111 2
+#
+# CMP 161
+CMP 27 100.1 73.75 270.0 N C87 CC1206 ;0=1.600000,1=1;ID=76367
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 100.1 72.325 270.0 N 92 190 1
+TOP 1 100.1 75.175 270.0 N 81 2112 2
+#
+# CMP 162
+CMP 27 93.95 70.35 180.0 N C88 CC1206 ;0=1.600000,1=1;ID=76380
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 92.525 70.35 180.0 N 120 203 1
+TOP 1 95.375 70.35 180.0 N 81 2113 2
+#
+# CMP 163
+CMP 27 93.95 67.6 180.0 N C89 CC1206 ;0=1.600000,1=1;ID=76393
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 92.525 67.6 180.0 N 120 204 1
+TOP 1 95.375 67.6 180.0 N 81 2114 2
+#
+# CMP 164
+CMP 25 65.3 34.85 270.0 N C9 CC0402 ;0=0.550000,1=1;ID=76406
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 65.3 34.375 270.0 N 89 343 1
+TOP 1 65.3 35.325 270.0 N 81 2115 2
+#
+# CMP 165
+CMP 26 118.225 69.575 180.0 N C93 CC1210 ;0=1.400000,1=1;ID=76450
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 116.75 69.575 180.0 N 92 192 1
+TOP 1 119.7 69.575 180.0 N 81 2118 2
+#
+# CMP 166
+CMP 26 118.225 66.025 180.0 N C94 CC1210 ;0=1.400000,1=1;ID=76463
+PRP Description 'CAP,SM,1210,1000pF,X7R,10%,2000V,CER' 
+PRP Design.Timestamp '2018.01.16.10.59.21' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '1210GC102KAT1A' 
+PRP Part_Number 'C101R-0102-UK2D' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '2000V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '1000pF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.4mm' 
+TOP 0 116.75 66.025 180.0 N 92 193 1
+TOP 1 119.7 66.025 180.0 N 81 2119 2
+#
+# CMP 167
+CMP 27 54.9425 62.625 90.0 N C97 CC1206 ;0=1.600000,1=1;ID=76494
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 54.9425 64.05 90.0 N 92 194 1
+TOP 1 54.9425 61.2 90.0 N 81 2122 2
+#
+# CMP 168
+CMP 27 62.475 62.625 90.0 N C98 CC1206 ;0=1.600000,1=1;ID=76507
+PRP Description 'CAP,SM,1206,.2.2UF,10%,100V,CER,X7R' 
+PRP Design.Timestamp '2018.01.19.16.11.54' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'AVX' 
+PRP Manufacturer's_Part_Number '12061C225KAT2A' 
+PRP Part_Number 'C101R-0224-TK0C' 
+PRP Part_Type 'Capacitor' 
+PRP Rating '100V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '10%' 
+PRP Value '2.2 uF' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.6mm' 
+TOP 0 62.475 64.05 90.0 N 92 195 1
+TOP 1 62.475 61.2 90.0 N 81 2123 2
+#
+# CMP 169
+CMP 25 59.025 67.025 90.0 N C99 CC0402 ;0=0.550000,1=1;ID=76520
+PRP Design.Timestamp '2021.01.19.16.05.21' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.55mm' 
+TOP 0 59.025 67.5 90.0 N 90 529 1
+TOP 1 59.025 66.55 90.0 N 301 3 2
+#
+# CMP 170
+CMP 29 10.825 66.475 270.0 N D4 SOT143 ;1=1;ID=76550
+PRP Description 'DIODE ARRAY, ESD TVS/DIODE, 2IO ,5pF, 3.3V VCC,SOT-143' 
+PRP Design.Timestamp '2018.01.16.11.03.17' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CD143A-SR3.3' 
+PRP Number_devices_in_Package '1' 
+PRP OriginalSymbolOrigin '(0,0)' 
+PRP Part_Number 'CR18R-0002-0S0P' 
+PRP Part_Type 'Diode' 
+PRP PositionInPackage '' 
+PRP Rating '' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value 'CD143A-SR3.3' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '' 
+TOP 0 9.775 65.625 270.0 N 81 2125 1
+TOP 1 9.775 67.425 270.0 N 55 7 2
+TOP 2 11.875 67.425 270.0 N 56 7 3
+TOP 3 11.875 65.525 270.0 N 374 26 4
+#
+# CMP 171
+CMP 30 11.55 59.15 0.0 N D6 SOD-323 ;0=1.100000,1=1;ID=76587
+PRP Description 'TVS,SM,BI-DIR,LOW-C,3.3V,350W,SOD-323' 
+PRP Design.Timestamp '2018.01.16.11.05.44' 
+PRP Filename '' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CDSOD323-T03C' 
+PRP Part_Number 'VR05R-0007-0S0P' 
+PRP Part_Type 'Diode' 
+PRP Rating '3.3V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value '3.3V' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.1mm' 
+TOP 0 12.65 59.15 0.0 N 81 2127 1
+TOP 1 10.45 59.15 0.0 N 194 6 2
+#
+# CMP 172
+CMP 31 12.25 45.95 90.0 N D7 SOD-323 ;0=1.100000,1=1;ID=76602
+PRP Description 'TVS,SM,BI-DIR,LOW-C,3.3V,350W,SOD-323' 
+PRP Design.Timestamp '2018.01.16.11.05.44' 
+PRP Filename '' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CDSOD323-T03C' 
+PRP Part_Number 'VR05R-0007-0S0P' 
+PRP Part_Type 'Diode' 
+PRP Rating '3.3V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value '3.3V' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.1mm' 
+TOP 0 12.25 47.05 90.0 N 81 2128 1
+TOP 1 12.25 44.85 90.0 N 195 6 2
+#
+# CMP 173
+CMP 33 59.55 49.125 180.0 N L1 CL0603 ;1=1;ID=76880
+PRP Description 'FERRITE BEAD,SM120 OHM-100MHZ,25%,500mA,0603' 
+PRP Design.Timestamp '2021.01.20.12.53.37' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'MURATA' 
+PRP Manufacturer's_Part_Number 'BLM18AG121SN1D' 
+PRP Part_Number 'L012R-120Z-XN01' 
+PRP Part_Type 'Ferrite Bead' 
+PRP Rating '' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '25%' 
+PRP Value '120 Ohm @ 100MHz' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 58.9 49.125 180.0 N 90 530 1
+TOP 1 60.2 49.125 180.0 N 94 55 2
+#
+# CMP 174
+CMP 34 31.675 54.05 90.0 N L14 CL0402 ;0=0.700000,1=1;ID=76957
+PRP DATE_DE_CREATION '  JFM le04-06-20' 
+PRP Design.Timestamp '2021.01.20.13.20.38' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.7mm' 
+TOP 0 31.675 54.7 90.0 N 167 7 1
+TOP 1 31.675 53.4 90.0 N 120 207 2
+#
+# CMP 175
+CMP 34 29.075 54.05 90.0 N L15 CL0402 ;0=0.700000,1=1;ID=76966
+PRP DATE_DE_CREATION '  JFM le04-06-20' 
+PRP Design.Timestamp '2021.01.20.13.20.38' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.7mm' 
+TOP 0 29.075 54.7 90.0 N 375 13 1
+TOP 1 29.075 53.4 90.0 N 92 196 2
+#
+# CMP 176
+CMP 34 30.425 54.05 90.0 N L16 CL0402 ;0=0.700000,1=1;ID=76975
+PRP DATE_DE_CREATION '  JFM le04-06-20' 
+PRP Design.Timestamp '2021.01.20.13.20.38' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.7mm' 
+TOP 0 30.425 54.7 90.0 N 375 14 1
+TOP 1 30.425 53.4 90.0 N 120 208 2
+#
+# CMP 177
+CMP 36 18.075 76.5 0.0 N L17 CL0805 ;0=1.672000,1=1;ID=76984
+PRP DATE_DE_CREATION '  SD Le 12-05-16' 
+PRP Design.Timestamp '2021.01.20.13.15.46' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.672mm' 
+TOP 0 18.965 76.5 0.0 N 121 109 1
+TOP 1 17.185 76.5 0.0 N 122 14 2
+#
+# CMP 178
+CMP 37 58.775 57.775 0.0 N L3 IHLP-1212BZ-11 ;0=2.000000,1=1;ID=76999
+PRP DATE_DE_CREATION '  SD Le 14-04-14' 
+PRP Design.Timestamp '2021.01.20.13.57.41' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '2mm' 
+TOP 0 58.775 59.125 0.0 N 300 3 1
+TOP 1 58.775 56.425 0.0 N 90 531 2
+#
+# CMP 179
+CMP 37 83.2 17.7 270.0 N L4 IHLP-1212BZ-11 ;0=2.000000,1=1;ID=77012
+PRP DATE_DE_CREATION '  SD Le 14-04-14' 
+PRP Design.Timestamp '2021.01.20.13.57.41' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '2mm' 
+TOP 0 84.55 17.7 270.0 N 203 3 1
+TOP 1 81.85 17.7 270.0 N 88 86 2
+#
+# CMP 180
+CMP 37 75.45 57.775 0.0 N L5 IHLP-1212BZ-11 ;0=2.000000,1=1;ID=77025
+PRP DATE_DE_CREATION '  SD Le 14-04-14' 
+PRP Design.Timestamp '2021.01.20.13.57.41' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '2mm' 
+TOP 0 75.45 59.125 0.0 N 205 3 1
+TOP 1 75.45 56.425 0.0 N 89 344 2
+#
+# CMP 181
+CMP 39 131.2 61.775 180.0 N L8 CL1206 ;0=1.800000,1=1;ID=77064
+PRP DATE_DE_CREATION '  JFM le 09-07-20' 
+PRP Design.Timestamp '2021.01.20.14.04.08' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.8mm' 
+TOP 0 129.8 61.775 180.0 N 209 9 1
+TOP 1 132.6 61.775 180.0 N 85 25 2
+#
+# CMP 182
+CMP 40 121.15 32.5 180.0 N R101 RC0402 ;0=0.550000,1=1;ID=77118
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 120.675 32.5 180.0 N 82 23 1
+TOP 1 121.625 32.5 180.0 N 302 3 2
+#
+# CMP 183
+CMP 40 121.15 29.975 180.0 N R103 RC0402 ;0=0.550000,1=1;ID=77136
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 120.675 29.975 180.0 N 183 12 1
+TOP 1 121.625 29.975 180.0 N 303 3 2
+#
+# CMP 184
+CMP 40 143.45 53.725 180.0 N R111 RC0402 ;0=0.550000,1=1;ID=77217
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 142.975 53.725 180.0 N 183 13 1
+TOP 1 143.925 53.725 180.0 N 304 3 2
+#
+# CMP 185
+CMP 40 30.325 57.05 270.0 N R123 RC0402 ;0=0.550000,1=1;ID=77342
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 30.325 56.575 270.0 N 167 8 1
+TOP 1 30.325 57.525 270.0 N 179 9 2
+#
+# CMP 186
+CMP 40 29.225 60.05 180.0 N R124 RC0402 ;0=0.550000,1=1;ID=77351
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 28.75 60.05 180.0 N 81 2141 1
+TOP 1 29.7 60.05 180.0 N 178 14 2
+#
+# CMP 187
+CMP 40 25.75 58.05 180.0 N R125 RC0402 ;0=0.550000,1=1;ID=77360
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 25.275 58.05 180.0 N 181 14 1
+TOP 1 26.225 58.05 180.0 N 81 2142 2
+#
+# CMP 188
+CMP 40 25.75 62.05 180.0 N R126 RC0402 ;0=0.550000,1=1;ID=77369
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 25.275 62.05 180.0 N 177 12 1
+TOP 1 26.225 62.05 180.0 N 81 2143 2
+#
+# CMP 189
+CMP 40 15.325 62.65 0.0 N R130 RC0402 ;0=0.550000,1=1;ID=77396
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 15.8 62.65 0.0 N 267 3 1
+TOP 1 14.85 62.65 0.0 N 121 110 2
+#
+# CMP 190
+CMP 40 16 57.35 90.0 N R139 RC0402 ;0=0.550000,1=1;ID=77477
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 16 57.825 90.0 N 81 2148 1
+TOP 1 16 56.875 90.0 N 356 22 2
+#
+# CMP 191
+CMP 40 46.15 12.15 180.0 N R143 RC0402 ;0=0.550000,1=1;ID=77513
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 45.675 12.15 180.0 N 210 3 1
+TOP 1 46.625 12.15 180.0 N 344 5 2
+#
+# CMP 192
+CMP 40 46.15 13.55 180.0 N R145 RC0402 ;0=0.550000,1=1;ID=77531
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 45.675 13.55 180.0 N 210 4 1
+TOP 1 46.625 13.55 180.0 N 345 5 2
+#
+# CMP 193
+CMP 40 52.95 38.35 180.0 N R15 RC0402 ;0=0.550000,1=1;ID=77584
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 52.475 38.35 180.0 N 336 11 1
+TOP 1 53.425 38.35 180.0 N 220 11 2
+#
+# CMP 194
+CMP 40 50.55 12.9 90.0 N R150 RC0402 ;0=0.550000,1=1;ID=77593
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 50.55 13.375 90.0 N 120 213 1
+TOP 1 50.55 12.425 90.0 N 379 8 2
+#
+# CMP 195
+CMP 40 51.95 12.9 270.0 N R151 RC0402 ;0=0.550000,1=1;ID=77602
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 51.95 12.425 270.0 N 339 4 1
+TOP 1 51.95 13.375 270.0 N 120 214 2
+#
+# CMP 196
+CMP 40 36.025 15.975 180.0 N R16 RC0402 ;0=0.550000,1=1;ID=77683
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 35.55 15.975 180.0 N 90 538 1
+TOP 1 36.5 15.975 180.0 N 328 8 2
+#
+# CMP 197
+CMP 42 15.5 20 0.0 N R163 RC1206 ;0=0.700000,1=1;ID=77727
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 16.925 20 0.0 N 275 1 1
+TOP 1 14.075 20 0.0 N 173 10 2
+#
+# CMP 198
+CMP 42 15.5 17.575 0.0 N R164 RC1206 ;0=0.700000,1=1;ID=77740
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 16.925 17.575 0.0 N 276 1 1
+TOP 1 14.075 17.575 0.0 N 173 11 2
+#
+# CMP 199
+CMP 42 15.5 15.125 0.0 N R165 RC1206 ;0=0.700000,1=1;ID=77753
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 16.925 15.125 0.0 N 277 1 1
+TOP 1 14.075 15.125 0.0 N 173 12 2
+#
+# CMP 200
+CMP 42 15.5 12.675 0.0 N R166 RC1206 ;0=0.700000,1=1;ID=77766
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 16.925 12.675 0.0 N 278 1 1
+TOP 1 14.075 12.675 0.0 N 173 13 2
+#
+# CMP 201
+CMP 42 30.3 12.7 180.0 N R167 RC1206 ;0=0.700000,1=1;ID=77779
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 28.875 12.7 180.0 N 279 1 1
+TOP 1 31.725 12.7 180.0 N 174 10 2
+#
+# CMP 202
+CMP 42 30.3 15.125 180.0 N R168 RC1206 ;0=0.700000,1=1;ID=77792
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 28.875 15.125 180.0 N 280 1 1
+TOP 1 31.725 15.125 180.0 N 174 11 2
+#
+# CMP 203
+CMP 42 30.3 17.55 180.0 N R169 RC1206 ;0=0.700000,1=1;ID=77805
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 28.875 17.55 180.0 N 281 1 1
+TOP 1 31.725 17.55 180.0 N 174 12 2
+#
+# CMP 204
+CMP 40 36.025 18.65 180.0 N R17 RC0402 ;0=0.550000,1=1;ID=77818
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 35.55 18.65 180.0 N 90 539 1
+TOP 1 36.5 18.65 180.0 N 327 8 2
+#
+# CMP 205
+CMP 42 30.3 20 180.0 N R170 RC1206 ;0=0.700000,1=1;ID=77827
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 28.875 20 180.0 N 282 1 1
+TOP 1 31.725 20 180.0 N 174 13 2
+#
+# CMP 206
+CMP 40 36.025 21.3 180.0 N R18 RC0402 ;0=0.550000,1=1;ID=77953
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 35.55 21.3 180.0 N 90 540 1
+TOP 1 36.5 21.3 180.0 N 326 8 2
+#
+# CMP 207
+CMP 42 19.125 32.575 0.0 N R186 RC1206 ;0=0.700000,1=1;ID=78016
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 20.55 32.575 0.0 N 169 13 1
+TOP 1 17.7 32.575 0.0 N 81 2161 2
+#
+# CMP 208
+CMP 42 19.125 35.025 0.0 N R187 RC1206 ;0=0.700000,1=1;ID=78029
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 20.55 35.025 0.0 N 169 14 1
+TOP 1 17.7 35.025 0.0 N 81 2162 2
+#
+# CMP 209
+CMP 40 26.025 27.825 180.0 N R188 RC0402 ;0=0.550000,1=1;ID=78042
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 25.55 27.825 180.0 N 359 8 1
+TOP 1 26.5 27.825 180.0 N 81 2163 2
+#
+# CMP 210
+CMP 42 19.125 30.125 0.0 N R190 RC1206 ;0=0.700000,1=1;ID=78069
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 20.55 30.125 0.0 N 170 11 1
+TOP 1 17.7 30.125 0.0 N 81 2164 2
+#
+# CMP 211
+CMP 42 19.125 27.675 0.0 N R191 RC1206 ;0=0.700000,1=1;ID=78082
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 20.55 27.675 0.0 N 170 12 1
+TOP 1 17.7 27.675 0.0 N 81 2165 2
+#
+# CMP 212
+CMP 40 26.025 26.525 180.0 N R192 RC0402 ;0=0.550000,1=1;ID=78095
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 25.55 26.525 180.0 N 360 8 1
+TOP 1 26.5 26.525 180.0 N 81 2166 2
+#
+# CMP 213
+CMP 42 19.125 22.775 0.0 N R194 RC1206 ;0=0.700000,1=1;ID=78113
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 20.55 22.775 0.0 N 171 13 1
+TOP 1 17.7 22.775 0.0 N 81 2167 2
+#
+# CMP 214
+CMP 42 19.125 25.225 0.0 N R195 RC1206 ;0=0.700000,1=1;ID=78126
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 20.55 25.225 0.0 N 171 14 1
+TOP 1 17.7 25.225 0.0 N 81 2168 2
+#
+# CMP 215
+CMP 40 26.025 25.225 180.0 N R196 RC0402 ;0=0.550000,1=1;ID=78139
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 25.55 25.225 180.0 N 361 8 1
+TOP 1 26.5 25.225 180.0 N 81 2169 2
+#
+# CMP 216
+CMP 40 26.025 23.925 180.0 N R200 RC0402 ;0=0.550000,1=1;ID=78201
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 25.55 23.925 180.0 N 362 8 1
+TOP 1 26.5 23.925 180.0 N 81 2172 2
+#
+# CMP 217
+CMP 40 38.075 31.475 180.0 N R21 RC0402 ;0=0.550000,1=1;ID=78210
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 37.6 31.475 180.0 N 90 544 1
+TOP 1 38.55 31.475 180.0 N 192 8 2
+#
+# CMP 218
+CMP 40 38.075 34.175 180.0 N R23 RC0402 ;0=0.550000,1=1;ID=78228
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 37.6 34.175 180.0 N 90 546 1
+TOP 1 38.55 34.175 180.0 N 190 7 2
+#
+# CMP 219
+CMP 40 36.025 17.3 0.0 N R24 RC0402 ;0=0.550000,1=1;ID=78237
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 36.5 17.3 0.0 N 328 9 1
+TOP 1 35.55 17.3 0.0 N 81 2173 2
+#
+# CMP 220
+CMP 40 36.025 19.975 0.0 N R25 RC0402 ;0=0.550000,1=1;ID=78246
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 36.5 19.975 0.0 N 327 9 1
+TOP 1 35.55 19.975 0.0 N 81 2174 2
+#
+# CMP 221
+CMP 40 36.025 22.625 0.0 N R26 RC0402 ;0=0.550000,1=1;ID=78255
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 36.5 22.625 0.0 N 326 9 1
+TOP 1 35.55 22.625 0.0 N 81 2175 2
+#
+# CMP 222
+CMP 40 38.075 30.125 0.0 N R29 RC0402 ;0=0.550000,1=1;ID=78282
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 38.55 30.125 0.0 N 192 9 1
+TOP 1 37.6 30.125 0.0 N 81 2178 2
+#
+# CMP 223
+CMP 40 38.075 32.85 0.0 N R31 RC0402 ;0=0.550000,1=1;ID=78309
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 38.55 32.85 0.0 N 190 8 1
+TOP 1 37.6 32.85 0.0 N 81 2180 2
+#
+# CMP 224
+CMP 40 34.975 30.125 180.0 N R32 RC0402 ;0=0.550000,1=1;ID=78318
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 34.5 30.125 180.0 N 90 548 1
+TOP 1 35.45 30.125 180.0 N 150 11 2
+#
+# CMP 225
+CMP 40 34.975 24.725 180.0 N R33 RC0402 ;0=0.550000,1=1;ID=78327
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 34.5 24.725 180.0 N 90 549 1
+TOP 1 35.45 24.725 180.0 N 151 8 2
+#
+# CMP 226
+CMP 40 34.125 43.525 180.0 N R48 RC0402 ;0=0.550000,1=1;ID=78471
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 33.65 43.525 180.0 N 154 12 1
+TOP 1 34.6 43.525 180.0 N 126 10 2
+#
+# CMP 227
+CMP 40 34.125 42.125 180.0 N R51 RC0402 ;0=0.550000,1=1;ID=78507
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 33.65 42.125 180.0 N 155 12 1
+TOP 1 34.6 42.125 180.0 N 127 11 2
+#
+# CMP 228
+CMP 40 34.125 38.625 180.0 N R53 RC0402 ;0=0.550000,1=1;ID=78525
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 33.65 38.625 180.0 N 156 12 1
+TOP 1 34.6 38.625 180.0 N 128 11 2
+#
+# CMP 229
+CMP 40 34.125 40.125 180.0 N R55 RC0402 ;0=0.550000,1=1;ID=78543
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 33.65 40.125 180.0 N 157 12 1
+TOP 1 34.6 40.125 180.0 N 129 11 2
+#
+# CMP 230
+CMP 40 90.325 72.625 270.0 N R63 RC0402 ;0=0.550000,1=1;ID=78624
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 90.325 72.15 270.0 N 120 220 1
+TOP 1 90.325 73.1 270.0 N 289 2 2
+#
+# CMP 231
+CMP 40 90.325 74.85 270.0 N R66 RC0402 ;0=0.550000,1=1;ID=78651
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 90.325 74.375 270.0 N 289 3 1
+TOP 1 90.325 75.325 270.0 N 81 2195 2
+#
+# CMP 232
+CMP 40 60.65 67.025 90.0 N R72 RC0402 ;0=0.550000,1=1;ID=78714
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 60.65 67.5 90.0 N 90 560 1
+TOP 1 60.65 66.55 90.0 N 301 4 2
+#
+# CMP 233
+CMP 41 62.475 67.275 270.0 N R73 RC0603 ;0=0.900000,1=1;ID=78723
+PRP Description 'RES,SM,0603,51,5%,THK FILM,200PPM,50V' 
+PRP Design.Timestamp '2018.01.17.15.26.26' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'PANASONIC' 
+PRP Manufacturer's_Part_Number 'ERJ-3GEYJ510V' 
+PRP Part_Number 'R110R-0510-XJ0B' 
+PRP Part_Type 'Resistor' 
+PRP Rating '50V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '5%' 
+PRP Value '51' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.9mm' 
+TOP 0 62.475 66.55 270.0 N 301 5 1
+TOP 1 62.475 68 270.0 N 81 2200 2
+#
+# CMP 234
+CMP 40 57.125 65.975 0.0 N R74 RC0402 ;0=0.550000,1=1;ID=78736
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 57.6 65.975 0.0 N 342 1 1
+TOP 1 56.65 65.975 0.0 N 92 199 2
+#
+# CMP 235
+CMP 40 92.6 16.15 0.0 N R75 RC0402 ;0=0.550000,1=1;ID=78745
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 93.075 16.15 0.0 N 88 87 1
+TOP 1 92.125 16.15 0.0 N 204 4 2
+#
+# CMP 236
+CMP 41 92.85 14.55 180.0 N R76 RC0603 ;0=0.900000,1=1;ID=78754
+PRP Description 'RES,SM,0603,51,5%,THK FILM,200PPM,50V' 
+PRP Design.Timestamp '2018.01.17.15.26.26' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'PANASONIC' 
+PRP Manufacturer's_Part_Number 'ERJ-3GEYJ510V' 
+PRP Part_Number 'R110R-0510-XJ0B' 
+PRP Part_Type 'Resistor' 
+PRP Rating '50V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '5%' 
+PRP Value '51' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.9mm' 
+TOP 0 92.125 14.55 180.0 N 204 5 1
+TOP 1 93.575 14.55 180.0 N 81 2201 2
+#
+# CMP 237
+CMP 40 92.6 18.85 180.0 N R77 RC0402 ;0=0.550000,1=1;ID=78767
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 92.125 18.85 180.0 N 341 1 1
+TOP 1 93.075 18.85 180.0 N 92 200 2
+#
+# CMP 238
+CMP 41 77.325 67.275 90.0 N R78 RC0603 ;0=0.900000,1=1;ID=78776
+PRP Description 'RES,SM,0603,51,5%,THK FILM,200PPM,50V' 
+PRP Design.Timestamp '2018.01.17.15.26.26' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'PANASONIC' 
+PRP Manufacturer's_Part_Number 'ERJ-3GEYJ510V' 
+PRP Part_Number 'R110R-0510-XJ0B' 
+PRP Part_Type 'Resistor' 
+PRP Rating '50V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '5%' 
+PRP Value '51' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.9mm' 
+TOP 0 77.325 68 90.0 N 89 345 1
+TOP 1 77.325 66.55 90.0 N 206 4 2
+#
+# CMP 239
+CMP 41 79.15 67.275 270.0 N R79 RC0603 ;0=0.900000,1=1;ID=78789
+PRP Description 'RES,SM,0603,51,5%,THK FILM,200PPM,50V' 
+PRP Design.Timestamp '2018.01.17.15.26.26' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'PANASONIC' 
+PRP Manufacturer's_Part_Number 'ERJ-3GEYJ510V' 
+PRP Part_Number 'R110R-0510-XJ0B' 
+PRP Part_Type 'Resistor' 
+PRP Rating '50V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance '5%' 
+PRP Value '51' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.9mm' 
+TOP 0 79.15 66.55 270.0 N 206 5 1
+TOP 1 79.15 68 270.0 N 81 2202 2
+#
+# CMP 240
+CMP 40 47.15 35.475 270.0 N R8 RC0402 ;0=0.550000,1=1;ID=78802
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 47.15 35 270.0 N 90 561 1
+TOP 1 47.15 35.95 270.0 N 198 7 2
+#
+# CMP 241
+CMP 40 73.8 65.975 0.0 N R80 RC0402 ;0=0.550000,1=1;ID=78811
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 74.275 65.975 0.0 N 340 7 1
+TOP 1 73.325 65.975 0.0 N 92 201 2
+#
+# CMP 242
+CMP 40 103.825 72.625 270.0 N R81 RC0402 ;0=0.550000,1=1;ID=78820
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 103.825 72.15 270.0 N 119 42 1
+TOP 1 103.825 73.1 270.0 N 288 2 2
+#
+# CMP 243
+CMP 40 103.825 74.9 270.0 N R82 RC0402 ;0=0.550000,1=1;ID=78829
+PRP Design.Timestamp '2020.06.24.15.10.49' 
+PRP Geometry.Height '0.55mm' 
+PRP Power 'YY' 
+PRP Value 'XX' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 103.825 74.425 270.0 N 288 3 1
+TOP 1 103.825 75.375 270.0 N 81 2203 2
+#
+# CMP 244
+CMP 42 93.95 63.25 180.0 N R83 RC1206 ;0=0.700000,1=1;ID=78838
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 92.525 63.25 180.0 N 120 221 1
+TOP 1 95.375 63.25 180.0 N 208 25 2
+#
+# CMP 245
+CMP 42 100.175 65.025 90.0 N R84 RC1206 ;0=0.700000,1=1;ID=78851
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 100.175 66.45 90.0 N 92 202 1
+TOP 1 100.175 63.6 90.0 N 208 26 2
+#
+# CMP 246
+CMP 42 104.075 65.025 90.0 N R85 RC1206 ;0=0.700000,1=1;ID=78864
+PRP Design.Timestamp '2020.06.24.15.10.56' 
+PRP DESIGNATION 'CC' 
+PRP Geometry.Height '0.7mm' 
+PRP REFERENCE 'EE' 
+PRP REPERE 'BB' 
+PRP TOL/PUISS 'DD' 
+PRP VALEUR 'AA' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+TOP 0 104.075 66.45 90.0 N 119 43 1
+TOP 1 104.075 63.6 90.0 N 208 27 2
+#
+# CMP 247
+CMP 44 34.2 27.425 270.0 N U2 SOT-23-5 ;0=1.450000,1=1;ID=79459
+PRP Design.Timestamp '2021.01.20.14.49.26' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP DATE_DE_CREATION ' ' 
+PRP Geometry.Height '1.45mm' 
+TOP 0 35.45 28.375 270.0 N 150 12 1
+TOP 1 35.45 27.425 270.0 N 81 2219 2
+TOP 2 35.45 26.475 270.0 N 151 9 3
+TOP 3 32.95 26.475 270.0 N 90 563 4
+TOP 4 32.95 28.375 270.0 N 380 9 5
+#
+# CMP 248
+CMP 58 22.925 16.675 90.0 N U32 TSSOP-20 ;0=1.200000,1=1;ID=80251
+PRP Design.Timestamp '2021.10.25.09.58.05' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP DATE_DE_CREATION '  BJ LE 30-08-2021' 
+PRP Geometry.Height '1.2mm' 
+TOP 0 25.895 19.6 90.0 N 81 2237 1
+TOP 1 25.895 18.95 90.0 N 363 15 2
+TOP 2 25.895 18.3 90.0 N 282 2 3
+TOP 3 25.895 17.65 90.0 N 363 16 4
+TOP 4 25.895 17 90.0 N 281 2 5
+TOP 5 25.895 16.35 90.0 N 363 17 6
+TOP 6 25.895 15.7 90.0 N 280 2 7
+TOP 7 25.895 15.05 90.0 N 363 18 8
+TOP 8 25.895 14.4 90.0 N 279 2 9
+TOP 9 25.895 13.75 90.0 N 81 2238 10
+TOP 10 19.955 13.75 90.0 N 364 14 11
+TOP 11 19.955 14.4 90.0 N 278 2 12
+TOP 12 19.955 15.05 90.0 N 364 15 13
+TOP 13 19.955 15.7 90.0 N 277 2 14
+TOP 14 19.955 16.35 90.0 N 364 16 15
+TOP 15 19.955 17 90.0 N 276 2 16
+TOP 16 19.955 17.65 90.0 N 364 17 17
+TOP 17 19.955 18.3 90.0 N 275 2 18
+TOP 18 19.955 18.95 90.0 N 81 2239 19
+TOP 19 19.955 19.6 90.0 N 92 204 20
+#
+# CMP 249
+CMP 57 42.8 34.4 0.0 N U33 VQFN14 ;0=0.800000,1=1;ID=80325
+PRP DATE_DE_CREATION '  pbn le 25-10-21' 
+PRP Design.Timestamp '2021.10.25.10.09.27' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 43.05 35.8 0.0 N 90 569 1
+TOP 1 43.95 35.4 0.0 N 347 13 2
+TOP 2 43.95 34.9 0.0 N 349 11 3
+TOP 3 43.95 34.4 0.0 N 351 12 4
+TOP 4 43.95 33.9 0.0 N 352 13 5
+TOP 5 43.95 33.4 0.0 N 0 309 6
+TOP 6 43.05 33 0.0 N 81 2240 7
+TOP 7 42.55 33 0.0 N 90 570 8
+TOP 8 41.65 33.4 0.0 N 0 310 9
+TOP 9 41.65 33.9 0.0 N 373 11 10
+TOP 10 41.65 34.4 0.0 N 372 6 11
+TOP 11 41.65 34.9 0.0 N 370 7 12
+TOP 12 41.65 35.4 0.0 N 368 11 13
+TOP 13 42.55 35.8 0.0 N 120 227 14
+TOP 14 42.8 34.4 0.0 N 81 2241 PAD
+#
+# CMP 250
+CMP 57 42.8 27.325 0.0 N U35 VQFN14 ;0=0.800000,1=1;ID=80451
+PRP DATE_DE_CREATION '  pbn le 25-10-21' 
+PRP Design.Timestamp '2021.10.25.10.09.27' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 43.05 28.725 0.0 N 90 571 1
+TOP 1 43.95 28.325 0.0 N 348 12 2
+TOP 2 43.95 27.825 0.0 N 350 11 3
+TOP 3 43.95 27.325 0.0 N 164 7 4
+TOP 4 43.95 26.825 0.0 N 162 8 5
+TOP 5 43.95 26.325 0.0 N 0 311 6
+TOP 6 43.05 25.925 0.0 N 81 2245 7
+TOP 7 42.55 25.925 0.0 N 90 572 8
+TOP 8 41.65 26.325 0.0 N 0 312 9
+TOP 9 41.65 26.825 0.0 N 177 13 10
+TOP 10 41.65 27.325 0.0 N 179 10 11
+TOP 11 41.65 27.825 0.0 N 371 7 12
+TOP 12 41.65 28.325 0.0 N 369 11 13
+TOP 13 42.55 28.725 0.0 N 120 228 14
+TOP 14 42.8 27.325 0.0 N 81 2246 PAD
+#
+# CMP 251
+CMP 59 16.7 51.675 270.0 N U36 8-TDFN-EP ;0=0.800000,1=1;ID=80519
+PRP DATE_DE_CREATION '  SD le 16-05-13' 
+PRP Design.Timestamp '2021.10.25.09.48.06' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 15.225 50.7 270.0 N 120 229 1
+TOP 1 15.225 51.35 270.0 N 81 2247 2
+TOP 2 15.225 52 270.0 N 251 3 3
+TOP 3 15.225 52.65 270.0 N 261 4 4
+TOP 4 18.175 52.65 270.0 N 173 14 5
+TOP 5 18.175 52 270.0 N 252 2 6
+TOP 6 18.175 51.35 270.0 N 169 15 7
+TOP 7 18.175 50.7 270.0 N 368 12 8
+TOP 8 16.7 51.675 270.0 N 251 4 9
+#
+# CMP 252
+CMP 59 12.05 54.95 270.0 N U37 8-TDFN-EP ;0=0.800000,1=1;ID=80562
+PRP DATE_DE_CREATION '  SD le 16-05-13' 
+PRP Design.Timestamp '2021.10.25.09.48.06' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 10.575 53.975 270.0 N 120 230 1
+TOP 1 10.575 54.625 270.0 N 81 2248 2
+TOP 2 10.575 55.275 270.0 N 259 3 3
+TOP 3 10.575 55.925 270.0 N 194 7 4
+TOP 4 13.525 55.925 270.0 N 118 4 5
+TOP 5 13.525 55.275 270.0 N 260 2 6
+TOP 6 13.525 54.625 270.0 N 261 5 7
+TOP 7 13.525 53.975 270.0 N 369 12 8
+TOP 8 12.05 54.95 270.0 N 259 4 9
+#
+# CMP 253
+CMP 59 19.975 40.8 270.0 N U38 8-TDFN-EP ;0=0.800000,1=1;ID=80595
+PRP DATE_DE_CREATION '  SD le 16-05-13' 
+PRP Design.Timestamp '2021.10.25.09.48.06' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 18.5 39.825 270.0 N 120 231 1
+TOP 1 18.5 40.475 270.0 N 81 2249 2
+TOP 2 18.5 41.125 270.0 N 253 3 3
+TOP 3 18.5 41.775 270.0 N 263 4 4
+TOP 4 21.45 41.775 270.0 N 174 14 5
+TOP 5 21.45 41.125 270.0 N 254 2 6
+TOP 6 21.45 40.475 270.0 N 170 13 7
+TOP 7 21.45 39.825 270.0 N 370 8 8
+TOP 8 19.975 40.8 270.0 N 253 4 9
+#
+# CMP 254
+CMP 59 11.925 42.1 270.0 N U39 8-TDFN-EP ;0=0.800000,1=1;ID=80628
+PRP DATE_DE_CREATION '  SD le 16-05-13' 
+PRP Design.Timestamp '2021.10.25.09.48.06' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 10.45 41.125 270.0 N 120 232 1
+TOP 1 10.45 41.775 270.0 N 81 2250 2
+TOP 2 10.45 42.425 270.0 N 262 3 3
+TOP 3 10.45 43.075 270.0 N 195 7 4
+TOP 4 13.4 43.075 270.0 N 161 9 5
+TOP 5 13.4 42.425 270.0 N 264 2 6
+TOP 6 13.4 41.775 270.0 N 263 5 7
+TOP 7 13.4 41.125 270.0 N 371 8 8
+TOP 8 11.925 42.1 270.0 N 262 4 9
+#
+# CMP 255
+CMP 59 13.4 31.325 0.0 N U40 8-TDFN-EP ;0=0.800000,1=1;ID=80661
+PRP DATE_DE_CREATION '  SD le 16-05-13' 
+PRP Design.Timestamp '2021.10.25.09.48.06' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 14.375 29.85 0.0 N 120 233 1
+TOP 1 13.725 29.85 0.0 N 81 2251 2
+TOP 2 13.075 29.85 0.0 N 255 3 3
+TOP 3 12.425 29.85 0.0 N 196 6 4
+TOP 4 12.425 32.8 0.0 N 175 14 5
+TOP 5 13.075 32.8 0.0 N 256 2 6
+TOP 6 13.725 32.8 0.0 N 171 15 7
+TOP 7 14.375 32.8 0.0 N 372 7 8
+TOP 8 13.4 31.325 0.0 N 255 4 9
+#
+# CMP 256
+CMP 59 9.85 22.375 0.0 N U42 8-TDFN-EP ;0=0.800000,1=1;ID=80758
+PRP DATE_DE_CREATION '  SD le 16-05-13' 
+PRP Design.Timestamp '2021.10.25.09.48.06' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.8mm' 
+TOP 0 10.825 20.9 0.0 N 120 234 1
+TOP 1 10.175 20.9 0.0 N 81 2258 2
+TOP 2 9.525 20.9 0.0 N 257 3 3
+TOP 3 8.875 20.9 0.0 N 197 6 4
+TOP 4 8.875 23.85 0.0 N 176 11 5
+TOP 5 9.525 23.85 0.0 N 258 2 6
+TOP 6 10.175 23.85 0.0 N 172 14 7
+TOP 7 10.825 23.85 0.0 N 373 12 8
+TOP 8 9.85 22.375 0.0 N 257 4 9
+#
+# CMP 257
+CMP 60 58.775 63.275 0.0 N U7 LQFN12 ;0=0.830000,1=1;ID=80806
+PRP DATE_DE_CREATION '  JFM le 05-06-20' 
+PRP Design.Timestamp '2021.01.21.14.16.35' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.83mm' 
+TOP 0 59.675 64.025 0.0 N 81 2259 1
+TOP 1 59.675 63.525 0.0 N 343 15 2
+TOP 2 59.675 63.025 0.0 N 92 206 3
+TOP 3 59.675 62.525 0.0 N 81 2260 4
+TOP 4 59.025 62.375 0.0 N 300 4 5
+TOP 5 58.525 62.375 0.0 N 300 5 6
+TOP 6 57.875 62.525 0.0 N 81 2261 7
+TOP 7 57.875 63.025 0.0 N 92 207 8
+TOP 8 57.875 63.525 0.0 N 92 208 9
+TOP 9 57.875 64.025 0.0 N 92 209 10
+TOP 10 58.525 64.175 0.0 N 342 2 11
+TOP 11 59.025 64.175 0.0 N 301 6 12
+TOP 12 58.775 63.275 0.0 N 81 2262 13
+#
+# CMP 258
+CMP 60 89 17.7 270.0 N U8 LQFN12 ;0=0.830000,1=1;ID=80850
+PRP DATE_DE_CREATION '  JFM le 05-06-20' 
+PRP Design.Timestamp '2021.01.21.14.16.35' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.83mm' 
+TOP 0 89.75 16.8 270.0 N 81 2263 1
+TOP 1 89.25 16.8 270.0 N 340 8 2
+TOP 2 88.75 16.8 270.0 N 92 210 3
+TOP 3 88.25 16.8 270.0 N 81 2264 4
+TOP 4 88.1 17.45 270.0 N 203 4 5
+TOP 5 88.1 17.95 270.0 N 203 5 6
+TOP 6 88.25 18.6 270.0 N 81 2265 7
+TOP 7 88.75 18.6 270.0 N 92 211 8
+TOP 8 89.25 18.6 270.0 N 92 212 9
+TOP 9 89.75 18.6 270.0 N 92 213 10
+TOP 10 89.9 17.95 270.0 N 341 2 11
+TOP 11 89.9 17.45 270.0 N 204 6 12
+TOP 12 89 17.7 270.0 N 81 2266 13
+#
+# CMP 259
+CMP 60 75.45 63.275 0.0 N U9 LQFN12 ;0=0.830000,1=1;ID=80894
+PRP DATE_DE_CREATION '  JFM le 05-06-20' 
+PRP Design.Timestamp '2021.01.21.14.16.35' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0.83mm' 
+TOP 0 76.35 64.025 0.0 N 81 2267 1
+TOP 1 76.35 63.525 0.0 N 343 16 2
+TOP 2 76.35 63.025 0.0 N 92 214 3
+TOP 3 76.35 62.525 0.0 N 81 2268 4
+TOP 4 75.7 62.375 0.0 N 205 4 5
+TOP 5 75.2 62.375 0.0 N 205 5 6
+TOP 6 74.55 62.525 0.0 N 81 2269 7
+TOP 7 74.55 63.025 0.0 N 92 215 8
+TOP 8 74.55 63.525 0.0 N 92 216 9
+TOP 9 74.55 64.025 0.0 N 92 217 10
+TOP 10 75.2 64.175 0.0 N 340 9 11
+TOP 11 75.7 64.175 0.0 N 206 6 12
+TOP 12 75.45 63.275 0.0 N 81 2270 13
+#
+# CMP 260
+CMP 61 16.775 54.625 180.0 N VR3 SOD-323 ;0=1.100000,1=1;ID=80954
+PRP Description 'TVS,SM,BI-DIR,LOW-C,3.3V,350W,SOD-323' 
+PRP Design.Timestamp '2018.01.16.11.05.44' 
+PRP Filename '' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CDSOD323-T03C' 
+PRP Part_Number 'VR05R-0007-0S0P' 
+PRP Part_Type 'Diode' 
+PRP Rating '3.3V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value '3.3V' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.1mm' 
+TOP 0 15.675 54.625 180.0 N 261 6 1
+TOP 1 17.875 54.625 180.0 N 81 2272 2
+#
+# CMP 261
+CMP 61 15.35 40.675 90.0 N VR4 SOD-323 ;0=1.100000,1=1;ID=80966
+PRP Description 'TVS,SM,BI-DIR,LOW-C,3.3V,350W,SOD-323' 
+PRP Design.Timestamp '2018.01.16.11.05.44' 
+PRP Filename '' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CDSOD323-T03C' 
+PRP Part_Number 'VR05R-0007-0S0P' 
+PRP Part_Type 'Diode' 
+PRP Rating '3.3V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value '3.3V' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.1mm' 
+TOP 0 15.35 41.775 90.0 N 263 6 1
+TOP 1 15.35 39.575 90.0 N 81 2273 2
+#
+# CMP 262
+CMP 61 11.2 27.3 90.0 N VR5 SOD-323 ;0=1.100000,1=1;ID=80978
+PRP Description 'TVS,SM,BI-DIR,LOW-C,3.3V,350W,SOD-323' 
+PRP Design.Timestamp '2018.01.16.11.05.44' 
+PRP Filename '' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CDSOD323-T03C' 
+PRP Part_Number 'VR05R-0007-0S0P' 
+PRP Part_Type 'Diode' 
+PRP Rating '3.3V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value '3.3V' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.1mm' 
+TOP 0 11.2 28.4 90.0 N 196 7 1
+TOP 1 11.2 26.2 90.0 N 81 2274 2
+#
+# CMP 263
+CMP 61 4.75 22.9 0.0 N VR6 SOD-323 ;0=1.100000,1=1;ID=80990
+PRP Description 'TVS,SM,BI-DIR,LOW-C,3.3V,350W,SOD-323' 
+PRP Design.Timestamp '2018.01.16.11.05.44' 
+PRP Filename '' 
+PRP ICA_MFR_NAME '' 
+PRP ICA_PARTNUM '' 
+PRP Manufacturer 'BOURNS' 
+PRP Manufacturer's_Part_Number 'CDSOD323-T03C' 
+PRP Part_Number 'VR05R-0007-0S0P' 
+PRP Part_Type 'Diode' 
+PRP Rating '3.3V' 
+PRP Source_Path 'C:\USERS\HECHELARD\DROPBOX (SPECTRACOM OROLIA)\SHARED ENGINEERING\HW RESOURCES\ORCAD SYMBOLS LIBRARY\SPECTRACOM1.OLB' 
+PRP Tolerance 'TBD' 
+PRP Value '3.3V' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '1.1mm' 
+TOP 0 5.85 22.9 0.0 N 197 7 1
+TOP 1 3.65 22.9 0.0 N 81 2275 2
+#
+# CMP 264
+CMP 23 110 57 0.0 N PD9 PT-SINGLE-SIDE-1.5 ;1=1;ID=81031
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 110 57 0.0 N 119 48 1
+#
+# CMP 265
+CMP 23 107.46 57 0.0 N PD8 PT-SINGLE-SIDE-1.5 ;1=1;ID=81035
+PRP Design.Timestamp '1970.01.01.00.00.00' 
+PRP AssociatedNetAllowPrefix 'Yes' 
+PRP AssociatedNetAssociateNets 'No' 
+PRP AssociatedNetDiscreteLength '0' 
+PRP Geometry.Height '0dbunit' 
+TOP 0 107.46 57 0.0 N 89 346 1
+#
+# CMP 266
+CMP 45 108.575 75.05 270.0 N U10 SO8 ;0=1.750000,1=1;ID=81514
+PRP Description 'YY' 
+PRP Design.Timestamp '2021.01.20.14.53.44' 
+PRP Geometry.Height '1.75mm' 
+PRP Value 'XX' 
+TOP 0 105.925 73.145 270.0 N 119 49 1
+TOP 1 105.925 74.415 270.0 N 288 4 2
+TOP 2 105.925 75.685 270.0 N 81 2311 3
+TOP 3 105.925 76.955 270.0 N 0 323 4
+TOP 4 111.225 76.955 270.0 N 91 59 5
+TOP 5 111.225 75.685 270.0 N 81 2312 6
+TOP 6 111.225 74.415 270.0 N 81 2313 7
+TOP 7 111.225 73.145 270.0 N 91 60 8
+#
+# CMP 267
+CMP 45 95 75.05 270.0 N U5 SO8 ;0=1.750000,1=1;ID=81580
+PRP Description 'YY' 
+PRP Design.Timestamp '2021.01.20.14.53.44' 
+PRP Geometry.Height '1.75mm' 
+PRP Value 'XX' 
+TOP 0 92.35 73.145 270.0 N 120 237 1
+TOP 1 92.35 74.415 270.0 N 289 4 2
+TOP 2 92.35 75.685 270.0 N 81 2317 3
+TOP 3 92.35 76.955 270.0 N 0 325 4
+TOP 4 97.65 76.955 270.0 N 92 220 5
+TOP 5 97.65 75.685 270.0 N 81 2318 6
+TOP 6 97.65 74.415 270.0 N 81 2319 7
+TOP 7 97.65 73.145 270.0 N 92 221 8
+#

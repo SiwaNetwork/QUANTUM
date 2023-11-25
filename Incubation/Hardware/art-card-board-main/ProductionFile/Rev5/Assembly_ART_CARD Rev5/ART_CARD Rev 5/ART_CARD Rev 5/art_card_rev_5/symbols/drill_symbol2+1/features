@@ -1,0 +1,17 @@
+UNITS=MM
+ID=950
+#
+#Num Features
+#
+F 2
+
+#
+#Feature symbol names
+#
+$0 r150
+
+#
+#Layer features
+#
+L 0 -1.524 0 1.524 0 P 0;;ID=952
+L -1.524 0 1.524 0 0 P 0;;ID=953

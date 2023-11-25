@@ -1,0 +1,19 @@
+UNITS=MM
+ID=811
+#
+#Num Features
+#
+F 4
+
+#
+#Feature symbol names
+#
+$0 r150
+
+#
+#Layer features
+#
+L -0.75 -0.75 0.75 0.75 0 P 0;;ID=813
+L -0.75 0.75 0.75 -0.75 0 P 0;;ID=814
+L -0.75 -0.75 -0.75 0.75 0 P 0;;ID=815
+L 0.75 -0.75 0.75 0.75 0 P 0;;ID=816

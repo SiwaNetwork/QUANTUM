@@ -1,0 +1,65 @@
+<wfState parentWizardPath="C:/MentorGraphics/PADSVX.2.7/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz" >
+    <variables>
+        <variable value="" name="listDBList" />
+        <variable value="C:/Users/Benoit_P/AppData/Local/Temp/ODBpp_20220303_150201/art_card_rev_5" name="textCOMANS" />
+        <variable value="yes" name="oPreferClosedShapes" />
+        <variable value="pcb" name="elSTEP" />
+        <variable value="20" name="iComponentOutlinesLayer" />
+        <variable value="C:/Users/Benoit_P/AppData/Local/Temp/ODBpp_20220303_150201/art_card_rev_5" name="tActualDesignPath" />
+        <variable value="false" name="bAttrAssignment" />
+        <variable value="art_card_rev_5" name="elJOB" />
+        <variable value="false" name="bIPC" />
+        <variable value="fatf" name="oASM" />
+        <variable value="C:/Users/Benoit_P/AppData/Local/Temp/ODBpp_20220303_150201" name="pDesignDirVar" />
+        <variable value="no" name="oDisplayODBPPGenerationParameters" />
+        <variable value="false" name="bCamCompareFailed" />
+        <variable value="true" name="bNetlist" />
+        <variable value="" name="pCamFilesPath" />
+        <variable value="prefer_drill" name="oNoneShapedPins" />
+        <variable value="pcb" name="tStepName" />
+        <variable value="full" name="oPartialODB" />
+        <variable value="silent" name="textCurrentMode" />
+        <variable value="true" name="boolIsDirectMode" />
+        <variable value="discard" name="oUnhatchedCopperPours" />
+        <variable value="cam_compare" name="oInvocationMode" />
+        <variable value="inch" name="oApplicationUnits" />
+        <variable value="v8" name="oVersion" />
+        <variable value="0" name="intSTATUS" />
+        <variable value="tar_gzip" name="oCompression" />
+        <variable value="false" name="bOpenODBViewer" />
+        <variable value="" name="textCurrentDC" />
+        <variable value="true" name="bNetlistFailed" />
+        <variable value="pads_powerpcb" name="oEDA" />
+        <variable value="art_card_rev_5" name="tDesignName" />
+        <variable value="yes" name="oKeepNetNames" />
+        <variable value="false" name="bOpenNetlistReport" />
+        <variable value="no" name="oDefaultCamLayers" />
+        <variable value="0 shorted 1 broken 0 missing 0 extra" name="tempCOMANS" />
+        <variable value="C:/Users/Benoit_P/AppData/Local/Temp/ART_CARD Rev5_tmp.tmp" name="pEDASourcePath" />
+        <variable value="" name="elDPRS" />
+        <variable value="${pDesignDirVar}/${tDesignName}" name="out_job_full_path" />
+    </variables>
+    <stages>
+        <stage name="Design_Input" >
+            <variables>
+                <variable value="1" name="iNumSteps" />
+                <variable value="true" name="bTranslationPassed" />
+                <variable value="" name="tFirstEntity" />
+                <variable value="C:/Users/Benoit_P/AppData/Local/Temp/ODBpp_20220303_150201" name="tTempText" />
+            </variables>
+        </stage>
+        <stage name="CAM_Compare" >
+            <variables>
+                <variable value="" name="tGuiLessModeYesNo" />
+                <variable value="" name="tempCOMANS" />
+            </variables>
+        </stage>
+        <stage name="Quit_App" >
+            <variables>
+                <variable value="" name="tActualConfigPath" />
+                <variable value="" name="tFileExt" />
+            </variables>
+        </stage>
+    </stages>
+    <executionState nextCmdIndex="0" nextStageIndex="2" executionMode="silent" designCenter="" nextStageName="Save_Design" running="true" nextBlockIndex="5" />
+</wfState>

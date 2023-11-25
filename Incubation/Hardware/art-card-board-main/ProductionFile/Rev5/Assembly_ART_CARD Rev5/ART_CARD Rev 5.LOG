@@ -1,0 +1,45 @@
+Importer Log Report
+Project : ART_CARD Rev 5.PrjPcb
+
+Section : Document - ART_CARD Rev 5.asc
+
+    Section : Import Messages
+        Warning : PADS 'Against Scope' for 'Net vs. Class'(16) PADS rule is not compatible with HoleToHoleClearance
+        Warning : HoleToHoleClearance can't be created from 'Net vs. Class'(16) PADS rule
+        Warning : PADS 'Against Scope' for 'Net vs. Class'(16) PADS rule is not compatible with HoleToHoleClearance
+        Warning : HoleToHoleClearance can't be created from 'Net vs. Class'(16) PADS rule
+        Warning : PADS 'Against Scope' for 'Net vs. Class'(17) PADS rule is not compatible with HoleToHoleClearance
+        Warning : HoleToHoleClearance can't be created from 'Net vs. Class'(17) PADS rule
+        Error   : Unsupported characters found in text string: 4X45° CHAMFER at: (3267.717mil; -255.905mil)
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Mechanical Layer 1
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Mechanical Layer 1
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Error   : No comment found for component: J1
+        Warning : Pad consists of hole only (no viable non-zero sized pad shapes): J2.9.
+        Warning : Pad consists of hole only (no viable non-zero sized pad shapes): J2.10.
+        Warning : Pad consists of hole only (no viable non-zero sized pad shapes): J4.101.
+        Warning : Pad consists of hole only (no viable non-zero sized pad shapes): J4.102.
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Paste
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Bottom Solder Mask
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Solder Mask
+        Warning : Discarded 1 objects on unmapped PADS layer .
+    EndSection
+EndSection

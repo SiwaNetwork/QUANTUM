@@ -1,0 +1,17 @@
+UNITS=MM
+ID=1036
+#
+#Num Features
+#
+F 2
+
+#
+#Feature symbol names
+#
+$0 r150
+
+#
+#Layer features
+#
+L -1.524 -1.524 1.524 1.524 0 P 0;;ID=1038
+L -1.524 1.524 1.524 -1.524 0 P 0;;ID=1039
