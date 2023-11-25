@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [M2_NEO-M9N_MODULE.PrjPcb]
+   Generated File[Pick Place for M2_NEO-M9N_MODULE(845-XXXXX_PCBA_projectname).txt]
+   Generated File[Pick Place for M2_NEO-M9N_MODULE(845-XXXXX_PCBA_projectname).csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 16:44:31 On 25.11.2023

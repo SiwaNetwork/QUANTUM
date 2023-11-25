@@ -1,18 +1,17 @@
-# UBX RCB-F9T GNSS module configurations
+# Конфигурации модуля UBX RCB-F9T GNSS
 
-There are different kind of ublox modules available.
+Доступны различные типы модулей ublox.
 - ZED-F9T-00B-01
 - ZED F9T-10B-01
 
-Please check the exact version on the chip and use also the correct/latest UBX U-Center version to avoid compatibility issues.
-In the subfolder are example base configurations available which should work with the Time-Card. They have the correct messages enabled and the correct settings for the Pulse Per Second. However, depending on the use-case there might be changes required.
+Пожалуйста, проверьте точную версию на чипе и используйте также правильную / последнюю версию UBX U-Center, чтобы избежать проблем с совместимостью.
+Во вложенной папке приведены примеры доступных базовых конфигураций, которые должны работать с тайм-картой. У них включены правильные сообщения и установлены правильные настройки для количества импульсов в секунду. Однако, в зависимости от варианта использования, могут потребоваться изменения.
 
-# Required Messages
+# Обязательные сообщения
 - NAV_TIME_UTC
 - NAV_TIME_LS
 
-# Optional Messages (for additional status information)
+# Необязательные сообщения (для получения дополнительной информации о состоянии)
 - NAV_STATUS
 - MON_HW
 - NAV_SAT
-

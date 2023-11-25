@@ -1,13 +1,13 @@
-# UBX RCB-F9T GNSS module configuration
+# Конфигурация модуля UBX RCB-F9T GNSS
 
-Please use the UBX U-Center configurator.
-First choose the right COM port and select the baud rate 115200 (for stock units)
-Then from the menu Tools -> Receiver Configuration... Select the following file and press Transfer file -> GNSS while the "store configuration inBBR/Flash has been selected.
-The configuration will go half way with to problem until it starts to fail.
-Change the baud rate to 4800 and repreat the configuration again. This time the configuration will go all the way through. 
+Пожалуйста, воспользуйтесь конфигуратором UBX U-Center.
+Сначала выберите правильный COM-порт и скорость передачи данных 115200 (для стандартных устройств)
+Затем в меню Сервис -> Конфигурация приемника... Выберите следующий файл и нажмите "Передать файл" -> "GNSS", пока не будет выбрано "сохранить конфигурацию в BBBR/Flash".
+Конфигурация будет выполняться наполовину, пока не начнется сбой.
+Измените скорость передачи данных на 4800 и повторите настройку снова. На этот раз настройка будет выполнена полностью. 
 
-## Programming the GNSS module
+## Программирование модуля GNSS
 
-To program the GNSS module you can either use the UBX provided hardware or a simple FTDI-TTL3v3 cable (please note, you have to use the 3v3 version oppose to the 5v). Here is a simple wiring digram to program the GNSS module.
+Для программирования модуля GNSS вы можете использовать либо оборудование, входящее в комплект поставки UBX, либо простой кабель FTDI-TTL3v3 (пожалуйста, обратите внимание, что вы должны использовать версию 3v3, а не 5v). Вот простая схема подключения для программирования модуля GNSS.
 
 ![UBX GNSS simple programmer](prog.png)
