@@ -1,10 +1,13 @@
-Output: Report Board Stack
-Type  : Report Board Stack
-From  : Project [QANTUM_PROJECT.PrjPcb]
-   Generated File[QANTUM-DC-V1_EXP.xls]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [QANTUM_PROJECT.PrjPcb]
+   Generated File[QANTUM-DC-V1_EXP.GM22]
+   Generated File[QANTUM-DC-V1_EXP.RUL]
+   Generated File[QANTUM-DC-V1_EXP.EXTREP]
+   Generated File[QANTUM-DC-V1_EXP.REP]
 
 
-Files Generated   : 1
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 13:24:02 On 07.11.2023
+Finished Output Generation At 11:43:26 On 21.11.2023
