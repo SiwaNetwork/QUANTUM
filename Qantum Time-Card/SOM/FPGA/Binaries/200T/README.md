@@ -1,6 +1,6 @@
-# 200T FPGA version for the Artix 7 AC7200 SOM Module
+# Версия ПЛИС 200T для модуля Artix 7 AC7200 SOM
 
-* TimeCard200T.bit to flash the FPGA (volatile)
-* Factory_TimeCard200T.bin to load the SPI flash via JTAG (Golden Image + Update Image)
-* **IMPORTANT**: TimeCard200T.bin to updated the SPI flash via SPI starting @ **0x00800000** (Update Image only)
-* TimeCard200T_Gotham.bin is basically the same as TimeCard200T.bin but the file has additional header information ([See tft tool]
+* Временная карта 200t.бит для прошивки ПЛИС (энергозависимая)
+* Factory_TimeCard200T.bin для загрузки SPI flash через JTAG (Золотое изображение + изображение обновления)
+* **ВАЖНО **: TimeCard200T.bin для обновления SPI flash через SPI starting @ **0x00800000** (только обновление изображения)
+* TimeCard200T_Gotham.bin в основном такой же, как TimeCard200T.bin, но файл содержит дополнительную информацию о заголовке ([Смотрите инструмент tft]
