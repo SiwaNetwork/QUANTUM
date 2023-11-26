@@ -1,251 +1,194 @@
-#include <Wire.h>
+/*
+ ###  Самые простые часы на Arduino UNO ###
 
-int sdaPin = 4;  // Default SDA pin
-int sclPin = 5;  // Default SCL pin
+ Для проекта часов нужны только жк-дисплей 16х2 LCD и 2 кнопки
+ Никаких потенциометров для контраса, никаких резисторов 
+ Функции кнопок:
+ 
+ - короткое нажатие одной из кнопок включает подсветку на 30 с
+ 
+ Настройка времени
+ - Нажмите H для увеличения Часов
+ - Нажмите M для увеличения Минут и сброса секунд
+*/
 
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-  Wire.setSDA(sdaPin);
-  Wire.setSCL(sclPin);
-  Wire.begin();
-  Serial.begin();
-  while (!Serial);
+#include "LiquidCrystal.h"
 
-  Serial.println("I2C Master initialized.");
+// Определяем соединение ЖК-дисплея с цифровыми контактами
+const int rs = 2, en = 3, d4 = 4, d5 = 5, d6 = 6, d7 = 7;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+
+// Настройка контрастности ЖК
+int cs=9;// пин 9 для контраста ШИМ
+const int contrast = 100;// контраст по умолчанию
+
+// Начальное отображение времени 12:59:45 PM
+int h=12;
+int m=59;
+int s=45;
+int flag=1; //PM
+
+// Кнопки установки времени
+int button1;
+int button2;
+
+// Определение пинов для Кнопок установки времени
+int hs=0;// pin 0 для настройки Часов
+int ms=1;// pin 1 для настройки Минут
+
+// Тайм-аут подсветки 
+const int Time_light=150;
+int bl_TO=Time_light;// Тайм-аут подсветки
+int bl=10; // Пин подсветки
+const int backlight=120; // НЕ БОЛЕЕ 7mA !!!
+
+// Для точного считывания времени используйте часы реального времени Arduino, а не только задержку delay()
+static uint32_t last_time, now = 0; // RTC
+
+void setup()
+{
+  lcd.begin(16,2);
+  pinMode(hs,INPUT_PULLUP);// избегать внешних Pullup резисторов для кнопки 1
+  pinMode(ms,INPUT_PULLUP);// и кнопки 2
+  analogWrite(cs,contrast);// Настроить контрастность VO
+  analogWrite(bl,backlight);// Включить подсветку 
+  now=millis(); // читать начальное значение RTC  
 }
 
-double last_blink_time = 0;
-bool led_val = 0;
+void loop()
+{ 
+  lcd.begin(16,2);// каждую секунду
+// Обновить ЖК-дисплей
+// Вывести время TIME в Hour, Min, Sec + AM/PM (часы, минуты, секунды)
+ lcd.setCursor(0,0);
+ lcd.print("Time ");
+ if(h<10)lcd.print("0");// всегда 2 цифры
+ lcd.print(h);
+ lcd.print(":");
+ if(m<10)lcd.print("0");
+ lcd.print(m);
+ lcd.print(":");
+ if(s<10)lcd.print("0");
+ lcd.print(s);
 
-void loop() {
-  if ( millis() - last_blink_time ) {
-    digitalWrite(LED_BUILTIN, led_val);
-    led_val = !led_val;
-    last_blink_time = millis();
+ if(flag==0) lcd.print(" AM");
+ if(flag==1) lcd.print(" PM");
+ 
+ lcd.setCursor(0,1);// для Line 2
+ lcd.print("Precision clock");
+
+// улучшенная замена delay(1000) 
+// гораздо лучшая точность, менее зависимая от времени выполнения цикла
+
+for ( int i=0 ;i<5 ;i++)// сделать 5-кратный цикл 200 мс, для более быстрого ответа кнопок
+{
+  while ((now-last_time)<200) //задержка delay 200ms
+  { 
+    now=millis();
+  }
+ // внутренний цикл 200ms
+ last_time=now; // готовим следующий цикл 
+
+ // read Setting Buttons (читаем кнопки настройки)
+ button1=digitalRead(hs);// Read Buttons
+ button2=digitalRead(ms);
+
+ //Время подсветки 
+ bl_TO--;
+ if(bl_TO==0)
+ {
+  analogWrite(bl,0);// ВЫКЛ подсветки
+  bl_TO++;
+ }
+ 
+ // Нажмите что-либо, чтобы активировать подсветку 
+ if(  ((button1==0)|(button2==0)) & (bl_TO==1)  )
+ {
+  bl_TO=Time_light;
+  analogWrite(bl,backlight);
+  // дождитесь отпускания кнопки
+  while ((button1==0)|(button2==0))
+  {
+   button1=digitalRead(hs);// Read Buttons
+   button2=digitalRead(ms);
+  }
+ }
+ else
+ // Поведение Кнопки 1 или Кнопки 2 пока подсветка ВКЛ 
+ {
+  if(button1==0){
+   h=h+1;
+   bl_TO=Time_light;
+   analogWrite(bl,backlight);
   }
 
-  if (Serial.available() > 0) {
-    String command = Serial.readStringUntil('\n');
-    command.trim();
-
-    if (command.startsWith("read_byte")) {
-      byte slaveAddress = parseHexByte(command, 2);
-      byte registerAddress = parseHexByte(command, 5);
-      byte data;
-      bool success = readByteFromI2C(slaveAddress, registerAddress, data);
-      if (success) {
-        Serial.print("Read Byte from Slave 0x");
-        Serial.print(slaveAddress, HEX);
-        Serial.print(", Register 0x");
-        Serial.print(registerAddress, HEX);
-        Serial.print(": 0x");
-        Serial.println(data, HEX);
-      } else {
-        Serial.println("Read Byte: Failed");
-      }
-    }
-    else if (command.startsWith("write_byte")) {
-      byte slaveAddress = parseHexByte(command, 2);
-      byte registerAddress = parseHexByte(command, 5);
-      byte value = parseHexByte(command, 8);
-      bool success = writeByteToI2C(slaveAddress, registerAddress, value);
-      if (success) {
-        Serial.print("Write Byte to Slave 0x");
-        Serial.print(slaveAddress, HEX);
-        Serial.print(", Register 0x");
-        Serial.print(registerAddress, HEX);
-        Serial.println(": OK");
-      } else {
-        Serial.println("Write Byte: Failed");
-      }
-    }
-    else if (command.startsWith("read_word")) {
-      byte slaveAddress = parseHexByte(command, 2);
-      byte registerAddress = parseHexByte(command, 5);
-      word data;
-      bool success = readWordFromI2C(slaveAddress, registerAddress, data);
-      if (success) {
-        Serial.print("Read Word from Slave 0x");
-        Serial.print(slaveAddress, HEX);
-        Serial.print(", Register 0x");
-        Serial.print(registerAddress, HEX);
-        Serial.print(": 0x");
-        Serial.println(data, HEX);
-      } else {
-        Serial.println("Read Word: Failed");
-      }
-    }
-    else if (command.startsWith("write_word")) {
-      byte slaveAddress = parseHexByte(command, 2);
-      byte registerAddress = parseHexByte(command, 5);
-      word value = parseHexWord(command, 8);
-      bool success = writeWordToI2C(slaveAddress, registerAddress, value);
-      if (success) {
-        Serial.print("Write Word to Slave 0x");
-        Serial.print(slaveAddress, HEX);
-        Serial.print(", Register 0x");
-        Serial.print(registerAddress, HEX);
-        Serial.println(": OK");
-      } else {
-        Serial.println("Write Word: Failed");
-      }
-    }
-    else if (command.startsWith("set_pins")) {
-      int newSdaPin = parsePin(command, "sda_pin=");
-      int newSclPin = parsePin(command, "scl_pin=");
-
-      if (newSdaPin >= 0 && newSclPin >= 0) {
-        Wire.end();
-        Wire.setSDA(sdaPin);
-        Wire.setSCL(sclPin);
-        Wire.begin();
-        Serial.println("Pin configuration updated.");
-      } else {
-        Serial.println("Invalid pin configuration.");
-      }
-    }
-    else if (command.startsWith("write_bulk")) {
-      bool success = writeBulkToI2C(command);
-      if (success) {
-        Serial.println("Write Bulk: OK");
-      } else {
-        Serial.println("Write Bulk: Failed");
-      }
-    }
-    else if (command.startsWith("read_bulk")) {
-      String response = readBulkFromI2C(command);
-      if (response.length() > 0) {
-        Serial.println(response);
-      } else {
-        Serial.println("Read Bulk: Failed");
-      }
-    }
-    else {
-      Serial.println("Invalid command.");
-    }
-  }
-}
-
-byte parseHexByte(String command, int startIndex) {
-  String hexValue = command.substring(startIndex, startIndex + 2);
-  return strtol(hexValue.c_str(), NULL, 16);
-}
-
-word parseHexWord(String command, int startIndex) {
-  String hexValue = command.substring(startIndex, startIndex + 4);
-  return strtol(hexValue.c_str(), NULL, 16);
-}
-
-int parsePin(String command, String keyword) {
-  int index = command.indexOf(keyword);
-  if (index != -1) {
-    String value = command.substring(index + keyword.length());
-    return value.toInt();
-  }
-  return -1;
-}
-
-bool readByteFromI2C(byte slaveAddress, byte registerAddress, byte &data) {
-  Wire.beginTransmission(slaveAddress);
-  Wire.write(registerAddress);
-  byte error = Wire.endTransmission(false);
-  if (error == 0) {
-    Wire.requestFrom(slaveAddress, 1);
-    if (Wire.available()) {
-      data = Wire.read();
-      return true;
-    }
-  }
-  return false;
-}
-
-bool writeByteToI2C(byte slaveAddress, byte registerAddress, byte value) {
-  Wire.beginTransmission(slaveAddress);
-  Wire.write(registerAddress);
-  Wire.write(value);
-  byte error = Wire.endTransmission();
-  return (error == 0);
-}
-
-bool readWordFromI2C(byte slaveAddress, byte registerAddress, word &data) {
-  Wire.beginTransmission(slaveAddress);
-  Wire.write(registerAddress);
-  byte error = Wire.endTransmission(false);
-  if (error == 0) {
-    Wire.requestFrom(slaveAddress, 2);
-    if (Wire.available() >= 2) {
-      byte lowByte = Wire.read();
-      byte highByte = Wire.read();
-      data = (word(highByte) << 8) | lowByte;
-      return true;
-    }
-  }
-  return false;
-}
-
-bool writeWordToI2C(byte slaveAddress, byte registerAddress, word value) {
-  Wire.beginTransmission(slaveAddress);
-  Wire.write(registerAddress);
-  Wire.write(lowByte(value));
-  Wire.write(highByte(value));
-  byte error = Wire.endTransmission();
-  return (error == 0);
-}
-
-
-
-bool writeBulkToI2C(String command) {
-  int spaceIndex = command.indexOf(' ');
-  if (spaceIndex == -1) {
-    return false;
+ if(button2==0){
+  s=0;
+  m=m+1;
+  bl_TO=Time_light;
+  analogWrite(bl,backlight);
   }
 
-  byte slaveAddress = parseHexByte(command, spaceIndex + 1);
-  String dataString = command.substring(spaceIndex + 4);  // Skip "<slave_address> "
+/* ---- управлять секундами, минутами, часами am / pm ----*/
+ if(s==60){
+  s=0;
+  m=m+1;
+ }
+ if(m==60)
+ {
+  m=0;
+  h=h+1;
+ }
+ if(h==13)
+ {
+  h=1;
+  flag=flag+1;
+  if(flag==2)flag=0;
+ }
 
-  // Split the dataString into individual data bytes
-  while (dataString.length() >= 4) {
-    byte dataByte = parseHexByte(dataString, 0);
-    if (!writeByteToI2C(slaveAddress, 0x00, dataByte)) {
-      return false;  // If any write fails, return false
-    }
-    dataString = dataString.substring(5);  // Move to the next data byte
-  }
+ if((button1==0)|(button2==0))// Обновить дисплей, если нажата кнопка
+ {
+  // Обновить ЖК
+  // Вывести время TIME в часах, минутах, секундах + AM/PM
+  lcd.setCursor(0,0);
+  lcd.print("Time ");
+  if(h<10)lcd.print("0");// всегда 2 цифры
+  lcd.print(h);
+  lcd.print(":");
+  if(m<10)lcd.print("0");
+  lcd.print(m);
+  lcd.print(":");
+  if(s<10)lcd.print("0");
+  lcd.print(s);
 
-  return true;
-}
+  if(flag==0) lcd.print(" AM");
+  if(flag==1) lcd.print(" PM");
+ 
+  lcd.setCursor(0,1);// для Line 2
+  lcd.print("Precision clock");
+ }
 
+ } // end if else
+}// end for
 
-String readBulkFromI2C(String command) {
-  int spaceIndex = command.indexOf(' ');
-  if (spaceIndex == -1) {
-    return "";
-  }
-
-  byte slaveAddress = parseHexByte(command, spaceIndex + 1);
-  int byteCount = Serial.parseInt();  // Read the number of bytes to read
-  String response = "";
-
-  Wire.beginTransmission(slaveAddress);
-  byte error = Wire.endTransmission(false);
-
-  if (error == 0) {
-    
-    for (int i = 0; i < byteCount; i++) {
-      Wire.requestFrom(slaveAddress, 1);
-      if (Wire.available()) {
-        byte dataByte = Wire.read();
-        response += "0x";
-        response += String(dataByte, HEX);
-        if (i < byteCount - 1) {
-          response += " ";
-        }
-      } else {
-        response = "";
-        break;
-      }
-    }
-  }
-
-  return response;
+// outer 1000ms loop (завершение цикла)
+ s=s+1; //увеличение секунд
+        
+// ---- управлять секундами, минутами, часами + am/pm ----
+ if(s==60){
+  s=0;
+  m=m+1;
+ }
+ if(m==60)
+ {
+  m=0;
+  h=h+1;
+ }
+ if(h==13)
+ {
+  h=1;
+  flag=flag+1;
+  if(flag==2)flag=0;
+ }  
+// Loop end (конец цикла)
 }
