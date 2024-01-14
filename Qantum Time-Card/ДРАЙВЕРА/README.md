@@ -1,13 +1,11 @@
-# Driver
+# Драйвер
+Драйвер основан на ядреном модуле для CentOS и Ubuntu. Рекомендуется использовать ядро версии 5.12 и выше.
 
-Driver is based on a kernel module for CentOS and Ubunutu. 
-Kernel 5.12+ is recommended
+# Инструкция
+Убедитесь, что опция vt-d включена в BIOS.
+Выполните перекомпиляцию (remake), затем выполните modprobe ptp_ocp.
 
-## Instruction
-Make sure vt-d option is enabled in BIOS.   
-Run the remake followed by modprobe ptp_ocp
-
-## Outcome
+## Результат
 ```
 $ ls -g /sys/class/timecard/ocp0/
 total 0
@@ -36,7 +34,7 @@ lrwxrwxrwx. 1 root    0 Sep  8 18:20 ttyNMEA -> ../../tty/ttyS7
 -rw-r--r--. 1 root 4096 Sep  8 18:20 utc_tai_offset
 ```
 
-The main resource directory is accessed through the /sys/class/timecard/ocpN directory, which provides links to the various TimeCard resources.  The device links can easily be used in scripts:
+Основной каталог ресурсов доступен по адресу /sys/class/timecard/ocpN, предоставляя ссылки на различные ресурсы TimeCard. Ссылки на устройства легко использовать в сценариях:
 
 ```
   tty=$(basename $(readlink /sys/class/timecard/ocp0/ttyGNSS))
@@ -46,15 +44,15 @@ The main resource directory is accessed through the /sys/class/timecard/ocpN dir
   echo "/dev/$ptp"
 ```
 
-After successfully loading the driver, one will see:
-* PTP POSIX clock, linking to the physical hardware clock (PHC) on the Time Card (`/dev/ptp4`) 
+После успешной загрузки драйвера появятся:
+* PTP POSIX clock, связанный с физическим аппаратным часами (PHC) на Qantum Card  (`/dev/ptp4`) 
 * GNSS serial `/dev/ttyS5` 
 * Atomic clock serial `/dev/ttyS6`
 * NMEA Master serial `/dev/ttyS7`
 * i2c (`/dev/i2c-*`) device
 
-Now, one can use standard `linuxptp` tools such as `phc2sys` or `ts2phc` to copy, sync, tune, etc... See more in [software](/Software) section
+Теперь можно использовать стандартные инструменты linuxptp, такие как phc2sys или ts2phc для копирования, синхронизации, настройки и т.д. 
 
-## Driver is included in the mainstream Linux Kernel
-* Initial primitive version ([5.2](https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git/commit/?id=a7e1abad13f3f0366ee625831fecda2b603cdc17))
-* Exposing all devices version ([5.15](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=773bda96492153e11d21eb63ac814669b51fc701)) 
+## Драйвер включен в основное ядро Linux
+* Первоначальная примитивная версия ([5.2](https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git/commit/?id=a7e1abad13f3f0366ee625831fecda2b603cdc17))
+* Версия, раскрывающая все устройства ([5.15](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=773bda96492153e11d21eb63ac814669b51fc701)) 
