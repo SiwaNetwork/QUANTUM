@@ -1,56 +1,56 @@
 result=$(lspci | grep Meta | wc -l)
-echo "Test Time Card Detect Start"
+echo "Тест обнаружения временной карты начат"
 if [ "$result" -eq "1" ];
 then
-	echo "Test Time card Detect: Pass!"
+	echo "Тест обнаружения временной карты: Пройден!"
 else
 	result=$(lspci)
 	echo $result
-	echo "Test Time card Detect: FAIL!!!"
+	echo "Тест обнаружения временной карты: ПРОВАЛ!!!"
 	exit
 fi
 
 result=$(modprobe ptp_ocp)
 result=$(dmesg | grep ptp_ocp | wc -l)
-echo "Test Time Card Modprobe Start"
+echo "Тест загрузки модуля временной карты начат"
 if [ "$result" -ge "7" ];
 then
-	echo "Test Time Card Modprobe: Pass!"
+	echo "Тест загрузки модуля временной карты: Пройден!"
 else
 	result=$(dmesg | grep ptp_ocp)
 	echo $result
-	echo "Test Time Card Modprobe: FAIL!!"
+	echo "Тест загрузки модуля временной карты: ПРОВАЛ!!"
 	exit
 fi
 
 gnss_tty=$(dmesg | grep ptp_ocp | grep GNSS: | cut -d" " -f 10)
 gnss_tty_count=$(echo $gnss_tty | wc -l)
 
-echo "Test Time Card GNSS serial Start"
+echo "Тестирование серийного порта GNSS начато"
 if [ "$gnss_tty_count" -eq "1" ];
 then
-	echo "Test Time Card GNSS serial: Pass!"
+	echo "Тестирование серийного порта GNSS: Пройдено!"
 else
 	result=$(dmesg | grep ptp_ocp)
 	echo $result
-	echo "Test Time Card GNSS serial: FAIL!!!"
+	echo "Тестирование серийного порта GNSS: ПРОВАЛ!!!"
 	exit
 fi
 
 
 ubx_log=$(ubxtool -f $gnss_tty -s 115200 -p MON-VER | grep extension | wc -l)
 
-echo "Test Time Card GNSS TimeLS Start"
+echo "Тестирование GNSS TimeLS начато"
 if [ "$ubx_log" -ge "2" ];
 then
-	echo "Test Time Card GNSS TimeLS: Pass!"
+	echo "Тестирование GNSS TimeLS: Пройдено!"
 else
 	result=$(ubxtool -f $gnss_tty -s 115200 -p MON-VER)
 	echo $result
-	echo "Test Time Card GNSS TimeLS: FAIL!!!"
+	echo "Тестирование GNSS TimeLS: ПРОВАЛ!!!"
 	exit
 fi
 
 
 
-echo "Time Card testing all passed!"
+echo "Тестирование временной карты завершено успешно!"
