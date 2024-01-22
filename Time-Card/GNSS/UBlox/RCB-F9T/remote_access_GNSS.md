@@ -1,28 +1,28 @@
-# Accessing the GNSS TTY port remotely
+# Доступ к удаленному порту GNSS TTY
 
-Time Card driver (ptp_ocp) exposes direct access to the GNSS module using the TTY port in the Linux system. Unfortunately, U-Blox only provides its u-center software for Windows. As a result, there is no direct way to monitor or reconfigure the module "on-the-fly".
+Драйвер таймерной карты (ptp_ocp) предоставляет прямой доступ к модулю GNSS через порт TTY в системе Linux. К сожалению, U-Blox предоставляет свое программное обеспечение u-center только для Windows. В результате нет прямого способа отслеживать или перенастраивать модуль "на лету".
 
-To enable u-center control, the ser2net package can be used to expose the TTY port over the ethernet. This guide will describe basic steps to enable that use case and enable rover configuration on the ZED-F9T module.
+Для активации управления через u-center можно использовать пакет ser2net для предоставления доступа к порту TTY через Ethernet. Это руководство опишет основные шаги для активации этого случая использования и настройки роверной конфигурации на модуле ZED-F9T.
 
-# Installing and configuring ser2net
+# Установка и настройка ser2net
 
-Ser2net package is available in most of the distribution via standard package. For RH-based distribution, run
+Пакет ser2net доступен в большинстве дистрибутивов через стандартные пакеты. Для дистрибутивов на основе Red Hat выполните следующую команду:
 
 ```bash
 sudo dnf install ser2net
 ```
 
-For debian-based distibutions
+Для дистрибутивов на основе Debian:
 
 ```bash
-sudo apt-get ser2net
+sudo apt-get install ser2net
 ```
 
-This will install the ser2net package and create necessary config files. 
+Это установит пакет ser2net и создаст необходимые конфигурационные файлы.
 
-## Finding GNSS TTY port
+## Поиск порта TTY для GNSS
 
-To find the port that's associated with the GNSS port run:
+Для поиска порта, связанного с портом GNSS, выполните:
 
 ```bash
 dmesg | grep ocp
@@ -41,7 +41,7 @@ dmesg | grep ocp
 > [    4.631094] ptp_ocp 0000:02:00.0:  NMEA: /dev/ttyS8  @     -1
 > ```
 
-Alternatively,
+Или альтернативно,
 
 ```bash
 ls -ls /sys/class/timecard/ocp*/ttyGNSS
@@ -51,35 +51,35 @@ ls -ls /sys/class/timecard/ocp*/ttyGNSS
 > 0 lrwxrwxrwx. 1 root root 0 Jul 30 11:07 /sys/class/timecard/ocp0/ttyGNSS -> ../../tty/ttyS5
 > ```
 
-In both cases `/dev/ttyS5` is our device. Now we can expose it over the ethernet.
+В обоих случаях `/dev/ttyS5` - это наше устройство. Теперь мы можем предоставить к нему доступ через Ethernet.
 
-## Configuring  ser2net
+## Настройка ser2net
 
-Now, we need to edit the config file and expose Time Card's GNSS serial port. The default config file for ser2net tries to expose a lot of ports by default, so we we backup it and create the new one with just the port we try to expose.
+Теперь нам нужно отредактировать конфигурационный файл и предоставить доступ к последовательному порту GNSS Time Card. Конфигурационный файл по умолчанию для ser2net пытается по умолчанию предоставить доступ к множеству портов, поэтому мы его резервируем и создаем новый файл только с портом, который мы пытаемся предоставить.
 
 ```bash
 sudo mv /etc/ser2net.conf /etc/ser2net.conf.bak
 sudo sh -c "echo -e 2006:raw:5:/dev/ttyS5:115200 > /etc/ser2net.conf"
 ```
 
-Now we can run the ser2net
+Теперь мы можем запустить ser2net
 
 ```bash
 ser2net
 ```
 
-And open port on the firewall
+И открыть порт в брандмауэре
 
 ```
 sudo firewall-cmd --add-port=2006/tcp
 ```
 
-Now we can connect to the GNSS module directly using the u-center network connection feature.
+Теперь мы можем подключиться к модулю GNSS напрямую, используя функцию сетевого подключения u-center.
 
-## U-center network connection
+## Сетевое подключение через u-center
 
-To access the GNSS remotely use the built-in Network connection feature in the u-center, select New... option and enter the remote platform address: `tcp://192.168.1.20:2006`
+Для удаленного доступа к GNSS используйте встроенную функцию сетевого подключения в u-center. Выберите опцию New... и введите адрес удаленной платформы: `tcp://192.168.1.20:2006`
 
 <img src="C:\_src_\Time-Appliance-Project\Time-Card\GNSS\UBX\RCB-F9T\remote_access_GNSS.png" style="zoom:100%;" />
 
-The u-center should connect to the remote module and enable you to configure it, read module status and use the RTK rover feature.
+U-center должен подключиться к удаленному модулю и позволить вам его настраивать, читать статус модуля и использовать функцию RTK ровера.
