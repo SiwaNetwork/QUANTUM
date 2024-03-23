@@ -25,16 +25,24 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=1
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -653,6 +661,91 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document37]
+DocumentPath=..\Reference\SI5344\Schematic Symbol\2023-06-18_10-13-12\SI5344.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KGTBWMXQ
+
+[Document38]
+DocumentPath=..\Reference\SI5344\Schematic Symbol\2023-06-18_10-13-12\SI5344.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DTLBSXOK
+
+[Document39]
+DocumentPath=..\Reference\K26\kv260 board\Imported BRD_05058_01_rev_B02aa.PrjPcb\BRD_05058_01_rev_B02aa.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VDTTQBSN
+
+[Document40]
+DocumentPath=..\Reference\K26\kr260 board\Imported BRD_05101_01_rev_b01_aa.PrjPcb\BRD_05101_01_rev_b01_aa.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MKSWXPPE
+
+[Document41]
+DocumentPath=..\Reference\K26\kr260 board\Imported SCK-KR_revA02.PrjPcb\SCK-KR_revA02_Library.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JPNZNOCI
+
+[Document42]
 DocumentPath=TimeCard-NIC-V1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -669,7 +762,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ENDJGWUE
 
-[Document38]
+[Document43]
 DocumentPath=TimeCard_NIC.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -686,7 +779,41 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZFEOSJEB
 
-[Document39]
+[Document44]
+DocumentPath=..\..\TimeCardNPI\OCXO Daughtercard\Released\OCXO_DaughterCard.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document45]
+DocumentPath=..\..\TimeCardNPI\OCXO Daughtercard\Released\OCXO_DaughterCard.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BDJAWKEO
+
+[Document46]
 DocumentPath=MODELS\0673298000\673298040.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -703,7 +830,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document47]
 DocumentPath=MODELS\0673298000\673298040.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -720,203 +847,245 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHSZCGTU
 
+[Document48]
+DocumentPath=..\..\CheapPTM\I225\ECAD\MODELS\DPLL\AltiumDesigner\8A34002E-000NLG.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document49]
+DocumentPath=..\..\CheapPTM\I225\ECAD\MODELS\DPLL\AltiumDesigner\8A34002E-000NLG.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for WR_NIC\Pick Place for WR_NIC_V1.csv
+DocumentPath=Project Outputs for TimeCard_NIC\Design Rule Check - TimeCard-NIC-V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for WR_NIC\Pick Place for WR_NIC_V1.txt
+DocumentPath=Project Outputs for WR_NIC\Design Rule Check - WR_NIC_V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Drawing_1.gbr
+DocumentPath=Project Outputs for WR_NIC\Pick Place for WR_NIC_V1.csv
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Drillmap_1.gbr
+DocumentPath=Project Outputs for WR_NIC\Pick Place for WR_NIC_V1.txt
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Mechanical_29.gbr
+DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Mechanical_31.gbr
+DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1-RoundHoles.TXT
+DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Mechanical_29.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1-SlotHoles.TXT
+DocumentPath=Project Outputs for WR_NIC\TimeCard-DC-V9_EXP_Mechanical_31.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.DRR
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.EXTREP
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.LDP
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.REP
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.RUL
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1_Bottom_Component_Outline.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1_Top_Component_Outline.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_ASSEMBLY_BOTTOM.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1_Bottom_Component_Outline.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_ASSEMBLY_TOP.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NIC_V1_Top_Component_Outline.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Board_Shape.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_ASSEMBLY_BOTTOM.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Bottom_Assembly.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_ASSEMBLY_TOP.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Bottom_Component_Center.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Board_Shape.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_1.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Bottom_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_2.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Bottom_Component_Center.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_3.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_4.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DIMENSION-1.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DIMENSION.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DIMSYM.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DIMENSION-1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DRAWING_ORIGIN.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DIMENSION.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Legend_Bot.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DIMSYM.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Legend_Top.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_DRAWING_ORIGIN.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_MECH_DIMENSION.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Mechanical_1.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_NCLEGEND-1-6.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_MECH_DIMENSION.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_OUTLINE.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Paste_Bot.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_NCLEGEND-1-6.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Paste_Top.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_OUTLINE.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PCI_FINGER.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PEN3.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PIN_NUMBER.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PCI_FINGER.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PLACE_BOUND_BOTTOM.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PEN3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PLACE_BOUND_TOP.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PIN_NUMBER.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PLACE_BOUND_BOTTOM.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Soldermask_Top.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_PLACE_BOUND_TOP.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_3D_Body.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_Assembly.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_Component_Center.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_Courtyard.gbr
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument50]
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_Component_Center.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for WR_NIC\WR_NICV1_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument52]
 DocumentPath=Project Outputs for WR_NIC\WR_NICV1Bottom_Courtyard.gbr
 DItemRevisionGUID=
 
@@ -1084,17 +1253,27 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -1164,6 +1343,30 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -2463,6 +2666,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -2480,97 +2689,97 @@ OutputName2=Text Print
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType3=Text Print
 OutputName3=Text Print
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType4=Text Print
 OutputName4=Text Print
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType5=Text Print
 OutputName5=Text Print
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType6=Text Print
 OutputName6=Text Print
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType7=Text Print
 OutputName7=Text Print
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType8=Text Print
 OutputName8=Text Print
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType9=Text Print
 OutputName9=Text Print
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType10=Text Print
 OutputName10=Text Print
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType11=Text Print
 OutputName11=Text Print
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Text Print
 OutputName12=Text Print
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType13=Text Print
 OutputName13=Text Print
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType14=Text Print
 OutputName14=Text Print
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType15=Text Print
 OutputName15=Text Print
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType16=Text Print
 OutputName16=Text Print
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType17=Text Print
 OutputName17=Text Print
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -2676,6 +2885,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -2808,6 +3022,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
@@ -2999,12 +3214,13 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

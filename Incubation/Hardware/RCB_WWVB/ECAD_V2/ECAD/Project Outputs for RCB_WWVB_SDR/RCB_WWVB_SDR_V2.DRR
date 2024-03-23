@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: RCB_WWVB_SDR_V2.PcbDoc   3/11/2024  10:21:16 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L01-TOP to L10-BOT
+ASCII RoundHoles File : RCB_WWVB_SDR_V2-RoundHoles.TXT
+ASCII SlotHoles File : RCB_WWVB_SDR_V2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             16        PTH        16.50mm (0.65inch)
+T2      0.254mm (10mil)                                           Round             818       PTH        1188.62mm (46.80inch)
+T3      0.6mm (24mil)                                             Slot              2         PTH        15.43mm (0.61inch)
+T4      0.85mm (33mil)                                            Round             2         PTH        5.00mm (0.20inch)
+T5      1.19mm (47mil)                                            Round             2         NPTH       12.00mm (0.47inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              840
+
+Total Processing Time (hh:mm:ss) : 00:00:01

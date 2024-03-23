@@ -1,0 +1,112 @@
+*************************************************************
+FileName = pcb_v1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Paste
+      File : pcb_v1.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : pcb_v1.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : pcb_v1.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : pcb_v1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : pcb_v1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : pcb_v1.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : BOT
+      File : pcb_v1.GBL
+
+    Adding Layer      : BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : TOP
+      File : pcb_v1.GTL
+
+    Adding Layer      : TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : pcb_v1.GM
+
+
+Used DCodes :
+    D10
+*************************************************************
+

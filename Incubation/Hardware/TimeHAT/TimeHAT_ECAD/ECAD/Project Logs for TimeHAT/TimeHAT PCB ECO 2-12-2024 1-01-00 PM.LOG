@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=SI_SCL Pin=X1-3
+Added Net: Name=SI_SCL
+Added Pin To Net: NetName=SI_SDA Pin=X1-2
+Added Net: Name=SI_SDA

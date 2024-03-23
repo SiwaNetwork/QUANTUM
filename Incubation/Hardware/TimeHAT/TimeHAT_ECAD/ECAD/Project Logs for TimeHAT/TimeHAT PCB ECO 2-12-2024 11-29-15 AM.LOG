@@ -1,0 +1,6 @@
+Change Component Kind : Designator=U4 Old Kind=Standard New Kind=Standard (No BOM)
+Added Pin To Net: NetName=NetR76_1 Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetR77_1 Pin=U4-6
+Added Pin To Net: NetName=DVDD_33 Pin=U4-9
+Added Member To Class: ClassName=08-I225-1 Member=Component U4 TG5032CGN 40.0000M-CAGHNA0

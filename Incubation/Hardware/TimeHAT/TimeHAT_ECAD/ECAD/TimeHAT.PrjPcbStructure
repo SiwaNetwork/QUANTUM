@@ -1,0 +1,6 @@
+Record=TopLevelDocument|FileName=01-PCIe_40pin.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-PCIe_40pin.SchDoc|FileName=02-USER_IO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-PCIe_40pin.SchDoc|FileName=08-I225-1.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-PCIe_40pin.SchDoc|FileName=09-I225-2.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-PCIe_40pin.SchDoc|FileName=13-Power-P3V3.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-PCIe_40pin.SchDoc|FileName=15-M2_GNSS.SchDoc|SheetNumber=6
