@@ -1,0 +1,34 @@
+KBUILD_EXTRA_SYMBOLS := $(FMC_BUS_ABS)/kernel/Module.symvers
+
+# add versions of supermodule. It is useful when spec-sw is included as sub-module
+# of a bigger project that we want to track
+ifdef CONFIG_SUPER_REPO
+ifdef CONFIG_SUPER_REPO_VERSION
+SUBMODULE_VERSIONS += MODULE_INFO(version_$(CONFIG_SUPER_REPO),\"$(CONFIG_SUPER_REPO_VERSION)\");
+endif
+endif
+# add versions of used submodules
+SUBMODULE_VERSIONS += MODULE_INFO(version_fmc_bus,\"$(FMC_BUS_VERSION)\");
+
+ccflags-y += -DADDITIONAL_VERSIONS="$(SUBMODULE_VERSIONS)"
+
+# The library includes <sdb.h>, so point -I directtly there
+# include our header before to avoid conflicts with the kernel
+LINUXINCLUDE := -I$(src)/include/linux $(LINUXINCLUDE)
+ccflags-y += -I$(src)/include
+ccflags-y += $(WR_NIC_CFLAGS)
+ccflags-y += -DGIT_VERSION=\"$(GIT_VERSION)\"
+
+# FIXME: Node or switch?
+ccflags-y += -DWR_NODE
+#ccflags-y += -DWR_SWITCH
+
+obj-m += wr-nic.o
+
+wr-nic-y = module.o
+wr-nic-y += device.o
+wr-nic-y += nic-core.o
+wr-nic-y += endpoint.o
+wr-nic-y += ethtool.o
+wr-nic-y += pps.o
+wr-nic-y += timestamp.o

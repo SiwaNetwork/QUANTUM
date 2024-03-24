@@ -1,0 +1,55 @@
+## .gitignore file
+
+# OS generated     #
+####################
+*.bak
+*.*\#
+\#*
+.\#*
+*.*~
+*.swp
+*.cache
+Thumbs.db
+
+# Compiled source #
+###################
+*.bit
+*.exe
+*.o
+*.a
+*.so
+*.wlf
+*.vstf
+*.vcd
+*.pyc
+*.d
+*.ko
+
+# Eclipse         #
+###################
+.library_mapping.xml
+.project
+.cproject
+.settings/*
+
+# Visual S. Code  #
+###################
+/.vscode/
+
+# VIM files #
+####################
+*.swo
+*.swn
+
+# Kernel Specific #
+###################
+.*.o.cmd
+.*.ko.cmd
+.cache.mk
+*.o.ur-safe
+Module.symvers
+modules.order
+
+# Project Specifi #
+###################
+wr-nic.mod*
