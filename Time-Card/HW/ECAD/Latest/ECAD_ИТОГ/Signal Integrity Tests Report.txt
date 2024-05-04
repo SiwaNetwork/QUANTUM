@@ -1,0 +1,97 @@
+
+
+Falling Edge Overshoot
+
+The following nets have values outside defined tolerance levels :
+SENS_I2C_SDA    (Actual Value =  2,581  , Tolerance =  1,013  )
+SENS_I2C_SCL    (Actual Value =  2,674  , Tolerance =  1,014  )
+PCIE_PERST      (Actual Value =  2,342  , Tolerance =  1,002  )
+DIP_SW_UART_SEL (Actual Value =  1,024  , Tolerance =  1,003  )
+DIP_SW_GPS1_SEL (Actual Value =  2,325  , Tolerance =  1,003  )
+
+
+Falling Edge Undershoot
+
+The following nets have values outside defined tolerance levels :
+SENS_I2C_SDA    (Actual Value =  1,819  , Tolerance =  1,013  )
+SENS_I2C_SCL    (Actual Value =  1,679  , Tolerance =  1,014  )
+PCIE_PERST      (Actual Value =  1,644  , Tolerance =  1,002  )
+DIP_SW_GPS1_SEL (Actual Value =  1,341  , Tolerance =  1,003  )
+
+
+Rising Edge Overshoot
+
+The following nets have values outside defined tolerance levels :
+SENS_I2C_SDA    (Actual Value =  3,427  , Tolerance =  1,013  )
+SENS_I2C_SCL    (Actual Value =  3,277  , Tolerance =  1,014  )
+PCIE_PERST      (Actual Value =  3,303  , Tolerance =  1,002  )
+MAC_VCC         (Actual Value =  1,452  , Tolerance =  1,000  )
+MAC_USB-        (Actual Value =  1,126  , Tolerance =  1,000  )
+MAC_USB+        (Actual Value =  1,100  , Tolerance =  1,000  )
+MAC_BITE        (Actual Value =  1,359  , Tolerance =  1,000  )
+LED4            (Actual Value =  1,921  , Tolerance =  1,001  )
+LED3            (Actual Value =  1,965  , Tolerance =  1,002  )
+LED2            (Actual Value =  2,096  , Tolerance =  1,003  )
+LED1            (Actual Value =  2,261  , Tolerance =  997,3m )
+GPS1_TP1        (Actual Value =  2,356  , Tolerance =  1,001  )
+GPS1_RX         (Actual Value =  1,392  , Tolerance =  1,002  )
+GPS1_RST        (Actual Value =  2,403  , Tolerance =  999,5m )
+FTDI_TX         (Actual Value =  1,629  , Tolerance =  1,000  )
+FTDI_RX         (Actual Value =  1,583  , Tolerance =  1,000  )
+DIP_SW_UART_SEL (Actual Value =  2,025  , Tolerance =  1,003  )
+DIP_SW_PPS_SEL  (Actual Value =  2,136  , Tolerance =  1,001  )
+DIP_SW_MACSER_SEL (Actual Value =  1,230  , Tolerance =  1,000  )
+DIP_SW_GPS1_SEL (Actual Value =  3,139  , Tolerance =  1,003  )
+ANT4_OUT        (Actual Value =  1,112  , Tolerance =  1,000  )
+ANT3_OUT        (Actual Value =  1,822  , Tolerance =  1,002  )
+ANT3_IN         (Actual Value =  1,215  , Tolerance =  999,3m )
+ANADC_I2C_SDA   (Actual Value =  1,094  , Tolerance =  1,000  )
+ANADC_I2C_SCL   (Actual Value =  1,130  , Tolerance =  1,000  )
+
+
+Rising Edge Undershoot
+
+The following nets have values outside defined tolerance levels :
+SENS_I2C_SDA    (Actual Value =  2,106  , Tolerance =  1,013  )
+SENS_I2C_SCL    (Actual Value =  1,855  , Tolerance =  1,014  )
+PCIE_PERST      (Actual Value =  1,906  , Tolerance =  1,002  )
+LED4            (Actual Value =  1,434  , Tolerance =  1,001  )
+LED3            (Actual Value =  1,466  , Tolerance =  1,002  )
+LED2            (Actual Value =  1,546  , Tolerance =  1,003  )
+LED1            (Actual Value =  1,641  , Tolerance =  997,3m )
+GPS1_TP1        (Actual Value =  1,751  , Tolerance =  1,001  )
+GPS1_RX         (Actual Value =  1,140  , Tolerance =  1,002  )
+GPS1_RST        (Actual Value =  1,750  , Tolerance =  999,5m )
+DIP_SW_UART_SEL (Actual Value =  1,163  , Tolerance =  1,003  )
+DIP_SW_PPS_SEL  (Actual Value =  1,497  , Tolerance =  1,001  )
+DIP_SW_GPS1_SEL (Actual Value =  1,857  , Tolerance =  1,003  )
+ANT3_OUT        (Actual Value =  1,374  , Tolerance =  1,002  )
+
+
+The following nets were not able to be analysed :
+
+P5V_MUN_VCC
+P5V_MUN_PHASE
+P3V3_SENSE
+P3V3_MUN_VCC
+P3V3_MUN_PHASE
+NetC92_1
+MAC_RF_OUT
+GNSS2_P5V0
+GNSS2_P3V3
+GND
+FTDI_VBUS
+EXT_GPIO_10
+EXT_GPIO_9
+EXT_GPIO_8
+EXT_GPIO_7
+EXT_GPIO_4
+EXT_GPIO_3
+EXT_GPIO_2
+EXT_GPIO_1
+BNO_P3V3
++12V_PCIE
++12V
++5.0V
++3.3V_PCIE
++3.3V

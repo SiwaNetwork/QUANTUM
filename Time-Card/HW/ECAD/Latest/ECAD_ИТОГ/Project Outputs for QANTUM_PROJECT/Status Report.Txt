@@ -1,13 +1,55 @@
 Output: Gerber Files
 Type  : Gerber
 From  : Variant [[No Variations]] of Project [QANTUM_PROJECT.PrjPcb]
+   Generated File[QANTUM-DC-V1_EXP.GTO]
+   Generated File[QANTUM-DC-V1_EXP.GTP]
+   Generated File[QANTUM-DC-V1_EXP.GTS]
+   Generated File[QANTUM-DC-V1_EXP.GTL]
+   Generated File[QANTUM-DC-V1_EXP.G1]
+   Generated File[QANTUM-DC-V1_EXP.G2]
+   Generated File[QANTUM-DC-V1_EXP.G3]
+   Generated File[QANTUM-DC-V1_EXP.G4]
+   Generated File[QANTUM-DC-V1_EXP.GBL]
+   Generated File[QANTUM-DC-V1_EXP.GBS]
+   Generated File[QANTUM-DC-V1_EXP.GBP]
+   Generated File[QANTUM-DC-V1_EXP.GBO]
+   Generated File[QANTUM-DC-V1_EXP.GM1]
+   Generated File[QANTUM-DC-V1_EXP.GM2]
+   Generated File[QANTUM-DC-V1_EXP.GM3]
+   Generated File[QANTUM-DC-V1_EXP.GM4]
+   Generated File[QANTUM-DC-V1_EXP.GM5]
+   Generated File[QANTUM-DC-V1_EXP.GM6]
+   Generated File[QANTUM-DC-V1_EXP.GM7]
+   Generated File[QANTUM-DC-V1_EXP.GM8]
+   Generated File[QANTUM-DC-V1_EXP.GM9]
+   Generated File[QANTUM-DC-V1_EXP.GM10]
+   Generated File[QANTUM-DC-V1_EXP.GM11]
+   Generated File[QANTUM-DC-V1_EXP.GM12]
+   Generated File[QANTUM-DC-V1_EXP.GM13]
+   Generated File[QANTUM-DC-V1_EXP.GM14]
+   Generated File[QANTUM-DC-V1_EXP.GM15]
+   Generated File[QANTUM-DC-V1_EXP.GM16]
+   Generated File[QANTUM-DC-V1_EXP.GM17]
+   Generated File[QANTUM-DC-V1_EXP.GM18]
+   Generated File[QANTUM-DC-V1_EXP.GM19]
+   Generated File[QANTUM-DC-V1_EXP.GM20]
+   Generated File[QANTUM-DC-V1_EXP.GM21]
    Generated File[QANTUM-DC-V1_EXP.GM22]
+   Generated File[QANTUM-DC-V1_EXP.GM23]
+   Generated File[QANTUM-DC-V1_EXP.GM24]
+   Generated File[QANTUM-DC-V1_EXP.GM29]
+   Generated File[QANTUM-DC-V1_EXP.GM31]
+   Generated File[QANTUM-DC-V1_EXP.GKO]
+   Generated File[QANTUM-DC-V1_EXP.GPT]
+   Generated File[QANTUM-DC-V1_EXP.GPB]
+   Generated File[QANTUM-DC-V1_EXP.GD1]
+   Generated File[QANTUM-DC-V1_EXP.GG1]
    Generated File[QANTUM-DC-V1_EXP.RUL]
    Generated File[QANTUM-DC-V1_EXP.EXTREP]
    Generated File[QANTUM-DC-V1_EXP.REP]
 
 
-Files Generated   : 4
+Files Generated   : 46
 Documents Printed : 0
 
-Finished Output Generation At 11:43:26 On 21.11.2023
+Finished Output Generation At 12:27:30 On 25.04.2024
