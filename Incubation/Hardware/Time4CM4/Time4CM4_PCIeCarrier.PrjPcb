@@ -75,23 +75,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BWCQVUGQ
 
 [Document3]
-DocumentPath=CM4_Conn.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RGGCRDLV
-
-[Document4]
 DocumentPath=CM4_HDMI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HDAKHBYH
 
-[Document5]
+[Document4]
 DocumentPath=PCIe_UART_Bridge.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WETUXNCE
 
-[Document6]
+[Document5]
 DocumentPath=PCIe_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZHMFJWDE
 
-[Document7]
+[Document6]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AEEOSSFI
 
-[Document8]
+[Document7]
 DocumentPath=External_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SRJSDEGP
 
-[Document9]
+[Document8]
 DocumentPath=Dip_Switch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VDTBGWBV
 
-[Document10]
+[Document9]
 DocumentPath=40_Pin_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +193,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NKDGRGHG
 
-[Document11]
+[Document10]
 DocumentPath=PCIe_USB30.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPLZDQZA
 
-[Document12]
+[Document11]
 DocumentPath=PCIe_USB30_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HDKFFHNW
 
-[Document13]
+[Document12]
 DocumentPath=PCIe_USB30_Conn_Panel_Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMURFTSY
 
-[Document14]
+[Document13]
 DocumentPath=PCIe_USB30_Conn_Panel_Bottom.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FDPKGXSO
 
-[Document15]
+[Document14]
 DocumentPath=PCIe_USB30_Conn_Internal_Vertical.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -294,6 +277,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QCMGWNSD
+
+[Document15]
+DocumentPath=CM4_Conn.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RGGCRDLV
 
 [ProjectVariant1]
 UniqueID=71ADD799-4DF7-41D1-9D1D-525828FA538C
