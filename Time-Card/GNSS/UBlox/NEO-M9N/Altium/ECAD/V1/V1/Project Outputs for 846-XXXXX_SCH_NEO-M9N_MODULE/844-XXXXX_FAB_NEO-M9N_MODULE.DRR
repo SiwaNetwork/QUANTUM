@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: 844-XXXXX_FAB_NEO-M9N_MODULE.PcbDoc   07.05.2024  14:44:15
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L01-Top Layer to L04-Bottom Layer
+ASCII Plated RoundHoles File : 844-XXXXX_FAB_NEO-M9N_MODULE-Plated.TXT
+EIA File   : 844-XXXXX_FAB_NEO-M9N_MODULE.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             44        PTH        2.21inch (56.03mm)
+T2      13mil (0.33mm)                                            Round             7         PTH        0.65inch (16.62mm)
+T3      13mil (0.33mm)                                            Round             160       PTH        22.22inch (564.51mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              211
+
+Total Processing Time (hh:mm:ss) : 00:00:00
