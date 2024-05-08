@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\user\Documents\GitHub\QUANTUM\Time-Card\–≈«ŒÕ¿“Œ–€\Microchip\SA45\Latest\ECAD\ECAD\FAB_SA45_DaughterCard.PcbDoc
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=PPS|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Small Pitch|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=50SE|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97

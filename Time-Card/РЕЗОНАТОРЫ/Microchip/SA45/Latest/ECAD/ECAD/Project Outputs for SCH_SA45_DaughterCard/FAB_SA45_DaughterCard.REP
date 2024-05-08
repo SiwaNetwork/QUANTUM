@@ -1,0 +1,396 @@
+*************************************************************
+FileName = FAB_SA45_DaughterCard.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Component Outline
+      File : FAB_SA45_DaughterCard.GM29
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+    D62
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : FAB_SA45_DaughterCard.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D62
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : FAB_SA45_DaughterCard.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : FAB_SA45_DaughterCard.GM14
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : FAB_SA45_DaughterCard.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : FAB_SA45_DaughterCard.GM9
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : FAB_SA45_DaughterCard.GM8
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Taitien_footprint_baseline
+      File : FAB_SA45_DaughterCard.GM5
+
+    Adding Layer      : Taitien_footprint_baseline
+
+
+Used DCodes :
+    D62
+    D63
+*************************************************************
+
+*************************************************************
+Generating : M01_PCB_Outline
+      File : FAB_SA45_DaughterCard.GM1
+
+    Adding Layer      : M01_PCB_Outline
+
+
+Used DCodes :
+    D63
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : FAB_SA45_DaughterCard.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : FAB_SA45_DaughterCard.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L04-Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : FAB_SA45_DaughterCard.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L04-Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : FAB_SA45_DaughterCard.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : L01-Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : FAB_SA45_DaughterCard.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : L01-Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : FAB_SA45_DaughterCard.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : FAB_SA45_DaughterCard.GPT
+
+    Adding Layer      : L01-Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : FAB_SA45_DaughterCard.GPB
+
+    Adding Layer      : L04-Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D19
+    D20
+    D21
+    D22
+    D23
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : L04-Bottom Layer
+      File : FAB_SA45_DaughterCard.GBL
+
+    Adding Layer      : L04-Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : L03-Inner Layer
+      File : FAB_SA45_DaughterCard.G2
+
+    Adding Layer      : L03-Inner Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D21
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : L02-Inner Layer
+      File : FAB_SA45_DaughterCard.G1
+
+    Adding Layer      : L02-Inner Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : L01-Top Layer
+      File : FAB_SA45_DaughterCard.GTL
+
+    Adding Layer      : L01-Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : FAB_SA45_DaughterCard.GD1
+
+    Adding Drill Pair : L01-Top Layer-L04-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D65
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : FAB_SA45_DaughterCard.GG1
+
+    Adding Drill Pair : L01-Top Layer-L04-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D65
+*************************************************************
+
