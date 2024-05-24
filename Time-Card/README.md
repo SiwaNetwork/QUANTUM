@@ -1,6 +1,6 @@
 
 # Qantum Card
-#### СПЕЦИФИКАЦИЯ ВЕРСИИ n № 1.0
+#### СПЕЦИФИКАЦИЯ ВЕРСИИ n № 1.1
 
 Эту спецификацию можно получить, используя http://www.qantum.pro  
 
@@ -23,7 +23,7 @@
 
 
 ## Общее
-Тайм-сервер - важная часть сети с поддержкой PTP. Он обеспечивает точное время через GNSS, сохраняя точность в случае отказа GNSS с помощью стабильного осциллятора высокой стабильности (и запоминающего состояние), такого как атомные часы. Существующие продукты на рынке часто закрыты и далеки от обладания достаточным набором функций. Проект тайм-карты представляет открытое решение с помощью PCIe-карты, называемой тайм-карта, которая называется Qantum.
+Сервер времени - важная часть сети с поддержкой PTP. Он обеспечивает точное время через GNSS, сохраняя точность в случае отказа GNSS с помощью стабильного осциллятора высокой стабильности (и запоминающего состояние), такого как атомные часы. Существующие продукты на рынке часто закрыты и далеки от обладания достаточным набором функций. Проект тайм-карты представляет открытое решение с помощью PCIe-карты, называемой тайм-карта, которая называется Qantum.
 
 ## Где купить
 
@@ -34,11 +34,6 @@
 Возможность искать и производить тайм-карты с производителями, которых вы найдете сами.
 
 
-
-## Time Card Derivatives
-Это тайм-карты, произведенные другими компаниями с использованием разного оборудования, но совместимые с архитектурой и драйвером Qantum-карты:
-* [Safran ART2](https://safran-navigation-timing.com/about-the-atomic-reference-time-card-art-card/) (fully open sourced and available on this [link](https://github.com/Orolia2s/art-card-board))
-* [ADVA OSA5400](https://urldefense.com/v3/__https://www.oscilloquartz.com/en/products-and-services/embedded-timing-solutions/osa-5400-timecard__;!!Bt8RZUm9aw!74Qc6wh6_yFfgOhGUCr-rX5q6hd1NxC9HwjI7CwVO24C2SXXuzDXk4W3NjlSOZtTBWtvV11UzSicxA$)
 
 ## Форм-фактор
 Стандартная PCIe-карта вертикального типа
@@ -76,45 +71,31 @@
 SA5X
 LN CSAC
 mRO-50
-SA.45s
+SA.53
 DTA-100
 
-Atomic clock examples:
-* [SA5X](https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x)
-* [LN CSAC](https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/4518-low-noise-csac-ln-csac)
-* [mRO-50](https://www.orolia.com/products/atomic-clocks-oscillators/mro-50)
-* [SA.45s](https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac)
-* [DTA-100](https://www.taitien.com/wp-content/uploads/2021/10/XO-0191-Low-Power-Atomic-Oscillator-DTA-100-Series.pdf)
+Atomic генераторы:
+* [SA5X]
+* [LN CSAC]
+* [mRO-50]
+* [SA.45s]
+* [DTA-100]
 
-<p align="center">
-<img width="666" alt="microchip-mac-sa5x" src="https://user-images.githubusercontent.com/1751211/132626512-3fded23e-dcad-4325-ba4a-0825a9191dce.png">
-<img width="666" alt="microchip-ln-csac" src="https://github.com/opencomputeproject/Time-Appliance-Project/blob/master/Time-Card/images/lncsac.png">
-<img width="666" alt="orolia-mro-50" src="https://user-images.githubusercontent.com/1751211/132625857-12b92625-4d08-4ae7-be18-f8ff6b79b49d.png">
-<img width="555" alt="microchip-mac-sa4x" src="https://user-images.githubusercontent.com/1751211/132625863-4a053483-61bf-4617-9bbe-95c464014563.png">
-<img width="555" alt="taitien-dta-100" src="https://github.com/opencomputeproject/Time-Appliance-Project/blob/master/Time-Card/images/DTA-100.png">
-   
-</p>
+OCXO генераторы:
+* [SiT5711]
 
-<p align="center">Figure 2. Atomic Clock Examples</p>
+* [DT-5151]
 
-OCXO examples:
-* [SiT5711](https://www.sitime.com/products/stratum-3e-ocxos/sit5711)
-<img width="555" alt="SiTime-SiT5711" src="https://www.sitime.com/sites/default/files/styles/original_image/public/products/9x7mm-MEMS-OCXO-%28Angled%29.png.webp?itok=0K1N8hG3">
+* ROD2522S2 фирмы Rakon, PPS дисциплинированный осциллограф
 
-* [DT-5151](https://www.taitien.com/ti-products/ultra-high-precision-disciplined-oscillator-dt-5151-series)
-<img width="555" alt="taitien-dt-5151" src="https://github.com/opencomputeproject/Time-Appliance-Project/blob/master/Time-Card/images/DT-5151.png">
-
-* ROD2522S2 from Rakon, PPS disciplined oscillator
-
-* Taitien PN: NJ-10M-075 , Stratum 3E oscillator footprint compatible with ROD2522S2
+* Taitien PN: NJ-10M-075 , Stratum 3E осцилятор ROD2522S2
 
 TCXO examples:
-* [SiT5356](https://www.sitime.com/products/super-tcxo/sit5356)
-<img width="555" alt="SiT5356" src="https://www.sitime.com/sites/default/files/styles/original_image/public/products/Elite-10-Pin-Ceramic-package-3D-top%26bottom-small.png.webp?itok=E7VIydYc">
+* [SiT5356]
 
 * SiT5501 Super-TCXO
 
-* Taitien PN: M0166-T-001-3 , footprint compatible with SiT5501 family
+* Taitien PN: M0166-T-001-3 
 
 ## Мост
 
@@ -124,16 +105,6 @@ The bridge between the GNSS receiver and the Atomic clock can be implemented usi
 Here is one of the examples of hardware implementations.
 * FPGA is responsible for most of the functionality
 * Exposed /dev/phc and /dev/pps are read by open source software such as ptp4l and chronyd
-
-<a id="Figure-3">![Time Card - Block Diagram](https://raw.githubusercontent.com/opencomputeproject/Time-Appliance-Project/master/Time-Card/images/idea.png)</a>
-
-<p align="center">Figure 3. Time Card Block Diagram</p>
-
-<a id="Figure-4.1">![Bridge Block Diagram](https://raw.githubusercontent.com/opencomputeproject/Time-Appliance-Project/master/Time-Card/images/block1.png)</a>
-<a id="Figure-4.2">![Bridge Block Diagram](https://raw.githubusercontent.com/opencomputeproject/Time-Appliance-Project/master/Time-Card/images/block2.png)</a>
-<a id="Figure-4.3">![Bridge Block Diagram](https://raw.githubusercontent.com/opencomputeproject/Time-Appliance-Project/master/Time-Card/images/block3.png)</a>
-
-<p align="center">Figure 4. Bridge Block Diagram</p>
 
 ### Программная реализация
 Программная реализация требует большую часть компонентов, однако связь между ними осуществляется при помощи программного обеспечения пользовательского уровня:
