@@ -12,7 +12,7 @@
 # Видеоуроки по FPGA Time-Card
 На YouTube-канале NetTimeLogic можно найти несколько видеоуроков, связанных с FPGA-дизайном Time-Card:
 
-- [Как создать дизайн FPGA с открытым исходным кодом для Time-Card с нуля](https://www.youtube.com/watch?v=ajXK6HVlo5c)
-- [Как прошить FPGA для Time-Card](https://www.youtube.com/watch?v=Whwu7Bnzbcs)
+- [Как создать дизайн FPGA с открытым исходным кодом с нуля](https://www.youtube.com/watch?v=ajXK6HVlo5c)
+- [Как прошить FPGA](https://www.youtube.com/watch?v=Whwu7Bnzbcs)
 - [Как создать дизайн FPGA в более новых версиях Vivado](https://www.youtube.com/watch?v=lijj4WYPaPA)
 - [Как расширить/изменить дизайн FPGA](https://www.youtube.com/watch?v=0OknmM4MQco)
