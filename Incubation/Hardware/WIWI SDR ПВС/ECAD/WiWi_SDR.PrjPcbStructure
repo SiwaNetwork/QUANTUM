@@ -1,0 +1,16 @@
+Record=TopLevelDocument|FileName=01-Antennas.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=02-RCB_Header.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=03-SignalsTBD.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=04-AT86RF215IQ.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=05-SX1276.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=06-Si5341_PLL.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=07-TCXO_Crystal.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=08-STM32-01.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=09-STM32-02.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=10-USB-Prog.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=11-Ice40_FPGA.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=12-Power.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=13-USB_HS.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=14-100M_Ethernet.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=15-SDRAM_Flash.SchDoc|SheetNumber=15
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=16-ESP32S3.SchDoc|SheetNumber=16

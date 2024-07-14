@@ -1,10 +1,12 @@
-** Time4CM4 **
+Time4CM4
 
-Files are provided as-is. 
+Файлы предоставляются "как есть".
 
-## Baseboard
-CM4 carrier board for Time4CM4
+Базовая плата
 
-## Modules
-Two modules can connect to the Time4CM4 baseboard in order to provide additional functionality.
-The template file is provided in this directory.
+Носитель платы CM4 для Time4CM4
+
+Модули
+
+К базовой плате Time4CM4 можно подключить два модуля, чтобы обеспечить дополнительную функциональность.
+Шаблон файла представлен в этом каталоге.

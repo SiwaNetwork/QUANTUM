@@ -1,26 +1,27 @@
-** Time4CM4 **
+Time4CM4
 
-Files are provided as-is. 
+Файлы предоставляются "как есть".
 
-Only populate one GNSS module, select LEA or MAX based on project and functional requirements.
+Заполняется только один модуль GNSS, выберите LEA или MAX в зависимости от проекта и функциональных требований.
 
-This design supports both active and passive GNSS antenna connections.
+Данная конструкция поддерживает подключение как активных, так и пассивных антенн GNSS.
 
-## BOM Notes
-For top side, use the following connectors:
+Примечания к спецификации материалов
 
-3.0mm mating height from CM4 to Time4CM4.
+Для верхней стороны используйте следующие разъемы:
 
-```
+Высота сопряжения 3,0 мм от CM4 до Time4CM4.
+
 2x Hirose DF40HC(3.0)-100DS-0.4v
-```
+content_copy
+Используйте код с осторожностью.
 
-For bottom side, use the following connectors:
+Для нижней стороны используйте следующие разъемы:
 
-Default mating height from Time4CM4 to CM4 IO board.
+Стандартная высота сопряжения от Time4CM4 до платы ввода-вывода CM4.
 
-```
 2x Hirose DF40C-100DP-0.4V(51)
-```
+content_copy
+Используйте код с осторожностью.
 
-Change to 3.0mm stacked height on bottom layer if component are placed on the bottom layer.
+Измените на 3,0 мм штабелированную высоту на нижнем слое, если компоненты размещаются на нижнем слое.

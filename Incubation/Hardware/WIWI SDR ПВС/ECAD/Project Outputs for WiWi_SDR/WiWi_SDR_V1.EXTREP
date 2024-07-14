@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: WiWi_SDR_V1.GBR   7/11/2024  9:27:03 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                L01-TOP                                 
+.G1                 L02-GND                                 
+.G2                 L03-SIG                                 
+.G3                 L04-GND                                 
+.G4                 L05-SIG                                 
+.G5                 L06-GND                                 
+.G6                 L07-PWR                                 
+.G7                 L08-PWR                                 
+.G8                 L09-GND                                 
+.G9                 L10-SIG                                 
+.G10                L11-GND                                 
+.G11                L12-SIG                                 
+.G12                L13-GND                                 
+.GBL                L14-BOT                                 
+.GBS                Board Layer Stack Bottom Solder         
+.GBP                Bottom Paste                            
+.GBO                Board Layer Stack Bottom Overlay        
+.GM1                M01_PCB_Outline                         
+.GM2                M02_PCB_Panel                           
+.GM3                M03_PCB_Dimensions                      
+.GM4                M04_PCB_DesignNotes                     
+.GM5                Top Component Center                    
+.GM6                Bottom Component Center                 
+.GM7                Top Assembly                            
+.GM8                Top Designator                          
+.GM9                Bottom Designator                       
+.GM10               Board Shape                             
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM20               Bottom Assembly                         
+.GM28               Top Component Outline                   
+.GM29               Bottom Component Outline                
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------

@@ -436,6 +436,11 @@ PWM_RX_INFO_LAYOUT = {
 
 
 DPLL_CTRL_LAYOUT = {
+    "DPLL_DECIMATOR_BW_MULT": {"offset": 0x3, "fields": {"VALUE": BitField(0,8)}},
+    "DPLL_BW_0": {"offset": 0x4, "fields": {"BW_7_0": BitField(0,8)}},
+    "DPLL_BW_1": {"offset": 0x5, "fields": {"BW_13_8": BitField(0, 6) , "BW_UNIT": BitField(6,2)}},
+    "DPLL_PSL_7_0": {"offset": 0x6, "fields": {"VALUE": BitField(0,8)}},
+    "DPLL_PSL_15_8": {"offset": 0x7, "fields": {"VALUE": BitField(0,8)}},
     "DPLL_PHASE_OFFSET_CFG_7_0": {"offset": 0x14, "fields": {"VALUE": BitField(0,8)}},
     "DPLL_PHASE_OFFSET_CFG_15_8": {"offset": 0x15, "fields": {"VALUE": BitField(0,8)}},
     "DPLL_PHASE_OFFSET_CFG_23_16": {"offset": 0x16, "fields": {"VALUE": BitField(0,8)}},
@@ -467,6 +472,17 @@ DPLL_FREQ_WRITE_LAYOUT = {
                                                      "Reserved": BitField(2, 6)
                                                      }
                            },
+}
+
+
+DPLL_GENERAL_STATUS_LAYOUT = {
+    "EEPROM_STATUS_7_0": {"offset": 0x8, "fields": {"VALUE": BitField(0, 8)}},
+    "EEPROM_STATUS_8_15": {"offset": 0x9, "fields": {"VALUE": BitField(0, 8)}},
+    "MAJOR RELEASE": {"offset": 0x10, "fields": {"VALUE": BitField(0, 8)}},
+    "MINOR RELEASE": {"offset": 0x11, "fields": {"VALUE": BitField(0, 8)}},
+    "HOTFIX RELEASE": {"offset": 0x12, "fields": {"VALUE": BitField(0, 8)}},
+    "JTAG DEVICE ID": {"offset": 0x1c, "fields": {"VALUE": BitField(0, 8)}},
+    "PRODUCT ID": {"offset": 0x1e, "fields": {"VALUE": BitField(0, 8)}},
 }
 
 
@@ -1030,7 +1046,8 @@ class PWM_Rx_Info(Module):
 
 
 class DPLL_Ctrl(Module):
-    BASE_ADDRESSES = {0: 0xc600, 1: 0xc63c, 2: 0xc680, 3: 0xc6bc}
+    BASE_ADDRESSES = {0: 0xc600, 1: 0xc63c, 2: 0xc680, 3: 0xc6bc,
+            4: 0xc700, 5: 0xc73c, 6: 0xc780, 7: 0xc7bc}
     LAYOUT = DPLL_CTRL_LAYOUT
 
     def __init__(self):
@@ -1039,7 +1056,8 @@ class DPLL_Ctrl(Module):
 
 
 class DPLL_Freq_Write(Module):
-    BASE_ADDRESSES = {0: 0xc838, 1: 0xc840, 2: 0xc848, 3: 0xc850}
+    BASE_ADDRESSES = {0: 0xc838, 1: 0xc840, 2: 0xc848, 3: 0xc850,
+            4: 0xc858, 5: 0xc860, 6: 0xc868, 7: 0xc870}
     LAYOUT = DPLL_FREQ_WRITE_LAYOUT
 
     def __init__(self):
@@ -1048,7 +1066,8 @@ class DPLL_Freq_Write(Module):
 
 
 class DPLL_Config(Module):
-    BASE_ADDRESSES = {0: 0xc3b0, 1: 0xc400, 2: 0xc438, 3: 0xc480}
+    BASE_ADDRESSES = {0: 0xc3b0, 1: 0xc400, 2: 0xc438, 3: 0xc480,
+            4: 0xc4b8, 5: 0xc500, 6: 0xc538, 7: 0xc580}
     LAYOUT = DPLL_LAYOUT
 
     def __init__(self):
@@ -1056,6 +1075,14 @@ class DPLL_Config(Module):
                          DPLL_Config.BASE_ADDRESSES)
 
 
+
+class DPLL_GeneralStatus(Module):
+    BASE_ADDRESSES = {0: 0xc014}
+    LAYOUT = DPLL_GENERAL_STATUS_LAYOUT
+
+    def __init__(self):
+        super().__init__("DPLL_GeneralStatus", DPLL_GeneralStatus.LAYOUT,
+                         DPLL_GeneralStatus.BASE_ADDRESSES)
 # holder of registers
 class DPLL():
     def __init__(self, i2c_dev,
@@ -1067,7 +1094,7 @@ class DPLL():
                           TODReadSecondary, Input, Output, REFMON, PWM_USER_DATA,
                           OUTPUT_TDC_CFG, OUTPUT_TDC, INPUT_TDC, PWM_SYNC_ENCODER,
                           PWM_SYNC_DECODER, EEPROM, EEPROM_DATA, PWM_Rx_Info, DPLL_Ctrl,
-                          DPLL_Freq_Write, DPLL_Config]
+                          DPLL_Freq_Write, DPLL_Config, DPLL_GeneralStatus]
 
         for mod in modules_to_use:
             self.modules[mod.__name__] = mod()

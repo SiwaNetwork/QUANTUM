@@ -1,0 +1,180 @@
+Board Information Report
+Filename     : C:\Users\SHIWA\Documents\GitHub\QUANTUM\Incubation\Hardware\Time4CM4\Time4CM4_PCIeCarrier_PCB.PcbDoc
+Date         : 14.07.2024
+Time         : 20:16:13
+Time Elapsed : 00:00:01
+
+General
+    Board Size, 4413.386milsx2736.221mils
+    Components on board, 188
+count : 2
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 734
+    Connections routed, 734
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 366, 718, 0, 1673, 0, 7, 50, 0
+    Int1 (GND), 0, 0, 0, 7, 0, 0, 1, 0
+    Int2 (Sign), 97, 0, 0, 607, 0, 0, 18, 0
+    Int3 (Sign), 6, 0, 0, 326, 0, 0, 22, 0
+    Int4 (PWR), 130, 0, 0, 310, 0, 0, 22, 0
+    Bottom Layer, 80, 252, 0, 960, 0, 0, 30, 0
+    Mechanical 1, 3, 0, 0, 21, 1, 0, 0, 12
+    Top 3D Body, 0, 0, 0, 233, 0, 0, 0, 60
+    Top Courtyard, 0, 0, 0, 244, 0, 0, 0, 0
+    NCLEGEND-1-6, 1, 0, 0, 43, 16, 0, 0, 0
+    PEN3, 0, 0, 0, 0, 0, 0, 0, 0
+    DIMENSION-1, 0, 0, 0, 0, 0, 0, 0, 0
+    OUTLINE, 1, 0, 0, 0, 0, 0, 0, 0
+    DRAWING_ORIGIN, 0, 0, 0, 0, 0, 0, 0, 0
+    PIN_NUMBER, 0, 0, 0, 0, 0, 0, 0, 0
+    ASSEMBLY_TOP, 0, 0, 0, 0, 0, 0, 0, 0
+    PLACE_BOUND_TOP, 0, 0, 0, 0, 0, 0, 0, 0
+    DIMSYM, 0, 0, 0, 0, 0, 0, 0, 0
+    DIMENSION, 2, 0, 0, 312, 0, 0, 0, 103
+    PCI_FINGER, 0, 0, 0, 0, 0, 0, 0, 0
+    MECH_DIMENSION, 0, 0, 0, 448, 0, 0, 2, 0
+    PLACE_BOUND_BOTTOM, 0, 0, 0, 1122, 4, 0, 0, 0
+    ASSEMBLY_BOTTOM, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Assembly, 0, 0, 0, 240, 58, 0, 0, 0
+    Top Component Center, 0, 0, 0, 116, 0, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 188, 47, 0, 0, 0
+    Bottom Courtyard, 0, 0, 0, 188, 0, 0, 0, 0
+    Top Designator, 0, 0, 0, 0, 2, 0, 0, 0
+    Bottom 3D Body, 0, 0, 0, 188, 0, 0, 0, 46
+    Bottom Component Center, 0, 0, 0, 94, 0, 0, 0, 0
+    Bottom Designator, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 40, 0, 0, 0, 110, 5, 0, 0, 0
+    Mechanical 42, 0, 0, 0, 4, 0, 0, 0, 0
+    Multi-Layer, 0, 135, 686, 0, 0, 0, 1, 0
+    Top Paste, 0, 0, 0, 0, 0, 2, 8, 0
+    Top Overlay, 19, 0, 0, 276, 214, 1, 0, 0
+    Top Solder, 40, 0, 0, 0, 0, 2, 0, 0
+    Bottom Solder, 40, 0, 0, 0, 0, 2, 0, 0
+    Bottom Overlay, 4, 0, 0, 105, 180, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 8, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 1, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 43
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 686
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 8,619, 5560,737, 82%
+    Int1 (GND), 10,03, 6470,972, 95%
+    Int2 (Sign), 9,438, 6088,723, 90%
+    Int3 (Sign), 9,276, 5984,343, 88%
+    Int4 (PWR), 9,768, 6301,899, 93%
+    Bottom Layer, 9,141, 5897,72, 87%
+count : 6
+
+Non-Plated Hole Size, Pads, Vias
+    0mils, 143, 0
+    90.551mils, 4, 0
+    127.953mils, 2, 0
+count : 3
+
+Plated Hole Size, Pads, Vias
+    0mils, 827, 0
+    6mils, 0, 89
+    7.874mils, 0, 48
+    8mils, 0, 372
+    10mils, 0, 88
+    12mils, 0, 69
+    15.748mils, 48, 0
+    16mils, 0, 19
+    27.559mils, 9, 0
+    35.039mils, 10, 0
+    40mils, 0, 1
+    40.158mils, 4, 0
+    40.16mils, 40, 0
+    64.173mils, 2, 0
+    106.299mils, 4, 0
+    125.197mils, 2, 0
+count : 16
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+    23.622mil / 45.276mil, 2
+    59.055mil / 19.685mil, 4
+    66.929mil / 25.591mil, 4
+count : 3
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    -23.055mils, 4
+    -7.874mils, 4
+    0mils, 10
+    6mils, 87
+    8mils, 372
+    10mils, 90
+    11.811mils, 48
+    11.811mils, 48
+    12mils, 69
+    16mils, 19
+    20mils, 19
+    20.079mils, 4
+    23.62mils, 40
+    31.496mils, 2
+    32.087mils, 2
+    40mils, 1
+    124.803mils, 2
+count : 17
+
+Mid Layer Annular Ring Size, Count
+    -23.055mils, 4
+    -7.874mils, 4
+    0mils, 10
+    6mils, 87
+    8mils, 372
+    10mils, 90
+    11.811mils, 48
+    11.811mils, 48
+    12mils, 69
+    16mils, 19
+    20mils, 19
+    20.079mils, 4
+    23.62mils, 40
+    31.496mils, 2
+    32.087mils, 2
+    40mils, 1
+    124.803mils, 2
+count : 17
+
+Bottom Layer Annular Ring Size, Count
+    -23.055mils, 4
+    -7.874mils, 4
+    0mils, 10
+    6mils, 87
+    8mils, 372
+    10mils, 90
+    11.811mils, 48
+    11.811mils, 48
+    12mils, 69
+    16mils, 19
+    20mils, 19
+    20.079mils, 4
+    23.62mils, 40
+    31.496mils, 2
+    32.087mils, 2
+    40mils, 1
+    124.803mils, 2
+count : 17
+
+Net Via Size, Count
+    12mils, 283
+count : 1
