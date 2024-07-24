@@ -1,14 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [846-XXXXX_SCH_NEO-M9N_MODULE.PrjPcb]
-   Generated File[844-XXXXX_FAB_NEO-M9N_MODULE-Plated.TXT]
-   Generated File[844-XXXXX_FAB_NEO-M9N_MODULE.DRL]
-   Generated File[844-XXXXX_FAB_NEO-M9N_MODULE-BoardEdgeRout.TXT]
-   Generated File[844-XXXXX_FAB_NEO-M9N_MODULE.LDP]
-   Generated File[844-XXXXX_FAB_NEO-M9N_MODULE.DRR]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [846-XXXXX_SCH_NEO-M9N_MODULE.PrjPcb]
+   Generated File[Pick Place for 844-XXXXX_FAB_NEO-M9N_MODULE.txt]
 
 
-Files Generated   : 5
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 14:44:15 On 07.05.2024
+Finished Output Generation At 16:25:20 On 23.07.2024
