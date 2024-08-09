@@ -1,0 +1,17 @@
+---
+# SPDX-FileCopyrightText: 2024 CERN (home.cern)
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
+version: '1.0.0'
+name: 'White Rabbit Switch - Hardware'
+description: 'https://ohwr.org/project/wr-switch-hw/wikis/home'
+website: 'https://ohwr.org/project/wr-switch-hw'
+images:
+  - 'https://ohwr.org/project/wr-switch-hw/uploads/5bfdbb7d9e66d811f3c4f91bfa2064bf/wrs3_W01-wrs3.4-iso.jpg'
+  - 'https://ohwr.org/project/wr-switch-hw/uploads/8bec64c2bc708e20d516d4ddb9ce8da4/wrs3_W02-v3.4-smc.jpg'
+  - 'https://ohwr.org/project/wr-switch-hw/uploads/8e9c59e97a47bc5cdabbebcdc0d41c2c/wrs3_04-v3.3-back-wiki.jpg'
+  - 'https://ohwr.org/project/wr-switch-hw/uploads/63a89426d8b903d6c65f44ac4811467b/wrs3_03-v3.3-top-wiki.jpg'
+documentation: 'https://ohwr.org/project/wr-switch-hw/wikis'
+issues: 'https://ohwr.org/project/wr-switch-hw/issues'
+

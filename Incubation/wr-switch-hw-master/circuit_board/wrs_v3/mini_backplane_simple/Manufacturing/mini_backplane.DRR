@@ -1,0 +1,28 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: mini_backplane.PcbDoc   9/22/2011  4:38:52 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : mini_backplane.TXT
+EIA File   : mini_backplane.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          501              375.41 Inch (9535.32 mm)
+T2        31.5mil (0.8001mm)       Round          8                295.13 Inch (7496.39 mm)
+T3        35.43mil (0.89992mm)     Round          6                291.27 Inch (7398.23 mm)
+T4        38mil (0.9652mm)         Round          3                292.20 Inch (7421.95 mm)
+T5        39.37mil (1mm)           Round          32               293.59 Inch (7457.24 mm)
+T6        51.18mil (1.29997mm)     Round          66               311.90 Inch (7922.26 mm)
+T7        55.12mil (1.40005mm)     Round          12               296.16 Inch (7522.38 mm)
+T8        66.93mil (1.70002mm)     Round          2                291.76 Inch (7410.75 mm)
+T9        125.98mil (3.19989mm)    Round          4                295.50 Inch (7505.76 mm)
+T10       137.8mil (3.50012mm)     Round          5                307.64 Inch (7813.97 mm)
+T11       35.43mil (0.89992mm)     Round          58        NPTH   304.39 Inch (7731.49 mm)
+T12       39.37mil (1mm)           Round          4         NPTH   293.43 Inch (7453.00 mm)
+T13       62.99mil (1.59995mm)     Round          13        NPTH   301.54 Inch (7659.13 mm)
+T14       70.87mil (1.8001mm)      Round          1         NPTH   292.69 Inch (7434.28 mm)
+---------------------------------------------------------------------------
+Totals                                            715              4242.60 Inch (107762.16 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

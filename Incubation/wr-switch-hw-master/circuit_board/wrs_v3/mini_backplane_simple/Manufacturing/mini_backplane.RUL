@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\altium-projects\WR Switch SVN PCB\wrs_v3\mini_backplane_simple\mini_backplane.PcbDoc
+RuleKind=Width|RuleName=Width_DIFF|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=7.00

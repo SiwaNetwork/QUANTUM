@@ -1,0 +1,435 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : sans-serif;
+			color : white;
+			background-color : #21489e;
+			padding: 0.3em;
+		}
+		body {
+			font-family : verdana;
+		}
+		td, th {
+			padding: 0.5em;
+			text-align : center;
+			width : 18%;
+		}
+		th {
+			background-color : #A6CAF0;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+		}
+		
+		.DRC_summary_header {							
+			padding-bottom : 0.1em;
+			border : 0px solid black;							
+			width: 100%;
+                        align: right;
+                        
+		}
+
+		.DRC_summary_header_col1, 
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3
+		{
+			color : black;
+			font-size:150%;
+                        padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2: 0em;
+			border : 0px solid black;
+			width : auto;
+			vertical-align: top;
+			font-weight: bold;				
+		}
+		
+		.DRC_summary_header_col1 	
+		{		                       
+			text-align: right;
+                        width: auto;	
+		}
+
+		.DRC_summary_header_col2 	
+		{		
+			text-align: center;	
+		}
+
+		.DRC_summary_header_col3 	
+		{		
+			text-align: left;	
+		}
+
+
+		
+		.header_holder
+		{
+		Width = 100%;
+		border = 0px solid green;
+		padding = 0;
+		}
+		
+		
+		
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+			left:0;
+			top:0;
+			padding-top : 0.1em;			
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top
+
+		}
+		.front_matter {	
+			
+			margin-top: 5px;
+ 			margin-left: 0px;					 			
+ 			horizontal-align: left;
+		}
+				
+		
+		.front_matter_column1 {
+			width : 10em;	
+			text-align  : right;
+			padding-right:0.1em;
+			
+		}
+		
+		.front_matter_column2 {
+                        width: 0.1em;
+			align: center;
+			text-align : center;
+			margin-right  : 0.1em;	
+			margin-left   : 0.1em;
+		}
+		.front_matter_column3 {
+			width         : auto;  
+			text-align    : left;	
+			margin-right  : 0.5em;				
+		}
+		
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : right;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #EEEEE0 
+		}
+		tr.onmouseout_even { 
+			background-color : #F3F3E3   
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : lightYellow
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #008000 
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Documents and Settings\All Users\Documentos\Altium\AD 10\Templates\AD-rgb_logo_223x64.gif
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td Style="width:70%">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">10/05/2012</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">13:11:13</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">00:00:37</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc" class="file"><acronym title="D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc">D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td Style="Width:30%">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3" style="color : red">21</td></tr>
+</table>
+</td>
+</table>
+<hr><a name="IDASAU2B"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAEBU2B">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAKBU2B">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">14</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAEEU2B">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAKEU2B">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAQEU2B">Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.5mm) (InNetClass('PWRs&amp;GNDs'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAWEU2B">Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA2EU2B">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDACFU2B">Pads and Vias to follow the Drill pairs settings</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAIFU2B">Hole Size Constraint (Min=0.2mm) (Max=7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAOFU2B">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAGGU2B">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAMGU2B">Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDASGU2B">Silkscreen Over Component Pads (Clearance=0.08mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDATHU2B">Silk to Silk (Clearance=0.025mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAFQU2B">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDALQU2B">Width Constraint (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) ((InDifferentialPairClass('All Differential Pairs')))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDARQU2B">Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">21</td>
+</tr>
+</table><br><hr><a name="IDAKBU2B"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.378mil|Location2.X=10254.299mil|Location1.Y=48968.157mil|Location2.Y=49101.157mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.378mil|Location2.X=10254.299mil|Location1.Y=48968.157mil|Location2.Y=49101.157mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C44-1 (3.83,22.374mm) And Pad C46-1 (34.73,24.574mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16694.59mil|Location2.X=19839.472mil|Location1.Y=49827.866mil|Location2.Y=50027.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16694.59mil|Location2.X=19839.472mil|Location1.Y=49827.866mil|Location2.Y=50027.866mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C50-1 (201.43,46.174mm) And Track on layer Top Layer (276.23,46.174mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19812.701mil|Location2.X=22956.598mil|Location1.Y=49823.929mil|Location2.Y=50027.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19812.701mil|Location2.X=22956.598mil|Location1.Y=49823.929mil|Location2.Y=50027.866mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C52-1 (280.63,46.074mm) And Track on layer Top Layer (355.405,46.174mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13638.031mil|Location2.X=16724.771mil|Location1.Y=49825.441mil|Location2.Y=50030.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13638.031mil|Location2.X=16724.771mil|Location1.Y=49825.441mil|Location2.Y=50030.291mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C49-1 (121.83,46.174mm) And Pad Free- (197.055,46.174mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22919mil|Location2.X=26073.724mil|Location1.Y=49835.74mil|Location2.Y=50027.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22919mil|Location2.X=26073.724mil|Location1.Y=49835.74mil|Location2.Y=50027.866mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C53-1 (359.53,46.374mm) And Track on layer Top Layer (434.58,46.174mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25873.724mil|Location2.X=26079.63mil|Location1.Y=52989.283mil|Location2.Y=50216.842mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25873.724mil|Location2.X=26079.63mil|Location1.Y=52989.283mil|Location2.Y=50216.842mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Track on layer Top Layer (434.58,126.474mm) And Pad C54-1 (434.73,50.974mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16771.89mil|Location2.X=18096.819mil|Location1.Y=49904.181mil|Location2.Y=51668.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16771.89mil|Location2.X=18096.819mil|Location1.Y=49904.181mil|Location2.Y=51668.086mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C50-1 (201.43,46.174mm) And Pad C43-1 (233.93,89.774mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15007.354mil|Location2.X=18174.118mil|Location1.Y=51575.898mil|Location2.Y=51744.401mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15007.354mil|Location2.X=18174.118mil|Location1.Y=51575.898mil|Location2.Y=51744.401mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Track on layer Top Layer (158.574,90.574mm) And Pad C43-1 (233.93,89.774mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19890mil|Location2.X=21368.472mil|Location1.Y=49900.244mil|Location2.Y=51542.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19890mil|Location2.X=21368.472mil|Location1.Y=49900.244mil|Location2.Y=51542.102mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C52-1 (280.63,46.074mm) And Pad C45-1 (317.03,86.574mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.984mil|Location2.X=10495mil|Location1.Y=48981.41mil|Location2.Y=52382.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.984mil|Location2.X=10495mil|Location1.Y=48981.41mil|Location2.Y=52382.197mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Track on layer Top Layer (38.88,24.674mm) And Track on layer Top Layer (38.88,105.974mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18128.464mil|Location2.X=18778.449mil|Location1.Y=51576.929mil|Location2.Y=54718.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18128.464mil|Location2.X=18778.449mil|Location1.Y=51576.929mil|Location2.Y=54718.677mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Track on layer Top Layer (237.85,90.6mm) And Track on layer Top Layer (249.28,165.32mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9173.465mil|Location2.X=10254.299mil|Location1.Y=52278.197mil|Location2.Y=54794.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9173.465mil|Location2.X=10254.299mil|Location1.Y=52278.197mil|Location2.Y=54794.071mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Pad C47-1 (8.43,169.174mm) And Pad C41-1 (34.73,106.474mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13743.803mil|Location2.X=15036.323mil|Location1.Y=54327.866mil|Location2.Y=51775.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13743.803mil|Location2.X=15036.323mil|Location1.Y=54327.866mil|Location2.Y=51775.898mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Track on layer Top Layer (126.48,160.474mm) And Pad C42-1 (154.23,90.574mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.984mil|Location2.X=13605.22mil|Location1.Y=48981.41mil|Location2.Y=50027.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.984mil|Location2.X=13605.22mil|Location1.Y=48981.41mil|Location2.Y=50027.866mil|Absolute=True">Un-Routed Net Constraint: Net CHASSIS Between Track on layer Top Layer (38.88,24.674mm) And Track on layer Top Layer (117.88,46.174mm)</acronym></a><br></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDAOFU2B"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9046.074mil|Location2.X=10468.845mil|Location1.Y=48468.265mil|Location2.Y=51126.333mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9046.074mil|Location2.X=10468.845mil|Location1.Y=48468.265mil|Location2.Y=51126.333mil|Absolute=True">Differential Pairs Routing Between Net USB_DDP_P And Net USB_DDP_N</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11423.343mil|Location2.X=14601.593mil|Location1.Y=49684.8mil|Location2.Y=52036.49mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11423.343mil|Location2.X=14601.593mil|Location1.Y=49684.8mil|Location2.Y=52036.49mil|Absolute=True">Differential Pairs Routing Between Net MGTTX115_2_P And Net MGTTX115_2_N</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11403.403mil|Location2.X=25551.593mil|Location1.Y=49684.8mil|Location2.Y=53291.105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11403.403mil|Location2.X=25551.593mil|Location1.Y=49684.8mil|Location2.Y=53291.105mil|Absolute=True">Differential Pairs Routing Between Net MGTTX112_0_P And Net MGTTX112_0_N</acronym></a><br></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDASGU2B"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Silkscreen Over Component Pads (Clearance=0.08mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17606.614mil|Location2.X=18218.031mil|Location1.Y=54510mil|Location2.Y=54517.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17606.614mil|Location2.X=18218.031mil|Location1.Y=54510mil|Location2.Y=54517.874mil|Absolute=True">Track (222.155mm,162.66mm)(237.485mm,162.66mm)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17854.055mil|Location2.X=17969.803mil|Location1.Y=54508.031mil|Location2.Y=54623.779mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17854.055mil|Location2.X=17969.803mil|Location1.Y=54508.031mil|Location2.Y=54623.779mil|Absolute=True">Pad J7-3(229.81mm,163.98mm)  Multi-Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17606.614mil|Location2.X=18218.031mil|Location1.Y=54510mil|Location2.Y=54517.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17606.614mil|Location2.X=18218.031mil|Location1.Y=54510mil|Location2.Y=54517.874mil|Absolute=True">Track (222.155mm,162.66mm)(237.485mm,162.66mm)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17964.622mil|Location2.X=18059.236mil|Location1.Y=54418.598mil|Location2.Y=54513.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17964.622mil|Location2.X=18059.236mil|Location1.Y=54418.598mil|Location2.Y=54513.213mil|Absolute=True">Pad J7-2(232.35mm,161.44mm)  Multi-Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17606.614mil|Location2.X=18218.031mil|Location1.Y=54510mil|Location2.Y=54517.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17606.614mil|Location2.X=18218.031mil|Location1.Y=54510mil|Location2.Y=54517.874mil|Absolute=True">Track (222.155mm,162.66mm)(237.485mm,162.66mm)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17764.622mil|Location2.X=17859.236mil|Location1.Y=54418.598mil|Location2.Y=54513.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17764.622mil|Location2.X=17859.236mil|Location1.Y=54418.598mil|Location2.Y=54513.213mil|Absolute=True">Pad J7-1(227.27mm,161.44mm)  Multi-Layer</acronym></a></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDATHU2B"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Silk to Silk (Clearance=0.025mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16298.803mil|Location2.X=16566.455mil|Location1.Y=51627.234mil|Location2.Y=51816.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16298.803mil|Location2.X=16566.455mil|Location1.Y=51627.234mil|Location2.Y=51816.172mil|Absolute=True">Text "SE" (189.737mm,90.238mm)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16514.108mil|Location2.X=16641.435mil|Location1.Y=51644.227mil|Location2.Y=51850.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\White Rabbit\miniBackplane_SFP\miniBackplane.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16514.108mil|Location2.X=16641.435mil|Location1.Y=51644.227mil|Location2.Y=51850.31mil|Absolute=True">Track (194.755mm,94.554mm)(197.089mm,90.219mm)  Top Overlay</acronym></a></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>

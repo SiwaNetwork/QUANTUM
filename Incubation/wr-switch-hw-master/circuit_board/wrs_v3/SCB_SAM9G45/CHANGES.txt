@@ -1,0 +1,149 @@
+SCB Changes from V3.3 to V3.4:
+===============================
+
+Schematics:
+------------
+
+ * C165 value changed from 100nF to 220nF
+ * VCC_IN of CDCM61002 (IC13) connected to +3V3
+ * RSTN pin of IC13 conected to a 47nF capacitor, not to +3V3
+ * QDRII_200CLK moved to OUT3 (LVPECL) of AD9516.
+ * Added LVDS termination resistor to adapt OUT3 to LVDS format
+ * CLK_OUT (EXTREF125MHZOUT) connected to OUT9 (CMOS) of AD9516-4.
+ * CLK_OUT transformer changed by 1:1 (WBC1-1LB)
+ * R253 and R254 resistor (Ethernet sheet) changed to 0402 size in order to reduce items.
+ * Changed EXTPPSIN input stage in order to add 50 R termination selectable by the FPGA. 
+ * Name of nets QDRII_CLK and QDRII_200CLK changed to REF_CLK and AUX_CLK.
+ * Input EXTREF_125M removed. 
+ * QDRII IC42 chip removed. 
+ * Added ouput from FPGA latched by an AD9516 clock. This output uses the EXTREF_125M SMC connector:
+	* Added LVPECL latch
+	* Added LVPECL to LVTTL translator at the output 
+	* CLK0 input of IC12 changed to OUT6 of AD9516
+	* FPGA VCCO Bank 26 changed to +2V5 to use LVPECL and LVDS
+ * Removed the six 0R resistor at the inputs of the AD5662 DACs
+ * FPGA Banks 26, 36 and 25 moved to "PFGA_Peripherals_Control" sheet. 
+ * Connected the 3 free buffers SN74LVT125DW to the EXTPPSOUT output signal.
+
+PCB:
+------
+
+ * GTX_DIFF signals routed on 90um/160um in order to reduce space, allowing to pass between vias
+ * Some vias were moved from pads of some components to avoid the solder paste flooding by the vía. 
+ * IVT3200 VCO was moved to separate it of NAND Flash IC
+
+
+
+
+Changes from SCBv3.2 to SCBv3.3
+===============================
+
+SCB_PLLs:
+C165 footprint changed to 0402 in order to remove this component and reduce boom.
+2.- Connectors:
+CN1 Ethernet connector case connected to GND_SHIELD.
+3.- CPU_100M_Ethernet:
+C206 changed from 470pF to 2,7nF in order to remove this component and reduce boom.
+Added R253 and R254 resistors (both 75R) between the Tr1 and C214.
+L10 is not mounted now. It connects GND_SHIELD and GND_ETH.
+4.- QDRII_mem and QDRII_power: 
+All the components of the QDRII memories will be not mounted. 
+
+
+
+
+Changes from SCBv3.1 to SCBv3.2
+===============================
+
+1.SCB_PLLs:
+R61 changed to o.c. The V3 works with 62,5MHz DMTD clock instead of the foreseen 125MHz). 
+C188 not mounted by defect.
+AD9516 resistor changed to 100/330R in signals SDIO, SDO, LD and STATUS
+2.- Power Supply:
+R234 changed from 10K to 9K31 to increase +2V5 up to 2V6
+3.- CPU_JTAG_Power_PLL:
+R3 and R5 values swapped (ARM BMS pin).
+Pull-up R10 changed from JRTCK to JTCK
+4.- Connectors:
+USB connector CON1 not used.
+CN2 connector (for uTCA clocks) not used.
+5.- FPGA_Configuration:  
+Q2 changed by a PMOSFET. Footprint error fixed.
+6.- CPU_EBI1_FPGA_Memory:
+SPI Flash changed from AT45DB642 to AT45DB321 (Atmel bug). Footprint changed to keep compatibility of two components.
+SPI Flash divisor on SO signal changed to 100/300R
+Added jumper to select/deselect boot memories. Added a GPIO jumper too (Alessandro requirement).
+7.- CPU_IO_Ports:
+Resistor for current limiting of LEDs changed to 330R to increase luminosity.
+
+8.- SMI_Link_7-12:
+Removed FPGA free global clock to J3 connector.
+9.-  FPGA_System_Monitor:
+FPGA global clock connected to CLK10MHZ_EXT signal clock.
+10.- FPGA_Peripherals_Control:
+PLL_STAT signal connected to MRCC FPGA pin clock.
+FPGA_RS232_RXD divider changed to 100/330R
+11.- SCB_CLKs:
+IC11 and R38 power supply changed to +2V5
+12.-  RS232_and_USB:
+RS232 R1out divider changed to 100/330R
+
+
+Changes from SCBv3.0 to SCBv3.1
+===============================
+
+Schematics:
+
+1.- Connectors:
+	FPGA JTAG connector, TDI and TDO swapped.
+	FPGA JTAG Header changed to 0878321421  Molex. 
+	P2 Header changed by a 2mm SMD version.
+	Added FPGA fan connector P9.
+	Changed USB schematics ports for CPU_USB harness. 
+	Order of SMC signal changed in order to group inputs and outputs on PCB.
+2.- CPU_DDR2
+	Error in ARM EBI0 symbol. RAS and CAS pins are swapped.
+	Signals DDR_DQM0 and DDR_DQM1 to DDR are swapped.
+	Signals name updated by pin swapping in serial resistors.
+3.- SMI_Link_7-12:
+	Swapped P/N lines in some differential pairs in order to fix error introduced by the pin swapping process during the PCB routing.
+4.- uTCA_Tongue3:
+	Swapped P/N lines in some differential pairs in order to fix error introduced by the pin swapping process during the PCB routing.
+5.- SCB_PLLs:
+	Added pull-down resistor to RESET and PD AD9516 pins. Both pins are connected together. 
+	Added pull-resistor to EN pin of IC12 (clock driver). This pin is now controlled by FPGA.
+	This changes are for improving power consumption when both chips (IC16 and IC12) are 	not been used. 
+	RSTN Pin of IC13 connected to +3V3 to allow this chips work when AD9516 is reset.
+6.- Power_Supply:
+	Diode D16 PN changed for S2M-TP
+7.- RS232_and_USB_ports
+	Changed USB schematics ports for CPU_USB harness. 
+8.- FPGA_Peripherals_Control
+	Pin swapping updated in FPGA symbol.
+	Added signal CLK_EN to control IC12.
+
+Footprints modified:
+------------------------
+
+Diode TS4148RZ: from CC1608-0603 to CD1608-0603
+MT29F4G16ABCHC NAND Flash, silkscreen increased from 9x11mm to 10,5x13mm 
+FSM6JSMA switch footprint changed.
+Diode S2M footprint changed from DIOM5336X265N to DO-214AA/SMB-MCC.
+MT47H32M16HR DDR memory footprint changed.
+ARM JTAG HEADER footprint changed.
+
+Routing:
+------------
+
+
+LDO_IN Polygon changed.
+Routing of C2 changed.
+Routing of R189, R186 and C265
+SilkScreen:
+Top Layer:
+Added OH Repository information
+Added +5V connector polarity
+Bottom Layer:
+Added license OHL information
+Added version 3.1 of PCB
+Added date

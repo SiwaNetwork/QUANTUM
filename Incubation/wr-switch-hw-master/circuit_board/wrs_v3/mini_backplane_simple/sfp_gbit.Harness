@@ -1,0 +1,4 @@
+sfp_gbit=TX_P,TX_N,RX_P,RX_N
+sfp_control=TX_FAULT,TX_DISABLE,LOS,DETECT,SCL,SDA
+rs232=RXD,TXD
+

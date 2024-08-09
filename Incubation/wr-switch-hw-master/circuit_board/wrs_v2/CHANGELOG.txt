@@ -1,0 +1,65 @@
+MCH_MAIN review minutes
+
+Tomasz Wlostowski, 2009/03/30
+----------------------------------
+
+
+Review at CERN:
+
+- pullups for JTAG lines
+- changed mezzanine connector layout (2x70-pin kx14 -> 3x50-pin kx14 - easier to obtain and more flexible placement on PCB)
+- DM9161: pulldowns added on RX_DV, RX_ER, DISMDIX.
+- changed value of R18, R19 in FPGA MSEL pins (100k were too big)
+- add current monitors for PSU
+
+----------------------------------
+
+My own observations and Greg's comments:
+
+CPU:
+- fixed VDDBU power supply (should be 1.2V)
+
+- reordered CPU LEDs and UTCA leds signals for easier routing to CPU
+- eth connector ground changed to separate ground plane
+- removed plane_connects, 0R resistors instead (100m ethernet)
+- changed UART routing to front panel (now UART0)
+- CPU reset thru diode (D22) to avoid ICE resetting whole thing
+- MAIN_RESET going thru hole fixed
+- reversed uTCA status LEDs
+
+FPGA:
+- added internal netlabels
+- removed DCLK connection to GPIO pins (not necessary - we are using SSC)
+- pulldowns on FPGA DIN and DCLK lines to reduce ringing/overshoot (very long traces)
+- reordered SW_JTAG and FPGA config lines
+- additional pinswap information configured for clocks
+- testpoints at spare pins (FREE_2V5, FREE_3V3) on bottom layer (uncoated vias)
+- disabled partswap for resistor ladders due to partswap bug in Altium Designer
+
+Clocking:
+- added length matching for REFCLK and RBCLK (~500 mil tolerance -> ~0.2 ns propagation time)
+- additional decoupling caps/ferrite beads for fanout chip
+
+PHYs:
+- changed downlink PHY->fabric A line mapping for easier differential pair routing from edge connector to PHY chips
+- PHYs are now powered from separate plane with additional HF noise decoupling (inductor + bank of caps
+
+WD:
+- pinswap configured for WD GPIO pins
+- changed Atmega footprint to QFN for space reasons
+- Additional 0R resistors on SPI bus added, allowing for disconnecting main CPU
+- pullup for PEN line added
+- added analog MUX (4051) for supply voltage/current monitor
+
+Power supply:
+- additional filtering for current monitors (RC)
+
+
+General PCB:
+- fixed thermal pad layouts in PSU/PHYs
+- fixed edge connector paste mask issue
+- bigger holes for MCH stacking
+- lots of footprint updates....
+- drawn a nice logo and warning sign :)
+- added ESD strip resistors
+

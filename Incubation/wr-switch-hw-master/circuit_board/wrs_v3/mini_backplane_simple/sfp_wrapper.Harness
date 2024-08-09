@@ -1,0 +1,2 @@
+sfp_control=TX_FAULT,TX_DISABLE,SDA,SCL,DETECT,LOS
+sfp_gbit=RX_P,RX_N,TX_P,TX_N
