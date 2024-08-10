@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\user\Downloads\export_from_EDA-02189-V4-0_0_2024-08-10\EDA-02189-V4-0_project\PCB-Layout\EDA-02189-V4-0_pcb.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=eda-02189-v4-0_pcb-plated.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=eda-02189-v4-0_pcb-nonplated.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl

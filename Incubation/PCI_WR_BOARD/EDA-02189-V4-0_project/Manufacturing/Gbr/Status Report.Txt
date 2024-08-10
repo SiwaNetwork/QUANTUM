@@ -1,0 +1,12 @@
+Output: Mounter - Board
+Type  : Gerber
+From  : PCB Document [EDA-02189-V4-0_pcb.PcbDoc]
+   Generated File[EDA-02189-V4-0_pcb.GM1]
+   Generated File[EDA-02189-V4-0_pcb.EXTREP]
+   Generated File[EDA-02189-V4-0_pcb.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:56:12 On 10.08.2024
