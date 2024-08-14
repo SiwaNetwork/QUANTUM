@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [SFP_RFoF.PrjPcb]
+   Generated File[Pick Place for SFP_RFoF.txt]
+   Generated File[Pick Place for SFP_RFoF.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 7:05:49 PM On 8/2/2024
