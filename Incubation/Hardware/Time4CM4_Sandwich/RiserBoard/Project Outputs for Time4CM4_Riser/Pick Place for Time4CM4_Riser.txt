@@ -1,0 +1,15 @@
+Altium Designer Pick and Place Locations
+C:\Users\SHIWA\Documents\GitHub\QUANTUM\Incubation\Hardware\Time4CM4_Sandwich\RiserBoard\Project Outputs for Time4CM4_Riser\Pick Place for Time4CM4_Riser.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       16.08.24
+Time:       14:12
+Revision:   77963b84edb8258238d278d377aa483d76b65899
+Variant:    No variations
+Units used: mm
+
+Designator Comment                         Layer       Footprint                     Center-X(mm) Center-Y(mm) Rotation Description                                          
+CM1        "Raspberry Pi Compute Module 4" BottomLayer CM4-F40C-100DS-0.4v_1.5mm_0mm 25.0000      20.0750      90       "Raspberry Pi Compute Module 4 by Amornthep Phunsin" 
+CM4        "Raspberry Pi Compute Module 4" TopLayer    CM4-F40C-100DS-0.4v_1.5mm_0mm 25.0000      20.0800      90       "Raspberry Pi Compute Module 4 by Amornthep Phunsin" 

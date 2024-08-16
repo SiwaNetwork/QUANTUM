@@ -1,0 +1,49 @@
+Altium Designer Pick and Place Locations
+C:\Users\SHIWA\Documents\GitHub\QUANTUM\Incubation\Hardware\Time4CM4_Sandwich\Baseboard\Project Outputs for Time4CM4_Modular\Pick Place for Time4CM4_Modular.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       16.08.24
+Time:       14:44
+Revision:   d84b48ab8cdb9cd2f661e71674dcb9bc5d789c09
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R3","10R","TopLayer","RESC1005X40X25NL05T10","6.5000","9.5000","180",""
+"D1","QBLP595-IB","TopLayer","FP-QBLP595-IB-MFG","2.7500","12.6620","0","LED BLUE CLEAR 0402 SMD"
+"L1","27nH","TopLayer","FP-LQG15HH_02-IPC_C","37.1207","21.8716","90","Multilayer type RF Inductor 27nH ±5% 0.46? 350mA 0402"
+"C10","47pF","TopLayer","FP-C0402-BB-MFG","37.1207","23.7500","270","CAP CER 47PF 25V 5% NP0 0402"
+"S1","DHN-04-V-T_R","TopLayer","DHN04VTR","37.7500","30.2500","90","Switch"
+"R6","0R","TopLayer","RESC1608X55X25ML10T15","11.2500","19.9201","90","Chip Resistor, 0 Ohm, +/- 5%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
+"C9","100nF","TopLayer","FP-C0603C-CF-MFG","7.3750","11.5000","0","CAP CER 0.1UF 50V 20% X7R 0603"
+"IC1","74LVC2G08GT,115","TopLayer","74AVC9112GTX","7.3750","13.7500","90","Integrated Circuit"
+"C12","10nF","TopLayer","CAPC1608X90X35LL15T15","10.8000","14.4999","0",""
+"C11","10uF","TopLayer","FP-C1608-080-0_1-MFG","10.8000","13.3000","0","Multilayer Ceramic Capacitors 10?F ±10% 10V X5R SMD 0603"
+"C7","100nF","TopLayer","FP-C0603C-CF-MFG","10.8000","15.9000","180","CAP CER 0.1UF 50V 20% X7R 0603"
+"R5","49.9R","TopLayer","RESC1608X55X25NL10T15","8.1250","16.6000","270","General Purpose Chip Resistor, 49.9 Ohm, +/- 1%, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
+"R4","49.9R","TopLayer","RESC1608X55X25NL10T15","8.2500","21.3160","270","General Purpose Chip Resistor, 49.9 Ohm, +/- 1%, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
+"R2","10R","TopLayer","FP-ERJ3EK-MFG","11.2500","24.5000","270","RES SMD 10 OHM 1% 1/10W 0603"
+"R1","DNP","TopLayer","FP-ERJ3EK-MFG","37.1207","18.5446","270","RES SMD 10 OHM 1% 1/10W 0603"
+"C8","10nF","TopLayer","CAPC1608X90X35LL15T15","34.6710","19.0246","0","Multilayer Ceramic Capacitor, 0.01 uF, 16 V, ± 10%, X7R, 0603 [1608 Metric]"
+"CM1","Raspberry Pi Compute Module 4","BottomLayer","CM4-F40C-100DS-0.4v_1.5mm_0mm","25.0000","20.0750","90","Raspberry Pi Compute Module 4 by Amornthep Phunsin"
+"J9","U.FL-R-SMT-1(10)","TopLayer","FP-U_FL-R-SMT-1_10-MFG","3.5125","17.2063","270","CONN U.FL RCPT STR 50 OHM SMD"
+"FB3","BLM18HG102SH1D","TopLayer","FP-BLM18-0_15-t0_8-IPC_C","34.6710","17.8562","0","Chip Ferrite Bead, 0603, 1000? @ 100MHz, 1.6?, 25%, 100mA"
+"C6","100nF","TopLayer","FP-C0603C-CF-MFG","51.4350","21.7424","270","CAP CER 0.1UF 50V 20% X7R 0603"
+"C5","10uF","TopLayer","FP-C1608-080-0_1-IPC_A","52.8828","21.3106","270","Multilayer Ceramic Capacitors 10?F ±10% 10V X5R SMD 0603"
+"C4","100nF","TopLayer","FP-C0603C-CF-MFG","51.4350","25.0190","90","CAP CER 0.1UF 50V 20% X7R 0603"
+"C3","10uF","TopLayer","FP-C1608-080-0_1-IPC_A","52.9336","25.4508","90","Multilayer Ceramic Capacitors 10?F ±10% 10V X5R SMD 0603"
+"U2","LEA-M8","TopLayer","LEA","22.5000","20.0000","0","u-blox LEA GNSS module"
+"U1","MAX-M","TopLayer","FP-MAX-M8W-0-MFG","44.4010","20.7500","180","RF RCVR GNSS/GPS 1.575GHZ 18LCC"
+"J7","BM23FR0.6-10DS-0.35V(895)","TopLayer","BM23FR0810DS035V895","39.7618","-6.7804","90","Connector"
+"J6","BM23FR0.6-10DS-0.35V(895)","TopLayer","BM23FR0810DS035V895","50.5818","-6.7804","270","Connector"
+"J5","U.FL-R-SMT-1(10)","TopLayer","FP-U_FL-R-SMT-1_10-MFG","3.5125","21.9313","270","CONN U.FL RCPT STR 50 OHM SMD"
+"J4","U.FL-R-SMT-1(10)","TopLayer","FP-U_FL-R-SMT-1_10-MFG","3.5271","26.7063","270","CONN U.FL RCPT STR 50 OHM SMD"
+"J3","BM23FR0.6-10DS-0.35V(895)","TopLayer","BM23FR0810DS035V895","21.4476","-6.7804","90","Connector"
+"J2","BM23FR0.6-10DS-0.35V(895)","TopLayer","BM23FR0810DS035V895","32.2676","-6.7804","270","Connector"
+"J1","U.FL-R-SMT-1(10)","TopLayer","FP-U_FL-R-SMT-1_10-MFG","3.5271","31.4313","270","CONN U.FL RCPT STR 50 OHM SMD"
+"FB1","BLM18HG102SH1D","TopLayer","FP-BLM18-0_15-t0_8-IPC_C","8.2500","25.9000","270","Chip Ferrite Bead, 0603, 1000? @ 100MHz, 1.6?, 25%, 100mA"
+"C2","100nF","TopLayer","FP-C0603C-CF-MFG","34.6964","14.8336","0","CAP CER 0.1UF 50V 20% X7R 0603"
+"C1","10uF","TopLayer","FP-C1608-080-0_1-IPC_A","34.6710","16.3830","0","Multilayer Ceramic Capacitors 10?F ±10% 10V X5R SMD 0603"
+"CM4","Raspberry Pi Compute Module 4","TopLayer","CM4-F40C-100DS-0.4v_1.5mm_0mm","25.0000","20.0800","90","Raspberry Pi Compute Module 4 by Amornthep Phunsin"

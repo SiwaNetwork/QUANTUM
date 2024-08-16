@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Time4CM4_Riser.PrjPcb]
+   Generated File[Pick Place for Time4CM4_Riser.txt]
+   Generated File[Pick Place for Time4CM4_Riser.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 14:16:25 On 16.08.2024
