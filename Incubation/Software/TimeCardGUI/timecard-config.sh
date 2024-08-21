@@ -8,7 +8,7 @@
 do_info() {
   whiptail --msgbox "\
 This tool provides a straight-forward way of doing initial 
-configuration of the Time Card. Although it can be run 
+configuration of the Qantum Card. Although it can be run 
 at any time, some of the options may have difficulties if 
 you have heavily customised your installation.\
 " 20 70 1
@@ -130,8 +130,8 @@ do_finish() {
 }
 
 while true; do
-  FUN=$(whiptail --menu "Time Card Configurator" 20 80 12 --cancel-button Finish --ok-button Select \
-    "info" "information about the Time Card Configurator" \
+  FUN=$(whiptail --menu "Qantum Card Configurator" 20 80 12 --cancel-button Finish --ok-button Select \
+    "info" "information about the Qantum Card Configurator" \
     "device" "enumeration of the time card device" \
     "clock_sources" "setting the clock source" \
     "peripherals" "show the pheripheral enumerations" \
@@ -141,7 +141,7 @@ while true; do
     "gnss_status" "show the status of the GNSS receiver" \
     "mac_status" "show the status of the mac" \
     "timestampers" "show the timestamper stack" \
-    "update" "update the firmware of the Time Card" \
+    "update" "update the firmware of the Qantum Card" \
     3>&1 1>&2 2>&3)
   RET=$?
   if [ $RET -eq 1 ]; then
