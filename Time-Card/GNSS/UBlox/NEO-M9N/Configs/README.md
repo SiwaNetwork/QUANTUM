@@ -1,15 +1,14 @@
-# UBX NEO-M9N module configurations
+# Конфигурации модуля UBX NEO-M9N
 
 - NEO-M9N-00B-00
 
-In the subfolder are example base configurations available which should work with the Time-Card. They have the correct messages enabled and the correct settings for the Pulse Per Second. However, depending on the use-case there might be changes required.
+Во вложенной папке представлены примеры базовых конфигураций, которые должны работать с тайм-картой. В них включены правильные сообщения и правильные настройки для импульсов в секунду. Однако, в зависимости от варианта использования, могут потребоваться изменения.
 
-# Required Messages
+# Обязательные сообщения
 - NAV_TIME_UTC
 - NAV_TIME_LS
 
-# Optional Messages (for additional status information)
+# Необязательные сообщения (для получения дополнительной информации о статусе)
 - NAV_STATUS
 - MON_HW
 - NAV_SAT
-
