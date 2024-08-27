@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\SHIWA\Documents\GitHub\QUANTUM\Qantum Time-Card\–≈«ŒÕ¿“Œ–€\OCXO Daughtercard\ECAD\ECAD\OCXO_DaughterCard.PcbDoc
+DRC Rules Export File for PCB: C:\Users\user\Downloads\ECAD\OCXO_DaughterCard.PcbDoc
 RuleKind=Clearance|RuleName=Clearance_DIFF|Scope=Board|Minimum=7.87
 RuleKind=Clearance|RuleName=Clearance_RF|Scope=Board|Minimum=7.87
 RuleKind=Width|RuleName=Width_footprints|Scope=Board|Minimum=0.39

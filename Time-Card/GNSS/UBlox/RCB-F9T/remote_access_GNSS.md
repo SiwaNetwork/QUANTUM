@@ -8,15 +8,11 @@
 
 Пакет ser2net доступен в большинстве дистрибутивов через стандартные пакеты. Для дистрибутивов на основе Red Hat выполните следующую команду:
 
-```bash
 sudo dnf install ser2net
-```
 
 Для дистрибутивов на основе Debian:
 
-```bash
 sudo apt-get install ser2net
-```
 
 Это установит пакет ser2net и создаст необходимые конфигурационные файлы.
 
@@ -24,11 +20,10 @@ sudo apt-get install ser2net
 
 Для поиска порта, связанного с портом GNSS, выполните:
 
-```bash
+
 dmesg | grep ocp
 ```
 
-> ```
 > [    4.627215] ptp_ocp 0000:02:00.0: enabling device (0100 -> 0102)
 > [    4.628143] ptp_ocp 0000:02:00.0: irq 16 out of range, skipping ts4
 > [    4.631062] ptp_ocp 0000:02:00.0: Version 1.2.0, clock PPS, device ptp0
@@ -43,13 +38,12 @@ dmesg | grep ocp
 
 Или альтернативно,
 
-```bash
 ls -ls /sys/class/timecard/ocp*/ttyGNSS
 ```
 
 > ```
 > 0 lrwxrwxrwx. 1 root root 0 Jul 30 11:07 /sys/class/timecard/ocp0/ttyGNSS -> ../../tty/ttyS5
-> ```
+
 
 В обоих случаях `/dev/ttyS5` - это наше устройство. Теперь мы можем предоставить к нему доступ через Ethernet.
 
@@ -57,22 +51,17 @@ ls -ls /sys/class/timecard/ocp*/ttyGNSS
 
 Теперь нам нужно отредактировать конфигурационный файл и предоставить доступ к последовательному порту GNSS Time Card. Конфигурационный файл по умолчанию для ser2net пытается по умолчанию предоставить доступ к множеству портов, поэтому мы его резервируем и создаем новый файл только с портом, который мы пытаемся предоставить.
 
-```bash
 sudo mv /etc/ser2net.conf /etc/ser2net.conf.bak
 sudo sh -c "echo -e 2006:raw:5:/dev/ttyS5:115200 > /etc/ser2net.conf"
-```
 
 Теперь мы можем запустить ser2net
 
-```bash
 ser2net
-```
 
 И открыть порт в брандмауэре
 
-```
 sudo firewall-cmd --add-port=2006/tcp
-```
+
 
 Теперь мы можем подключиться к модулю GNSS напрямую, используя функцию сетевого подключения u-center.
 

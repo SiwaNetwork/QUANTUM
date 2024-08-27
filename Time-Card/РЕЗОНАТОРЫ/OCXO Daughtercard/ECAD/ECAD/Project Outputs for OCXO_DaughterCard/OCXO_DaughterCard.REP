@@ -2,219 +2,240 @@
 FileName = OCXO_DaughterCard.GBR
 AutoAperture = True
 *************************************************************
-Generating : L03-PWR
-      File : OCXO_DaughterCard.G2
+Generating : M30_LIB_Part_References
+      File : OCXO_DaughterCard.GM30
 
-    Adding Layer      : L03-PWR
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : M30_LIB_Part_References
 
 
 Used DCodes :
-    D76
-    D77
-    D78
-    D79
-    D80
 *************************************************************
 
 *************************************************************
-Generating : L04-PWR
-      File : OCXO_DaughterCard.G3
+Generating : Bottom Component Outline
+      File : OCXO_DaughterCard.GM29
 
-    Adding Layer      : L04-PWR
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Component Outline
 
 
 Used DCodes :
-    D76
-    D77
-    D78
-    D79
-    D80
+    D14
+    D102
+    D104
 *************************************************************
 
 *************************************************************
-Generating : L05-GND
-      File : OCXO_DaughterCard.G4
+Generating : Top Component Outline
+      File : OCXO_DaughterCard.GM28
 
-    Adding Layer      : L05-GND
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Component Outline
 
 
 Used DCodes :
-    D76
-    D77
-    D78
-    D79
-    D80
+    D14
+    D102
 *************************************************************
 
 *************************************************************
-Generating : L06-Bottom Layer
-      File : OCXO_DaughterCard.GBL
+Generating : Top Component Center
+      File : OCXO_DaughterCard.GM18
 
-    Adding Layer      : L06-Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Component Center
 
 
 Used DCodes :
-    D12
-    D13
-    D25
-    D31
-    D32
-    D33
-    D35
-    D68
-    D69
-    D70
-    D71
-    D72
-    D74
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
+    D14
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : OCXO_DaughterCard.GPB
+Generating : M17_PCB_Film_Name
+      File : OCXO_DaughterCard.GM17
 
-    Adding Layer      : L06-Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : M17_PCB_Film_Name
 
 
 Used DCodes :
-    D25
-    D31
-    D32
-    D33
-    D35
-    D70
-    D76
-    D77
-    D78
-    D79
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
+    D14
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : OCXO_DaughterCard.GPT
+Generating : Bottom Courtyard
+      File : OCXO_DaughterCard.GM16
 
-    Adding Layer      : L01-Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Courtyard
 
 
 Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D70
-    D76
-    D77
-    D78
-    D79
+    D14
+    D102
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : OCXO_DaughterCard.GTO
+Generating : Top Courtyard
+      File : OCXO_DaughterCard.GM15
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Top Courtyard
 
 
 Used DCodes :
-    D10
-    D11
-    D12
     D13
     D14
-    D15
+    D102
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : OCXO_DaughterCard.GTP
+Generating : Bottom 3D Body
+      File : OCXO_DaughterCard.GM14
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Bottom 3D Body
 
-    Adding Layer      : L01-Top Layer
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : OCXO_DaughterCard.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : OCXO_DaughterCard.GM11
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : TIME_CARD_REF_LOCATORS
+      File : OCXO_DaughterCard.GM10
+
+    Adding Layer      : TIME_CARD_REF_LOCATORS
+
+
+Used DCodes :
+    D14
+    D102
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : OCXO_DaughterCard.GM9
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : OCXO_DaughterCard.GM8
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : M01_PCB_Outline
+      File : OCXO_DaughterCard.GM1
+
+    Adding Layer      : M01_PCB_Outline
+
+
+Used DCodes :
+    D102
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : OCXO_DaughterCard.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D14
+    D73
+    D101
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : OCXO_DaughterCard.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L06-Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
     D25
-    D26
-    D27
-    D28
-    D29
-    D30
     D31
     D32
     D33
-    D34
     D35
-    D36
-    D37
-    D38
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : OCXO_DaughterCard.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L06-Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D47
+    D53
+    D54
+    D55
+    D57
+    D60
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
 *************************************************************
 
 *************************************************************
@@ -262,45 +283,101 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : OCXO_DaughterCard.GBS
+Generating : Top Paste
+      File : OCXO_DaughterCard.GTP
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Paste
 
-    Adding Layer      : L06-Bottom Layer
+    Adding Layer      : L01-Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D47
-    D53
-    D54
-    D55
-    D57
-    D60
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : OCXO_DaughterCard.GBP
+Generating : Top Overlay
+      File : OCXO_DaughterCard.GTO
 
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : OCXO_DaughterCard.GPT
+
+    Adding Layer      : L01-Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D70
+    D76
+    D77
+    D78
+    D79
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : OCXO_DaughterCard.GPB
 
     Adding Layer      : L06-Bottom Layer
 
@@ -313,6 +390,11 @@ Used DCodes :
     D32
     D33
     D35
+    D70
+    D76
+    D77
+    D78
+    D79
     D82
     D83
     D84
@@ -325,107 +407,95 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : OCXO_DaughterCard.GBO
+Generating : L06-Bottom Layer
+      File : OCXO_DaughterCard.GBL
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : L06-Bottom Layer
 
-
-Used DCodes :
-    D11
-    D14
-    D73
-    D101
-*************************************************************
-
-*************************************************************
-Generating : M01_PCB_Outline
-      File : OCXO_DaughterCard.GM1
-
-    Adding Layer      : M01_PCB_Outline
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D102
-    D103
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : OCXO_DaughterCard.GM8
-
-    Adding Layer      : Top Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Designator
-      File : OCXO_DaughterCard.GM9
-
-    Adding Layer      : Bottom Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : TIME_CARD_REF_LOCATORS
-      File : OCXO_DaughterCard.GM10
-
-    Adding Layer      : TIME_CARD_REF_LOCATORS
-
-
-Used DCodes :
-    D14
-    D102
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : OCXO_DaughterCard.GM11
-
-    Adding Layer      : Top Assembly
-
-
-Used DCodes :
+    D12
     D13
+    D25
+    D31
+    D32
+    D33
+    D35
+    D68
+    D69
+    D70
+    D71
+    D72
+    D74
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
 *************************************************************
 
 *************************************************************
-Generating : Top 3D Body
-      File : OCXO_DaughterCard.GM13
+Generating : L05-GND
+      File : OCXO_DaughterCard.G4
 
-    Adding Layer      : Top 3D Body
+    Adding Layer      : L05-GND
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
-    D14
+    D76
+    D77
+    D78
+    D79
+    D80
 *************************************************************
 
 *************************************************************
-Generating : Bottom Component Outline
-      File : OCXO_DaughterCard.GM29
+Generating : L04-PWR
+      File : OCXO_DaughterCard.G3
 
-    Adding Layer      : Bottom Component Outline
+    Adding Layer      : L04-PWR
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D14
-    D102
-    D104
+    D76
+    D77
+    D78
+    D79
+    D80
 *************************************************************
 
 *************************************************************
-Generating : M30_LIB_Part_References
-      File : OCXO_DaughterCard.GM30
+Generating : L03-PWR
+      File : OCXO_DaughterCard.G2
 
-    Adding Layer      : M30_LIB_Part_References
+    Adding Layer      : L03-PWR
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D76
+    D77
+    D78
+    D79
+    D80
 *************************************************************
 
 *************************************************************
@@ -495,96 +565,29 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom 3D Body
-      File : OCXO_DaughterCard.GM14
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : OCXO_DaughterCard.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D13
-    D14
-    D102
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : OCXO_DaughterCard.GM16
-
-    Adding Layer      : Bottom Courtyard
-
-
-Used DCodes :
-    D14
-    D102
-*************************************************************
-
-*************************************************************
-Generating : M17_PCB_Film_Name
-      File : OCXO_DaughterCard.GM17
-
-    Adding Layer      : M17_PCB_Film_Name
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Component Center
-      File : OCXO_DaughterCard.GM18
-
-    Adding Layer      : Top Component Center
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Component Outline
-      File : OCXO_DaughterCard.GM28
-
-    Adding Layer      : Top Component Outline
-
-
-Used DCodes :
-    D14
-    D102
-*************************************************************
-
-*************************************************************
 Generating : Drill Drawing
       File : OCXO_DaughterCard.GD1
 
-    Adding Drill Pair : -
+    Adding Drill Pair : L01-Top Layer-L06-Bottom Layer
 
     Adding Layer      : Drill Drawing
 
 
 Used DCodes :
+    D105
+    D106
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
       File : OCXO_DaughterCard.GG1
 
-    Adding Drill Pair : -
+    Adding Drill Pair : L01-Top Layer-L06-Bottom Layer
 
     Adding Layer      : Drill Guide
 
 
 Used DCodes :
+    D105
 *************************************************************
 

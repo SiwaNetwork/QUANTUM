@@ -1,0 +1,42 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [OCXO_DaughterCard.PrjPcb]
+   Generated File[OCXO_DaughterCard.GTO]
+   Generated File[OCXO_DaughterCard.GTP]
+   Generated File[OCXO_DaughterCard.GTS]
+   Generated File[OCXO_DaughterCard.GTL]
+   Generated File[OCXO_DaughterCard.G1]
+   Generated File[OCXO_DaughterCard.G2]
+   Generated File[OCXO_DaughterCard.G3]
+   Generated File[OCXO_DaughterCard.G4]
+   Generated File[OCXO_DaughterCard.GBL]
+   Generated File[OCXO_DaughterCard.GBS]
+   Generated File[OCXO_DaughterCard.GBP]
+   Generated File[OCXO_DaughterCard.GBO]
+   Generated File[OCXO_DaughterCard.GM1]
+   Generated File[OCXO_DaughterCard.GM8]
+   Generated File[OCXO_DaughterCard.GM9]
+   Generated File[OCXO_DaughterCard.GM10]
+   Generated File[OCXO_DaughterCard.GM11]
+   Generated File[OCXO_DaughterCard.GM13]
+   Generated File[OCXO_DaughterCard.GM14]
+   Generated File[OCXO_DaughterCard.GM15]
+   Generated File[OCXO_DaughterCard.GM16]
+   Generated File[OCXO_DaughterCard.GM17]
+   Generated File[OCXO_DaughterCard.GM18]
+   Generated File[OCXO_DaughterCard.GM28]
+   Generated File[OCXO_DaughterCard.GM29]
+   Generated File[OCXO_DaughterCard.GM30]
+   Generated File[OCXO_DaughterCard.GPT]
+   Generated File[OCXO_DaughterCard.GPB]
+   Generated File[OCXO_DaughterCard.GD1]
+   Generated File[OCXO_DaughterCard.GG1]
+   Generated File[OCXO_DaughterCard.RUL]
+   Generated File[OCXO_DaughterCard.EXTREP]
+   Generated File[OCXO_DaughterCard.REP]
+
+
+Files Generated   : 33
+Documents Printed : 0
+
+Finished Output Generation At 20:56:41 On 06.11.2023
