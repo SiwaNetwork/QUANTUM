@@ -1,11 +1,15 @@
-Output: Generates pick and place files
-Type  : Pick Place
-From  : Variant [[No Variations]] of Project [OCXO_DaughterCard.PrjPcb]
-   Generated File[Pick Place for OCXO_DaughterCard.txt]
-   Generated File[Pick Place for OCXO_DaughterCard.csv]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [OCXO_DaughterCard.PrjPcb]
+   Generated File[OCXO_DaughterCard-Plated.TXT]
+   Generated File[OCXO_DaughterCard-NonPlated.TXT]
+   Generated File[OCXO_DaughterCard.DRL]
+   Generated File[OCXO_DaughterCard-BoardEdgeRout.TXT]
+   Generated File[OCXO_DaughterCard.LDP]
+   Generated File[OCXO_DaughterCard.DRR]
 
 
-Files Generated   : 2
+Files Generated   : 6
 Documents Printed : 0
 
-Finished Output Generation At 17:24:41 On 27.08.2024
+Finished Output Generation At 9:44:47 On 29.08.2024
