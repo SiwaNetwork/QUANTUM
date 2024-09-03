@@ -564,7 +564,7 @@ static struct ptp_ocp_eeprom_map art_eeprom_map[] = {
 #define OCP_EXT_RESOURCE(member) \
 	OCP_RES_LOCATION(member), .setup = ptp_ocp_register_ext
 
-/* This is the MSI vector mapping used.
+/* Это используемое векторное отображение MSI.
  * 0: PPS (TS5)
  * 1: TS0
  * 2: TS1
@@ -877,7 +877,7 @@ static struct ocp_resource ocp_fb_resource_rev2[] = {
 			.enable = ptp_ocp_ts_enable,
 		},
 	},
-	/* Timestamp for PHC and/or PPS generator */
+	/* Временная метка для генератора PHC и/или PPS */
 	{
 		OCP_EXT_RESOURCE(pps),
 		.offset = 0x030C0000, .size = 0x10000, .irq_vec = 32,
@@ -1574,7 +1574,7 @@ __ptp_ocp_adjfine_locked(struct ptp_ocp *bp, long scaled_ppm)
 	// ppbs
 	delta = 1000 * (abs(scaled_ppm) >> 16);
 
-	// if there are fractions
+	 
     if ((abs(scaled_ppm) & 0xFFFF) != 0)
     {
         delta += 1000 / (0x10000 / (abs(scaled_ppm) & 0xFFFF)); // fractional ppms rounded to 1ns
