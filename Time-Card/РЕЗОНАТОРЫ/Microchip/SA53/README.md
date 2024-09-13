@@ -1,60 +1,57 @@
 # Timetickler
 
-A utility to query and change MAC parameters.
+Утилита для запроса и изменения параметров МАК.
 
-## Install
+## Установка
 
-Clone respository and install the requirements,
+Respository клонировать и установить требованиям,
 
 `pip install -r requirements.txt`
 
-Using `pyinstaller` create an executable,
+Используя `pyinstaller` создать исполняемый,
 
 `pyinstaller --onefile timetickler.py`
 
-This will create a binary file `timetickler` in `./dist/`, you may copy this file to another directory,
+Это создаст двоичный файл "timetickler" в файле "./dist/", вы можете скопировать этот файл в другой каталог,
 
 `cp ./dist/timetickler /my/directory/here`
 
-## Usage
-To list timecard information populated in `sysfs`
+Это создаст двоичный файл "timetickler" в файле "./dist/", вы можете скопировать этот файл в другой каталог,
 
 ```
 ./timetickler list
 ```
 
-To query a field,
+Чтобы запросить поле,
 
 ```
 ./timetickler get Phase
 ```
-
-Multiple fields can be queried at the same time,
+Одновременно можно запросить несколько полей,
 
 ```
 ./timetickler get Phase LastCorrection PpsOffset
 ```
 
-By default, `timetickler` will output the result of one query, to specify the numer of queries use the `-n` flag,
-
+По умолчанию `timetickler` выводит результат одного запроса, для указания количества запросов используйте флаг `-n`,
 ```
 # output 10 readings
 ./timetickler get Phase -n 10
 ```
 
-To query a field or fields until terminated by user specify `-1`,
+Чтобы запросить поле или поля до тех пор, пока пользователь не завершит его, укажите "-1`,
 
 ```
 ./timetickler get Phase -n -1
 ```
 
-To set a field,
+Чтобы задать поле,
 
 ```
 ./timetickler set PpsOffset 1234
 ```
 
-To set a field and have the value persist after timecard reset, store the value,
+Чтобы задать поле и сохранить его значение после сброса табеля учета рабочего времени, сохраните это значение,
 
 ```
 ./timetickler set PpsOffset 1234 --store
