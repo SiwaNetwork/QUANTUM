@@ -1,15 +1,17 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Time4CM4_PCIeCarrier_PCB.PcbDoc   14.07.2024  19:32:55
+NCDrill File Report For: Time4CM4_PCIeCarrier_PCB.PcbDoc   23.09.2024  19:09:28
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : Time4CM4_PCIeCarrier_PCB-RoundHoles.TXT
-ASCII SlotHoles File : Time4CM4_PCIeCarrier_PCB-SlotHoles.TXT
+ASCII Plated RoundHoles File : Time4CM4_PCIeCarrier_PCB-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Time4CM4_PCIeCarrier_PCB-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Time4CM4_PCIeCarrier_PCB-SlotHoles-Plated.TXT
+EIA File   : Time4CM4_PCIeCarrier_PCB.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      0.152mm (6mil)                                            Round             89        PTH        88.34mm (3.48inch)
-T2      0.2mm (8mil)                                              Round             48        PTH        91.87mm (3.62inch)
+T2      0.2mm (8mil)                                              Round             48        PTH        88.11mm (3.47inch)
 T3      0.203mm (8mil)                                            Round             372       PTH        947.36mm (37.30inch)
 T4      0.254mm (10mil)                                           Round             88        PTH        583.13mm (22.96inch)
 T5      0.305mm (12mil)                                           Round             69        PTH        258.91mm (10.19inch)

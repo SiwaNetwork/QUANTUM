@@ -2,6 +2,70 @@
 FileName = Time4CM4_PCIeCarrier_PCB.GBR
 AutoAperture = True
 *************************************************************
+Generating : Mechanical 42
+      File : Time4CM4_PCIeCarrier_PCB.GM42
+
+    Adding Layer      : Mechanical 42
+
+
+Used DCodes :
+    D188
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 40
+      File : Time4CM4_PCIeCarrier_PCB.GM40
+
+    Adding Layer      : Mechanical 40
+
+
+Used DCodes :
+    D90
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : Time4CM4_PCIeCarrier_PCB.GM25
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : Time4CM4_PCIeCarrier_PCB.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : Time4CM4_PCIeCarrier_PCB.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : Time4CM4_PCIeCarrier_PCB.GM22
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
 Generating : Bottom Courtyard
       File : Time4CM4_PCIeCarrier_PCB.GM21
 
@@ -35,182 +99,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : Time4CM4_PCIeCarrier_PCB.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D16
-    D17
-    D20
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D98
-    D99
-    D120
-    D123
-    D129
-    D139
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-*************************************************************
-
-*************************************************************
-Generating : Int1 (GND)
-      File : Time4CM4_PCIeCarrier_PCB.G1
-
-    Adding Layer      : Int1 (GND)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D129
-    D139
-    D143
-    D149
-    D150
-    D152
-    D153
-    D154
-    D157
-    D161
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 42
-      File : Time4CM4_PCIeCarrier_PCB.GM42
-
-    Adding Layer      : Mechanical 42
-
-
-Used DCodes :
-    D188
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 40
-      File : Time4CM4_PCIeCarrier_PCB.GM40
-
-    Adding Layer      : Mechanical 40
-
-
-Used DCodes :
-    D90
-*************************************************************
-
-*************************************************************
-Generating : Bottom Designator
-      File : Time4CM4_PCIeCarrier_PCB.GM25
-
-    Adding Layer      : Bottom Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Top Assembly
       File : Time4CM4_PCIeCarrier_PCB.GM18
 
@@ -241,31 +129,6 @@ Generating : PLACE_BOUND_BOTTOM
 
 Used DCodes :
     D188
-*************************************************************
-
-*************************************************************
-Generating : Int2 (Sign)
-      File : Time4CM4_PCIeCarrier_PCB.G2
-
-    Adding Layer      : Int2 (Sign)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D16
-    D140
-    D141
-    D144
-    D145
-    D154
-    D155
-    D156
-    D162
-    D164
-    D165
-    D166
 *************************************************************
 
 *************************************************************
@@ -436,16 +299,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Designator
-      File : Time4CM4_PCIeCarrier_PCB.GM22
-
-    Adding Layer      : Top Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Keep-Out Layer
       File : Time4CM4_PCIeCarrier_PCB.GKO
 
@@ -466,6 +319,7 @@ Generating : Bottom Overlay
 Used DCodes :
     D10
     D14
+    D20
 *************************************************************
 
 *************************************************************
@@ -480,22 +334,22 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D25
-    D31
-    D36
-    D37
-    D38
-    D39
-    D42
-    D56
-    D61
-    D62
+    D24
+    D35
+    D41
+    D45
+    D46
+    D47
+    D48
+    D51
     D64
     D67
     D68
-    D72
+    D70
+    D73
     D77
-    D81
+    D80
+    D83
     D168
     D169
     D170
@@ -508,170 +362,6 @@ Used DCodes :
     D177
     D178
     D179
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Time4CM4_PCIeCarrier_PCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D16
-    D17
-    D20
-    D25
-    D31
-    D36
-    D37
-    D38
-    D39
-    D42
-    D56
-    D61
-    D62
-    D64
-    D67
-    D68
-    D72
-    D77
-    D81
-    D98
-    D99
-    D129
-    D139
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-    D168
-    D169
-    D170
-    D171
-    D172
-    D173
-    D174
-    D175
-    D176
-    D177
-    D178
-    D179
-    D180
-*************************************************************
-
-*************************************************************
-Generating : Int4 (PWR)
-      File : Time4CM4_PCIeCarrier_PCB.G4
-
-    Adding Layer      : Int4 (PWR)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D16
-    D129
-    D139
-    D140
-    D141
-    D142
-    D144
-    D145
-    D149
-    D150
-    D152
-    D153
-    D154
-    D157
-    D161
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-*************************************************************
-
-*************************************************************
-Generating : Int3 (Sign)
-      File : Time4CM4_PCIeCarrier_PCB.G3
-
-    Adding Layer      : Int3 (Sign)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D16
-    D17
-    D20
-    D129
-    D139
-    D140
-    D144
-    D145
-    D149
-    D150
-    D152
-    D153
-    D154
-    D157
-    D161
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : Time4CM4_PCIeCarrier_PCB.GM23
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Component Center
-      File : Time4CM4_PCIeCarrier_PCB.GM24
-
-    Adding Layer      : Bottom Component Center
-
-
-Used DCodes :
-    D15
 *************************************************************
 
 *************************************************************
@@ -686,27 +376,27 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D25
-    D36
-    D37
-    D38
-    D39
-    D56
-    D62
-    D72
+    D35
+    D45
+    D46
+    D47
+    D48
+    D64
+    D68
     D77
+    D80
     D90
     D91
     D92
-    D96
-    D98
-    D99
-    D100
-    D112
-    D113
-    D115
-    D116
-    D122
+    D93
+    D103
+    D105
+    D106
+    D107
+    D117
+    D118
+    D120
+    D123
     D125
     D126
     D127
@@ -722,12 +412,12 @@ Used DCodes :
     D137
     D138
     D139
-    D170
-    D171
-    D173
+    D169
+    D172
     D174
-    D176
+    D175
     D177
+    D178
     D181
     D182
     D183
@@ -748,44 +438,44 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D25
-    D26
-    D27
+    D29
     D30
-    D33
-    D34
+    D31
+    D32
     D35
     D36
     D37
-    D38
-    D39
     D40
-    D41
     D43
-    D52
-    D53
-    D54
-    D55
-    D56
-    D58
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D60
+    D61
     D62
     D63
+    D64
     D66
+    D68
     D69
-    D70
-    D71
     D72
-    D73
+    D74
+    D75
     D76
     D77
     D79
+    D80
     D82
-    D83
     D84
     D85
     D86
     D87
     D88
+    D89
     D90
     D91
     D92
@@ -1019,9 +709,9 @@ Used DCodes :
     D88
     D89
     D98
-    D99
-    D120
-    D123
+    D105
+    D106
+    D124
     D129
     D149
     D150
@@ -1048,24 +738,24 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D25
-    D31
-    D36
-    D37
-    D38
-    D39
-    D42
-    D56
-    D61
-    D62
+    D24
+    D35
+    D41
+    D45
+    D46
+    D47
+    D48
+    D51
     D64
     D67
     D68
-    D72
+    D70
+    D73
     D77
-    D81
-    D98
-    D99
+    D80
+    D83
+    D105
+    D106
     D129
     D149
     D150
@@ -1092,6 +782,317 @@ Used DCodes :
     D177
     D178
     D179
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Time4CM4_PCIeCarrier_PCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D17
+    D20
+    D24
+    D35
+    D41
+    D45
+    D46
+    D47
+    D48
+    D51
+    D64
+    D67
+    D68
+    D70
+    D73
+    D77
+    D80
+    D83
+    D105
+    D106
+    D129
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+*************************************************************
+
+*************************************************************
+Generating : Int4 (PWR)
+      File : Time4CM4_PCIeCarrier_PCB.G4
+
+    Adding Layer      : Int4 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D129
+    D139
+    D140
+    D141
+    D142
+    D144
+    D145
+    D149
+    D150
+    D152
+    D153
+    D154
+    D157
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+*************************************************************
+
+*************************************************************
+Generating : Int3 (Sign)
+      File : Time4CM4_PCIeCarrier_PCB.G3
+
+    Adding Layer      : Int3 (Sign)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D17
+    D20
+    D129
+    D139
+    D140
+    D144
+    D145
+    D149
+    D150
+    D152
+    D153
+    D154
+    D157
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+*************************************************************
+
+*************************************************************
+Generating : Int2 (Sign)
+      File : Time4CM4_PCIeCarrier_PCB.G2
+
+    Adding Layer      : Int2 (Sign)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D140
+    D141
+    D144
+    D145
+    D154
+    D155
+    D156
+    D162
+    D163
+    D165
+    D166
+*************************************************************
+
+*************************************************************
+Generating : Int1 (GND)
+      File : Time4CM4_PCIeCarrier_PCB.G1
+
+    Adding Layer      : Int1 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D129
+    D139
+    D143
+    D149
+    D150
+    D152
+    D153
+    D154
+    D157
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Time4CM4_PCIeCarrier_PCB.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D17
+    D20
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D98
+    D105
+    D106
+    D124
+    D129
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
 *************************************************************
 
 *************************************************************

@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\SHIWA\Documents\GitHub\QUANTUM\Incubation\Hardware\Time4CM4\Project Outputs for Time4CM4_PCIeCarrier\Pick Place for Time4CM4_PCIeCarrier_PCB.txt
+C:\Users\user\Documents\GitHub\QUANTUM\Incubation\Hardware\Time4CM4\Project Outputs for Time4CM4_PCIeCarrier\Pick Place for Time4CM4_PCIeCarrier_PCB.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       14.07.24
-Time:       19:37
-Revision:   0d9973ec56df4c8683048f7767dd282653faceb1
+Date:       23.09.24
+Time:       19:10
+Revision:   e7b9c2e23a3056579164fc7f7308e146c97af61c
 Variant:    No variations
 Units used: mm
 
