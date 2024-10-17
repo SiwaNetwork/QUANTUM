@@ -2,7 +2,7 @@
 # Tests designed for SA53 Time Cards wihout oscillatord
 
 
-oscpy="python3 ../../OSC/Microchip/SA53/timetickler.py"
+oscpy="python3 ../../РЕЗОНАТОРЫ/Microchip/SA53/timetickler.py"
 
 
 read_SA53_int_value() {
