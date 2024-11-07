@@ -1,0 +1,26 @@
+Altium Designer Pick and Place Locations
+C:\Users\SHIWA\Downloads\Time4CM4_SIT_module (05.11.2024 12-11-09)\Project Outputs for Time4CM4_SIT_module\Pick Place for Time4CM4_SIT_module.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       06.11.24
+Time:       22:47
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment                    Layer       Footprint                Center-X(mm) Center-Y(mm) Rotation Description                      
+Y2         SIT5503AB-WW-33E0-10.00000 TopLayer    Ceramic_QFN_7050_10pins  4.7000       2.9000       90       "Crystal or Oscillator"          
+Y1         SiT5711A-KW-0001           TopLayer    Emerald_9070_10pins_2022 5.8000       11.2000      90       "Crystal or Oscillator"          
+R4         "0 Ohms"                   TopLayer    YAGEO_RES_0402_1005      11.1000      10.4000      90       "RES 0 OHM JUMPER 1/16W 0402"    
+R3         "100 kOhms"                TopLayer    YAGEO_RES_0402_1005      4.6000       6.5000       0        "RES 100K OHM 1% 1/16W 0402"     
+R2         "499 kOhms"                TopLayer    YAGEO_RES_0402_1005      7.4000       6.6000       270      "RES 499K OHM 1% 1/16W 0402"     
+R1         "160 kOhms"                TopLayer    YAGEO_RES_0402_1005      8.4000       6.6000       90       "RES 160K OHM 1% 1/16W 0402"     
+IC1        TLV76701DRVR               TopLayer    SON65P200X200X80-7N      10.2000      3.8000       270      "IC REG LINEAR POS ADJ 1A 6WSON" 
+C4         "0.1 µF"                   TopLayer    CAP_0402_1005            2.2000       6.5000       0        "CAP CER 0.1UF 6.3V X7R 0402"    
+C3         "10 µF"                    TopLayer    CAP_0603_1608            10.1000      1.1000       0        "CAP CER 10UF 6.3V X5R 0603"     
+C2         "10 µF"                    TopLayer    CAP_0603_1608            11.1000      7.0000       270      "CAP CER 10UF 6.3V X5R 0603"     
+C1         "10 pF NC"                 TopLayer    CAP_0402_1005            9.4000       6.6000       90       "CAP CER 10PF 50V C0G/NPO 0402"  
+J2         BM23FR0.8-10DP-0.35V(895)  BottomLayer BM23FR0810DP035V895      6.5000       2.0900       180      Connector                        
+J1         BM23FR0.8-10DP-0.35V(895)  BottomLayer BM23FR0810DP035V895      6.5000       12.9100      0        Connector                        
