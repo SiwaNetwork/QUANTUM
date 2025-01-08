@@ -1,0 +1,36 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: PCIe2HAT.GBR   8/13/2024  3:22:16 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                L01-TOP                                 
+.gbr                L02-GND                                 
+.gbr                L03-GND                                 
+.gbr                L10-BOT                                 
+.gbr                Board Layer Stack Bottom Solder         
+.gbr                Bottom Paste                            
+.gbr                Board Layer Stack Bottom Overlay        
+.gbr                Top Courtyard                           
+.gbr                ASSEMBLY_TOP                            
+.gbr                ASSEMBLY_BOTTOM                         
+.gbr                Top Component Center                    
+.gbr                Bottom Courtyard                        
+.gbr                Board Shape                             
+.gbr                Bottom Component Center                 
+.gbr                Bottom Component Outline                
+.gbr                Mechanical 26                           
+.gbr                Top Component Outline                   
+.gbr                Mechanical 28                           
+.gbr                Mechanical 30                           
+.gbr                Top Designator                          
+.gbr                Bottom Designator                       
+.gbr                Board                                   
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------
