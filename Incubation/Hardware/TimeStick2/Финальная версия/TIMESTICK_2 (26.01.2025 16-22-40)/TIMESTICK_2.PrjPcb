@@ -44,9 +44,6 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -70,74 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EKMMWROB
 
 [Document2]
-DocumentPath=02_PTP_USB_TO_RJ45_DRC.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
-DocumentPath=Job1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
-DocumentPath=06_TIME_STICK_279.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
-DocumentPath=06_TIME_STICK_279.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=TIMESTICK_2.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document3]
 DocumentPath=TIMESTICK_2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -171,229 +100,114 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHWEJDMR
 
+[Document4]
+DocumentPath=..\..\..\..\SHIWA_OUT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\BOM\Bill of Materials-02_PTP_USB_TO_RJ45_DRC.csv
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_[No Variations] BOM 2025-02-10 12-34.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\BOM\Bill of Materials-06_TIME_STICK_279.xls
+DocumentPath=Project Outputs for TIMESTICK_2\BOM\TIMESTICK_2_rev.1.1_BOM 2025-02-10 12-43.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\BOM\Bill of Materials-PCB1.xls
+DocumentPath=Project Outputs for TIMESTICK_2\BOM\TIMESTICK_2_rev.1.1_BOM 2025-02-10 12-45.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Design Rule Check - PCB1.html
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_BOM 2025-02-10 12-46.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for TIMESTICK_2\Design Rule Check - TIMESTICK_2.html
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\NC Drill\PCB1-RoundHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\NC Drill\PCB1-RoundHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB1-RoundHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.G1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\NC Drill\PCB1-SlotHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.G2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\NC Drill\PCB1-SlotHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB1-SlotHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\NC Drill\PCB1.DRL
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB1.DRL
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\NC Drill\PCB1.DRR
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GM
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\NC Drill\PCB1.DRR
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GM19
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB1.DRR
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.G1
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.G1
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.G1
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.G2
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.G2
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43.csv
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.G2
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43.txt
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GM
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GM
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GM
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Gerber\PCB1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Gerber\PCB1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\NC Drill\PCB1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\NC Drill\PCB1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Report Board Stack\PCB1.xls
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for 02_PTP_USB_TO_RJ45_DRC\Pick Place\Pick Place for PCB1.csv
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=Project Outputs for 06_TIME_STICK_279\Pick Place\Pick Place for PCB1.csv
-DItemRevisionGUID=
+[Parameter1]
+Name=revision
+Value=rev.1.1
 
 [Configuration1]
 Name=Sources
@@ -919,6 +733,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
