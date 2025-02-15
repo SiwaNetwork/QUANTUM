@@ -1,3 +1,3 @@
-# System on Module
+# Система на модуле
 
-The System of Module used in the Time Card can be selected from a wide variety of options. The [AC7100B](https://www.alinx.com/en/detail/498) is one option to start with. Alternatively, you can use the [AC7200T](https://www.alinx.com/en/detail/499) which provides more logic cells to support more functionalities on the Time Card.
+Система на модуле, используемая в табеле учёта рабочего времени, может быть выбрана из широкого спектра вариантов. Для начала можно использовать AC7100B. В качестве альтернативы можно использовать AC7200T, который содержит больше логических ячеек для поддержки дополнительных функций в табеле учёта рабочего времени.
