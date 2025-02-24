@@ -703,5 +703,8 @@ PhysicalDesignatorLocked99=0
 [SheetNumberManager]
 SheetNumberOrder=Display Order
 SheetNumberMethod=Increasing
+DocumentName0=MAIN.SchDoc
+UniqueIDPath0=
+SheetNumber0=1
 
 
