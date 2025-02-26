@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=release
 
 [Preferences]
 PrefsVaultGUID=
@@ -117,120 +118,196 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueId=07e533a2-fca3-4145-bdc6-832239bfcb45
+Description=release
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=R15|UniqueId=\RBBSSKDR|Kind=1|AlternatePart=
+Variation2=Designator=R11|UniqueId=\OKHPRUTS|Kind=1|AlternatePart=
+Variation3=Designator=R7|UniqueId=\GPTFOUNV|Kind=1|AlternatePart=
+Variation4=Designator=IC2|UniqueId=\MTKJGUNA|Kind=1|AlternatePart=
+ParamVariationCount=0
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for TIMESTICK_2\BOM\TIMESTICK_2_rev.1.1_BOM 2025-02-10 12-43.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for TIMESTICK_2\BOM\TIMESTICK_2_rev.1.1_BOM 2025-02-10 12-45.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_BOM 2025-02-10 12-46.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.G1
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.G2
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GM
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GM19
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-10 12-43.LDP
 DItemRevisionGUID=
 
+[GeneratedDocument18]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-49\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-49-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-49\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-49-SlotHoles.TXT
+DItemRevisionGUID=
+
 [GeneratedDocument20]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45-RoundHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-49\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-49.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45-SlotHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45.DRR
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-45.LDP
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46-RoundHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.G1
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46-SlotHoles.TXT
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.G2
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46.DRR
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-24 11-46.LDP
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43.csv
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GM
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\Gerber\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51\NC Drill\TIMESTICK_2_rev.1.1_GBR 2025-02-25 10-51.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43.csv
+DItemRevisionGUID=
+
+[GeneratedDocument40]
 DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-10 12-43.txt
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-25 10-51\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-25 10-51.csv
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-25 10-51\TIMESTICK_2_rev.1.1_Pick&Place 2025-02-25 10-51.txt
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_release BOM 2025-02-25 10-30.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_release BOM 2025-02-25 10-47.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for TIMESTICK_2\TIMESTICK_2_rev.1.1_release BOM 2025-02-25 10-48.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
@@ -761,6 +838,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
