@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Time4CM4_SIT_module.PcbDoc]
+   Generated File[Time4CM4_SIT_module_rev.2_GBR 2025-03-06 14-46.TXT]
+   Generated File[Time4CM4_SIT_module_rev.2_GBR 2025-03-06 14-46.LDP]
+   Generated File[Time4CM4_SIT_module_rev.2_GBR 2025-03-06 14-46.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:46:08 On 06.03.2025
