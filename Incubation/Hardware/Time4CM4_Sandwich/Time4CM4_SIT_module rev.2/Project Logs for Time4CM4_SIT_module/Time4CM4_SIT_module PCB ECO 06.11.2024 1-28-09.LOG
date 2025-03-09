@@ -1,0 +1,14 @@
+Added Component: Designator=Y3(SiT5155AIFK33E010000000F)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.cn/datasheet/2/371/SiT5155_datasheet-1371837.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.06mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SiTime"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SiT5155AI-FK-33E0-10.000000F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "788-5155AIFK33E0100F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SiTime/SiT5155AI-FK-33E0-10.000000F?qs=BJlw7L4Cy7%252B3BOCTl0ucGA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR3_2 Pin=Y3-1
+Added Pin To Net: NetName=GND Pin=Y3-4
+Added Pin To Net: NetName=NetR4_2 Pin=Y3-6
+Added Pin To Net: NetName=VDD Pin=Y3-9
+Added Member To Class: ClassName=Time4CM4_SIT_module Member=Component Y3 SiT5155AI-FK-33E0-10.000000F
