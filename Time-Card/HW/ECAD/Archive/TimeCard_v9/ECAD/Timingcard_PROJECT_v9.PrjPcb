@@ -25,16 +25,25 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=1
+NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -51,7 +60,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -68,7 +77,7 @@ AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -221,7 +230,7 @@ AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -500,198 +509,202 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Timingcard_PROJECT\Pick Place for TimeCard-DC-V9_EXP.csv
+DocumentPath=Project Outputs for Timingcard_PROJECT_v9\Design Rule Check - TimeCard-DC-V9_EXP.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Timingcard_PROJECT\Pick Place for TimeCard-DC-V9_EXP.txt
+DocumentPath=Project Outputs for Timingcard_PROJECT\Pick Place for TimeCard-DC-V9_EXP.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP-RoundHoles.TXT
+DocumentPath=Project Outputs for Timingcard_PROJECT\Pick Place for TimeCard-DC-V9_EXP.txt
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP-SlotHoles.TXT
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.DRR
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.EXTREP
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.LDP
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.REP
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.RUL
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.REP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_ASSEMBLY_BOTTOM.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_ASSEMBLY_TOP.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_ASSEMBLY_BOTTOM.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_3D_Body.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_ASSEMBLY_TOP.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_Assembly.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_Component_Center.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_Courtyard.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_Component_Center.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_1.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Bottom_Courtyard.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_2.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_3.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_4.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DIMENSION-1.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DIMENSION.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DIMENSION-1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DIMSYM.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DIMENSION.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Drawing_1.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DIMSYM.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DRAWING_ORIGIN.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Drillmap_1.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_DRAWING_ORIGIN.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Legend_Bot.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Legend_Top.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_MECH_DIMENSION.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Mechanical_1.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_MECH_DIMENSION.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Mechanical_29.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Mechanical_31.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Mechanical_29.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_NCLEGEND-1-6.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Mechanical_31.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_OUTLINE.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_NCLEGEND-1-6.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Paste_Bot.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_OUTLINE.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Paste_Top.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PCI_FINGER.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PEN3.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PCI_FINGER.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PIN_NUMBER.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PEN3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PLACE_BOUND_BOTTOM.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PIN_NUMBER.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PLACE_BOUND_TOP.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PLACE_BOUND_BOTTOM.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_PLACE_BOUND_TOP.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Soldermask_Top.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_3D_Body.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_Assembly.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_Component_Center.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_Courtyard.gbr
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_Component_Center.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument49]
+DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCard-DC-V9_EXP_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
 DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCardV9_BOM_8-28-2023.xlsx
 DItemRevisionGUID=
 
@@ -864,16 +877,6 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -885,16 +888,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1021,6 +1014,18 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -2320,11 +2325,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=GOSTBOM
-OutputName9=GOST BOM
+OutputType9=Project History
+OutputName9=Project History
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -2337,102 +2343,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -2538,8 +2448,8 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=AnsysEDB
-OutputName12=Ansys EDB
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
@@ -2675,6 +2585,25 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
 
 [Difference Levels]
 Type1=1
@@ -2745,6 +2674,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -2872,6 +2807,34 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -2919,9 +2882,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=FPGA_CONN.SchLib
-ComponentDesignItemID0=M3 screw
-ComponentSymbolReference0=M3 screw
+ComponentLibraryIdentifier0=SamacSys.SchLib
+ComponentDesignItemID0=155124M173200
+ComponentSymbolReference0=155124M173200
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -2937,18 +2900,33 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Arrow Part Number
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Arrow Price/Stock
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Supplier 1
+ParameterName4=Datasheet Link
 ParameterUpdate4=1
-ParameterName5=Supplier Part Number 1
+ParameterName5=Description
 ParameterUpdate5=1
+ParameterName6=Library Reference
+ParameterUpdate6=1
+ParameterName7=Manufacturer_Name
+ParameterUpdate7=1
+ParameterName8=Manufacturer_Part_Number
+ParameterUpdate8=1
+ParameterName9=Mouser Part Number
+ParameterUpdate9=1
+ParameterName10=Mouser Price/Stock
+ParameterUpdate10=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=155124M173200
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -2957,10 +2935,41 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=+3.3V|NetColor=$000099FF
-Net2=NetName=GND|NetColor=clBlue
-Net3=NetName=SENS_I2C_SCL|NetColor=clLime
-Net4=NetName=SENS_I2C_SDA|NetColor=clLime
+Net1=NetName=+12V|NetColor=clFuchsia
+Net2=NetName=+3.3V|NetColor=$000099FF
+Net3=NetName=+5.0V|NetColor=clRed
+Net4=NetName=ANT1_IN|NetColor=clYellow
+Net5=NetName=ANT1_OUT|NetColor=clYellow
+Net6=NetName=ANT2_IN|NetColor=clYellow
+Net7=NetName=ANT2_OUT|NetColor=clYellow
+Net8=NetName=ANT3_IN|NetColor=clYellow
+Net9=NetName=ANT3_OUT|NetColor=clYellow
+Net10=NetName=ANT4_IN|NetColor=clYellow
+Net11=NetName=ANT4_OUT|NetColor=clYellow
+Net12=NetName=BNO_P3V3|NetColor=$000099FF
+Net13=NetName=GND|NetColor=clBlue
+Net14=NetName=GNSS2_P3V3|NetColor=$003891E6
+Net15=NetName=GNSS2_P5V0|NetColor=$000000CC
+Net16=NetName=PCIE_CLK_N|NetColor=clAqua
+Net17=NetName=PCIE_CLK_P|NetColor=clAqua
+Net18=NetName=PCIE_RX0_N|NetColor=clAqua
+Net19=NetName=PCIE_RX0_P|NetColor=clAqua
+Net20=NetName=PCIE_RX1_N|NetColor=clAqua
+Net21=NetName=PCIE_RX1_P|NetColor=clAqua
+Net22=NetName=PCIE_RX2_N|NetColor=clAqua
+Net23=NetName=PCIE_RX2_P|NetColor=clAqua
+Net24=NetName=PCIE_RX3_N|NetColor=clAqua
+Net25=NetName=PCIE_RX3_P|NetColor=clAqua
+Net26=NetName=PCIE_TX0_N|NetColor=clAqua
+Net27=NetName=PCIE_TX0_P|NetColor=clAqua
+Net28=NetName=PCIE_TX1_N|NetColor=clAqua
+Net29=NetName=PCIE_TX1_P|NetColor=clAqua
+Net30=NetName=PCIE_TX2_N|NetColor=clAqua
+Net31=NetName=PCIE_TX2_P|NetColor=clAqua
+Net32=NetName=PCIE_TX3_N|NetColor=clAqua
+Net33=NetName=PCIE_TX3_P|NetColor=clAqua
+Net34=NetName=SENS_I2C_SCL|NetColor=clLime
+Net35=NetName=SENS_I2C_SDA|NetColor=clLime
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
