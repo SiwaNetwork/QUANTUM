@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\julianstj\Desktop\WorkNotes\Projects\PTP\WiWi\SDR\ECAD_V4\WiWi_SDR_V4.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=wiwi_sdr_v4-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=wiwi_sdr_v4-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,gbl

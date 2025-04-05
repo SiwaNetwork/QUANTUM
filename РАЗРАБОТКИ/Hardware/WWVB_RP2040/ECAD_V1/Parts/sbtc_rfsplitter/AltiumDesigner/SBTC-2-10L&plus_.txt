@@ -1,0 +1,85 @@
+# Created by Ultra Librarian 8.3.344 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "AT1029_MNC")
+Pad (Name "6") (Location -65.5, 50) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 59, 8) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location -65.5, -50) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 59, 8) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location 65.5, -50) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 59, 8) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 65.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 59, 8) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "1") (Location 65.5, 50) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 59, 8) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -85, -85) (End -85, -65) (Layer Mechanical15) 
+Line (Width 6) (Start -85, -65) (End -105, -65) (Layer Mechanical15) 
+Line (Width 6) (Start -105, -65) (End -105, 65) (Layer Mechanical15) 
+Line (Width 6) (Start -105, 65) (End -85, 65) (Layer Mechanical15) 
+Line (Width 6) (Start -85, 65) (End -85, 85) (Layer Mechanical15) 
+Line (Width 6) (Start -85, 85) (End 85, 85) (Layer Mechanical15) 
+Line (Width 6) (Start 85, 85) (End 85, 65) (Layer Mechanical15) 
+Line (Width 6) (Start 85, 65) (End 105, 65) (Layer Mechanical15) 
+Line (Width 6) (Start 105, 65) (End 105, -65) (Layer Mechanical15) 
+Line (Width 6) (Start 105, -65) (End 85, -65) (Layer Mechanical15) 
+Line (Width 6) (Start 85, -65) (End 85, -85) (Layer Mechanical15) 
+Line (Width 6) (Start 85, -85) (End -85, -85) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-85, -85)
+Point (-85, -65)
+Point (-105, -65)
+Point (-105, 65)
+Point (-85, 65)
+Point (-85, 85)
+Point (85, 85)
+Point (85, 65)
+Point (105, 65)
+Point (105, -65)
+Point (85, -65)
+Point (85, -85)
+EndPolygon
+Line (Width 6) (Start -80, -80) (End 80, -80) (Layer TopOverlay) 
+Line (Width 6) (Start 80, -80) (End 80, -67.10000038) (Layer TopOverlay) 
+Line (Width 6) (Start 80, 80) (End -80, 80) (Layer TopOverlay) 
+Line (Width 6) (Start -80, 80) (End -80, 67.10000038) (Layer TopOverlay) 
+Line (Width 6) (Start -80, 32.89999962) (End -80, -32.89999962) (Layer TopOverlay) 
+Line (Width 6) (Start -80, -67.10000038) (End -80, -80) (Layer TopOverlay) 
+Line (Width 6) (Start 80, -32.89999962) (End 80, -17.10000038) (Layer TopOverlay) 
+Line (Width 6) (Start 80, 17.10000038) (End 80, 32.89999962) (Layer TopOverlay) 
+Line (Width 6) (Start 80, 67.10000038) (End 80, 80) (Layer TopOverlay) 
+Arc (Width 6) (Radius 3) (Location 149, 50) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -75, -75) (End 75, -75) (Layer Mechanical13) 
+Line (Width 1) (Start 75, -75) (End 75, 75) (Layer Mechanical13) 
+Line (Width 1) (Start 75, 75) (End -75, 75) (Layer Mechanical13) 
+Line (Width 1) (Start -75, 75) (End -75, -75) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location 36, 50) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 0) (Radius 12) (Location 0, 75) (StartAngle 180) (EndAngle 360) (Layer Mechanical13) 
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "SBTC-2-10L+") (PartCount 1) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Visible "GROUND") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Visible "GROUND") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 1700, -200) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "3") (Name Visible "PORT1") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 1700, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "4") (Name Visible "PORT2") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 1700, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "6") (Name Visible "SUM_PORT") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Rectangle (Width 5) (Start 300, -400) (End 1700, 200) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2023 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Mini Circuits") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "SBTC-2-10L+") (Part 1)
+Parameter (Name "RefDes") (Location 1000, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 1000, 300) (Height 82) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "SBTC-2-10L+") (Part 1)
+Footprint (Name "AT1029_MNC")
+EndComponent
+EndComponents

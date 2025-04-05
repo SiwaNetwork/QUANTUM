@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: RCB_WiWi_STM32WL3_V1.PcbDoc   12/27/2024  9:15:22 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L01-TOP to L10-BOT
+ASCII RoundHoles File : RCB_WiWi_STM32WL3_V1-RoundHoles.TXT
+ASCII SlotHoles File : RCB_WiWi_STM32WL3_V1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.254mm (10mil)                                           Round             708       PTH        1131.01mm (44.53inch)
+T2      0.6mm (24mil)                                             Slot              2         PTH        15.43mm (0.61inch)
+T3      0.85mm (33mil)                                            Round             2         PTH        5.00mm (0.20inch)
+T4      1.02mm (40mil)                                            Round             16        PTH        66.76mm (2.63inch)
+T5      1.5mm (59mil)                                             Round             4         PTH        15.99mm (0.63inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              732
+
+Total Processing Time (hh:mm:ss) : 00:00:01

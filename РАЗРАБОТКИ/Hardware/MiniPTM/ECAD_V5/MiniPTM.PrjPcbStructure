@@ -1,0 +1,15 @@
+Record=TopLevelDocument|FileName=01-PCIe.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=02-USER_IO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=03-USER_IO_STATUS.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=05-Front Panel SFP_1.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=06-Front Panel SFP_2.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=07-General I2C Devices.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=08-I225-1.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=09-I225-2.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=10-DPLL-1.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=11-DPLL-2.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=12-POWER-P12V.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=13-Power-P3V3.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=14-Power-P1V8.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=15-M2_GNSS.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=16-DPLL_Spare_UFL.SchDoc|SheetNumber=15

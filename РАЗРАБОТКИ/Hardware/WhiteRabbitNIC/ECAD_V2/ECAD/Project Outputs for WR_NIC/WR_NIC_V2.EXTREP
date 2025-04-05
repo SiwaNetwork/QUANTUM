@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: WR_NIC_V2.GBR   5/8/2024  3:39:15 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                TOP                                     
+.gbr                GND1                                    
+.gbr                IN1                                     
+.gbr                IN2                                     
+.gbr                GND2                                    
+.gbr                Bottom Layer                            
+.gbr                Board Layer Stack Bottom Solder         
+.gbr                Bottom Paste                            
+.gbr                Board Layer Stack Bottom Overlay        
+.gbr                Mechanical 1                            
+.gbr                Top 3D Body                             
+.gbr                Top Courtyard                           
+.gbr                NCLEGEND-1-6                            
+.gbr                PEN3                                    
+.gbr                DIMENSION-1                             
+.gbr                OUTLINE                                 
+.gbr                DRAWING_ORIGIN                          
+.gbr                PIN_NUMBER                              
+.gbr                ASSEMBLY_TOP                            
+.gbr                PLACE_BOUND_TOP                         
+.gbr                DIMSYM                                  
+.gbr                DIMENSION                               
+.gbr                PCI_FINGER                              
+.gbr                MECH_DIMENSION                          
+.gbr                PLACE_BOUND_BOTTOM                      
+.gbr                ASSEMBLY_BOTTOM                         
+.gbr                Top Assembly                            
+.gbr                Top Component Center                    
+.gbr                Bottom Assembly                         
+.gbr                Bottom Courtyard                        
+.gbr                Board Shape                             
+.gbr                Bottom Component Center                 
+.gbr                Bottom Component Outline                
+.gbr                Top Component Outline                   
+------------------------------------------------------------------------------------------
