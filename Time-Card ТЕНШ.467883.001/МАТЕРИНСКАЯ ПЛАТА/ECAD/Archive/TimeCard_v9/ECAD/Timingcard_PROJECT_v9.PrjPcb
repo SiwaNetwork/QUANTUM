@@ -2331,6 +2331,11 @@ OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=BoasTools
+OutputName10=BoasTools Html BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -2939,37 +2944,51 @@ Net1=NetName=+12V|NetColor=clFuchsia
 Net2=NetName=+3.3V|NetColor=$000099FF
 Net3=NetName=+5.0V|NetColor=clRed
 Net4=NetName=ANT1_IN|NetColor=clYellow
-Net5=NetName=ANT1_OUT|NetColor=clYellow
-Net6=NetName=ANT2_IN|NetColor=clYellow
-Net7=NetName=ANT2_OUT|NetColor=clYellow
-Net8=NetName=ANT3_IN|NetColor=clYellow
-Net9=NetName=ANT3_OUT|NetColor=clYellow
-Net10=NetName=ANT4_IN|NetColor=clYellow
-Net11=NetName=ANT4_OUT|NetColor=clYellow
-Net12=NetName=BNO_P3V3|NetColor=$000099FF
-Net13=NetName=GND|NetColor=clBlue
-Net14=NetName=GNSS2_P3V3|NetColor=$003891E6
-Net15=NetName=GNSS2_P5V0|NetColor=$000000CC
-Net16=NetName=PCIE_CLK_N|NetColor=clAqua
-Net17=NetName=PCIE_CLK_P|NetColor=clAqua
-Net18=NetName=PCIE_RX0_N|NetColor=clAqua
-Net19=NetName=PCIE_RX0_P|NetColor=clAqua
-Net20=NetName=PCIE_RX1_N|NetColor=clAqua
-Net21=NetName=PCIE_RX1_P|NetColor=clAqua
-Net22=NetName=PCIE_RX2_N|NetColor=clAqua
-Net23=NetName=PCIE_RX2_P|NetColor=clAqua
-Net24=NetName=PCIE_RX3_N|NetColor=clAqua
-Net25=NetName=PCIE_RX3_P|NetColor=clAqua
-Net26=NetName=PCIE_TX0_N|NetColor=clAqua
-Net27=NetName=PCIE_TX0_P|NetColor=clAqua
-Net28=NetName=PCIE_TX1_N|NetColor=clAqua
-Net29=NetName=PCIE_TX1_P|NetColor=clAqua
-Net30=NetName=PCIE_TX2_N|NetColor=clAqua
-Net31=NetName=PCIE_TX2_P|NetColor=clAqua
-Net32=NetName=PCIE_TX3_N|NetColor=clAqua
-Net33=NetName=PCIE_TX3_P|NetColor=clAqua
-Net34=NetName=SENS_I2C_SCL|NetColor=clLime
-Net35=NetName=SENS_I2C_SDA|NetColor=clLime
+Net5=NetName=ANT1_IO_IN|NetColor=$008E8145
+Net6=NetName=ANT1_IO_OUT|NetColor=$008E8145
+Net7=NetName=ANT1_OUT|NetColor=clYellow
+Net8=NetName=ANT2_IN|NetColor=clYellow
+Net9=NetName=ANT2_IO_IN|NetColor=$008E8145
+Net10=NetName=ANT2_IO_OUT|NetColor=$008E8145
+Net11=NetName=ANT2_OUT|NetColor=clYellow
+Net12=NetName=ANT3_IN|NetColor=clYellow
+Net13=NetName=ANT3_IO_IN|NetColor=$008E8145
+Net14=NetName=ANT3_IO_OUT|NetColor=$008E8145
+Net15=NetName=ANT3_OUT|NetColor=clYellow
+Net16=NetName=ANT4_IN|NetColor=clYellow
+Net17=NetName=ANT4_IO_IN|NetColor=$008E8145
+Net18=NetName=ANT4_IO_OUT|NetColor=$008E8145
+Net19=NetName=ANT4_OUT|NetColor=clYellow
+Net20=NetName=BNO_P3V3|NetColor=$000099FF
+Net21=NetName=FPGA_TCK|NetColor=$00C37C8E
+Net22=NetName=FPGA_TDI|NetColor=$00C37C8E
+Net23=NetName=FPGA_TDO|NetColor=$00C37C8E
+Net24=NetName=FPGA_TMS|NetColor=$00C37C8E
+Net25=NetName=GND|NetColor=clBlue
+Net26=NetName=GNSS2_P3V3|NetColor=$003891E6
+Net27=NetName=GNSS2_P5V0|NetColor=$000000CC
+Net28=NetName=PCIE_CLK_N|NetColor=clAqua
+Net29=NetName=PCIE_CLK_P|NetColor=clAqua
+Net30=NetName=PCIE_RX0_N|NetColor=clAqua
+Net31=NetName=PCIE_RX0_P|NetColor=clAqua
+Net32=NetName=PCIE_RX1_N|NetColor=clAqua
+Net33=NetName=PCIE_RX1_P|NetColor=clAqua
+Net34=NetName=PCIE_RX2_N|NetColor=clAqua
+Net35=NetName=PCIE_RX2_P|NetColor=clAqua
+Net36=NetName=PCIE_RX3_N|NetColor=clAqua
+Net37=NetName=PCIE_RX3_P|NetColor=clAqua
+Net38=NetName=PCIE_TX0_N|NetColor=clAqua
+Net39=NetName=PCIE_TX0_P|NetColor=clAqua
+Net40=NetName=PCIE_TX1_N|NetColor=clAqua
+Net41=NetName=PCIE_TX1_P|NetColor=clAqua
+Net42=NetName=PCIE_TX2_N|NetColor=clAqua
+Net43=NetName=PCIE_TX2_P|NetColor=clAqua
+Net44=NetName=PCIE_TX3_N|NetColor=clAqua
+Net45=NetName=PCIE_TX3_P|NetColor=clAqua
+Net46=NetName=SENS_I2C_SCL|NetColor=clLime
+Net47=NetName=SENS_I2C_SDA|NetColor=clLime
+Net48=NetName=SENS1_I2C_SCL|NetColor=clAqua
+Net49=NetName=SENS1_I2C_SDA|NetColor=clAqua
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
