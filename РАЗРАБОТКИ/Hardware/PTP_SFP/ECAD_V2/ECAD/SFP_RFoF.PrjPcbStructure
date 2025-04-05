@@ -1,0 +1,12 @@
+Record=TopLevelDocument|FileName=01-PCIe.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=02-USER_IO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=03-Front Panel SFP_1.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=04-Front Panel SFP_2.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=05-General I2C Devices.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=06-I225-1.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=07-I225-2.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=08-RF_GPS.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=09-RF_SUBG.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=10-RF_WIFI.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=11-POWER-P12V.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=01-PCIe.SchDoc|FileName=12-Power-P3V3.SchDoc|SheetNumber=12

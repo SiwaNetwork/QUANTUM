@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\julianstj\Desktop\WorkNotes\Projects\PTP\RCB_WiWi_STM32WL3\ECAD_V1\RCB_WiWi_STM32WL3_V1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=rcb_wiwi_stm32wl3_v1-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=rcb_wiwi_stm32wl3_v1-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,gbl

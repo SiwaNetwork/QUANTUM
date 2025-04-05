@@ -1,0 +1,8 @@
+Record=TopLevelDocument|FileName=01-Antennas.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=02-8A34004_DPLL-1.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=03-8A34004_DPLL-2.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=04-TCXO_Crystal.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=05-USB-Prog.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=06-STM32WL3-RX.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=07-STM32WL3-TX.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-Antennas.SchDoc|FileName=08-Power.SchDoc|SheetNumber=8
