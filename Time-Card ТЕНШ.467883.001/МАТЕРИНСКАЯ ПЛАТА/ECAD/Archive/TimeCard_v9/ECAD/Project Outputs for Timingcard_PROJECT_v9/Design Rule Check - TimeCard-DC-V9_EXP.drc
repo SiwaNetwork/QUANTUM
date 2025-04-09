@@ -1,114 +1,53 @@
 Protel Design System Design Rule Check
 PCB File : C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\Archive\TimeCard_v9\ECAD\TimeCard-DC-V9_EXP.PcbDoc
-Date     : 21.03.2025
-Time     : 15:05:26
+Date     : 09.04.2025
+Time     : 0:53:48
 
-Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Free-MH1(7.5mm,9.588mm) on Multi-Layer And Region (0 hole(s)) BOTTOM 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Free-MH1(7.5mm,9.588mm) on Multi-Layer And Region (0 hole(s)) TOP 
-   Violation between Clearance Constraint: (0.111mm < 0.127mm) Between Track (118.65mm,65.768mm)(120.476mm,65.768mm) on BOTTOM And Via (121mm,65.5mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.083mm < 0.127mm) Between Track (120.476mm,65.768mm)(120.625mm,65.917mm) on BOTTOM And Via (121mm,65.5mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.084mm < 0.127mm) Between Track (120.625mm,65.917mm)(120.625mm,66.5mm) on BOTTOM And Via (121mm,65.5mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.085mm < 0.127mm) Between Track (3.925mm,31.931mm)(4.194mm,32.2mm) on BOTTOM And Via (4mm,32.7mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.048mm < 0.127mm) Between Track (3.9mm,77.7mm)(4.6mm,78.4mm) on BOTTOM And Via (4.6mm,78.9mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.085mm < 0.127mm) Between Track (4.194mm,32.2mm)(7.6mm,32.2mm) on BOTTOM And Via (4mm,32.7mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.048mm < 0.127mm) Between Track (4.194mm,32.2mm)(7.6mm,32.2mm) on BOTTOM And Via (5.043mm,31.7mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.118mm < 0.127mm) Between Track (4.1mm,59mm)(4.55mm,59.45mm) on BOTTOM And Via (4.4mm,60mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.118mm < 0.127mm) Between Track (4.55mm,59.45mm)(4.7mm,59.45mm) on BOTTOM And Via (4.4mm,60mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.118mm < 0.127mm) Between Track (4.55mm,59.45mm)(8.602mm,59.45mm) on BOTTOM And Via (4.4mm,60mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.048mm < 0.127mm) Between Track (4.6mm,78.4mm)(12.558mm,78.4mm) on BOTTOM And Via (4.6mm,78.9mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Via (29.307mm,102.2mm) from TOP to BOTTOM And Via (29.3mm,101.4mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.072mm < 0.127mm) Between Via (3.925mm,31.931mm) from TOP to BOTTOM And Via (4mm,32.7mm) from TOP to BOTTOM 
-   Violation between Clearance Constraint: (0.094mm < 0.127mm) Between Via (58.4mm,69.3mm) from TOP to BOTTOM And Via (58.9mm,69.3mm) from TOP to BOTTOM 
-Rule Violations :16
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InPolygon),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (InDifferentialPairClass('PCIE')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.254mm) (InPolygon),(All)
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (Disabled)(InNetClass('S50')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
    Violation between Short-Circuit Constraint: Between Pad J13-0(148.938mm,24.378mm) on Multi-Layer And Pad U15-0(148.938mm,24.378mm) on Multi-Layer Location : [X = 300.838mm][Y = 151.24mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-10(64.635mm,44.059mm) on TOP And Pad U10-10(64.635mm,44.059mm) on TOP Location : [X = 216.535mm][Y = 170.922mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-11(60.635mm,43.551mm) on TOP And Pad U10-11(60.635mm,43.551mm) on TOP Location : [X = 212.535mm][Y = 170.414mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-12(64.635mm,43.551mm) on TOP And Pad U10-12(64.635mm,43.551mm) on TOP Location : [X = 216.535mm][Y = 170.414mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-13(60.635mm,43.043mm) on TOP And Pad U10-13(60.635mm,43.043mm) on TOP Location : [X = 212.535mm][Y = 169.906mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-14(64.635mm,43.043mm) on TOP And Pad U10-14(64.635mm,43.043mm) on TOP Location : [X = 216.535mm][Y = 169.906mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-16(64.635mm,42.535mm) on TOP And Pad U10-16(64.635mm,42.535mm) on TOP Location : [X = 216.535mm][Y = 169.398mm]
-   Violation between Short-Circuit Constraint: Between Pad J31-18(64.635mm,42.027mm) on TOP And Pad U10-18(64.635mm,42.027mm) on TOP Location : [X = 216.535mm][Y = 168.89mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-10(64.635mm,44.059mm) on SIG1 And Pad U10-10(64.635mm,44.059mm) on SIG1 Location : [X = 216.535mm][Y = 170.922mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-11(60.635mm,43.551mm) on SIG1 And Pad U10-11(60.635mm,43.551mm) on SIG1 Location : [X = 212.535mm][Y = 170.414mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-12(64.635mm,43.551mm) on SIG1 And Pad U10-12(64.635mm,43.551mm) on SIG1 Location : [X = 216.535mm][Y = 170.414mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-13(60.635mm,43.043mm) on SIG1 And Pad U10-13(60.635mm,43.043mm) on SIG1 Location : [X = 212.535mm][Y = 169.906mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-14(64.635mm,43.043mm) on SIG1 And Pad U10-14(64.635mm,43.043mm) on SIG1 Location : [X = 216.535mm][Y = 169.906mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-16(64.635mm,42.535mm) on SIG1 And Pad U10-16(64.635mm,42.535mm) on SIG1 Location : [X = 216.535mm][Y = 169.398mm]
+   Violation between Short-Circuit Constraint: Between Pad J31-18(64.635mm,42.027mm) on SIG1 And Pad U10-18(64.635mm,42.027mm) on SIG1 Location : [X = 216.535mm][Y = 168.89mm]
    Violation between Short-Circuit Constraint: Between Pad J6-0(42.628mm,88.088mm) on Multi-Layer And Pad U9-0(42.628mm,88.088mm) on Multi-Layer Location : [X = 194.528mm][Y = 214.95mm]
 Rule Violations :9
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net BNO_P3V3 Between Pad C32-1(46.5mm,80.079mm) on TOP And Track (46.604mm,79.937mm)(47.8mm,79.937mm) on BOTTOM 
-   Violation between Un-Routed Net Constraint: Net BNO_P3V3 Between Pad U25-2(47.985mm,79.903mm) on TOP And Pad U25-1(47.985mm,80.303mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net BNO_P3V3 Between Track (46.604mm,79.937mm)(47.8mm,79.937mm) on BOTTOM And Pad U25-2(47.985mm,79.903mm) on TOP 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.191mm) (Max=2.032mm) (Preferred=0.203mm) (InNetClass('S50'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.076mm) (Max=2.032mm) (Preferred=0.203mm) (All)
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=2mm) (Prefered=0.152mm)  and Width Constraints (Min=0.127mm) (Max=0.152mm) (Prefered=0.127mm) (InDifferentialPairClass('All Differential Pairs'))
-   Violation between Differential Pairs Routing: Track (160.975mm,44mm)(161.906mm,43.069mm) on TOP Actual Width = 0.203mm, Target Width = 0.152mm
-   Violation between Differential Pairs Routing: Track (160.975mm,45mm)(161.875mm,45.9mm) on TOP Actual Width = 0.203mm, Target Width = 0.152mm
-   Violation between Differential Pairs Routing: Track (161.875mm,45.9mm)(162.65mm,45.9mm) on TOP Actual Width = 0.203mm, Target Width = 0.152mm
-   Violation between Differential Pairs Routing: Track (161.906mm,43.069mm)(162.65mm,43.069mm) on TOP Actual Width = 0.203mm, Target Width = 0.152mm
-Rule Violations :4
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=2mm) (Prefered=0.152mm)  and Width Constraints (Min=0.2mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))
+   Violation between Differential Pairs Routing: Between Net MAC_USB_P And Net MAC_USB_N [Uncoupled Length = 3.418mm], [Maximum Uncoupled Length = 0.152mm]
+Rule Violations :1
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.203mm) (Max=25.4mm) (All)
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (104.803mm,64.593mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (105.7mm,67.8mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (106mm,64.9mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (107mm,66.6mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (108.9mm,51.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (110.3mm,50.6mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (111.1mm,50.7mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (112.2mm,45.7mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (112.2mm,47.2mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (114.1mm,50mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (120.5mm,81.8mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (133.311mm,19.211mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (135.28mm,33.72mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (135.9mm,29.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (139mm,64.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (140.4mm,36.8mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (148.6mm,33.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (151.7mm,34mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (17.25mm,18mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (17.8mm,93.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (37.3mm,86.8mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (43.2mm,86.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (44.015mm,103.425mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (48.8mm,72.3mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (49.4mm,75.2mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (49.5mm,72.1mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (56.9mm,90.6mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (56mm,90.6mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (67.1mm,78.6mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (67.4mm,71mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (67.7mm,78.6mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (70.998mm,74.286mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (74.5mm,65.3mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (75.8mm,66.936mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (82.1mm,54.5mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (83.1mm,54.7mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (83.5mm,58.7mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (85.2mm,64.1mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (85.8mm,63.7mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (86.5mm,64.1mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (86.7mm,56.2mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (87.1mm,65mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (87.3mm,64mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (94.6mm,39.7mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-   Violation between Hole Size Constraint: (0.2mm < 0.203mm) Via (95.2mm,31.3mm) from TOP to BOTTOM Actual Hole Size = 0.2mm
-Rule Violations :45
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=25.4mm) (All)
+Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
    Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J13-0(148.938mm,24.378mm) on Multi-Layer And Pad U15-0(148.938mm,24.378mm) on Multi-Layer Pad/Via Touching Holes
@@ -129,62 +68,57 @@ Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (52.759mm,70.95mm) from TOP to BOTTOM 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.305mm) Between Arc (153.7mm,110.5mm) on Top Overlay And Board Edge 
-   Violation between Board Outline Clearance(Outline Edge): (0.281mm < 0.305mm) Between Board Edge And Text "C89" (164.984mm,28.319mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.066mm < 0.305mm) Between Board Edge And Text "D3" (9.315mm,109.969mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Text "D15" (1.016mm,59.208mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Text "D16" (1.117mm,45.267mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Text "D17" (0.766mm,31.566mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Text "J38" (150.6mm,110.3mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.164mm < 0.305mm) Between Board Edge And Text "R155" (52.581mm,107.967mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.062mm < 0.305mm) Between Board Edge And Track (11.7mm,110.3mm)(11.7mm,110.9mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.062mm < 0.305mm) Between Board Edge And Track (11.7mm,110.6mm)(12.2mm,110.9mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Text "R178" (167.708mm,77.227mm) on Bottom Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.073mm < 0.305mm) Between Board Edge And Track (119.724mm,80.8mm)(119.724mm,110.8mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.062mm < 0.305mm) Between Board Edge And Track (12.2mm,110.3mm)(12.2mm,110.9mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.125mm < 0.305mm) Between Board Edge And Track (13.9mm,110.775mm)(15.6mm,110.775mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (154.594mm,100.479mm)(167.675mm,100.479mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (154.594mm,110.512mm)(167.675mm,110.512mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.298mm < 0.305mm) Between Board Edge And Track (160mm,16.3mm)(167.1mm,23.4mm) on SIG 
-   Violation between Board Outline Clearance(Outline Edge): (0.298mm < 0.305mm) Between Board Edge And Track (165.9mm,40.4mm)(167.1mm,39.2mm) on SIG 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (166.35mm,30.825mm)(167.75mm,30.825mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (166.35mm,38.325mm)(167.75mm,38.325mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.298mm < 0.305mm) Between Board Edge And Track (167.1mm,23.4mm)(167.1mm,39.2mm) on SIG 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (167.675mm,100.479mm)(167.675mm,110.512mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (167.75mm,30.825mm)(167.75mm,38.325mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (19.1mm,110.44mm)(19.1mm,111.2mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (19.1mm,111.2mm)(26.7mm,111.2mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (26.7mm,110.44mm)(26.7mm,111.2mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (28.44mm,110.29mm)(28.44mm,111.05mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (28.44mm,111.05mm)(36.04mm,111.05mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (36.04mm,110.29mm)(36.04mm,111.05mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.073mm < 0.305mm) Between Board Edge And Track (59.724mm,110.8mm)(119.724mm,110.8mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.073mm < 0.305mm) Between Board Edge And Track (59.724mm,80.8mm)(59.724mm,110.8mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,28.413mm)(1.35mm,28.413mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,41.913mm)(1.35mm,41.913mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,55.413mm)(1.35mm,55.413mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,68.913mm)(1.35mm,68.913mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,22.063mm)(1.35mm,22.063mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,22.063mm)(-6.275mm,22.238mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,22.238mm)(-6.275mm,28.438mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,35.563mm)(1.35mm,35.563mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,35.563mm)(-6.275mm,35.738mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,35.738mm)(-6.275mm,41.938mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,49.063mm)(1.35mm,49.063mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,49.063mm)(-6.275mm,49.238mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,49.238mm)(-6.275mm,55.438mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,62.563mm)(1.35mm,62.563mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,62.563mm)(-6.275mm,62.738mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,62.738mm)(-6.275mm,68.938mm) on Top Overlay 
-Rule Violations :43
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,28.175mm)(1.35mm,28.175mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,42.175mm)(1.35mm,42.175mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,56.175mm)(1.35mm,56.175mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.25mm,70.175mm)(1.35mm,70.175mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,21.825mm)(1.35mm,21.825mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,21.825mm)(-6.275mm,22mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,22mm)(-6.275mm,28.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,35.825mm)(1.35mm,35.825mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,35.825mm)(-6.275mm,36mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,36mm)(-6.275mm,42.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,49.825mm)(1.35mm,49.825mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,49.825mm)(-6.275mm,50mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,50mm)(-6.275mm,56.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,63.825mm)(1.35mm,63.825mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,63.825mm)(-6.275mm,64mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-6.275mm,64mm)(-6.275mm,70.2mm) on Top Overlay 
+Rule Violations :32
 
 Processing Rule : Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('All Differential Pairs'))
-Rule Violations :0
+   Violation between Matched Net Lengths: Between Net FTDI_USB_R_N And Net FTDI_USB_R_P Actual Difference against FTDI_USB_R_P is: 0.153mm, Tolerance : 0.152mm. 
+   Violation between Matched Net Lengths: Between Net MAC_USB_N And Net MAC_USB_P Actual Difference against MAC_USB_P is: 0.628mm, Tolerance : 0.152mm. 
+   Violation between Matched Net Lengths: Between Net PCIE_TX2_N And Net PCIE_TX2_P Actual Difference against PCIE_TX2_P is: 0.241mm, Tolerance : 0.152mm. 
+Rule Violations :3
 
 Processing Rule : Silk primitive without silk layer
 Rule Violations :0
 
+Waived Violations Of Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Free-MH1(7.5mm,9.5mm) on Multi-Layer And Region (0 hole(s)) SIG3 Waived by Artem Golubev at 08.04.2025 19:29:06
+Waived Violations :1
 
-Violations Detected : 133
-Waived Violations : 0
+
+Violations Detected : 57
+Waived Violations : 1
 Time Elapsed        : 00:00:04

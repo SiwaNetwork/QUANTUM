@@ -709,12 +709,12 @@ DocumentPath=Project Outputs for Timingcard_PROJECT\TimeCardV9_BOM_8-28-2023.xls
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectDate
-Value=09/14/21
+Name=Revision
+Value=Rev. 1.0
 
 [Parameter2]
-Name=ProjectRevision
-Value=P3
+Name=EGRN
+Value=ТЕНШ.467883.001.00.000
 
 [Configuration1]
 Name=Sources
@@ -2969,26 +2969,27 @@ Net26=NetName=GNSS2_P3V3|NetColor=$003891E6
 Net27=NetName=GNSS2_P5V0|NetColor=$000000CC
 Net28=NetName=PCIE_CLK_N|NetColor=clAqua
 Net29=NetName=PCIE_CLK_P|NetColor=clAqua
-Net30=NetName=PCIE_RX0_N|NetColor=clAqua
-Net31=NetName=PCIE_RX0_P|NetColor=clAqua
-Net32=NetName=PCIE_RX1_N|NetColor=clAqua
-Net33=NetName=PCIE_RX1_P|NetColor=clAqua
-Net34=NetName=PCIE_RX2_N|NetColor=clAqua
-Net35=NetName=PCIE_RX2_P|NetColor=clAqua
-Net36=NetName=PCIE_RX3_N|NetColor=clAqua
-Net37=NetName=PCIE_RX3_P|NetColor=clAqua
-Net38=NetName=PCIE_TX0_N|NetColor=clAqua
-Net39=NetName=PCIE_TX0_P|NetColor=clAqua
-Net40=NetName=PCIE_TX1_N|NetColor=clAqua
-Net41=NetName=PCIE_TX1_P|NetColor=clAqua
-Net42=NetName=PCIE_TX2_N|NetColor=clAqua
-Net43=NetName=PCIE_TX2_P|NetColor=clAqua
-Net44=NetName=PCIE_TX3_N|NetColor=clAqua
-Net45=NetName=PCIE_TX3_P|NetColor=clAqua
-Net46=NetName=SENS_I2C_SCL|NetColor=clLime
-Net47=NetName=SENS_I2C_SDA|NetColor=clLime
-Net48=NetName=SENS1_I2C_SCL|NetColor=clAqua
-Net49=NetName=SENS1_I2C_SDA|NetColor=clAqua
+Net30=NetName=PCIE_PERST|NetColor=clLime
+Net31=NetName=PCIE_RX0_N|NetColor=clAqua
+Net32=NetName=PCIE_RX0_P|NetColor=clAqua
+Net33=NetName=PCIE_RX1_N|NetColor=clAqua
+Net34=NetName=PCIE_RX1_P|NetColor=clAqua
+Net35=NetName=PCIE_RX2_N|NetColor=clAqua
+Net36=NetName=PCIE_RX2_P|NetColor=clAqua
+Net37=NetName=PCIE_RX3_N|NetColor=clAqua
+Net38=NetName=PCIE_RX3_P|NetColor=clAqua
+Net39=NetName=PCIE_TX0_N|NetColor=clAqua
+Net40=NetName=PCIE_TX0_P|NetColor=clAqua
+Net41=NetName=PCIE_TX1_N|NetColor=clAqua
+Net42=NetName=PCIE_TX1_P|NetColor=clAqua
+Net43=NetName=PCIE_TX2_N|NetColor=clAqua
+Net44=NetName=PCIE_TX2_P|NetColor=clAqua
+Net45=NetName=PCIE_TX3_N|NetColor=clAqua
+Net46=NetName=PCIE_TX3_P|NetColor=clAqua
+Net47=NetName=SENS_I2C_SCL|NetColor=clLime
+Net48=NetName=SENS_I2C_SDA|NetColor=clLime
+Net49=NetName=SENS1_I2C_SCL|NetColor=clAqua
+Net50=NetName=SENS1_I2C_SDA|NetColor=clAqua
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
