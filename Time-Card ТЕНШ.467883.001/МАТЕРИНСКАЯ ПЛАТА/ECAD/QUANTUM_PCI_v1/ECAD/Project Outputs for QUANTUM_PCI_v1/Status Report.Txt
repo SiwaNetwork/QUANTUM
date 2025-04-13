@@ -1,14 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 17:23:44 On 11.04.2025
+Start Output Generation At 10:44:06 On 13.04.2025
 
 Output: Bill of Materials
 Type  : BOM
 From  : Variant [[No Variations]] of Project [QUANTUM_PCI_v1.PrjPcb]
-   Generated File[QUANTUM_PCI_v1_Rev. 1.0_BOM 2025-04-11 17-23.xlsx]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_BOM 2025-04-13 10-44.xlsx]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 17:24:10 On 11.04.2025
+Finished Output Generation At 10:44:35 On 13.04.2025

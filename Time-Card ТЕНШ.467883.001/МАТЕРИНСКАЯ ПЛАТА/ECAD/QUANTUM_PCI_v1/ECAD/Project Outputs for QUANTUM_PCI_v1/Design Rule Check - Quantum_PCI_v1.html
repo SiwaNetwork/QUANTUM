@@ -1,0 +1,488 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">13.04.2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:41:16</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:05</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc" class="file"><acronym title="C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc">C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">17</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">16</td></tr>
+</table>
+</td>
+</table><a name="ID15KICHJPCHKLGXGJ5S2XXZLXSP3LWWCUDKCKAWBYCJTBADETLOJB"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBWJQLGJ30GUVN3RINP20W2C1QIQVGD1JTGIBKVLTR0GJHWIP1EOP">Clearance Constraint (Gap=0.2mm) (InPolygon),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVPIJKEJKMZ0TJBJACDQ5ZTKC1MHQQLSQSN22AXLUUS43PS5YQI5F">Clearance Constraint (Gap=0.127mm) (InDifferentialPairClass('PCIE')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXPPNYVR20A11MD14JT5BTXC2ZN4FYSVUUA3PTOJFECQLI5J0M34N">Clearance Constraint (Gap=0.127mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDI4ZB2MTLGRDDJPOHCK5I234R5I0JLNWGC4K2NPM0NLXEALINMEKB">Clearance Constraint (Gap=0.127mm) (Disabled)(InNetClass('S50')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCLA5TIWNDINYFGSRIEHVV5WUDCR5MWBYKZL10JIXXO4VJLV40JSB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVUY4V2N2J0DZHVL0TGUVON2ZSGTIZ2RUZ2YOI5JSXXBMWSRO0TMK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZCSWIY0TY0YNKD5GSLEN3JGY0BMQHCFLBZKC02ECZ4ENOYM2UG5P">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDO2HOKA5BGYBMCUDNK1YMLGUFCJRXP5BKDW00N0IPRITTJ51PBJCL">Width Constraint (Min=0.191mm) (Max=2.032mm) (Preferred=0.203mm) (InNetClass('S50'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUWDNVL3TS2KRBT3LNCQND2WEKBLCLGRXARLHKYFQLYFW1CQJI1AO">Width Constraint (Min=0.076mm) (Max=2.032mm) (Preferred=0.203mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAXC5OKCEEKOKOJPYWSRDGL01PIG0S5I015IFO0ODRS4ABLFTVGZH">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=2mm) (Prefered=0.152mm)  and Width Constraints (Min=0.2mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDP0XVC4YY1CQUD5OJG0DDOUN5GHLRWGI5FZGKZPF5RAWVU4GUHNF">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCWHYGOYDO2NVPUQKGQVHV3CYSE3XM3WVMRUE4KMRXDDG30R0MSO">Hole Size Constraint (Min=0.2mm) (Max=25.4mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRBZB2SF0EDWRX4FTUVDENLBLKD5KU32GNTQJDGPBSSFWMALHHJE">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSUHNBLWAUBI0MD4HWQIIJ2TYXCII4FRYI3JMKUIV1LQDEINLEG2H">Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIOAUHHQ4Z4XHCKOV5JO4ZBKUDGTVW4IISYJMFVGSBAD1RGH2YO4">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPIZHI0FNKTIXG1F2LSA1WXX21PTB3E2XEQONQ0EQP1DX4INOCQON">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZSVLM4OHYI0TK0RPO10W2SDJFHAY50QXSEWMCWEXPQF1I103TT5H">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('All Differential Pairs'))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSKYAOHGZ53CWCXBKIBRE5VTROP1QFAY3U2YWS5O0L5GZHDXAHKYM">Silk primitive without silk layer</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">17</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMWIHWNAJKG3JCXLAMSYRJL4M1PNKCRRL2V0UBVNXGXJ1SXUEOUUE">Clearance Constraint (Gap=0.127mm) (All),(All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPPX0LE1CW40WJMBYFU1NVLSI4LLOAZ4QA41PCFLO5KBCYQVLVSHF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">9</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">16</td>
+</tr>
+</table><br><a name="IDRTXHVFCJQI1BEYFKWHRXL0G3QNWORJ1K30Z4R1OPME2RMDM2IHHE"><h2>Rule Violations</h2></a><a name="IDAXC5OKCEEKOKOJPYWSRDGL01PIG0S5I015IFO0ODRS4ABLFTVGZH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=2mm) (Prefered=0.152mm)  and Width Constraints (Min=0.2mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8521.059mil|Location2.X=10117.208mil|Location1.Y=6781.981mil|Location2.Y=7472.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8521.059mil|Location2.X=10117.208mil|Location1.Y=6781.981mil|Location2.Y=7472.188mil|Absolute=True">Differential Pairs Routing: Between Net MAC_USB_P And Net MAC_USB_N [Uncoupled Length = 5.002mm], [Maximum Uncoupled Length = 0.152mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDRBZB2SF0EDWRX4FTUVDENLBLKD5KU32GNTQJDGPBSSFWMALHHJE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11840.167mil|Location2.X=11847.833mil|Location1.Y=5950.493mil|Location2.Y=5958.16mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11840.167mil|Location2.X=11847.833mil|Location1.Y=5950.493mil|Location2.Y=5958.16mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad J13-0(148.938mm,24.378mm) on Multi-Layer And Pad U15-0(148.938mm,24.378mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7654.73mil|Location2.X=7662.396mil|Location1.Y=8458.765mil|Location2.Y=8466.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7654.73mil|Location2.X=7662.396mil|Location1.Y=8458.765mil|Location2.Y=8466.432mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad J6-0(42.628mm,88.088mm) on Multi-Layer And Pad U9-0(42.628mm,88.088mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7893.962mil|Location2.X=7901.628mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7893.962mil|Location2.X=7901.628mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT10-1(48.704mm,20.8mm) on Multi-Layer And Pad U10-P10(48.704mm,20.8mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8133.962mil|Location2.X=8141.629mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8133.962mil|Location2.X=8141.629mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT1-1(54.8mm,20.8mm) on Multi-Layer And Pad U10-P8(54.8mm,20.8mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6854.434mil|Location2.X=6862.101mil|Location1.Y=7514.372mil|Location2.Y=7522.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6854.434mil|Location2.X=6862.101mil|Location1.Y=7514.372mil|Location2.Y=7522.038mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT2-1(22.3mm,64.1mm) on Multi-Layer And Pad U10-P1(22.3mm,64.1mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8252.072mil|Location2.X=8259.739mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8252.072mil|Location2.X=8259.739mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT3-1(57.8mm,20.8mm) on Multi-Layer And Pad U10-P7(57.8mm,20.8mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8370.182mil|Location2.X=8377.849mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8370.182mil|Location2.X=8377.849mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT4-1(60.8mm,20.8mm) on Multi-Layer And Pad U10-P6(60.8mm,20.8mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6854.434mil|Location2.X=6862.101mil|Location1.Y=5915.946mil|Location2.Y=5923.613mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6854.434mil|Location2.X=6862.101mil|Location1.Y=5915.946mil|Location2.Y=5923.613mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT5-1(22.3mm,23.5mm) on Multi-Layer And Pad U10-P3(22.3mm,23.5mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6854.434mil|Location2.X=6862.101mil|Location1.Y=6715.159mil|Location2.Y=6722.825mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6854.434mil|Location2.X=6862.101mil|Location1.Y=6715.159mil|Location2.Y=6722.825mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT6-1(22.3mm,43.8mm) on Multi-Layer And Pad U10-P2(22.3mm,43.8mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8452.86mil|Location2.X=8460.526mil|Location1.Y=7514.372mil|Location2.Y=7522.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8452.86mil|Location2.X=8460.526mil|Location1.Y=7514.372mil|Location2.Y=7522.038mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT7-1(62.9mm,64.1mm) on Multi-Layer And Pad U10-P5(62.9mm,64.1mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8013.962mil|Location2.X=8021.628mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8013.962mil|Location2.X=8021.628mil|Location1.Y=5809.647mil|Location2.Y=5817.314mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT8-1(51.752mm,20.8mm) on Multi-Layer And Pad U10-P9(51.752mm,20.8mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8452.86mil|Location2.X=8460.526mil|Location1.Y=5915.946mil|Location2.Y=5923.613mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8452.86mil|Location2.X=8460.526mil|Location1.Y=5915.946mil|Location2.Y=5923.613mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Pad SKT9-1(62.9mm,23.5mm) on Multi-Layer And Pad U10-P4(62.9mm,23.5mm) on Multi-Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDPIZHI0FNKTIXG1F2LSA1WXX21PTB3E2XEQONQ0EQP1DX4INOCQON"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5972.862mil|Location2.X=5981.862mil|Location1.Y=7043.056mil|Location2.Y=7052.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5972.862mil|Location2.X=5981.862mil|Location1.Y=7043.056mil|Location2.Y=7052.056mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.305mm) Between Board Edge And Text "AN2" (-0.15mm,53.25mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5976.816mil|Location2.X=5990.066mil|Location1.Y=7462.68mil|Location2.Y=7475.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5976.816mil|Location2.X=5990.066mil|Location1.Y=7462.68mil|Location2.Y=7475.93mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.159mm &lt; 0.305mm) Between Board Edge And Text "D15" (1.341mm,62.858mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5976.816mil|Location2.X=5990.066mil|Location1.Y=6358.681mil|Location2.Y=6371.931mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5976.816mil|Location2.X=5990.066mil|Location1.Y=6358.681mil|Location2.Y=6371.931mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.159mm &lt; 0.305mm) Between Board Edge And Text "D17" (1.341mm,34.816mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZSVLM4OHYI0TK0RPO10W2SDJFHAY50QXSEWMCWEXPQF1I103TT5H"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('All Differential Pairs'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12154.291mil|Location2.X=12401.638mil|Location1.Y=6318.339mil|Location2.Y=6781.063mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12154.291mil|Location2.X=12401.638mil|Location1.Y=6318.339mil|Location2.Y=6781.063mil|Absolute=True">Matched Net Lengths: Between Net FTDI_USB_R_N And Net FTDI_USB_R_P Actual Difference against FTDI_USB_R_P is: 0.153mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDN2FMOIUG0PYIJ2Y0HX52NUOS4LKQ0VOJMHWM1JOHD2PHG12A3OAG"><h2>Waived Violations</h2></a><a name="IDMWIHWNAJKG3JCXLAMSYRJL4M1PNKCRRL2V0UBVNXGXJ1SXUEOUUE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Clearance Constraint (Gap=0.127mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9264.069mil|Location2.Y=9268.403mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9264.069mil|Location2.Y=9268.403mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L1" (2.5mm,108.5mm) on SIG1 </acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:38:41</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9185.329mil|Location2.Y=9189.663mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9185.329mil|Location2.Y=9189.663mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L2" (2.5mm,106.5mm) on GND1 </acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:38:41</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9106.589mil|Location2.Y=9110.923mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9106.589mil|Location2.Y=9110.923mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L3" (2.5mm,104.5mm) on PWR1 </acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:38:41</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9027.849mil|Location2.Y=9032.182mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=9027.849mil|Location2.Y=9032.182mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L4" (2.5mm,102.5mm) on SIG2 </acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:38:41</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=8949.109mil|Location2.Y=8953.442mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=8949.109mil|Location2.Y=8953.442mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L5" (2.5mm,100.5mm) on GND2 </acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:38:41</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=8870.369mil|Location2.Y=8874.702mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6076.574mil|Location2.X=6080.907mil|Location1.Y=8870.369mil|Location2.Y=8874.702mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L6" (2.5mm,98.5mm) on SIG3 </acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:38:41</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6273.424mil|Location2.X=6277.757mil|Location1.Y=5366.432mil|Location2.Y=5370.765mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6273.424mil|Location2.X=6277.757mil|Location1.Y=5366.432mil|Location2.Y=5370.765mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.127mm) Between Pad Free-MH1(7.5mm,9.5mm) on Multi-Layer And Region (0 hole(s)) SIG3 </acronym></a><br>Waived by Artem Golubev at 08.04.2025 19:29:06</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDPPX0LE1CW40WJMBYFU1NVLSI4LLOAZ4QA41PCFLO5KBCYQVLVSHF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11821.24mil|Location2.X=11866.76mil|Location1.Y=5931.567mil|Location2.Y=5977.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11821.24mil|Location2.X=11866.76mil|Location1.Y=5931.567mil|Location2.Y=5977.087mil|Absolute=True">Short-Circuit Constraint: Between Pad J13-0(148.938mm,24.378mm) on Multi-Layer And Pad U15-0(148.938mm,24.378mm) on Multi-Layer Location : [X = 300.838mm][Y = 151.24mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6691.927mil|Location2.Y=6766.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6691.927mil|Location2.Y=6766.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-10(64.635mm,44.059mm) on SIG1 And Pad U10-10(64.635mm,44.059mm) on SIG1 Location : [X = 216.535mm][Y = 170.922mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8330.245mil|Location2.X=8404.791mil|Location1.Y=6671.927mil|Location2.Y=6746.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8330.245mil|Location2.X=8404.791mil|Location1.Y=6671.927mil|Location2.Y=6746.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-11(60.635mm,43.551mm) on SIG1 And Pad U10-11(60.635mm,43.551mm) on SIG1 Location : [X = 212.535mm][Y = 170.414mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6671.927mil|Location2.Y=6746.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6671.927mil|Location2.Y=6746.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-12(64.635mm,43.551mm) on SIG1 And Pad U10-12(64.635mm,43.551mm) on SIG1 Location : [X = 216.535mm][Y = 170.414mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8330.245mil|Location2.X=8404.791mil|Location1.Y=6651.927mil|Location2.Y=6726.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8330.245mil|Location2.X=8404.791mil|Location1.Y=6651.927mil|Location2.Y=6726.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-13(60.635mm,43.043mm) on SIG1 And Pad U10-13(60.635mm,43.043mm) on SIG1 Location : [X = 212.535mm][Y = 169.906mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6651.927mil|Location2.Y=6726.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6651.927mil|Location2.Y=6726.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-14(64.635mm,43.043mm) on SIG1 And Pad U10-14(64.635mm,43.043mm) on SIG1 Location : [X = 216.535mm][Y = 169.906mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6631.927mil|Location2.Y=6706.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6631.927mil|Location2.Y=6706.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-16(64.635mm,42.535mm) on SIG1 And Pad U10-16(64.635mm,42.535mm) on SIG1 Location : [X = 216.535mm][Y = 169.398mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6611.927mil|Location2.Y=6686.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.726mil|Location2.X=8562.272mil|Location1.Y=6611.927mil|Location2.Y=6686.473mil|Absolute=True">Short-Circuit Constraint: Between Pad J31-18(64.635mm,42.027mm) on SIG1 And Pad U10-18(64.635mm,42.027mm) on SIG1 Location : [X = 216.535mm][Y = 168.89mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card %D0%A2%D0%95%D0%9D%D0%A8.467883.001\%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF %D0%9F%D0%9B%D0%90%D0%A2%D0%90\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7635.803mil|Location2.X=7681.323mil|Location1.Y=8439.838mil|Location2.Y=8485.358mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7635.803mil|Location2.X=7681.323mil|Location1.Y=8439.838mil|Location2.Y=8485.358mil|Absolute=True">Short-Circuit Constraint: Between Pad J6-0(42.628mm,88.088mm) on Multi-Layer And Pad U9-0(42.628mm,88.088mm) on Multi-Layer Location : [X = 194.528mm][Y = 214.95mm]</acronym></a><br>Waived by Artem Golubev at 13.04.2025 10:39:45</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

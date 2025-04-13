@@ -1,0 +1,102 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\Ã¿“≈–»Õ— ¿ﬂ œÀ¿“¿\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc
+Date     : 13.04.2025
+Time     : 10:41:16
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (InDifferentialPairClass('PCIE')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (Disabled)(InNetClass('S50')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.191mm) (Max=2.032mm) (Preferred=0.203mm) (InNetClass('S50'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.076mm) (Max=2.032mm) (Preferred=0.203mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=2mm) (Prefered=0.152mm)  and Width Constraints (Min=0.2mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))
+   Violation between Differential Pairs Routing: Between Net MAC_USB_P And Net MAC_USB_N [Uncoupled Length = 5.002mm], [Maximum Uncoupled Length = 0.152mm]
+Rule Violations :1
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=25.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J13-0(148.938mm,24.378mm) on Multi-Layer And Pad U15-0(148.938mm,24.378mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J6-0(42.628mm,88.088mm) on Multi-Layer And Pad U9-0(42.628mm,88.088mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT10-1(48.704mm,20.8mm) on Multi-Layer And Pad U10-P10(48.704mm,20.8mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT1-1(54.8mm,20.8mm) on Multi-Layer And Pad U10-P8(54.8mm,20.8mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT2-1(22.3mm,64.1mm) on Multi-Layer And Pad U10-P1(22.3mm,64.1mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT3-1(57.8mm,20.8mm) on Multi-Layer And Pad U10-P7(57.8mm,20.8mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT4-1(60.8mm,20.8mm) on Multi-Layer And Pad U10-P6(60.8mm,20.8mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT5-1(22.3mm,23.5mm) on Multi-Layer And Pad U10-P3(22.3mm,23.5mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT6-1(22.3mm,43.8mm) on Multi-Layer And Pad U10-P2(22.3mm,43.8mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT7-1(62.9mm,64.1mm) on Multi-Layer And Pad U10-P5(62.9mm,64.1mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT8-1(51.752mm,20.8mm) on Multi-Layer And Pad U10-P9(51.752mm,20.8mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad SKT9-1(62.9mm,23.5mm) on Multi-Layer And Pad U10-P4(62.9mm,23.5mm) on Multi-Layer Pad/Via Touching Holes
+Rule Violations :12
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Text "AN2" (-0.15mm,53.25mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.305mm) Between Board Edge And Text "D15" (1.341mm,62.858mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.305mm) Between Board Edge And Text "D17" (1.341mm,34.816mm) on Top Overlay 
+Rule Violations :3
+
+Processing Rule : Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('All Differential Pairs'))
+   Violation between Matched Net Lengths: Between Net FTDI_USB_R_N And Net FTDI_USB_R_P Actual Difference against FTDI_USB_R_P is: 0.153mm, Tolerance : 0.152mm. 
+Rule Violations :1
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Waived Violations Of Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L1" (2.5mm,108.5mm) on SIG1 Waived by Artem Golubev at 13.04.2025 10:38:41
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L2" (2.5mm,106.5mm) on GND1 Waived by Artem Golubev at 13.04.2025 10:38:41
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L3" (2.5mm,104.5mm) on PWR1 Waived by Artem Golubev at 13.04.2025 10:38:41
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L4" (2.5mm,102.5mm) on SIG2 Waived by Artem Golubev at 13.04.2025 10:38:41
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L5" (2.5mm,100.5mm) on GND2 Waived by Artem Golubev at 13.04.2025 10:38:41
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Area Fill (0mm,98mm) (3mm,111mm) on Keep-Out Layer And Text "L6" (2.5mm,98.5mm) on SIG3 Waived by Artem Golubev at 13.04.2025 10:38:41
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Free-MH1(7.5mm,9.5mm) on Multi-Layer And Region (0 hole(s)) SIG3 Waived by Artem Golubev at 08.04.2025 19:29:06
+Waived Violations :7
+
+Waived Violations Of Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Waived Violation between Short-Circuit Constraint: Between Pad J13-0(148.938mm,24.378mm) on Multi-Layer And Pad U15-0(148.938mm,24.378mm) on Multi-Layer Location : [X = 300.838mm][Y = 151.24mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-10(64.635mm,44.059mm) on SIG1 And Pad U10-10(64.635mm,44.059mm) on SIG1 Location : [X = 216.535mm][Y = 170.922mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-11(60.635mm,43.551mm) on SIG1 And Pad U10-11(60.635mm,43.551mm) on SIG1 Location : [X = 212.535mm][Y = 170.414mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-12(64.635mm,43.551mm) on SIG1 And Pad U10-12(64.635mm,43.551mm) on SIG1 Location : [X = 216.535mm][Y = 170.414mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-13(60.635mm,43.043mm) on SIG1 And Pad U10-13(60.635mm,43.043mm) on SIG1 Location : [X = 212.535mm][Y = 169.906mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-14(64.635mm,43.043mm) on SIG1 And Pad U10-14(64.635mm,43.043mm) on SIG1 Location : [X = 216.535mm][Y = 169.906mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-16(64.635mm,42.535mm) on SIG1 And Pad U10-16(64.635mm,42.535mm) on SIG1 Location : [X = 216.535mm][Y = 169.398mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J31-18(64.635mm,42.027mm) on SIG1 And Pad U10-18(64.635mm,42.027mm) on SIG1 Location : [X = 216.535mm][Y = 168.89mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-0(42.628mm,88.088mm) on Multi-Layer And Pad U9-0(42.628mm,88.088mm) on Multi-Layer Location : [X = 194.528mm][Y = 214.95mm]Waived by Artem Golubev at 13.04.2025 10:39:45
+Waived Violations :9
+
+
+Violations Detected : 17
+Waived Violations : 16
+Time Elapsed        : 00:00:05
