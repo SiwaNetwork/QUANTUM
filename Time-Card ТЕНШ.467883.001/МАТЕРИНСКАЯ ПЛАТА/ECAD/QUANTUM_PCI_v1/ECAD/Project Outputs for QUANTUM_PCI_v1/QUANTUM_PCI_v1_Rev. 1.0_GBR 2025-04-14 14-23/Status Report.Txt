@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Quantum_PCI_v1.PcbDoc]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_GBR 2025-04-14 14-23-RoundHoles.TXT]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_GBR 2025-04-14 14-23-SlotHoles.TXT]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_GBR 2025-04-14 14-23.LDP]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_GBR 2025-04-14 14-23.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 14:23:15 On 14.04.2025

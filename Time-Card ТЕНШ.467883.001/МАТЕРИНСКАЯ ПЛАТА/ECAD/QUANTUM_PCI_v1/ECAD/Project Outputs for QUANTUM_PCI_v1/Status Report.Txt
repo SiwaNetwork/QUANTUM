@@ -1,14 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 10:51:08 On 13.04.2025
+Start Output Generation At 14:23:19 On 14.04.2025
 
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [QUANTUM_PCI_v1.PrjPcb]
-   Generated File[QUANTUM_PCI_v1_Rev. 1.0_BOM 2025-04-13 10-51.xlsx]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [Quantum_PCI_v1.PcbDoc]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_Pick&Place 2025-04-14 14-23.txt]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.0_Pick&Place 2025-04-14 14-23.csv]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 10:51:34 On 13.04.2025
+Finished Output Generation At 14:23:30 On 14.04.2025
