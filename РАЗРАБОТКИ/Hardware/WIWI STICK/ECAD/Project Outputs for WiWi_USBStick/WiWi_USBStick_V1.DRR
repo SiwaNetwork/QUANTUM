@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: WiWi_USBStick_V1.PcbDoc   4/10/2025  1:08:51 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L01-TOP to L14-BOT
+ASCII RoundHoles File : WiWi_USBStick_V1-RoundHoles.TXT
+ASCII SlotHoles File : WiWi_USBStick_V1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             64        PTH        178.64mm (7.03inch)
+T2      0.254mm (10mil)                                           Round             1275      PTH        2182.60mm (85.93inch)
+T3      0.5mm (20mil)                                             Slot              4         PTH        48.24mm (1.90inch)
+T4      0.6mm (24mil)                                             Slot              2         PTH        18.13mm (0.71inch)
+T5      0.65mm (26mil)                                            Slot              2         PTH        9.30mm (0.37inch)
+T6      1.02mm (40mil)                                            Round             10        PTH        27.94mm (1.10inch)
+T7      1.5mm (59mil)                                             Round             4         PTH        15.99mm (0.63inch)
+T8      2.9mm (114mil)                                            Round             2         PTH        96.02mm (3.78inch)
+T9      0.65mm (26mil)                                            Round             1         NPTH       0.00mm (0.00inch)
+T10     0.65mm (26mil)                                            Slot              1         NPTH       0.30mm (0.01inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1365
+
+Total Processing Time (hh:mm:ss) : 00:00:01
