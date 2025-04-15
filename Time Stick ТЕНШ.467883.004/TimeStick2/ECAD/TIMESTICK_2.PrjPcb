@@ -102,7 +102,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CHWEJDMR
 
 [Document4]
-DocumentPath=..\..\..\..\..\..\GLOBAL_OUT.OutJob
+DocumentPath=..\..\..\..\SHIWA_OUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
