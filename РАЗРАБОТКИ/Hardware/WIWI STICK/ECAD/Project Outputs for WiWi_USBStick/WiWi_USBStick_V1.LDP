@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\julianstj\Desktop\WorkNotes\Projects\PTP\WiWi\USBStick\ECAD\WiWi_USBStick_V1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=wiwi_usbstick_v1-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=wiwi_usbstick_v1-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,gbl
