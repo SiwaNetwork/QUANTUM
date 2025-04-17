@@ -1,0 +1,13 @@
+Record=TopLevelDocument|FileName=01-CM4_Conn.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=02-Clocks.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=03-KSZ9567.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=04-Switch_RJ45.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=05-Switch_SFP_CM4_RJ45.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=06-CM4_USB_HDMI_SDCard.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=07-KSZ9031_1G_BASET_XCVR.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=08-Power.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=09-Switch_Power_Filters.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=10-RJ45_Protection.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=11-Switch_Strapping.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=12-I225_1.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=01-CM4_Conn.SchDoc|FileName=13-I225_2.SchDoc|SheetNumber=13
