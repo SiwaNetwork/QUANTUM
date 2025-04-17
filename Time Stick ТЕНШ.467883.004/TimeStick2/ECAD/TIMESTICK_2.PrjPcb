@@ -1510,9 +1510,10 @@ Net10=NetName=GND|NetColor=clBlue
 Net11=NetName=GPS_PPS_OUT|NetColor=$004FA86A
 Net12=NetName=SCL|NetColor=clAqua
 Net13=NetName=SDA|NetColor=clAqua
-Net14=NetName=VBUS_+5V|NetColor=clRed
-Net15=NetName=VCC_RF|NetColor=$006BB2F6
-Net16=NetName=VCCK10|NetColor=clYellow
+Net14=NetName=SPI_CS|NetColor=$007DC493
+Net15=NetName=VBUS_+5V|NetColor=clRed
+Net16=NetName=VCC_RF|NetColor=$006BB2F6
+Net17=NetName=VCCK10|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

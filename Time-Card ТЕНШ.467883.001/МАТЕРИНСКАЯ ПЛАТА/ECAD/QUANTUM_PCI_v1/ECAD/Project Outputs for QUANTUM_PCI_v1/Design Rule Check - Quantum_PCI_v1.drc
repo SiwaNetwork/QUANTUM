@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Documents\Altium\SM_Project\QUANTUM\Time-Card าลอุ.467883.001\ฬภาละศอัสภ฿ ฯหภาภ\ECAD\QUANTUM_PCI_v1\ECAD\Quantum_PCI_v1.PcbDoc
-Date     : 14.04.2025
-Time     : 11:10:27
+Date     : 17.04.2025
+Time     : 17:31:11
 
 Processing Rule : Clearance Constraint (Gap=7.874mil) (InPolygon),(All)
 Rule Violations :0
@@ -62,8 +62,7 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 12mil) Between Board Edge And Text "าลอุ.467883.001.10.001" (3108.268mil,510.827mil) on Top Overlay 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('All Differential Pairs'))
    Violation between Matched Net Lengths: Between Net FTDI_USB_R_N And Net FTDI_USB_R_P Actual Difference against FTDI_USB_R_P is: 6.013mil, Tolerance : 6mil. 
@@ -95,6 +94,6 @@ Waived Violations Of Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Waived Violations :9
 
 
-Violations Detected : 15
+Violations Detected : 14
 Waived Violations : 16
 Time Elapsed        : 00:00:05
