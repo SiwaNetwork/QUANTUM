@@ -1,0 +1,963 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">22.04.2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">15:59:39</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:08</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc" class="file"><acronym title="C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc">C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">86</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">76</td></tr>
+</table>
+</td>
+</table><a name="IDJN21ZSZP5RNJJVUK00314WX2MCMQW0TUCIP24ZMLLV0T54RJWRSE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4XK2FZZJVVMXGLZ3WBH3HXLEEGR2YBYX5YBMM0EMXYFZG5C4UP2L">Clearance Constraint (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDULBU4EXG2COQB4JSK1PL1WQVWBEOJJA2231R53KTAUJ0U4AQWWJD">Clearance Constraint (Gap=0.125mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJUKZMBJ3LCCXMURTRIJMIX3DICTXYA2LMYZVD3BSJDPEHXOU01FB">Clearance Constraint (Gap=0.1mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSANQ3CFY5O0TCCUPEHTFN15ORITUOOAX1ZL5FDGHCHFYZUO0QYMC">Clearance Constraint (Gap=0.2mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4QBZYHZDEGRKKIE41QZ24I140EHPEAL2E0TTCYIQVPP1JRCCTZ1O">Clearance Constraint (Gap=0.35mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZD0KDN5IT2LKBOVD3DZSVMESWYYAX5ZPM1TIFN3OMGNLNUVECBK">Clearance Constraint (Gap=0.3mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOOGIC4YIIONFF2SSHESIXS2IYEIFBRKWPES54HOHJ5TEU2ZHI0ME">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0GTJ4DBPM2ZMB0GY12JW3BCGHELJ34DQLNXKD3LZXE45CVEJADVJ">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDG0BATHA2O3Y5M1XB0W5I4YC0JDQUNB4LTK3OFMG0VQ1UWK3HDZCD">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMGQ5Y0UGM2ZJCVDJXZCI0KSUUDVETMRK0ZCK5OFUHMJWTOXERCXH">Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMSUQFBNNFCRSG2DMO2MVNRFC3IJVA0RMLR5ZXPPOP4FMTAFSJ4O">Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.125mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4SWRH222Z0T4CIERLNSAXHTMDFPG2QAZXMKSBKSQRXPVVZ31ZOB">Width Constraint (Min=0.205mm) (Max=10mm) (Preferred=0.286mm) (InNetClass('PPS_50'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3J4BOHEOFGDNCEIWVUA2LLYJXCAKVFAF4PSVK2NSFHMIH22JJBIK">Width Constraint (Min=0.35mm) (Max=10mm) (Preferred=0.4mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1QJIAKLM5O0DIHON3XFZS4QBHHB0ZAE5UF32ECIZLIV4FDX4VJGJ">Width Constraint (Min=0.3mm) (Max=10mm) (Preferred=0.35mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDI5QB4OA1K2UKLEPTT0ZI45PEAKRZQW40YUDZE0MMYVUQMRQKJKZI">Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.35mm) (Air Gap=0.35mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXKS0KKGPTCEXNKXRZI0AUVLBZHYIJW4NF4SKKGKDM0Q3HX3AAZUD">Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4OJQYBPWEAZIE0GVZ1WQP3PGEHRG1WQTONOXKIHOGYNK3L3IQPBB">Power Plane Connect Rule(Relief Connect )(Expansion=0.15mm) (Conductor Width=0.15mm) (Air Gap=0.15mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0YPCGWOK3R3FMYULLSM0ZWFZXICYV0NYHLULARLPWPDIQWRZ0XNJ">Power Plane Connect Rule(Relief Connect )(Expansion=0.15mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLZOVIYKV0ODUIFDKL10YXMUPLL0WA5HDOW2KRSN1ZM3CN34LG1JB">Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.3mm) (Air Gap=0.3mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDF5GCLJZJDSAFFTSP3BMFCOK11F0O0RURHJ5UAHPLAPF4LEFVHKEO">Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1PAYFWI3S3WTESNVJSUX401YWPGCDACBRVVULVHBN3OO3JIHE2KJ">Minimum Annular Ring (Minimum=0.2mm) (Disabled)(IsPAD)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS1ZGVEGMJVTXCOOWKDNT2OJXJC1C5BBSYBJJWQX5UEWLJ4TKHVD">Minimum Annular Ring (Minimum=0.1mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLSCXIEVPI5U0IZ0MQTHBB5MMHLCGJFQGJCX2YDGOX33V5LEEGWQO">Minimum Annular Ring (Minimum=0.15mm) (Disabled)(IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHTRWSNEVUHH2DHNZKMUEZBS5IHX1VU5MN542KSG4TZ01JR2KGUQK">Minimum Annular Ring (Minimum=0.15mm) (IsPAD)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWB40THDCXOTXENBUWTE4OU0HZJ2W4GUIHJB32ECRQ2FHGXC4PHFG">Acute Angle Constraint (Minimum=35.000) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZE0CMM5S2JOZMARNJH54GEG00IPPFQDCHXP5YYMHCOYOE4GCTWPJ">Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDANXOZ5PEHZFVKPORMOD03E115K1XQJW5KG2WSZFP42YI2QVFXFBL">Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (Disabled)(IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLIG0TWSTQ0BAOV04MPE3DELC5M4Y3EV0OLLDMMOIQIZ0Y23XKWOM">Hole Size Constraint (Min=0.2mm) (Max=5.9mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID52E0HHM431TKHDDNCTKIKBGRHGSUQ3DUE3M0MUIMG2ZKMBHCKVSP">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXJ4KTSB5OVOWHGFQ2NBVSONDDKQCUGQVNZBDWRPLZV4I0LAXOTDC">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2JITX00FXY2RCQN43PMGGURB0NTGACKXQD1UDZGEEVNGAN5CB1VB">Minimum Solder Mask Sliver (Gap=0.15mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGI2FPVVHPTPWI5UZGSL0AQ1SXDYBQSFBMZGVPHJEMUAIML4EZRN">Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHMMWU2UEBGQNLQPWH34MS45TBEC11GC30STU2MCJBCGB015NOLXL">Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDDKBEUHLCK22CM5N3TGJIVIUFKXF1Q1MZCKCK3DGYVDTT5KPKELO">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDD5BUKL3DNM2SCWQFPYOG5GXZ4IGRXP5NOBG2N2C2KLONNTVW1NLG">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMO24CW2CX5QDGWGCLRPAWHR4BMNF3ZZGTT3T5TL0O10H0OEHSOBL">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAPH4LSQLBDA3EWBQHLBY0EU10NH11I3SQEIWYBLDWYB1H4VZXL1G">Matched Lengths(Tolerance=0.127mm) (InxSignalClass('USB_CHJ5_1_DL') OR InxSignalClass('USB_CHJ5_1_RX') OR InxSignalClass('USB_CHJ5_1_TX'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG30XKRUPSTTDKR5K5VCPCUMMSBFE4PH0ML3HSVFTGPTYVO21KAKD">Matched Lengths(Tolerance=0.127mm) (InxSignalClass('USB_CHJ5_1_DL_1') OR InxSignalClass('USB_CHJ5_1_RX_1') OR InxSignalClass('USB_CHJ5_1_TX_1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZFH3CULPQ0XGD4MUW3MAHEF0GKWKD351D0DF2JIELWQCNN3EK23">Matched Lengths(Tolerance=0.127mm) (InxSignalClass('USB_CHJ5_1_DL') OR InxSignalClass('USB_CHJ5_1_RX') OR InxSignalClass('USB_CHJ5_1_TX'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRBOAAD0JFIGXLMAKFY40WTXCZHNFGUOVK1LZ1AOBA5YRJ525GSYB">Matched Lengths(Tolerance=25.4mm) (InDifferentialPair ('MDI0') Or InDifferentialPair ('MDI2') Or InDifferentialPair ('MDI1') Or InDifferentialPair ('MDI3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ04OILPJ4XYXMGKC5O1OQXST5GZEI15OL4XUJID1XAVLD5X3ICEC">Matched Lengths(Tolerance=0.127mm) (InxSignalClass('USB_CHJ5_1_DL') OR InxSignalClass('USB_CHJ5_1_RX') OR InxSignalClass('USB_CHJ5_1_TX'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCBOQGDHCF21KBWGAKHXPIIMR0LVG5TNR53RO2WMO4TTN3F5US1IP">Matched Lengths(Tolerance=25.4mm) (All)</a></td>
+<td class="column2">86</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDMYO2YVE2E4PUWSWFJEL44DPN5TAUYANI4D0JQGROYO5VBV3RI">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">86</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVT0UXOZGYW4NDBVOTJDMP5IU2FIW4LSDJIHZGHPKTT3CBEK0Y0AG">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">38</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDH3TPRULOU203PLQYFNGI5FHUUJLJMOYCFGCKNSFIYGTGVN3Q1F2I">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">38</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">76</td>
+</tr>
+</table><br><a name="IDCU1DIBZ2VPNTDHHH2TPSYOZJUBMNHBSZBZUV2SPLIC2LRLCKSIWF"><h2>Rule Violations</h2></a><a name="IDCBOQGDHCF21KBWGAKHXPIIMR0LVG5TNR53RO2WMO4TTN3F5US1IP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=25.4mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2546.457mil|Location2.Y=3005.86mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2546.457mil|Location2.Y=3005.86mil|Absolute=True">Matched Net Lengths: Differential Pair MDI0 Actual Length Difference against diff pair SSRX is: 28.974mm, Length Tolerance : 25.4mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2446.457mil|Location2.Y=2927.12mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2446.457mil|Location2.Y=2927.12mil|Absolute=True">Matched Net Lengths: Differential Pair MDI1 Actual Length Difference against diff pair SSRX is: 28.906mm, Length Tolerance : 25.4mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2346.457mil|Location2.Y=2844.488mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2346.457mil|Location2.Y=2844.488mil|Absolute=True">Matched Net Lengths: Differential Pair MDI2 Actual Length Difference against diff pair SSRX is: 29.083mm, Length Tolerance : 25.4mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2246.457mil|Location2.Y=2797.244mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2035.827mil|Location2.X=2875.626mil|Location1.Y=2246.457mil|Location2.Y=2797.244mil|Absolute=True">Matched Net Lengths: Differential Pair MDI3 Actual Length Difference against diff pair SSRX is: 28.62mm, Length Tolerance : 25.4mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4267.323mil|Location2.X=4686.963mil|Location1.Y=2259.449mil|Location2.Y=2498.031mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4267.323mil|Location2.X=4686.963mil|Location1.Y=2259.449mil|Location2.Y=2498.031mil|Absolute=True">Matched Net Lengths: Differential Pair USB3.0_SSTX Actual Length Difference against diff pair SSRX is: 31.156mm, Length Tolerance : 25.4mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_IN_BUFF And Net GND Length:13.32mm is not within 25.4mm tolerance of Length:254.496mm (215.776mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_IN_LED And Net GND Length:5.021mm is not within 25.4mm tolerance of Length:254.496mm (224.075mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_IN And Net GND Length:12.44mm is not within 25.4mm tolerance of Length:254.496mm (216.656mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_OUT_BUFF And Net GND Length:4.786mm is not within 25.4mm tolerance of Length:254.496mm (224.31mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_OUT_LED And Net GND Length:12.61mm is not within 25.4mm tolerance of Length:254.496mm (216.486mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_OUT And Net GND Length:27.59mm is not within 25.4mm tolerance of Length:254.496mm (201.507mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 1PPS_SMA_IO And Net GND Length:9.474mm is not within 25.4mm tolerance of Length:254.496mm (219.622mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 279_1PPS_IO And Net GND Length:42.642mm is not within 25.4mm tolerance of Length:254.496mm (186.454mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 279_TOD_IN_R And Net GND Length:6.281mm is not within 25.4mm tolerance of Length:254.496mm (222.815mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 279_TOD_IN And Net GND Length:36.737mm is not within 25.4mm tolerance of Length:254.496mm (192.359mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 279_TOD_OUT_R And Net GND Length:5.929mm is not within 25.4mm tolerance of Length:254.496mm (223.167mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net 279_TOD_OUT And Net GND Length:20.867mm is not within 25.4mm tolerance of Length:254.496mm (208.229mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net ANT And Net GND Length:16.237mm is not within 25.4mm tolerance of Length:254.496mm (212.86mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net AVDD_1.85 And Net GND Length:43.233mm is not within 25.4mm tolerance of Length:254.496mm (185.863mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net AVDD_33 And Net GND Length:48.664mm is not within 25.4mm tolerance of Length:254.496mm (180.432mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net AVDD10 And Net GND Length:9.817mm is not within 25.4mm tolerance of Length:254.496mm (219.279mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1883.268mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1883.268mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net CHASSIS_GND And Net GND Length:0mm is not within 25.4mm tolerance of Length:254.496mm (229.096mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net D_N And Net GND Length:55.205mm is not within 25.4mm tolerance of Length:254.496mm (173.891mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net D_P And Net GND Length:57.002mm is not within 25.4mm tolerance of Length:254.496mm (172.094mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net DVDD_1.85 And Net GND Length:20.242mm is not within 25.4mm tolerance of Length:254.496mm (208.854mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net DVDD_33 And Net GND Length:94.63mm is not within 25.4mm tolerance of Length:254.496mm (134.466mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net GPS_PPS_OUT Length:65.777mm is not within 25.4mm tolerance of Length:254.496mm (163.319mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1586.614mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1586.614mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net LED0 Length:75.847mm is not within 25.4mm tolerance of Length:254.496mm (153.249mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1623.425mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1623.425mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net LED1 Length:60.604mm is not within 25.4mm tolerance of Length:254.496mm (168.492mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI0_N Length:28.173mm is not within 25.4mm tolerance of Length:254.496mm (200.923mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI0_P Length:27.889mm is not within 25.4mm tolerance of Length:254.496mm (201.207mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI1_N Length:28.296mm is not within 25.4mm tolerance of Length:254.496mm (200.801mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI1_P Length:27.903mm is not within 25.4mm tolerance of Length:254.496mm (201.193mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI2_N Length:28.118mm is not within 25.4mm tolerance of Length:254.496mm (200.978mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI2_P Length:27.726mm is not within 25.4mm tolerance of Length:254.496mm (201.37mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI3_N Length:28.582mm is not within 25.4mm tolerance of Length:254.496mm (200.514mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MDI3_P Length:28.19mm is not within 25.4mm tolerance of Length:254.496mm (200.906mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MUX1_CTRL Length:24.052mm is not within 25.4mm tolerance of Length:254.496mm (205.044mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MUX2_CTRL Length:21.912mm is not within 25.4mm tolerance of Length:254.496mm (207.184mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MUX3_CTRL Length:25.891mm is not within 25.4mm tolerance of Length:254.496mm (203.205mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net MUX4_CTRL Length:7.935mm is not within 25.4mm tolerance of Length:254.496mm (221.161mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetC12_2 Length:2.225mm is not within 25.4mm tolerance of Length:254.496mm (226.871mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetC13_2 Length:6.442mm is not within 25.4mm tolerance of Length:254.496mm (222.654mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetC14_2 Length:7.088mm is not within 25.4mm tolerance of Length:254.496mm (222.008mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4795.669mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4795.669mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetC15_2 Length:50.027mm is not within 25.4mm tolerance of Length:254.496mm (179.069mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetC23_2 Length:6.28mm is not within 25.4mm tolerance of Length:254.496mm (222.816mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetD1_2 Length:5.889mm is not within 25.4mm tolerance of Length:254.496mm (223.207mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetD2_2 Length:5.675mm is not within 25.4mm tolerance of Length:254.496mm (223.421mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1588.582mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1588.582mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetJ4_11 Length:34.826mm is not within 25.4mm tolerance of Length:254.496mm (194.27mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1623.425mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1623.425mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetJ4_13 Length:17.227mm is not within 25.4mm tolerance of Length:254.496mm (211.869mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetJ5_A5 Length:1.5mm is not within 25.4mm tolerance of Length:254.496mm (227.596mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetJ5_B5 Length:8.98mm is not within 25.4mm tolerance of Length:254.496mm (220.116mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetL1_1 Length:0mm is not within 25.4mm tolerance of Length:254.496mm (229.096mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetL2_1 Length:0mm is not within 25.4mm tolerance of Length:254.496mm (229.096mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR1_1 Length:6.593mm is not within 25.4mm tolerance of Length:254.496mm (222.503mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR21_2 Length:6.368mm is not within 25.4mm tolerance of Length:254.496mm (222.728mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR22_1 Length:9.042mm is not within 25.4mm tolerance of Length:254.496mm (220.054mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR24_1 Length:6.753mm is not within 25.4mm tolerance of Length:254.496mm (222.343mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR25_1 Length:3.295mm is not within 25.4mm tolerance of Length:254.496mm (225.801mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR34_2 Length:1.903mm is not within 25.4mm tolerance of Length:254.496mm (227.194mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR35_2 Length:1.594mm is not within 25.4mm tolerance of Length:254.496mm (227.502mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR36_1 Length:16.554mm is not within 25.4mm tolerance of Length:254.496mm (212.542mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR37_2 Length:5.337mm is not within 25.4mm tolerance of Length:254.496mm (223.759mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetR8_2 Length:6.593mm is not within 25.4mm tolerance of Length:254.496mm (222.503mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetU3_3 Length:12.233mm is not within 25.4mm tolerance of Length:254.496mm (216.863mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net NetU3_4 Length:4.877mm is not within 25.4mm tolerance of Length:254.496mm (224.219mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net RESET_N Length:6.242mm is not within 25.4mm tolerance of Length:254.496mm (222.854mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SB Length:26.876mm is not within 25.4mm tolerance of Length:254.496mm (202.22mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SCL Length:15.421mm is not within 25.4mm tolerance of Length:254.496mm (213.675mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SDA Length:14.029mm is not within 25.4mm tolerance of Length:254.496mm (215.067mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SPI_CLK Length:19.209mm is not within 25.4mm tolerance of Length:254.496mm (209.887mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SPI_CS Length:31.201mm is not within 25.4mm tolerance of Length:254.496mm (197.895mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SPI_DIO Length:19.56mm is not within 25.4mm tolerance of Length:254.496mm (209.536mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SSRX_N Length:57.011mm is not within 25.4mm tolerance of Length:254.496mm (172.085mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SSRX_P Length:57mm is not within 25.4mm tolerance of Length:254.496mm (172.096mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SSTX_N Length:35.217mm is not within 25.4mm tolerance of Length:254.496mm (193.879mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net SSTX_P Length:34.108mm is not within 25.4mm tolerance of Length:254.496mm (194.988mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net USB3.0_SSTX_N Length:25.265mm is not within 25.4mm tolerance of Length:254.496mm (203.831mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net USB3.0_SSTX_P Length:26.434mm is not within 25.4mm tolerance of Length:254.496mm (202.662mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net VBUS Length:7.371mm is not within 25.4mm tolerance of Length:254.496mm (221.726mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net VBUS_+5V Length:95.204mm is not within 25.4mm tolerance of Length:254.496mm (133.892mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net VCC_RF Length:13.346mm is not within 25.4mm tolerance of Length:254.496mm (215.75mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net VCCK10 Length:28.56mm is not within 25.4mm tolerance of Length:254.496mm (200.536mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net VCORE_LDO Length:18.401mm is not within 25.4mm tolerance of Length:254.496mm (210.695mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net XTL20N Length:2.886mm is not within 25.4mm tolerance of Length:254.496mm (226.21mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2015.748mil|Location2.X=4712.992mil|Location1.Y=1599.803mil|Location2.Y=3212.992mil|Absolute=True">Matched Net Lengths: Between Net GND And Net XTL20P Length:2.616mm is not within 25.4mm tolerance of Length:254.496mm (226.48mm short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDAE13DIOTCDYICYVZSFCPC3OOSNDC2DT00AVA4DJM3H1QCKPRYNUC"><h2>Waived Violations</h2></a><a name="IDVT0UXOZGYW4NDBVOTJDMP5IU2FIW4LSDJIHZGHPKTT3CBEK0Y0AG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2385.796mil|Location2.Y=2390.983mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2385.796mil|Location2.Y=2390.983mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.027mm &lt; 0.1mm) Between Pad D3-1(105.492mm,60.856mm) on Top Layer And Pad D3-3(106.508mm,60.5mm) on Top Layer [Top Solder] Mask Sliver [0.027mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2372.796mil|Location2.Y=2377.983mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2372.796mil|Location2.Y=2377.983mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.027mm &lt; 0.1mm) Between Pad D3-2(105.492mm,60.144mm) on Top Layer And Pad D3-3(106.508mm,60.5mm) on Top Layer [Top Solder] Mask Sliver [0.027mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2307.056mil|Location2.Y=2312.243mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2307.056mil|Location2.Y=2312.243mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.027mm &lt; 0.1mm) Between Pad D4-1(105.492mm,58.856mm) on Top Layer And Pad D4-3(106.508mm,58.5mm) on Top Layer [Top Solder] Mask Sliver [0.027mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2294.056mil|Location2.Y=2299.243mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2294.056mil|Location2.Y=2299.243mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.027mm &lt; 0.1mm) Between Pad D4-2(105.492mm,58.144mm) on Top Layer And Pad D4-3(106.508mm,58.5mm) on Top Layer [Top Solder] Mask Sliver [0.027mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2464.536mil|Location2.Y=2469.723mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2464.536mil|Location2.Y=2469.723mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.027mm &lt; 0.1mm) Between Pad D5-1(105.492mm,62.856mm) on Top Layer And Pad D5-3(106.508mm,62.5mm) on Top Layer [Top Solder] Mask Sliver [0.027mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2451.536mil|Location2.Y=2456.723mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4170.635mil|Location2.X=4175.822mil|Location1.Y=2451.536mil|Location2.Y=2456.723mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.027mm &lt; 0.1mm) Between Pad D5-2(105.492mm,62.144mm) on Top Layer And Pad D5-3(106.508mm,62.5mm) on Top Layer [Top Solder] Mask Sliver [0.027mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4548.981mil|Location2.X=4554.168mil|Location1.Y=2544.06mil|Location2.Y=2549.247mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4548.981mil|Location2.X=4554.168mil|Location1.Y=2544.06mil|Location2.Y=2549.247mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.1mm) Between Pad J5-B1(116.01mm,64.1mm) on Top Layer And Pad J5-S(115.11mm,65.32mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4548.587mil|Location2.X=4553.775mil|Location1.Y=2253.903mil|Location2.Y=2259.09mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4548.587mil|Location2.X=4553.775mil|Location1.Y=2253.903mil|Location2.Y=2259.09mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.1mm) Between Pad J5-B12(116mm,57.9mm) on Top Layer And Pad J5-S(115.11mm,56.68mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2873.032mil|Location2.X=2880.057mil|Location1.Y=2981.86mil|Location2.Y=2988.814mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2873.032mil|Location2.X=2880.057mil|Location1.Y=2981.86mil|Location2.Y=2988.814mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.083mm &lt; 0.1mm) Between Pad U7-1(72.441mm,75.7mm) on Top Layer And Pad U7-60(73.191mm,76.45mm) on Top Layer [Top Solder] Mask Sliver [0.083mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2830.084mil|Location2.Y=2835.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2830.084mil|Location2.Y=2835.271mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-10(72.441mm,72.1mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2814.336mil|Location2.Y=2819.523mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2814.336mil|Location2.Y=2819.523mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-11(72.441mm,71.7mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2798.588mil|Location2.Y=2803.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2798.588mil|Location2.Y=2803.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-12(72.441mm,71.3mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2782.84mil|Location2.Y=2788.027mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2782.84mil|Location2.Y=2788.027mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-13(72.441mm,70.9mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2778.903mil|Location2.Y=2784.09mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2778.903mil|Location2.Y=2784.09mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-14(72.441mm,70.5mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2873.032mil|Location2.X=2879.986mil|Location1.Y=2751.343mil|Location2.Y=2758.368mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2873.032mil|Location2.X=2879.986mil|Location1.Y=2751.343mil|Location2.Y=2758.368mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.083mm &lt; 0.1mm) Between Pad U7-15(72.441mm,70.1mm) on Top Layer And Pad U7-16(73.191mm,69.35mm) on Top Layer [Top Solder] Mask Sliver [0.083mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2956.068mil|Location2.Y=2961.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2956.068mil|Location2.Y=2961.255mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-2(72.441mm,75.3mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2940.32mil|Location2.Y=2945.507mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2940.32mil|Location2.Y=2945.507mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-3(72.441mm,74.9mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3105.316mil|Location2.X=3112.34mil|Location1.Y=2749.577mil|Location2.Y=2756.53mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3105.316mil|Location2.X=3112.34mil|Location1.Y=2749.577mil|Location2.Y=2756.53mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.083mm &lt; 0.1mm) Between Pad U7-30(78.791mm,69.35mm) on Top Layer And Pad U7-31(79.541mm,70.1mm) on Top Layer [Top Solder] Mask Sliver [0.083mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2774.965mil|Location2.Y=2780.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2774.965mil|Location2.Y=2780.152mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-32(79.541mm,70.5mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2782.84mil|Location2.Y=2788.027mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2782.84mil|Location2.Y=2788.027mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-33(79.541mm,70.9mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2798.588mil|Location2.Y=2803.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2798.588mil|Location2.Y=2803.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-34(79.541mm,71.3mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2814.336mil|Location2.Y=2819.523mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2814.336mil|Location2.Y=2819.523mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-35(79.541mm,71.7mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2830.084mil|Location2.Y=2835.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2830.084mil|Location2.Y=2835.271mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-36(79.541mm,72.1mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2845.832mil|Location2.Y=2851.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2845.832mil|Location2.Y=2851.019mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-37(79.541mm,72.5mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2861.58mil|Location2.Y=2866.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2861.58mil|Location2.Y=2866.767mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-38(79.541mm,72.9mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2877.328mil|Location2.Y=2882.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2877.328mil|Location2.Y=2882.515mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-39(79.541mm,73.3mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2924.572mil|Location2.Y=2929.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2924.572mil|Location2.Y=2929.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-4(72.441mm,74.5mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2893.076mil|Location2.Y=2898.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2893.076mil|Location2.Y=2898.263mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-40(79.541mm,73.7mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2908.824mil|Location2.Y=2914.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2908.824mil|Location2.Y=2914.011mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-41(79.541mm,74.1mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2924.572mil|Location2.Y=2929.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2924.572mil|Location2.Y=2929.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-42(79.541mm,74.5mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2940.32mil|Location2.Y=2945.507mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2940.32mil|Location2.Y=2945.507mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-43(79.541mm,74.9mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2956.068mil|Location2.Y=2961.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.347mil|Location2.X=3108.534mil|Location1.Y=2956.068mil|Location2.Y=2961.255mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-44(79.541mm,75.3mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3105.316mil|Location2.X=3112.269mil|Location1.Y=2983.627mil|Location2.Y=2990.651mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3105.316mil|Location2.X=3112.269mil|Location1.Y=2983.627mil|Location2.Y=2990.651mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.083mm &lt; 0.1mm) Between Pad U7-45(79.541mm,75.7mm) on Top Layer And Pad U7-46(78.791mm,76.45mm) on Top Layer [Top Solder] Mask Sliver [0.083mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2908.824mil|Location2.Y=2914.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2908.824mil|Location2.Y=2914.011mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-5(72.441mm,74.1mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2893.076mil|Location2.Y=2898.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2893.076mil|Location2.Y=2898.263mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-6(72.441mm,73.7mm) on Top Layer And Pad U7-61(75.991mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2877.328mil|Location2.Y=2882.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2877.328mil|Location2.Y=2882.515mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-61(75.991mm,72.9mm) on Top Layer And Pad U7-7(72.441mm,73.3mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2861.58mil|Location2.Y=2866.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2861.58mil|Location2.Y=2866.767mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-61(75.991mm,72.9mm) on Top Layer And Pad U7-8(72.441mm,72.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2845.832mil|Location2.Y=2851.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.001mil|Location2.X=2880.188mil|Location1.Y=2845.832mil|Location2.Y=2851.019mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099997mm (3.9369mil) &lt; 0.1mm (3.937mil)) Between Pad U7-61(75.991mm,72.9mm) on Top Layer And Pad U7-9(72.441mm,72.5mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:12</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDH3TPRULOU203PLQYFNGI5FHUUJLJMOYCFGCKNSFIYGTGVN3Q1F2I"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.077mil|Location2.X=4137.639mil|Location1.Y=1568.301mil|Location2.Y=1575.863mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.077mil|Location2.X=4137.639mil|Location1.Y=1568.301mil|Location2.Y=1575.863mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Arc (105mm,43.5mm) on Top Overlay And Board Edge </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.077mil|Location2.X=4137.639mil|Location1.Y=3227.287mil|Location2.Y=3234.848mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.077mil|Location2.X=4137.639mil|Location1.Y=3227.287mil|Location2.Y=3234.848mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Arc (105mm,78.5mm) on Top Overlay And Board Edge </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1516.014mil|Location2.X=1523.576mil|Location1.Y=2054.602mil|Location2.Y=2062.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1516.014mil|Location2.X=1523.576mil|Location1.Y=2054.602mil|Location2.Y=2062.164mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Arc (39.56mm,58.621mm) on Top Overlay And Board Edge </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1516.014mil|Location2.X=1523.576mil|Location1.Y=2739.765mil|Location2.Y=2747.327mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1516.014mil|Location2.X=1523.576mil|Location1.Y=2739.765mil|Location2.Y=2747.327mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Arc (39.56mm,63.348mm) on Top Overlay And Board Edge </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2161.573mil|Location2.X=2169.135mil|Location1.Y=1568.301mil|Location2.Y=1575.863mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2161.573mil|Location2.X=2169.135mil|Location1.Y=1568.301mil|Location2.Y=1575.863mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Arc (55mm,43.5mm) on Top Overlay And Board Edge </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2161.573mil|Location2.X=2169.135mil|Location1.Y=3227.287mil|Location2.Y=3234.848mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2161.573mil|Location2.X=2169.135mil|Location1.Y=3227.287mil|Location2.Y=3234.848mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Arc (55mm,78.5mm) on Top Overlay And Board Edge </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4792.879mil|Location2.X=4803.971mil|Location1.Y=2225.162mil|Location2.Y=2236.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4792.879mil|Location2.X=4803.971mil|Location1.Y=2225.162mil|Location2.Y=2236.255mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.24mm &lt; 0.25mm) Between Board Edge And Pad J5-S(120.46mm,56.66mm) on Multi-Layer </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4792.879mil|Location2.X=4803.971mil|Location1.Y=2565.32mil|Location2.Y=2576.412mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4792.879mil|Location2.X=4803.971mil|Location1.Y=2565.32mil|Location2.Y=2576.412mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.24mm &lt; 0.25mm) Between Board Edge And Pad J5-S(120.46mm,65.3mm) on Multi-Layer </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3940.117mil|Location2.X=3947.678mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3940.117mil|Location2.X=3947.678mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (100.175mm,39.43mm)(100.175mm,40.33mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4809.768mil|Location2.X=4817.329mil|Location1.Y=2221.809mil|Location2.Y=2229.371mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4809.768mil|Location2.X=4817.329mil|Location1.Y=2221.809mil|Location2.Y=2229.371mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (122.03mm,56.53mm)(122.42mm,56.53mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4809.768mil|Location2.X=4817.329mil|Location1.Y=2573.777mil|Location2.Y=2581.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4809.768mil|Location2.X=4817.329mil|Location1.Y=2573.777mil|Location2.Y=2581.339mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (122.03mm,65.47mm)(122.42mm,65.47mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4815.905mil|Location2.X=4823.466mil|Location1.Y=2397.793mil|Location2.Y=2405.355mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4815.905mil|Location2.X=4823.466mil|Location1.Y=2397.793mil|Location2.Y=2405.355mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (122.42mm,56.53mm)(122.42mm,65.47mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1386.377mil|Location2.X=1393.938mil|Location1.Y=2397.204mil|Location2.Y=2404.765mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1386.377mil|Location2.X=1393.938mil|Location1.Y=2397.204mil|Location2.Y=2404.765mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (35.31mm,53.035mm)(35.31mm,68.935mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1476.569mil|Location2.X=1484.13mil|Location1.Y=2084.211mil|Location2.Y=2091.773mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1476.569mil|Location2.X=1484.13mil|Location1.Y=2084.211mil|Location2.Y=2091.773mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (35.31mm,53.035mm)(47.31mm,53.035mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1476.569mil|Location2.X=1484.13mil|Location1.Y=2710.196mil|Location2.Y=2717.757mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1476.569mil|Location2.X=1484.13mil|Location1.Y=2710.196mil|Location2.Y=2717.757mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (35.31mm,68.935mm)(47.31mm,68.935mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1435.589mil|Location2.X=1443.151mil|Location1.Y=2073.385mil|Location2.Y=2080.946mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1435.589mil|Location2.X=1443.151mil|Location1.Y=2073.385mil|Location2.Y=2080.946mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (35.81mm,53.035mm)(37.31mm,52.485mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1435.589mil|Location2.X=1443.151mil|Location1.Y=2721.022mil|Location2.Y=2728.584mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1435.589mil|Location2.X=1443.151mil|Location1.Y=2721.022mil|Location2.Y=2728.584mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (35.81mm,68.935mm)(37.31mm,69.485mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3197.991mil|Location2.X=3205.553mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3197.991mil|Location2.X=3205.553mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (81.325mm,39.43mm)(81.325mm,40.33mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3322.991mil|Location2.X=3330.553mil|Location1.Y=1548.581mil|Location2.Y=1556.143mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3322.991mil|Location2.X=3330.553mil|Location1.Y=1548.581mil|Location2.Y=1556.143mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (81.325mm,39.43mm)(87.675mm,39.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3233.621mil|Location2.X=3241.183mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3233.621mil|Location2.X=3241.183mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (81.96mm,29.43mm)(82.5mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3223.778mil|Location2.X=3231.34mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3223.778mil|Location2.X=3231.34mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (81.96mm,29.43mm)(82mm,39.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3244.251mil|Location2.X=3251.812mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3244.251mil|Location2.X=3251.812mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (82.5mm,28.03mm)(82.5mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3322.991mil|Location2.X=3330.553mil|Location1.Y=1099.763mil|Location2.Y=1107.324mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3322.991mil|Location2.X=3330.553mil|Location1.Y=1099.763mil|Location2.Y=1107.324mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (82.5mm,28.03mm)(86.5mm,28.03mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3322.991mil|Location2.X=3330.553mil|Location1.Y=1135.196mil|Location2.Y=1142.757mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3322.991mil|Location2.X=3330.553mil|Location1.Y=1135.196mil|Location2.Y=1142.757mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (82.5mm,28.93mm)(86.5mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3401.731mil|Location2.X=3409.293mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3401.731mil|Location2.X=3409.293mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (86.5mm,28.03mm)(86.5mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3411.574mil|Location2.X=3419.135mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3411.574mil|Location2.X=3419.135mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (86.5mm,28.93mm)(87mm,29.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3447.991mil|Location2.X=3455.553mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3447.991mil|Location2.X=3455.553mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (87.675mm,39.43mm)(87.675mm,40.33mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3421.416mil|Location2.X=3428.978mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3421.416mil|Location2.X=3428.978mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (87mm,29.43mm)(87mm,39.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.117mil|Location2.X=3822.678mil|Location1.Y=1548.581mil|Location2.Y=1556.143mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.117mil|Location2.X=3822.678mil|Location1.Y=1548.581mil|Location2.Y=1556.143mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (93.825mm,39.43mm)(100.175mm,39.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3690.117mil|Location2.X=3697.678mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3690.117mil|Location2.X=3697.678mil|Location1.Y=1557.671mil|Location2.Y=1565.233mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (93.825mm,39.43mm)(93.825mm,40.33mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3715.904mil|Location2.X=3723.466mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3715.904mil|Location2.X=3723.466mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (94.46mm,29.43mm)(94.5mm,39.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3725.747mil|Location2.X=3733.308mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3725.747mil|Location2.X=3733.308mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (94.46mm,29.43mm)(95mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3736.377mil|Location2.X=3743.938mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3736.377mil|Location2.X=3743.938mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (95mm,28.03mm)(95mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.117mil|Location2.X=3822.678mil|Location1.Y=1099.763mil|Location2.Y=1107.324mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.117mil|Location2.X=3822.678mil|Location1.Y=1099.763mil|Location2.Y=1107.324mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (95mm,28.03mm)(99mm,28.03mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.117mil|Location2.X=3822.678mil|Location1.Y=1135.196mil|Location2.Y=1142.757mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.117mil|Location2.X=3822.678mil|Location1.Y=1135.196mil|Location2.Y=1142.757mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (95mm,28.93mm)(99mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3913.542mil|Location2.X=3921.104mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3913.542mil|Location2.X=3921.104mil|Location1.Y=1351.731mil|Location2.Y=1359.293mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (99.5mm,29.43mm)(99.5mm,39.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3893.857mil|Location2.X=3901.419mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3893.857mil|Location2.X=3901.419mil|Location1.Y=1117.479mil|Location2.Y=1125.041mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (99mm,28.03mm)(99mm,28.93mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick %D0%A2%D0%95%D0%9D%D0%A8.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3903.7mil|Location2.X=3911.261mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\QUANTUM\Time Stick าลอุ.467883.004\TimeStick2.1\ECAD\TIMESTICK_2.1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3903.7mil|Location2.X=3911.261mil|Location1.Y=1145.038mil|Location2.Y=1152.6mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (99mm,28.93mm)(99.5mm,29.43mm) on Top Overlay </acronym></a><br>Waived by Artem Golubev at 22.04.2025 15:54:21</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

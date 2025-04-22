@@ -1,6 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\SHIWA\Documents\GitHub\QUANTUM\Qantum Time-Card\GNSS\UBlox\M2-NEO-M9N\ECAD\ECAD\M2_NEO-M9N_MODULE.PcbDoc
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
-RuleKind=Clearance|RuleName=Clearance_L1andL4_Copper|Scope=Board|Minimum=5.00
