@@ -156,6 +156,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QVCQGNCD
 
+[Document7]
+DocumentPath=..\..\..\..\..\..\SHIWA_OUT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=69CCFA60-7FAF-4E4C-84DB-E38FD3D0178D
 Description=revision
@@ -166,13 +183,89 @@ Variation1=Designator=R10|UniqueId=\CSQZGPST|Kind=1|AlternatePart=
 Variation2=Designator=R9|UniqueId=\VVPRCODV|Kind=1|AlternatePart=
 ParamVariationCount=0
 
-[Parameter1]
-Name=EGRN
-Value=ТЕНШ.468157.04.00.000
+[GeneratedDocument1]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_BOM 2025-04-23 22-58.xlsx
+DItemRevisionGUID=
 
-[Parameter2]
+[GeneratedDocument2]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\NC Drill\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GM
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\Gerber\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\NC Drill\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\NC Drill\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_P&P 2025-04-23 22-58\GPS-M2-ZED-F9T_rev.1.0_Pick&Place 2025-04-23 22-58.csv
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_P&P 2025-04-23 22-58\GPS-M2-ZED-F9T_rev.1.0_Pick&Place 2025-04-23 22-58.txt
+DItemRevisionGUID=
+
+[Parameter1]
 Name=company
 Value=SHIWA NETWORK
+
+[Parameter2]
+Name=EGRN
+Value=ТЕНШ.468157.04.00.000
 
 [Parameter3]
 Name=revision
