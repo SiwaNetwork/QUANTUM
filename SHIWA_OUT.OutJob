@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=SHIWA_OUT.OutJob
 Description=
 TargetOutputMedium=BOM
-VariantName=[No Variations]
+VariantName=RACON_ROD
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Adobe PDF
@@ -346,7 +346,7 @@ PcbPrintPreferences12=SubsititueFont_Default=True|SubsititueFont_Serif=True|Subs
 [PublishSettings]
 OutputFilePath2=C:\YandexDisk\Altium\DREAMKEEPER\Liquid clone\Project Outputs for RS485_Protector\RS485_Protector_VariantName PCBView 2024-10-10 11-09.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for GPS-M2-ZED-F9T
+OutputBasePath2=Project Outputs for OCXO_DaughterCard
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -371,22 +371,22 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\цмяя лндскх\UBlox\ремь.468157.04 M2-ZED-F9T\ECAD\V1\Project Outputs for GPS-M2-ZED-F9T\
+OutputFilePath3=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\упюмхрекх вюярнрш\ремь.467879.001 OCXO окюрю\ECAD\ECAD\Project Outputs for OCXO_DaughterCard\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for GPS-M2-ZED-F9T
+OutputBasePath3=Project Outputs for OCXO_DaughterCard
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
-OutputFileNameMulti3==ProjectName+ '_'+Revision+'_'+'BOM ' +CurrentDate+' '+CurrentTime
+OutputFileNameMulti3==ProjectName+ '_'+Revision+'_'+VAriantName+'_'+'BOM ' +CurrentDate+' '+CurrentTime
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=C:\Users\ASUS\YandexDisk-gas@mtcgeo.com\Altium\Almaz_Project\PLC_modules\PLC_DI\Project Outputs for PLC_DI\PLC_DI_rev.1_VariantName SCH 2024-11-09 14-39.PDF
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for GPS-M2-ZED-F9T
+OutputBasePath4=Project Outputs for OCXO_DaughterCard
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -465,35 +465,35 @@ ShowComponentParameters6=1
 GlobalBookmarks6=0
 PDFACompliance6=Disabled
 PDFVersion6=Default
-OutputFilePath7=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\цмяя лндскх\UBlox\ремь.468157.04 M2-ZED-F9T\ECAD\V1\Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\
+OutputFilePath7=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\упюмхрекх вюярнрш\ремь.467879.001 OCXO окюрю\ECAD\ECAD\Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for GPS-M2-ZED-F9T
-OutputPathMedia7==ProjectName+ '_'+Revision+'_'+'GBR ' +CurrentDate+' '+CurrentTime
-OutputPathMediaValue7==ProjectName+ '_'+Revision+'_'+'GBR ' +CurrentDate+' '+CurrentTime
+OutputBasePath7=Project Outputs for OCXO_DaughterCard
+OutputPathMedia7==ProjectName+ '_'+Revision+'_'+'GBR ' +CurrentDate
+OutputPathMediaValue7==ProjectName+ '_'+Revision+'_'+'GBR ' +CurrentDate
 OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
 OutputFileName7=
-OutputFileNameMulti7==ProjectName+'_'+Revision+'_'+'GBR ' +CurrentDate+' '+CurrentTime
+OutputFileNameMulti7==ProjectName+'_'+Revision+'_'+'GBR ' +CurrentDate
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=1
-OutputFilePath8=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\цмяя лндскх\UBlox\ремь.468157.04 M2-ZED-F9T\ECAD\V1\Project Outputs for GPS-M2-ZED-F9T\
+OutputFilePath8=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\упюмхрекх вюярнрш\ремь.467879.001 OCXO окюрю\ECAD\ECAD\Project Outputs for OCXO_DaughterCard\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for GPS-M2-ZED-F9T
+OutputBasePath8=Project Outputs for OCXO_DaughterCard
 OutputPathMedia8=
 OutputPathMediaValue8=
 OutputPathOutputer8=[Output Custom]
 OutputPathOutputerPrefix8=
-OutputPathOutputerValue8==ProjectName+ '_'+Revision+'_'+'P&P ' +CurrentDate+' '+CurrentTime
+OutputPathOutputerValue8==ProjectName+ '_'+Revision+'_'+'P&P ' +CurrentDate
 OutputFileName8=
-OutputFileNameMulti8==ProjectName+ '_'+Revision+'_'+'Pick&Place ' +CurrentDate+' '+CurrentTime
+OutputFileNameMulti8==ProjectName+ '_'+Revision+'_'+'Pick&Place ' +CurrentDate
 UseOutputNameForMulti8=0
 OutputFileNameSpecial8=
 OpenOutput8=1
 OutputFilePath9=C:\YandexDisk\Altium\SEM_Project\intercom\Project Outputs for intercom\GLOBAL_OUT.PDF
 ReleaseManaged9=1
-OutputBasePath9=Project Outputs for GPS-M2-ZED-F9T
+OutputBasePath9=Project Outputs for OCXO_DaughterCard
 OutputPathMedia9=
 OutputPathMediaValue9=
 OutputPathOutputer9=[Output Type]
@@ -522,7 +522,7 @@ PDFVersion9=Default
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\YandexDisk\Altium\DREAMKEEPER\Liquid clone\Project Outputs for RS485_Protector\RS485_Protector_VariantName PCBView 2024-10-10 11-09.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\цмяя лндскх\UBlox\ремь.468157.04 M2-ZED-F9T\ECAD\V1\Project Outputs for GPS-M2-ZED-F9T\
+RelativeOutputPath3=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\упюмхрекх вюярнрш\ремь.467879.001 OCXO окюрю\ECAD\ECAD\Project Outputs for OCXO_DaughterCard\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
@@ -538,7 +538,7 @@ RelativeOutputPath5=C:\YandexDisk\Altium\NV_Project\EDISON_GIT\TKZU22_Power\Outp
 OpenOutputs5=1
 RelativeOutputPath6=C:\YandexDisk\Altium\NV_Project\EDISON_GIT\TKZU22_Power\Output\Asbl_22kW_PB_r1.0.PDF
 OpenOutputs6=1
-RelativeOutputPath7=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\цмяя лндскх\UBlox\ремь.468157.04 M2-ZED-F9T\ECAD\V1\Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_GBR 2025-04-23 22-58\
+RelativeOutputPath7=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\упюмхрекх вюярнрш\ремь.467879.001 OCXO окюрю\ECAD\ECAD\Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\
 OpenOutputs7=1
 AddToProject7=1
 TimestampFolder7=0
@@ -548,7 +548,7 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\цмяя лндскх\UBlox\ремь.468157.04 M2-ZED-F9T\ECAD\V1\Project Outputs for GPS-M2-ZED-F9T\
+RelativeOutputPath8=C:\Documents\Altium\SM_Project\QUANTUM\Time-Card ремь.467883.001\упюмхрекх вюярнрш\ремь.467879.001 OCXO окюрю\ECAD\ECAD\Project Outputs for OCXO_DaughterCard\
 OpenOutputs8=1
 AddToProject8=1
 TimestampFolder8=0

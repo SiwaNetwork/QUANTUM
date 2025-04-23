@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [OCXO_DaughterCard.PcbDoc]
+   Generated File[OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.TXT]
+   Generated File[OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.LDP]
+   Generated File[OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 1:16:01 On 24.04.2025

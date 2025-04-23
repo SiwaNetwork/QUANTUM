@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=RACON_ROD
 
 [Preferences]
 PrefsVaultGUID=
@@ -172,6 +173,66 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document8]
+DocumentPath=..\..\..\..\..\SHIWA_OUT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=00ce089b-dc73-47a7-af40-108006c3c983
+Description=RACON_ROD
+AllowFabrication=0
+ParameterCount=0
+VariationCount=35
+Variation1=Designator=Y2|UniqueId=\XFKZGQAY|Kind=1|AlternatePart=
+Variation2=Designator=C9|UniqueId=\KSPUSQUC|Kind=1|AlternatePart=
+Variation3=Designator=C10|UniqueId=\EARMFJHV|Kind=1|AlternatePart=
+Variation4=Designator=R4|UniqueId=\MMKQOYDS|Kind=1|AlternatePart=
+Variation5=Designator=Y3|UniqueId=\ZINWOUZK|Kind=1|AlternatePart=
+Variation6=Designator=C17|UniqueId=\USSMIBQM|Kind=1|AlternatePart=
+Variation7=Designator=C18|UniqueId=\YSWHAWPN|Kind=1|AlternatePart=
+Variation8=Designator=Y4|UniqueId=\BRALASOW|Kind=1|AlternatePart=
+Variation9=Designator=C19|UniqueId=\FNSESHUE|Kind=1|AlternatePart=
+Variation10=Designator=C20|UniqueId=\SCMSOCQM|Kind=1|AlternatePart=
+Variation11=Designator=R6|UniqueId=\SDFIVCWP|Kind=1|AlternatePart=
+Variation12=Designator=R7|UniqueId=\DJVTAUWR|Kind=1|AlternatePart=
+Variation13=Designator=R11|UniqueId=\SLFOSYGO|Kind=1|AlternatePart=
+Variation14=Designator=R12|UniqueId=\UABJFBSN|Kind=1|AlternatePart=
+Variation15=Designator=R9|UniqueId=\CPUKUMNV|Kind=1|AlternatePart=
+Variation16=Designator=R10|UniqueId=\EDLLHDGX|Kind=1|AlternatePart=
+Variation17=Designator=Y5|UniqueId=\ACJBLEFD|Kind=1|AlternatePart=
+Variation18=Designator=R33|UniqueId=\MPKFCVYE|Kind=1|AlternatePart=
+Variation19=Designator=C23|UniqueId=\NFNCOTTA|Kind=1|AlternatePart=
+Variation20=Designator=C22|UniqueId=\ZZJECXBG|Kind=1|AlternatePart=
+Variation21=Designator=R34|UniqueId=\XAEQHWQI|Kind=1|AlternatePart=
+Variation22=Designator=R36|UniqueId=\UCGPAABL|Kind=1|AlternatePart=
+Variation23=Designator=R35|UniqueId=\FGVEELIL|Kind=1|AlternatePart=
+Variation24=Designator=R20|UniqueId=\WHKIUFLK|Kind=1|AlternatePart=
+Variation25=Designator=R21|UniqueId=\AEYUSLIA|Kind=1|AlternatePart=
+Variation26=Designator=R22|UniqueId=\IPBWNDJI|Kind=1|AlternatePart=
+Variation27=Designator=R13|UniqueId=\CFUJXKQZ|Kind=1|AlternatePart=
+Variation28=Designator=R14|UniqueId=\WPTXTJGP|Kind=1|AlternatePart=
+Variation29=Designator=R15|UniqueId=\MWEWRGXU|Kind=1|AlternatePart=
+Variation30=Designator=R27|UniqueId=\DDTPHXJO|Kind=1|AlternatePart=
+Variation31=Designator=R28|UniqueId=\TEDNWFSL|Kind=1|AlternatePart=
+Variation32=Designator=R29|UniqueId=\HNNYNJNZ|Kind=1|AlternatePart=
+Variation33=Designator=R30|UniqueId=\FENXFTQO|Kind=0|AlternatePart=
+Variation34=Designator=R2|UniqueId=\OPNSGKUJ|Kind=1|AlternatePart=
+Variation35=Designator=R31|UniqueId=\OEKFHOPI|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard-BoardEdgeRout.TXT
@@ -330,12 +391,116 @@ DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.csv
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_BOM 2025-04-24 01-06.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument41]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_BOM 2025-04-24 01-12.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G1
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G2
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G3
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G4
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GM
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_P&P 2025-04-24\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.csv
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_P&P 2025-04-24\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.txt
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 01-16.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument64]
 DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.txt
 DItemRevisionGUID=
+
+[Parameter1]
+Name=Company
+Value=SHIWA NETWORK
+
+[Parameter2]
+Name=revision
+Value=rev.1.0
+
+[Parameter3]
+Name=TENSH
+Value=ТЕНШ.467879.01.00.000
 
 [Configuration1]
 Name=Sources
@@ -798,6 +963,11 @@ OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=BoasTools
+OutputName10=BoasTools Html BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -2136,10 +2306,11 @@ Net1=NetName=+3.3V|NetColor=$000099FF
 Net2=NetName=+3.3V_External|NetColor=clYellow
 Net3=NetName=+5V|NetColor=clRed
 Net4=NetName=GND|NetColor=clBlue
-Net5=NetName=MAC_PPS_IN0_N|NetColor=clLime
-Net6=NetName=MAC_PPS_IN0_P|NetColor=clLime
+Net5=NetName=MAC_PPS_IN0_N|NetColor=clAqua
+Net6=NetName=MAC_PPS_IN0_P|NetColor=clAqua
 Net7=NetName=MAC_PPS_OUT_N|NetColor=clLime
 Net8=NetName=MAC_PPS_OUT_P|NetColor=clLime
+Net9=NetName=MAC_RF_OUT|NetColor=clLime
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0

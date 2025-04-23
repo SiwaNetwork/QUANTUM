@@ -1,15 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [OCXO_DaughterCard.PrjPcb]
-   Generated File[OCXO_DaughterCard-Plated.TXT]
-   Generated File[OCXO_DaughterCard-NonPlated.TXT]
-   Generated File[OCXO_DaughterCard.DRL]
-   Generated File[OCXO_DaughterCard-BoardEdgeRout.TXT]
-   Generated File[OCXO_DaughterCard.LDP]
-   Generated File[OCXO_DaughterCard.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:16:55 On 24.04.2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [RACON_ROD] of Project [OCXO_DaughterCard.PrjPcb]
+   Generated File[OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 01-16.xlsx]
 
 
-Files Generated   : 6
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 9:44:47 On 29.08.2024
+Finished Output Generation At 1:17:20 On 24.04.2025

@@ -184,16 +184,16 @@ DocumentPath=Project Outputs for GPS_MODULE_ZED-F9T-00B\BOM\Bill of Materials-GP
 DItemRevisionGUID=
 
 [Parameter1]
-Name=company
-Value=SHIWA NETWORK
+Name=revision
+Value=rev.1.0
 
 [Parameter2]
-Name=EGRN
+Name=TENSH
 Value=ТЕНШ.468157.03.00.000
 
 [Parameter3]
-Name=revision
-Value=rev.1.0
+Name=company
+Value=SHIWA NETWORK
 
 [Configuration1]
 Name=Sources

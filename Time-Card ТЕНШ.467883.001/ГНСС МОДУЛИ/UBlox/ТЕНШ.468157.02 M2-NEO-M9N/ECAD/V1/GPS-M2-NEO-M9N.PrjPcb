@@ -439,16 +439,16 @@ DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\Pick Place for M2_NEO-M9N_MOD
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Company
-Value=SHIWA NETWORK
+Name=revision
+Value=rev.1.0
 
 [Parameter2]
-Name=EGRN
+Name=TENSH
 Value=ТЕНШ.468157.02.00.000
 
 [Parameter3]
-Name=revision
-Value=rev.1.0
+Name=Company
+Value=SHIWA NETWORK
 
 [Configuration1]
 Name=Sources

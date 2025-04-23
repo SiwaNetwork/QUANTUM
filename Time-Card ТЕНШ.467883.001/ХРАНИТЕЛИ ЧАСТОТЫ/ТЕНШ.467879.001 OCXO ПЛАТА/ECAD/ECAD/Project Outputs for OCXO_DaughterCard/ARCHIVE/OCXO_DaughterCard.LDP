@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\user\Documents\GitHub\QUANTUM\Time-Card\–≈«ŒÕ¿“Œ–€\OCXO Daughtercard\ECAD\ECAD\OCXO_DaughterCard.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=ocxo_daughtercard-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=ocxo_daughtercard-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl

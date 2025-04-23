@@ -260,16 +260,16 @@ DocumentPath=Project Outputs for GPS-M2-ZED-F9T\GPS-M2-ZED-F9T_rev.1.0_P&P 2025-
 DItemRevisionGUID=
 
 [Parameter1]
-Name=company
-Value=SHIWA NETWORK
+Name=revision
+Value=rev.1.0
 
 [Parameter2]
-Name=EGRN
+Name=TENSH
 Value=ТЕНШ.468157.04.00.000
 
 [Parameter3]
-Name=revision
-Value=rev.1.0
+Name=company
+Value=SHIWA NETWORK
 
 [Configuration1]
 Name=Sources
