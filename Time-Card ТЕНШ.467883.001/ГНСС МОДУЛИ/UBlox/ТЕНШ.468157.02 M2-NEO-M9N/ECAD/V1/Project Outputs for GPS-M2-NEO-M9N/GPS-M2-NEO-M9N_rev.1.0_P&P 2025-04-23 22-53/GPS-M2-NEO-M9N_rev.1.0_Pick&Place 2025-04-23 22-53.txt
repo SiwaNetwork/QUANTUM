@@ -1,0 +1,39 @@
+Altium Designer Pick and Place Locations
+C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\√Õ—— ÃŒƒ”À»\UBlox\“≈Õÿ.468157.02 M2-NEO-M9N\ECAD\V1\Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_P&P 2025-04-23 22-53\GPS-M2-NEO-M9N_rev.1.0_Pick&Place 2025-04-23 22-53.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       23.04.25
+Time:       22:53
+Revision:   3919960842409d0e30491195dad4b40feba45b2d
+Variant:    No variations
+Units used: mm
+
+Designator Footprint                    Center-X(mm) Center-Y(mm) Rotation Layer    Comment                   Description                                                                                       
+C1         c0402                        17.4000      16.0000      180      TopLayer "1uF 6V3 0402"            "0402 1 uF 6.3 V ±10% Tolerance X7R Multilayer Ceramic Capacitor"                                 
+C2         c0402                        17.4000      14.8000      180      TopLayer "100nF 10V 0402"          "CL05 Series 0.1 uF 10 V ±10 % Tolerance X7R SMT Multilayer Ceramic Capacitor"                    
+C3         c0402                        17.4000      13.6000      180      TopLayer "10nF 50V 0402"           "CAP CER 10000PF 50V X7R 0402"                                                                    
+C4         c0402                        3.9000       34.3000      270      TopLayer "47pF 50V 0402"           "0402 47 pF 50 V ±5 % Tolerance NP0 SMT Multilayer Ceramic Capacitor"                             
+C5         c0402                        6.5000       36.0000      180      TopLayer "10nF 50V 0402"           "CAP CER 10000PF 50V X7R 0402"                                                                    
+C6         FP-GRM31C-0_2-e0_3_0_8-IPC_C 17.3000      11.9000      0        TopLayer 47uF_6.3V_1206            "Chip Multilayer Ceramic Capacitors for General Purpose, 1206, 47uF, X5R, 15%, 20%, 6.3V"         
+C7         FP-GRM31C-0_2-e0_3_0_8-IPC_C 17.3000      9.6000       0        TopLayer 47uF_6.3V_1206            "Chip Multilayer Ceramic Capacitors for General Purpose, 1206, 47uF, X5R, 15%, 20%, 6.3V"         
+J2         FP-U_FL-R-SMT-1_10-MFG       3.4000       39.1375      180      TopLayer U.FL-R-SMT-1(10)          "CONN U.FL RCPT STR 50 OHM SMD"                                                                   
+L1         FP-LQG15HH_02-IPC_C          4.3000       36.0000      180      TopLayer "27nH 350mA 0.46ohm 0402" "Multilayer type RF Inductor 27nH ±5% 0.46? 350mA 0402"                                           
+LED1       led0603                      8.5384       14.6040      90       TopLayer Green                     "LED High-Power Uni-Color Green 574nm 2-Pin Chip LED T/R"                                         
+LED2       led0603                      12.0000      8.8000       0        TopLayer Green                     "LED High-Power Uni-Color Green 574nm 2-Pin Chip LED T/R"                                         
+Q1         SOT23                        11.1652      35.6000      90       TopLayer DMG2302UKQ-7              "N-Channel 20 V 2.8A (Ta) 660mW (Ta) Surface Mount SOT-23-3"                                      
+Q2         FP-419AB-01-IPC_C            6.3000       14.0000      90       TopLayer 2N7002W                   "MOSFET N-CH 60V 115MA SOT-323"                                                                   
+R1         r0402                        10.0000      32.4000      180      TopLayer "0 ohm 0402"              "RES SMD 0 OHM JUMPER 1/16W 0402"                                                                 
+R2         RESC1005X40X25LL05T10        11.7000      13.3000      270      TopLayer 10K_5%_0402               ""                                                                                                
+R3         RESC1005X40X25NL05T05        12.0000      10.6000      0        TopLayer 1K_1%_0402                "Chip Resistor, 1 KOhm, +/- 1%, 100 mW, -55 to 155 degC, 0402 (1005 Metric), RoHS, Tape and Reel" 
+R4         r0603                        6.7000       34.4000      180      TopLayer "10 OHM 1/4W 0603"        "Res Surge Chip Thick Film 0603 10 Ohm 1% 1/4W ±200ppm/∞C Molded Paper T/R"                       
+R5         r0402                        6.6000       6.9000       270      TopLayer "0 ohm 0402"              "RES SMD 0 OHM JUMPER 1/16W 0402"                                                                 
+R7         r0402                        16.5000      36.0000      180      TopLayer "0 ohm 0402"              "RES SMD 0 OHM JUMPER 1/16W 0402"                                                                 
+R8         r0402                        5.2000       6.9000       270      TopLayer "0 ohm 0402"              "RES SMD 0 OHM JUMPER 1/16W 0402"                                                                 
+R11        RESC1005X40X25LL05T10        10.2000      13.3000      270      TopLayer 10K_5%_0402               ""                                                                                                
+R12        RESC1005X40X25NL05T10        3.8000       6.9000       270      TopLayer 0_5%_0402                 ""                                                                                                
+R13        RESC1005X40X25NL05T10        8.0000       6.9000       270      TopLayer 0_5%_0402                 ""                                                                                                
+R15        RESC1005X40X25NL05T10        4.2000       13.3000      90       TopLayer 0_5%_0402                 ""                                                                                                
+R16        RESC1005X40X25NL05T05        8.5523       12.3356      270      TopLayer 1K_1%_0402                "Chip Resistor, 1 KOhm, +/- 1%, 100 mW, -55 to 155 degC, 0402 (1005 Metric), RoHS, Tape and Reel" 
+U1         IC_NEO-M9N                   10.9000      23.9000      90       TopLayer NEO-M9N-00B               "GNSS module, Flash, TCXO, SAW, LNA, LCC, 12x16 mm Professional Grade"                            

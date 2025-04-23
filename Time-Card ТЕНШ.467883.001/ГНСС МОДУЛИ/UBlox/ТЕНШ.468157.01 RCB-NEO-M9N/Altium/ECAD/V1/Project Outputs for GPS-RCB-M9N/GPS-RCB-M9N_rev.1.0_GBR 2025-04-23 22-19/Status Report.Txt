@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [GPS-RCB-M9N.PcbDoc]
+   Generated File[GPS-RCB-M9N_rev.1.0_GBR 2025-04-23 22-19.TXT]
+   Generated File[GPS-RCB-M9N_rev.1.0_GBR 2025-04-23 22-19.LDP]
+   Generated File[GPS-RCB-M9N_rev.1.0_GBR 2025-04-23 22-19.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:19:18 On 23.04.2025

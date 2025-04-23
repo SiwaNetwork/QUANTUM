@@ -1,0 +1,33 @@
+Altium Designer Pick and Place Locations
+C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\√Õ—— ÃŒƒ”À»\UBlox\“≈Õÿ.468157.01 RCB-NEO-M9N\Altium\ECAD\V1\Project Outputs for GPS-RCB-M9N\GPS-RCB-M9N_rev.1.0_P&P 2025-04-23 22-21\GPS-RCB-M9N_rev.1.0_Pick&Place 2025-04-23 22-21.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       23.04.25
+Time:       22:21
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Comment","Description"
+"C1","c0402","35.2000","6.7000","90","TopLayer","1uF 6V3 0402","0402 1 uF 6.3 V ±10% Tolerance X7R Multilayer Ceramic Capacitor"
+"C2","c0402","36.7557","6.7000","90","TopLayer","100nF 10V 0402","CL05 Series 0.1 uF 10 V ±10 % Tolerance X7R SMT Multilayer Ceramic Capacitor"
+"C3","c0402","38.2990","6.7000","90","TopLayer","10nF 50V 0402","CAP CER 10000PF 50V X7R 0402"
+"C4","c0402","24.8009","24.4000","270","TopLayer","47pF 50V 0402","0402 47 pF 50 V ±5 % Tolerance NP0 SMT Multilayer Ceramic Capacitor"
+"C5","c0402","13.3000","17.4384","180","TopLayer","10nF 50V 0402","CAP CER 10000PF 50V X7R 0402"
+"J1","CONN_NRPN042MAMS-RC","61.0700","11.2800","180","TopLayer","NRPN042MAMS-RC 2MM","Dual Row 8 Position 2 mm Pitch Surface Mount Header"
+"J2","CONN_131-3711-301","5.6631","19.7389","270","TopLayer","SMB_131-3711-301","Rf Coaxial Board Mount Connector"
+"L1","L0402","10.7877","19.4000","90","TopLayer","27nH 300mA 460mohm 0402","Inductor RF Chip Multi-Layer 27nH 5% 100MHz 8Q-Factor Air 300mA 460mOhm DCR 0402 Paper T/R"
+"LED1","led0603","44.1492","10.4746","90","TopLayer","Green","LED High-Power Uni-Color Green 574nm 2-Pin Chip LED T/R"
+"LED2","led0603","51.0492","10.4746","90","TopLayer","Green","LED High-Power Uni-Color Green 574nm 2-Pin Chip LED T/R"
+"Q1","SOT23","12.1000","13.0000","90","TopLayer","DMG2302UKQ-7","N-Channel 20 V 2.8A (Ta) 660mW (Ta) Surface Mount SOT-23-3"
+"R1","r0402","29.3000","24.3000","90","TopLayer","0 ohm 0402","RES SMD 0 OHM JUMPER 1/16W 0402"
+"R2","r0402","45.9000","10.9000","90","TopLayer","10K 1/8W 0402","Res Thick Film 0402 10K Ohm 1% 0.125W(1/8W) ±100ppm/∞C Pad SMD T/R"
+"R3","r0402","52.8000","10.9000","90","TopLayer","10K 1/8W 0402","Res Thick Film 0402 10K Ohm 1% 0.125W(1/8W) ±100ppm/∞C Pad SMD T/R"
+"R4","r0603","11.0000","16.6884","90","TopLayer","10 OHM 1/4W 0603","Res Surge Chip Thick Film 0603 10 Ohm 1% 1/4W ±200ppm/∞C Molded Paper T/R"
+"R5","r0402","58.5060","19.5000","270","TopLayer","0 ohm 0402","RES SMD 0 OHM JUMPER 1/16W 0402"
+"R7","r0402","22.6000","7.2000","180","TopLayer","0 ohm 0402","RES SMD 0 OHM JUMPER 1/16W 0402"
+"R8","r0402","61.0611","19.5000","270","TopLayer","0 ohm 0402","RES SMD 0 OHM JUMPER 1/16W 0402"
+"R10","r0402","38.7000","25.4000","180","TopLayer","0 ohm 0402","RES SMD 0 OHM JUMPER 1/16W 0402"
+"U1","IC_NEO-M9N","30.7000","15.5000","90","TopLayer","NEO-M9N-00B","GNSS module, Flash, TCXO, SAW, LNA, LCC, 12x16 mm Professional Grade"

@@ -1,0 +1,49 @@
+Altium Designer Pick and Place Locations
+C:\Documents\Altium\SM_Project\QUANTUM\Time-Card าลอุ.467883.001\รอัั ฬฮฤำหศ\UBlox\าลอุ.468157.03 RCB-F9T\Altium\ECAD\V1\Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_Pick&Place 2025-04-23 18-24\GPS-RCB-F9T_rev.1.0_Pick&Place 2025-04-23 18-24.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       23.04.25
+Time:       18:24
+Revision:   3919960842409d0e30491195dad4b40feba45b2d
+Variant:    No variations
+Units used: mm
+
+Designator Footprint                      Center-X(mm) Center-Y(mm) Rotation Layer    Comment                   Description                                                                                 
+C1         CAPC1005X055N                  41.5290      11.6840      0        TopLayer Murata_GRM155R61E105KA12D "CAP, CER, X5R, 1UF, 10%, 25V, 0402, 0.55MM T"                                              
+C2         CAPC1005X055N                  41.5290      13.0810      0        TopLayer Murata_GRM155R61E105KA12D "CAP, CER, X5R, 1UF, 10%, 25V, 0402, 0.55MM T"                                              
+C3         CAPC1005X055N                  41.5290      15.2400      0        TopLayer Murata_GRM155R61E105KA12D "CAP, CER, X5R, 1UF, 10%, 25V, 0402, 0.55MM T"                                              
+C4         CAPC1005X055N                  41.5290      16.6370      0        TopLayer Murata_GRM155R61E105KA12D "CAP, CER, X5R, 1UF, 10%, 25V, 0402, 0.55MM T"                                              
+C5         CAPC1005X055N                  32.3850      26.0350      90       TopLayer Murata_GRM155R61E105KA12D "CAP, CER, X5R, 1UF, 10%, 25V, 0402, 0.55MM T"                                              
+C6         FP-0402-L_1_0_0_05-W_0_5-IPC_B 53.8929      11.0236      0        TopLayer 100nF                     None                                                                                        
+C7         FP-0402-L_1_0_0_05-W_0_5-IPC_B 14.9860      13.5890      180      TopLayer 100nF                     None                                                                                        
+C8         FP-0402-L_1_0_0_05-W_0_5-IPC_B 19.4310      19.7104      180      TopLayer 100nF                     None                                                                                        
+C9         FP-0402-L_1_0_0_05-W_0_5-IPC_B 18.9169      17.5487      180      TopLayer 100nF                     None                                                                                        
+C10        FP-GRM033-0_03-IPC_B           12.7000      16.5100      180      TopLayer 10nF                      "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 10000pF, X7R, 15%, 10%, 16V" 
+D1         FP-PESD0402-MFG                10.9220      18.9230      90       TopLayer PESD0402-140              "TVS DIODE 14V 40V 0402"                                                                    
+J1         NRPN042MAMS-RC                 61.0700      11.2800      180      TopLayer NRPN042MAMS-RC            "Dual Row 8 Position 2 mm Pitch Surface Mount Header"                                       
+J2         CONN_131-3711-301              5.6631       19.7389      270      TopLayer SMB_131-3711-301          "Rf Coaxial Board Mount Connector"                                                          
+L1         FP-LQG15HH_02-IPC_B            13.0810      19.1770      90       TopLayer "47nH 300mA"              "Multilayer type RF Inductor 47nH ฑ5% 0.72? 300mA 0402"                                     
+LED1       LEDS160X80X110-2N_LXFM0603-GR  63.2714      20.6502      270      TopLayer Lumex_SML-LXFM0603SUGCTR  "LED, GREEN, 574NM, 20MA, 20MCD MIN, 2.5VF MAX, 0603, 1.10MM T"                             
+LED2       LEDS160X80X110-2N_LXFM0603-GR  50.8426      4.2164       90       TopLayer Lumex_SML-LXFM0603SUGCTR  "LED, GREEN, 574NM, 20MA, 20MCD MIN, 2.5VF MAX, 0603, 1.10MM T"                             
+LED3       LEDS160X80X110-2N_LXFM0603-GR  54.8386      4.2164       90       TopLayer Lumex_SML-LXFM0603SUGCTR  "LED, GREEN, 574NM, 20MA, 20MCD MIN, 2.5VF MAX, 0603, 1.10MM T"                             
+Q1         SOT23_3pins_300x140x112        15.1130      7.7470       0        TopLayer onsemi_NTR2101PT1G        "MOSFET, P-CH, 8VDS, 3.7A ID, 0.052 OHM RDS(ON)@4.5VGS/3.5A, SOT-23-3"                      
+R1         FP-RMCF0402-MFG                33.9090      26.0350      90       TopLayer 1k                        "1k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                           
+R2         FP-RMCF0402-MFG                55.9054      16.9164      90       TopLayer 1k                        "1k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                           
+R3         FP-RMCF0402-MFG                53.9496      16.9164      90       TopLayer 1k                        "1k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                           
+R4         FP-RMCF0402-IPC_C              60.9346      19.7563      90       TopLayer 10k                       "10k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                          
+R5         FP-RMCF0402-IPC_C              55.8292      13.0810      270      TopLayer 10k                       "10k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                          
+R6         FP-RMCF0402-IPC_C              53.7464      13.0810      90       TopLayer 10k                       "10k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                          
+R7         FP-RMCF0402-IPC_C              48.8696      3.3225       270      TopLayer 10k                       "10k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                          
+R8         FP-RMCF0402-IPC_C              52.8656      3.3225       270      TopLayer 10k                       "10k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                          
+R9         FP-RMCF0402-IPC_C              15.7480      4.6178       0        TopLayer 100k                      "100k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                         
+R10        FP-RMCF0402-MFG                15.6210      11.6840      180      TopLayer 1k                        "1k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                           
+R11        FP-RMCF0402-IPC_C              17.5260      11.6840      180      TopLayer 100k                      "100k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                         
+R12        RESC1608X055N                  13.0810      12.4460      90       TopLayer Vishay_RCP0603W25R0GEB    "RES, 25 OHM, 2%, 1.5W, 150PPM/C, 0603"                                                     
+R13        FP-RMCF0402-MFG                21.1074      17.6022      180      TopLayer 1k                        "1k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                           
+R14        FP-RMCF0402-MFG                21.0820      12.2428      180      TopLayer 1k                        "1k? ฑ1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant"                           
+U1         GPS_ZED-F9T                    31.7930      13.6820      270      TopLayer ZED-F9T-00B               "Multi-band GNSS Receiver with Nanosecond-level Timing Accuracy"                            
+U2         DCU0008A_N                     50.9524      12.6238      270      TopLayer SN74LVC3G07DCUR           "Triple Buffer/Driver With Open-Drain Output, DCU0008A, LARGE T&R"                          
+U3         DCU0008A_N                     19.8120      14.8082      0        TopLayer SN74LVC3G07DCUR           "Triple Buffer/Driver With Open-Drain Output, DCU0008A, LARGE T&R"                          
+U4         DCK0005A_N                     15.4940      16.3830      90       TopLayer LPV511MGX/NOPB            "micropower Rail-to-Rail Input and Output Operational Amplifier, 5-pin SC-70, Pb-Free"      

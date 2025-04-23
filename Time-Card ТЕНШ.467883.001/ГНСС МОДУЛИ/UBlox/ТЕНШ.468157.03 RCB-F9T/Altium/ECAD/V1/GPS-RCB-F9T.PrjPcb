@@ -152,6 +152,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=..\..\..\..\..\..\..\..\SHIWA_OUT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=08E19AE1-CCEB-4989-94F4-FCCB3A441073
 Description=release
@@ -167,16 +184,16 @@ DocumentPath=Project Outputs for GPS_MODULE_ZED-F9T-00B\BOM\Bill of Materials-GP
 DItemRevisionGUID=
 
 [Parameter1]
-Name=revision
-Value=rev.1.0
+Name=company
+Value=SHIWA NETWORK
 
 [Parameter2]
 Name=EGRN
 Value=ТЕНШ.468157.03.00.000
 
 [Parameter3]
-Name=company
-Value=SHIWA NETWORK
+Name=revision
+Value=rev.1.0
 
 [Configuration1]
 Name=Sources

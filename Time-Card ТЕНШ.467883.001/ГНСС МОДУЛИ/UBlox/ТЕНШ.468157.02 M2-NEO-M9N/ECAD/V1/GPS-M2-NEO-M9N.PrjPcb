@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\..\..\ТЕНШ.468157.001 NEO-M9N\Altium\ECAD\V1\V1\844-XXXXX_FAB_NEO-M9N_MODULE.PcbDoc
+DocumentPath=..\..\..\..\..\..\SHIWA_OUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -227,138 +227,214 @@ Name=v_prjPCBA_Revision
 Value=X1
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE-Plated.TXT
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_BOM 2025-04-23 22-53.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.DRL
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\NC Drill\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.DRR
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.G1
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.EXTREP
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.G2
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.G1
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.G2
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBL
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBO
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBP
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GM
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBS
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GM19
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GD1
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GG1
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM1
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM2
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM4
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\Gerber\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM5
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\NC Drill\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM8
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52\NC Drill\GPS-M2-NEO-M9N_rev.1.0_GBR 2025-04-23 22-52.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM16
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_P&P 2025-04-23 22-53\GPS-M2-NEO-M9N_rev.1.0_Pick&Place 2025-04-23 22-53.csv
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM17
+DocumentPath=Project Outputs for GPS-M2-NEO-M9N\GPS-M2-NEO-M9N_rev.1.0_P&P 2025-04-23 22-53\GPS-M2-NEO-M9N_rev.1.0_Pick&Place 2025-04-23 22-53.txt
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM18
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM21
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM22
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM23
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM29
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.G1
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GPB
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.G2
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTL
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTO
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTP
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTS
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.LDP
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.REP
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.RUL
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\Pick Place for M2_NEO-M9N_MODULE(845-XXXXX_PCBA_projectname).csv
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument34]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM17
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM18
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM21
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM22
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM23
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GM29
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.REP
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\M2_NEO-M9N_MODULE.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\Pick Place for M2_NEO-M9N_MODULE(845-XXXXX_PCBA_projectname).csv
+DItemRevisionGUID=
+
+[GeneratedDocument53]
 DocumentPath=Project Outputs for M2_NEO-M9N_MODULE\Pick Place for M2_NEO-M9N_MODULE(845-XXXXX_PCBA_projectname).txt
 DItemRevisionGUID=
 
@@ -1428,6 +1504,10 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=+3V3|NetColor=clRed
+Net2=NetName=GND|NetColor=clBlue
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
