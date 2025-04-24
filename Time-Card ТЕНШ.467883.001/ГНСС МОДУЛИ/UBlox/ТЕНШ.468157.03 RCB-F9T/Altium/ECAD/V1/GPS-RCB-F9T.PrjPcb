@@ -183,15 +183,91 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for GPS_MODULE_ZED-F9T-00B\BOM\Bill of Materials-GPS_MODULE_ZED-F9T-00B(V1I1).xlsx
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\NC Drill\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GM
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\Gerber\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\NC Drill\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48\NC Drill\GPS-RCB-F9T_rev.1.0_GBR 2025-04-24 14-48.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_P&P 2025-04-24 14-49\GPS-RCB-F9T_rev.1.0_Pick&Place 2025-04-24 14-49.csv
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for GPS-RCB-F9T\GPS-RCB-F9T_rev.1.0_P&P 2025-04-24 14-49\GPS-RCB-F9T_rev.1.0_Pick&Place 2025-04-24 14-49.txt
+DItemRevisionGUID=
+
 [Parameter1]
-Name=revision
-Value=rev.1.0
+Name=
+Value=
 
 [Parameter2]
 Name=TENSH
-Value=ТЕНШ.468157.03.00.000
+Value=ТЕНШ.468157.03
 
 [Parameter3]
+Name=revision
+Value=rev.1.0
+
+[Parameter4]
 Name=company
 Value=SHIWA NETWORK
 

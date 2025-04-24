@@ -5,8 +5,8 @@ C:\Documents\Altium\SM_Project\QUANTUM\Time-Card “≈Õÿ.467883.001\’–¿Õ»“≈À» ◊¿—“Œ
 File Design Information:
 
 Date:       24.04.25
-Time:       01:16
-Revision:   092d93b7a09edaaf383a6421d142277756fa55fa
+Time:       13:59
+Revision:   5256587b3b080049fd2541c8777d5d3a467d9f34
 Variant:    RACON_ROD
 Units used: mm
 
@@ -48,17 +48,19 @@ Units used: mm
 "P16","Keystone_4871","41.3000","45.2000","180","BottomLayer","4871","Round Standoff Threaded #2-56 Steel 0.063" (1.60mm) 1/16""
 "R1","RESC3225X070N","3.4250","11.9250","90","TopLayer","Stackpole Electronics, Inc._RMCF1210ZT0R00","RES, 0.0 OHM, 3A, 1/2W, 1210"
 "R5","RESC1005X040N","9.9000","22.1450","90","BottomLayer","Yageo_RC0402FR-07100RL","RES SMD 100 OHM 1% 1/16W 0402"
-"R8","RESC1005X045N","45.2200","43.5726","0","TopLayer","Stackpole Electronics, Inc._HCJ0402ZT0R00","RES, 0.0 OHM, 1/8W, 6.5A, 0402"
-"R16","RESC1608X55X25ML10T15","11.5000","34.3710","180","BottomLayer","0_5%_0603","Chip Resistor, 0 Ohm, +/- 5%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
-"R17","RESC1005X40X25NL05T10","3.1500","34.7460","180","BottomLayer","0_1%_0402",""
-"R18","RESC1005X40X25NL05T10","3.1500","37.7710","180","BottomLayer","0_1%_0402",""
-"R19","RESC1005X40X25NL05T10","3.1500","38.7710","180","BottomLayer","0_1%_0402",""
-"R23","RESC1608X55X25ML10T15","27.2000","33.9500","180","BottomLayer","0_5%_0603","Chip Resistor, 0 Ohm, +/- 5%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
-"R24","RESC1005X40X25NL05T10","33.0500","33.4250","0","BottomLayer","0_1%_0402",""
-"R25","RESC1005X40X25NL05T10","33.0250","36.3750","0","BottomLayer","0_1%_0402",""
-"R26","RESC1005X40X25NL05T10","32.7500","37.8750","90","BottomLayer","0_1%_0402",""
-"R30","RESC1005X40X25NL05T10","39.4750","28.8250","90","BottomLayer","0_1%_0402",""
-"R32","RESC1005X40X25NL05T10","41.6750","19.3594","180","BottomLayer","0_1%_0402",""
+"R8","YAGEO_RES_0402_1005","45.1920","43.5726","180","TopLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R16","YAGEO_RES_0402_1005","11.5000","34.3710","180","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R17","YAGEO_RES_0402_1005","3.1500","34.7460","180","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R18","YAGEO_RES_0402_1005","3.1500","37.7710","180","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R19","YAGEO_RES_0402_1005","3.1500","38.7710","180","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R23","YAGEO_RES_0402_1005","27.2000","33.9500","180","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R24","YAGEO_RES_0402_1005","33.0500","33.4250","0","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R25","YAGEO_RES_0402_1005","33.0250","36.3750","0","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R26","YAGEO_RES_0402_1005","32.7500","38.0000","90","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R27","RESC1005X40X25LL05T05","12.7750","46.3508","0","TopLayer","4.7K_1%_0402","Chip Resistor, 4.7 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0402 (1005 Metric), RoHS, Tape and Reel"
+"R28","RESC1005X40X25LL05T05","10.8250","46.3508","180","TopLayer","4.7K_1%_0402","Chip Resistor, 4.7 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0402 (1005 Metric), RoHS, Tape and Reel"
+"R30","YAGEO_RES_0402_1005","39.5000","29.0000","90","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
+"R32","YAGEO_RES_0402_1005","42.0000","19.2500","180","BottomLayer","0 Ohms","RES 0 OHM JUMPER 1/16W 0402"
 "U1","KTT0003B_L","28.1194","8.4089","0","TopLayer","LMS1587IS-3.3/NOPB","3A Low Dropout Fast Response Regulators, 3-pin TO-263, Pb-Free"
 "U2","TSSOP65P640X120-8N","9.3618","38.0939","0","BottomLayer","Microchip_AT24MAC602-XHM-B","IC, EEPROM, AT24MAC602, 2K-BIT (256 X 8), 1MHZ, I2C, 1.7V - 5.5V, TSSOP-8"
 "U3","SOP127P600X175_8N","14.4250","29.3500","180","BottomLayer","TI_DS90LV027AQMA/NOPB","IC, DRIVER, DS90LV027AQ, DUAL, DIFF, LVDS, 600MBPS, SOIC-8"

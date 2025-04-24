@@ -83,7 +83,7 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -226,8 +226,8 @@ Variation26=Designator=R22|UniqueId=\IPBWNDJI|Kind=1|AlternatePart=
 Variation27=Designator=R13|UniqueId=\CFUJXKQZ|Kind=1|AlternatePart=
 Variation28=Designator=R14|UniqueId=\WPTXTJGP|Kind=1|AlternatePart=
 Variation29=Designator=R15|UniqueId=\MWEWRGXU|Kind=1|AlternatePart=
-Variation30=Designator=R27|UniqueId=\DDTPHXJO|Kind=1|AlternatePart=
-Variation31=Designator=R28|UniqueId=\TEDNWFSL|Kind=1|AlternatePart=
+Variation30=Designator=R27|UniqueId=\DDTPHXJO|Kind=0|AlternatePart=
+Variation31=Designator=R28|UniqueId=\TEDNWFSL|Kind=0|AlternatePart=
 Variation32=Designator=R29|UniqueId=\HNNYNJNZ|Kind=1|AlternatePart=
 Variation33=Designator=R30|UniqueId=\FENXFTQO|Kind=0|AlternatePart=
 Variation34=Designator=R2|UniqueId=\OPNSGKUJ|Kind=1|AlternatePart=
@@ -483,24 +483,32 @@ DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RAC
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.csv
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 13-54.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument64]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 13-57.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument66]
 DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Company
-Value=SHIWA NETWORK
+Name=TENSH
+Value=ТЕНШ.467879.01.00.000
 
 [Parameter2]
 Name=revision
 Value=rev.1.0
 
 [Parameter3]
-Name=TENSH
-Value=ТЕНШ.467879.01.00.000
+Name=Company
+Value=SHIWA NETWORK
 
 [Configuration1]
 Name=Sources
@@ -2311,6 +2319,8 @@ Net6=NetName=MAC_PPS_IN0_P|NetColor=clAqua
 Net7=NetName=MAC_PPS_OUT_N|NetColor=clLime
 Net8=NetName=MAC_PPS_OUT_P|NetColor=clLime
 Net9=NetName=MAC_RF_OUT|NetColor=clLime
+Net10=NetName=MAC_RX|NetColor=clFuchsia
+Net11=NetName=MAC_TX|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0

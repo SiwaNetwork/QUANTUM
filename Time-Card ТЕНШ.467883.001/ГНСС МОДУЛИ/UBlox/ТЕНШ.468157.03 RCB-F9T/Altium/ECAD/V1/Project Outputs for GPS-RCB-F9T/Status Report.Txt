@@ -1,14 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 22:16:10 On 23.04.2025
+Start Output Generation At 14:49:04 On 24.04.2025
 
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [GPS-RCB-M9N.PrjPcb]
-   Generated File[GPS-RCB-F9T_rev.1.0_BOM 2025-04-23 22-16.xlsx]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [GPS-RCB-F9T.PcbDoc]
+   Generated File[GPS-RCB-F9T_rev.1.0_Pick&Place 2025-04-24 14-49.txt]
+   Generated File[GPS-RCB-F9T_rev.1.0_Pick&Place 2025-04-24 14-49.csv]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 22:16:36 On 23.04.2025
+Finished Output Generation At 14:49:05 On 24.04.2025
