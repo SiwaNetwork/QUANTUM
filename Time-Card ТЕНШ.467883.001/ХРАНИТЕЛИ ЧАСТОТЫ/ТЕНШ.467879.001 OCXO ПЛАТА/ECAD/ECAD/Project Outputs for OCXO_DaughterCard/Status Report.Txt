@@ -1,14 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 21:00:25 On 24.04.2025
+Start Output Generation At 21:05:16 On 24.04.2025
 
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [RACON_ROD] of Project [OCXO_DaughterCard.PrjPcb]
-   Generated File[OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 21-00.xlsx]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [RACON_ROD] of PCB Document [OCXO_DaughterCard.PcbDoc]
+   Generated File[OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.txt]
+   Generated File[OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.csv]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 21:00:57 On 24.04.2025
+Finished Output Generation At 21:05:18 On 24.04.2025
