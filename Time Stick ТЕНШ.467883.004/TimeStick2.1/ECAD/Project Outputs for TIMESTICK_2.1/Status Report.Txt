@@ -1,14 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 12:16:51 On 30.04.2025
+Start Output Generation At 12:26:39 On 05.05.2025
 
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [release] of Project [TIMESTICK_2.1.PrjPcb]
-   Generated File[TIMESTICK_2.1_rev.1.2_BOM 2025-04-30 12-16.xlsx]
+Output: Stencil
+Type  : Gerber
+From  : PCB Document [TIMESTICK_2.1.PcbDoc]
+   Generated File[TIMESTICK_2.1.GTP]
+   Generated File[TIMESTICK_2.1.GM19]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 12:17:15 On 30.04.2025
+Finished Output Generation At 12:26:40 On 05.05.2025
