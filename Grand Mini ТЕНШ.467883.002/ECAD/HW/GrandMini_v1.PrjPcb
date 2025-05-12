@@ -272,23 +272,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PFQREEEK
 
 [Document14]
-DocumentPath=PCIe.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZTTMVJMR
-
-[Document15]
 DocumentPath=CM4IOv5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DUIGXTPH
 
-[Document16]
+[Document15]
 DocumentPath=CM4IOv5(1).PcbDoc.LOG
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=PCIe.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QPSKPCYT
 
-[Document18]
+[Document17]
 DocumentPath=PCIe.SchLib.LOG
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=PSUs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XQRDYKWK
 
-[Document20]
+[Document19]
 DocumentPath=PSUs.SchLib.LOG
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -390,7 +373,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=RTC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -407,7 +390,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NSCXWTPA
 
-[Document22]
+[Document21]
 DocumentPath=RTC.SchLib.LOG
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -424,7 +407,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=USB2-HUB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -441,7 +424,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TTZJAYDV
 
-[Document24]
+[Document23]
 DocumentPath=USB2-HUB.SchLib.LOG
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -458,7 +441,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=CM4IO.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -475,7 +458,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXJFXCWW
 
-[Document26]
+[Document25]
 DocumentPath=CM4IO.PcbLib.LOG
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1443,8 +1426,51 @@ PartTypes=0
 [NetInfos]
 Net1=NetName=+12v|NetColor=clFuchsia
 Net2=NetName=+3.3v|NetColor=$000099FF
-Net3=NetName=+5v|NetColor=clRed
-Net4=NetName=GND|NetColor=clBlue
+Net3=NetName=+3V3_PCI|NetColor=$000099FF
+Net4=NetName=+5|NetColor=clRed
+Net5=NetName=+5v|NetColor=clRed
+Net6=NetName=10MHz_MAC|NetColor=clLime
+Net7=NetName=AIN1|NetColor=clBlack
+Net8=NetName=EARTH|NetColor=$0066D9FF
+Net9=NetName=GND|NetColor=clBlue
+Net10=NetName=HDMI_5v|NetColor=clRed
+Net11=NetName=HDMI0_CEC|NetColor=$00C37C8E
+Net12=NetName=HDMI0_CK_N|NetColor=$003891E6
+Net13=NetName=HDMI0_CK_P|NetColor=$003891E6
+Net14=NetName=HDMI0_D0_N|NetColor=$003891E6
+Net15=NetName=HDMI0_D0_P|NetColor=$003891E6
+Net16=NetName=HDMI0_D1_N|NetColor=$003891E6
+Net17=NetName=HDMI0_D1_P|NetColor=$003891E6
+Net18=NetName=HDMI0_D2_N|NetColor=$003891E6
+Net19=NetName=HDMI0_D2_P|NetColor=$003891E6
+Net20=NetName=HDMI0_HOTPLUG|NetColor=$00C37C8E
+Net21=NetName=HDMI0_SCL|NetColor=$00C37C8E
+Net22=NetName=HDMI0_SDA|NetColor=$00C37C8E
+Net23=NetName=PCIE_CLK_N|NetColor=clAqua
+Net24=NetName=PCIE_CLK_nREQ|NetColor=clAqua
+Net25=NetName=PCIE_CLK_P|NetColor=clAqua
+Net26=NetName=PCIE_nRST|NetColor=clAqua
+Net27=NetName=PCIE_RX_N|NetColor=clAqua
+Net28=NetName=PCIE_RX_P|NetColor=clAqua
+Net29=NetName=PCIE_TX_N|NetColor=clAqua
+Net30=NetName=PCIE_TX_P|NetColor=clAqua
+Net31=NetName=RCB_RST|NetColor=$008E8145
+Net32=NetName=RCB_RXD|NetColor=$008E8145
+Net33=NetName=RCB_TP1|NetColor=$008E8145
+Net34=NetName=RCB_TP2|NetColor=$008E8145
+Net35=NetName=RCB_TXD|NetColor=$008E8145
+Net36=NetName=SCL1|NetColor=$00A07BC2
+Net37=NetName=SDA1|NetColor=$00A07BC2
+Net38=NetName=SYNC_IN|NetColor=$00C37C8E
+Net39=NetName=SYNC_OUT|NetColor=$00C37C8E
+Net40=NetName=TRD0_N|NetColor=clAqua
+Net41=NetName=TRD0_P|NetColor=clAqua
+Net42=NetName=TRD1_N|NetColor=clAqua
+Net43=NetName=TRD1_P|NetColor=clAqua
+Net44=NetName=TRD2_N|NetColor=clAqua
+Net45=NetName=TRD2_P|NetColor=clAqua
+Net46=NetName=TRD3_N|NetColor=clAqua
+Net47=NetName=TRD3_P|NetColor=clAqua
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
