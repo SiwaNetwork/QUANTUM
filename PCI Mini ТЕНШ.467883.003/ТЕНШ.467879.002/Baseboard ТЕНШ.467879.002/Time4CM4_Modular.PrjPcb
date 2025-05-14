@@ -220,130 +220,134 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Time4CM4_Modular\Pick Place for Time4CM4_Modular.csv
+DocumentPath=Project Outputs for Time4CM4_Modular\Design Rule Check - Time4CM4_Modular.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Time4CM4_Modular\Pick Place for Time4CM4_Modular.txt
+DocumentPath=Project Outputs for Time4CM4_Modular\Pick Place for Time4CM4_Modular.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular-BoardEdgeRout.TXT
+DocumentPath=Project Outputs for Time4CM4_Modular\Pick Place for Time4CM4_Modular.txt
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular-Plated.TXT
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular-BoardEdgeRout.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.DRL
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.DRR
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.EXTREP
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.G1
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.G2
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.G1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBL
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.G2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBO
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBP
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBS
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GD1
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GG1
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GKO
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM1
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM4
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM5
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM13
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM15
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM16
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GPB
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GPT
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTL
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTO
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTP
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTS
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.LDP
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.REP
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.RUL
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.REP
 DItemRevisionGUID=
 
 [GeneratedDocument32]
+DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
 DocumentPath=Project Outputs for Time4CM4_Modular\Time4CM4_Modular.xlsx
 DItemRevisionGUID=
 
@@ -1480,24 +1484,29 @@ Net3=NetName=3V3|NetColor=$000099FF
 Net4=NetName=5V|NetColor=clRed
 Net5=NetName=ETH_SYNC_OUT|NetColor=$008E8145
 Net6=NetName=GND|NetColor=clBlue
-Net7=NetName=GNSS_RF|NetColor=clAqua
-Net8=NetName=GNSS_RF_IN|NetColor=clAqua
-Net9=NetName=GPIO_0|NetColor=clYellow
-Net10=NetName=GPIO_1|NetColor=clYellow
-Net11=NetName=GPIO_11|NetColor=$004FA86A
-Net12=NetName=GPIO_17|NetColor=clYellow
-Net13=NetName=GPIO_19|NetColor=clYellow
-Net14=NetName=GPIO_22|NetColor=clYellow
-Net15=NetName=GPIO_44|NetColor=clYellow
-Net16=NetName=GPIO_45|NetColor=clYellow
-Net17=NetName=GPIO_5|NetColor=$004FA86A
-Net18=NetName=GPIO_6|NetColor=$004FA86A
-Net19=NetName=PPS|NetColor=$00A74E67
-Net20=NetName=PPS_IN|NetColor=$008E8145
-Net21=NetName=PPS_OUT_GNSS|NetColor=$008E8145
-Net22=NetName=TP2|NetColor=clYellow
-Net23=NetName=UART_RX|NetColor=$00A74E67
-Net24=NetName=UART_TX|NetColor=$00A74E67
+Net7=NetName=GNSS_RESET|NetColor=$004FA86A
+Net8=NetName=GNSS_RF|NetColor=clAqua
+Net9=NetName=GNSS_RF_IN|NetColor=clAqua
+Net10=NetName=GPIO_0|NetColor=clYellow
+Net11=NetName=GPIO_1|NetColor=clYellow
+Net12=NetName=GPIO_10|NetColor=$004FA86A
+Net13=NetName=GPIO_11|NetColor=$004FA86A
+Net14=NetName=GPIO_17|NetColor=clYellow
+Net15=NetName=GPIO_19|NetColor=clYellow
+Net16=NetName=GPIO_21|NetColor=$004FA86A
+Net17=NetName=GPIO_22|NetColor=clYellow
+Net18=NetName=GPIO_44|NetColor=clYellow
+Net19=NetName=GPIO_45|NetColor=clYellow
+Net20=NetName=GPIO_5|NetColor=clBlack
+Net21=NetName=GPIO_6|NetColor=clBlack
+Net22=NetName=GPIO_8|NetColor=$004FA86A
+Net23=NetName=GPIO_9|NetColor=$004FA86A
+Net24=NetName=PPS|NetColor=$00A74E67
+Net25=NetName=PPS_IN|NetColor=$008E8145
+Net26=NetName=PPS_OUT_GNSS|NetColor=$008E8145
+Net27=NetName=TP2|NetColor=clYellow
+Net28=NetName=UART_RX|NetColor=$00A74E67
+Net29=NetName=UART_TX|NetColor=$00A74E67
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
