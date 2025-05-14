@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TIMESTICK_2.1.PcbDoc]
+   Generated File[TIMESTICK_2.1_rev.1.2_GBR 2025-04-30 12-14-RoundHoles.TXT]
+   Generated File[TIMESTICK_2.1_rev.1.2_GBR 2025-04-30 12-14-SlotHoles.TXT]
+   Generated File[TIMESTICK_2.1_rev.1.2_GBR 2025-04-30 12-14.LDP]
+   Generated File[TIMESTICK_2.1_rev.1.2_GBR 2025-04-30 12-14.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:14:40 On 30.04.2025
