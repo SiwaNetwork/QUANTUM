@@ -25,25 +25,16 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=1
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-ConstraintManagerFlow=0
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
-CrossRefPorts=3
-CrossRefCrossSheets=1
-CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -560,40 +551,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ZFEOSJEB
 
 [Document31]
-DocumentPath=..\..\TimeCardNPI\OCXO Daughtercard\Released\OCXO_DaughterCard.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document32]
-DocumentPath=..\..\TimeCardNPI\OCXO Daughtercard\Released\OCXO_DaughterCard.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BDJAWKEO
-
-[Document33]
 DocumentPath=MODELS\0673298000\673298040.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -610,7 +567,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document32]
 DocumentPath=MODELS\0673298000\673298040.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -627,7 +584,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHSZCGTU
 
-[Document35]
+[Document33]
 DocumentPath=MODELS\DPLL\AltiumDesigner\8A34002E-000NLG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -644,7 +601,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document36]
+[Document34]
 DocumentPath=MODELS\DPLL\AltiumDesigner\8A34002E-000NLG.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -661,7 +618,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YCDKHHWE
 
-[Document37]
+[Document35]
 DocumentPath=MODELS\USB MUX\AltiumDesigner\PI3USB10LP-AZME.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -678,7 +635,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document36]
 DocumentPath=MODELS\USB MUX\AltiumDesigner\PI3USB10LP-AZME.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -695,7 +652,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JVMRUKMA
 
-[Document39]
+[Document37]
 DocumentPath=16-DPLL_Spare_UFL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -712,7 +669,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SYVDSGYV
 
-[Document40]
+[Document38]
 DocumentPath=MiniPTM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -729,7 +686,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document41]
+[Document39]
 DocumentPath=MODELS\1x4SFP\U77A461M2081\AMPHENOL_U77A461M2081.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -746,7 +703,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document42]
+[Document40]
 DocumentPath=MODELS\1x4SFP\U77A461M2081\U77A461M2081.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -763,7 +720,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQYPLPTS
 
-[Document43]
+[Document41]
 DocumentPath=MiniPTM.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -780,7 +737,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUQOJSPX
 
-[Document44]
+[Document42]
 DocumentPath=MODELS\8a34001\AltiumDesigner\8A34001E-000AJG8.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -797,7 +754,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PGFUHYRP
 
-[Document45]
+[Document43]
 DocumentPath=MODELS\8a34001\AltiumDesigner\8A34001E-000AJG8.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -815,402 +772,162 @@ GenerateClassCluster=0
 DocumentUniqueId=PFJIFOFZ
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MiniPTM\Design Rule Check - MiniPTM.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM.REP
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_ASSEMBLY_BOTTOM.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_ASSEMBLY_TOP.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Board.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Board_Shape.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Bottom_Assembly.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Bottom_Component_Center.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Bottom_Component_Outline.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Bottom_Courtyard.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Bottom_Designator.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_3.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_4.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_5.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_6.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_7.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_8.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument29]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Mechanical_26.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Mechanical_28.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Mechanical_30.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument34]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument35]
+[GeneratedDocument30]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Soldermask_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Assembly.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Component_Center.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Component_Outline.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Courtyard.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument36]
 DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Designator.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument42]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_ASSEMBLY_BOTTOM.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_ASSEMBLY_TOP.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Board_Shape.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Bottom_3D_Body.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Bottom_Assembly.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Bottom_Component_Center.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Bottom_Courtyard.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_DIMENSION-1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_DIMENSION.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_DIMSYM.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument56]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Drawing_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument57]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_DRAWING_ORIGIN.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument58]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Drillmap_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument59]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_MECH_DIMENSION.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Mechanical_29.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Mechanical_31.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_NCLEGEND-1-6.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_OUTLINE.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument69]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_PCI_FINGER.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument70]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_PEN3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument71]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_PIN_NUMBER.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_PLACE_BOUND_BOTTOM.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument73]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_PLACE_BOUND_TOP.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument74]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument75]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument76]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument77]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Top_3D_Body.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument78]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Top_Assembly.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument79]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Top_Component_Center.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument80]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Top_Courtyard.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument81]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_ASSEMBLY_BOTTOM.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument82]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_ASSEMBLY_TOP.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument83]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Board_Shape.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument84]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Bottom_Component_Center.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument85]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Bottom_Courtyard.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument86]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument87]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument88]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument89]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument90]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument91]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument92]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument93]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument94]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument95]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument96]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument97]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Top_Component_Center.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument98]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV2_Top_Courtyard.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument99]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for MiniPTM\Pick Place for MiniPTM.csv
 DItemRevisionGUID=
 
-[GeneratedDocument100]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for MiniPTM\Pick Place for MiniPTM.txt
 DItemRevisionGUID=
 
@@ -1383,6 +1100,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -1394,11 +1121,21 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -1468,30 +1205,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType15=PCBDrawing
-OutputName15=Draftsman
-OutputDocumentPath15=
-OutputVariantName15=[No Variations]
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -2789,12 +2502,11 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Project History
-OutputName9=Project History
+OutputType9=GOSTBOM
+OutputName9=GOST BOM
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -2812,97 +2524,97 @@ OutputName2=Text Print
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=Text Print
 OutputName3=Text Print
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Text Print
 OutputName4=Text Print
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType5=Text Print
 OutputName5=Text Print
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=Text Print
 OutputName6=Text Print
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=Text Print
 OutputName7=Text Print
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType8=Text Print
 OutputName8=Text Print
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=Text Print
 OutputName9=Text Print
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType10=Text Print
 OutputName10=Text Print
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType11=Text Print
 OutputName11=Text Print
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Text Print
 OutputName12=Text Print
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType13=Text Print
 OutputName13=Text Print
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType14=Text Print
 OutputName14=Text Print
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType15=Text Print
 OutputName15=Text Print
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType16=Text Print
 OutputName16=Text Print
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType17=Text Print
 OutputName17=Text Print
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -3008,8 +2720,8 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
+OutputType12=AnsysEDB
+OutputName12=Ansys EDB
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
@@ -3145,25 +2857,6 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
-Type120=1
-Type121=1
-Type122=1
-Type123=1
-Type124=1
-Type125=1
-Type126=1
-Type127=1
-Type128=1
-Type129=1
-Type130=1
-Type131=1
-Type132=1
-Type133=1
-Type134=1
-Type135=1
-Type136=1
-Type137=1
-Type138=1
 
 [Difference Levels]
 Type1=1
@@ -3234,12 +2927,6 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
-Type69=1
-Type70=1
-Type71=1
-Type72=1
-Type73=1
-Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -3367,34 +3054,6 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
-Type127=1
-Type128=2
-Type129=2
-Type130=2
-Type131=2
-Type132=2
-Type133=2
-Type134=2
-Type135=2
-Type136=2
-Type137=2
-Type138=1
-Type139=1
-Type140=1
-Type141=1
-Type142=1
-Type143=1
-Type144=1
-Type145=1
-Type146=1
-Type147=2
-Type148=2
-Type149=2
-Type150=2
-Type151=2
-Type152=1
-Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
