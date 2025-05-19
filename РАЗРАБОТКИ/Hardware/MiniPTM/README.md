@@ -1,11 +1,12 @@
-# MiniPTM design
-A PCIe card with multiple timing features
-* I225 as PCIe Bridge
-* RJ45 for I225 as a normal Ethernet NIC
-* M2 GNSS for PPS disciplining of I225 or DPLL based on BOM options
-* Renesas 8A34001E DPLL
-	* Connected to two SFP ports with diff pair clock out and clock in lines
-	* Controlled by I225 through GPIO as I2C
-	* DPLL supports Clock / 1PPS / TOD / User data over a single diff pair.
-	* Intended to be used a cheap option for two way time and frequency transfer to high precision over fiber
- * SiT5501 as high stability oscillator for DPLL
+Конструкция MiniPTM
+Плата PCIe с несколькими функциями точного времени
+
+I225 в качестве моста PCIe
+RJ45 для I225 — как обычный сетевой адаптер Ethernet
+Разъём M.2 для подключения GNSS-приёмника, используется для коррекции тактовой частоты I225 или для управления DPLL в зависимости от комплектации (BOM)
+Генератор тактового сигнала Renesas 8A34001E (DPLL)
+Подключён к двум портам SFP с дифференциальными парами для вывода и приёма тактового сигнала
+Управление осуществляется через I225 по GPIO, эмулирующий шину I2C
+DPLL поддерживает передачу тактового сигнала / 1PPS / времени дня (TOD) / пользовательских данных по одной дифференциальной паре
+Предназначен для реализации недорогого решения двусторонней передачи времени и частоты с высокой точностью по оптоволокну
+SiT5501 — высокостабильный осциллятор в качестве эталонного источника частоты для DPLL
