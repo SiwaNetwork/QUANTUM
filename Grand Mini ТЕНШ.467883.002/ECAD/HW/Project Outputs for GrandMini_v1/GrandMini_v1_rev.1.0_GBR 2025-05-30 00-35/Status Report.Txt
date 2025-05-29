@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [GrandMini_v1.PcbDoc]
+   Generated File[GrandMini_v1_rev.1.0_GBR 2025-05-30 00-35-RoundHoles.TXT]
+   Generated File[GrandMini_v1_rev.1.0_GBR 2025-05-30 00-35-SlotHoles.TXT]
+   Generated File[GrandMini_v1_rev.1.0_GBR 2025-05-30 00-35.LDP]
+   Generated File[GrandMini_v1_rev.1.0_GBR 2025-05-30 00-35.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 0:35:11 On 30.05.2025

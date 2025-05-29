@@ -1,15 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 16:25:02 On 28.05.2025
+Start Output Generation At 0:35:25 On 30.05.2025
 
 Output: Generates pick and place files
 Type  : Pick Place
-From  : Variant [release] of PCB Document [CAM_DVB-C_v2.PcbDoc]
-   Generated File[GrandMini_v1_rev.1.0_Pick&Place 2025-05-28 16-25.txt]
-   Generated File[GrandMini_v1_rev.1.0_Pick&Place 2025-05-28 16-25.csv]
+From  : Variant [release] of PCB Document [GrandMini_v1.PcbDoc]
+   Generated File[GrandMini_v1_rev.1.0_Pick&Place 2025-05-30 00-35.txt]
+   Generated File[GrandMini_v1_rev.1.0_Pick&Place 2025-05-30 00-35.csv]
 
 
 Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 16:25:04 On 28.05.2025
+Finished Output Generation At 0:35:29 On 30.05.2025

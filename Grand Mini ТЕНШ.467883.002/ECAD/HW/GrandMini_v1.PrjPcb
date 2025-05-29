@@ -265,18 +265,26 @@ DocumentPath=Project Outputs for GrandMini_v1\Design Rule Check - GrandMini_v1.h
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for GrandMini_v1\GrandMini_v1_rev.1.0_BOM 2025-05-28 16-11.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for GrandMini_v1\GrandMini_v1_Revision_BOM 2025-05-28 16-04.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
-Name=TENSH
-Value=ТЕНШ.467883.002
+Name=TENSH_PCB
+Value=ТЕНШ.467883.02.11.001
 
 [Parameter2]
+Name=TENSH_FAB
+Value=ТЕНШ.467883.02.11.000
+
+[Parameter3]
 Name=revision
 Value=rev.1.0
 
-[Parameter3]
+[Parameter4]
 Name=company
 Value=SHIWA  NETWORK
 
