@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=TestApp GUI
+Comment=Графический интерфейс для TestApp
+Exec=pkexec testapp_gui
+Icon=testapp_gui
+Terminal=false
+Categories=System;Monitor;
+

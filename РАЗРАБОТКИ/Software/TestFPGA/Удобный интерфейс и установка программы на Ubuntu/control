@@ -1,0 +1,14 @@
+Package: testapp-gui
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libgtk-3-0, policykit-1
+Maintainer: TestApp Team <testapp@example.com>
+Description: Графический интерфейс для TestApp
+ TestApp GUI - это графический интерфейс для программы TestApp,
+ которая взаимодействует с FPGA через PCI Express (PCIe) и
+ предоставляет информацию о версиях IP-ядер, статусе часов и
+ PPS (Pulse Per Second), а также позволяет отслеживать текущие
+ состояния сигналов.
+
