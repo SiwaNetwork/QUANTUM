@@ -1,0 +1,173 @@
+Программа TestApp.c предназначена для взаимодействия с FPGA
+(Field-Programmable Gate Array) через PCI Express (PCIe) и предоставляет
+информацию о версиях IP-ядер, статусе часов и PPS (Pulse Per Second), а
+также позволяет отслеживать текущие состояния сигналов.
+
+Основные функции программы
+
+1.  Аргументы командной строки
+
+    -   Программа принимает один аргумент — базовый адрес PCIe
+        (например, 0xA0000000).
+
+    -   Если аргумент не указан или имеет неверный формат, программа
+        завершается с ошибкой.
+
+2.  Отображение памяти FPGA в пространство пользователя
+
+    -   Используется системный вызов mmap для отображения области памяти
+        FPGA, начиная с указанного базового адреса.
+
+    -   Размер отображаемой памяти определяется константой
+        pci_addr_range (0x02000000).
+
+3.  Чтение версий IP-ядер
+
+    -   Программа считывает версии различных IP-ядер FPGA:
+
+        -   Версия образа FPGA (image_verion_addr).
+
+        -   Версии ядер для работы с часами, временными метками (TS),
+            PPS и TOD.
+
+    -   Адреса регистров для чтения версий определены в заголовочном
+        файле nettimelogic.h.
+
+4.  Проверка состояния часов
+
+    -   Программа проверяет, включены ли часы, и выводит текущий
+        источник тактирования (например, TOD, PTP, RTC и т.д.).
+
+5.  Чтение состояния GPIO
+
+    -   Программа считывает состояние GPIO для мониторинга входных и
+        выходных сигналов, связанных с PPS и часами.
+
+6.  Циклический мониторинг
+
+    -   В бесконечном цикле программа:
+
+        -   Читает текущее состояние GPIO.
+
+        -   Читает ширину импульса PPS.
+
+        -   Выводит эти данные на экран каждую секунду.
+
+Детальное описание ключевых частей кода
+
+1. Отображение памяти FPGA
+
+pcie_base = mmap(0, mapped_size, PROT_READ|PROT_WRITE, MAP_SHARED, fd,
+target & ~(off_t)(page_size - 1));
+
+-   mmap используется для отображения физической памяти FPGA в
+    виртуальное адресное пространство процесса.
+
+-   target — это базовый адрес PCIe, переданный как аргумент.
+
+-   mapped_size — размер отображаемой памяти (в данном случае
+    pci_addr_range).
+
+2. Чтение версий IP-ядер
+
+virt_addr = (char*)pcie_base + NTL_CLK_REGSET_BASE +
+NTL_CLK_CLKVERSION_REG;
+
+read_result = *(volatile uint32_t*)virt_addr;
+
+printf("Clock IP Core Version = 0x%X\n", (unsigned int)read_result);
+
+-   Программа считывает значение регистра версии из соответствующего
+    адреса.
+
+-   Регистры определены в nettimelogic.h (например, NTL_CLK_REGSET_BASE,
+    NTL_CLK_CLKVERSION_REG).
+
+3. Проверка состояния часов
+
+virt_addr = (char*)pcie_base + NTL_CLK_REGSET_BASE +
+NTL_CLK_CLKCONTROL_REG;
+
+read_result = *(volatile uint32_t*)virt_addr;
+
+if (read_result & NTL_CLK_CONTROL_ENABLE_BIT !=
+NTL_CLK_CONTROL_ENABLE_BIT) {
+
+printf("Clock is not enabled \n\r");
+
+}
+
+-   Проверяется бит включения часов (NTL_CLK_CONTROL_ENABLE_BIT).
+
+-   Если бит не установлен, выводится сообщение о том, что часы
+    выключены.
+
+4. Определение источника тактирования
+
+switch ((read_result >> 16) & 0xff) {
+
+case NTL_CLK_SELECT_NONE: printf("Selected Clk Source is: NONE \n");
+break;
+
+case NTL_CLK_SELECT_TOD: printf("Selected Clk Source is: TOD \n");
+break;
+
+// Другие случаи...
+
+}
+
+-   Программа определяет текущий источник тактирования (например, TOD,
+    PTP, RTC) и выводит его на экран.
+
+5. Мониторинг состояния GPIO
+
+virt_addr = (char*)pcie_base + gpio_sel_addr + gpio_in;
+
+read_result = *(volatile uint32_t*)virt_addr;
+
+printf("PPS and Clock Status is = 0x%X\n", (unsigned int)read_result);
+
+-   Считывается состояние входных GPIO для мониторинга сигналов PPS и
+    часов.
+
+-   Значение выводится в шестнадцатеричном формате.
+
+6. Чтение ширины импульса PPS
+
+virt_addr = (char*)pcie_base + NTL_PPSS_REGSET_BASE +
+NTL_PPSS_PULSEWIDTH_REG;
+
+read_result = *(volatile uint32_t*)virt_addr;
+
+printf("PPS pulse width is = %d\n", (unsigned int)read_result);
+
+-   Программа считывает ширину импульса PPS из соответствующего
+    регистра.
+
+Вывод программы
+
+Пример вывода программы: ```
+
+PCIe Base Address is set to 0xA0000000
+
+FPGA Image Version = 0x1234
+
+Clock IP Core Version = 0x5678
+
+Signal TS IP Core Version = 0xABCD
+
+PPS Master IP Core Version = 0xEF01
+
+PPS Slave IP Core Version = 0x2345
+
+TOD Slave IP Core Version = 0x6789
+
+Selected Clk Source is: PTP
+
+PPS and Clock Selection is = 0x000000FF
+
+PPS and Clock Status is = 0x00000001
+
+PPS pulse width is = 100
+
+PPS and Clock Status is = 0x00000001 PPS pulse width is = 100
