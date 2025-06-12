@@ -175,7 +175,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\..\..\SHIWA_OUT.OutJob
+DocumentPath=..\..\..\..\..\..\SHIWA_OUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -235,275 +235,295 @@ Variation35=Designator=R31|UniqueId=\OEKFHOPI|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard-BoardEdgeRout.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.G1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.G2
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.G3
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.G4
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM8
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM9
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM10
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM11
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM14
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM17
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM18
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM28
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM29
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GM30
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.REP
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_BOM 2025-04-24 01-06.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_BOM 2025-04-24 01-12.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument42]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G1
 DItemRevisionGUID=
 
-[GeneratedDocument44]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G2
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G3
-DItemRevisionGUID=
-
-[GeneratedDocument46]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.G4
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GM
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GM19
 DItemRevisionGUID=
 
-[GeneratedDocument53]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GM20
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument57]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument58]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument59]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-04-24.TXT
 DItemRevisionGUID=
 
+[GeneratedDocument17]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.G1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.G2
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.G3
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.G4
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GM
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-30.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.G1
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.G2
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.G3
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.G4
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GM
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-31.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.G1
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.G2
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.G3
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.G4
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GBS
+DItemRevisionGUID=
+
 [GeneratedDocument60]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_P&P 2025-04-24\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.csv
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GM
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_P&P 2025-04-24\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.txt
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GM19
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 01-16.xlsx
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 13-54.xlsx
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument64]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 13-57.xlsx
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument65]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 20-54.xlsx
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument66]
-DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 21-00.xlsx
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\Gerber\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument67]
-DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.csv
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument68]
-DocumentPath=Project Outputs for OCXO_DaughterCard\Pick Place for OCXO_DaughterCard.txt
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12\NC Drill\OCXO_DaughterCard_rev.1.0_GBR 2025-06-12 10-32.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_P&P 2025-04-24\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.csv
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_P&P 2025-04-24\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-04-24.txt
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_P&P 2025-06-12 10-33\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-06-12 10-33.csv
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=FAB\OCXO_DaughterCard_rev.1.0_P&P 2025-06-12 10-33\OCXO_DaughterCard_rev.1.0_Pick&Place 2025-06-12 10-33.txt
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for OCXO_DaughterCard\OCXO_DaughterCard_rev.1.0_RACON_ROD_BOM 2025-04-24 21-00.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
@@ -984,6 +1004,11 @@ OutputName10=BoasTools Html BOM
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+OutputType11=BoardAssistant
+OutputName11=BoardAssistant text documents
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1106,36 +1131,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
