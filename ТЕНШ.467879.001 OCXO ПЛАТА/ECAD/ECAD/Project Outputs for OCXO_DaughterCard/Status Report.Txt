@@ -1,13 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 10:32:52 On 12.06.2025
+Start Output Generation At 12:35:26 On 17.06.2025
 
 Output: Generates pick and place files
 Type  : Pick Place
-From  : Variant [release] of PCB Document [OCXO_DaughterCard.PcbDoc]
+From  : Variant [release] of PCB Document [OCXO_DaughterCard_CH.PcbDoc]
+   Generated File[OCXO_DaughterCard_rev.1.0_Pick&Place 2025-06-17 12-35.txt]
+   Generated File[OCXO_DaughterCard_rev.1.0_Pick&Place 2025-06-17 12-35.csv]
 
 
-Files Generated   : 0
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 10:32:55 On 12.06.2025
+Finished Output Generation At 12:35:29 On 17.06.2025

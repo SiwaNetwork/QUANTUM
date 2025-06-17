@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: OCXO_DaughterCard_CH.PcbDoc   17.06.2025  12:34:51
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L01-Top Layer to Bottom Layer
+ASCII RoundHoles File : OCXO_DaughterCard_rev.1.0_GBR 2025-06-17 12-34.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)           +0mm (0mil)/-0.3mm (12mil)        Round             114       PTH        476.79mm (18.77inch)
+T2      0.3mm (12mil)                                             Round             98        PTH        397.05mm (15.63inch)
+T3      1.02mm (40mil)          +/-0.076mm (3mil)                 Round             2         PTH        2.54mm (0.10inch)
+T4      1.09mm (43mil)          +/-0.076mm (3mil)                 Round             10        PTH        123.26mm (4.85inch)
+T5      3.7mm (146mil)          +/-0.075mm (3mil)                 Round             4         PTH        104.19mm (4.10inch)
+T6      3mm (118mil)            +/-0.051mm (2mil)                 Round             2         NPTH       21.10mm (0.83inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              230
+
+Total Processing Time (hh:mm:ss) : 00:00:00
