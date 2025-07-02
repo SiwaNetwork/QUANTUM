@@ -1,13 +1,55 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [Time4CM4_PCIeCarrier_PCB.PcbDoc]
-   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26-RoundHoles.TXT]
-   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26-SlotHoles.TXT]
-   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26.LDP]
-   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Time4CM4_PCIeCarrier.PrjPcb]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GTO]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GTP]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GTS]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GTL]
+   Generated File[Time4CM4_PCIeCarrier_PCB.G1]
+   Generated File[Time4CM4_PCIeCarrier_PCB.G2]
+   Generated File[Time4CM4_PCIeCarrier_PCB.G3]
+   Generated File[Time4CM4_PCIeCarrier_PCB.G4]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GBL]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GBS]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GBP]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GBO]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM1]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM2]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM3]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM4]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM5]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM6]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM8]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM9]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM10]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM11]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM12]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM13]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM14]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM15]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM16]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM17]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM18]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM19]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM20]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM21]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM22]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM23]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM24]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM25]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM40]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GM42]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GKO]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GPT]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GPB]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GD1]
+   Generated File[Time4CM4_PCIeCarrier_PCB.GG1]
+   Generated File[Time4CM4_PCIeCarrier_PCB.RUL]
+   Generated File[Time4CM4_PCIeCarrier_PCB.EXTREP]
+   Generated File[Time4CM4_PCIeCarrier_PCB.REP]
 
 
-Files Generated   : 4
+Files Generated   : 46
 Documents Printed : 0
 
-Finished Output Generation At 9:26:33 On 02.07.2025
+Finished Output Generation At 10:32:29 On 02.07.2025
