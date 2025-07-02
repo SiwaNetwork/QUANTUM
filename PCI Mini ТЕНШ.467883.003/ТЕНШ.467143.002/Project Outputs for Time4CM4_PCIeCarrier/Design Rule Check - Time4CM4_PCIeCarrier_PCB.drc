@@ -1,0 +1,92 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents\Altium\SM_Project\QUANTUM\PCI Mini าลอุ.467883.003\าลอุ.467143.002\Time4CM4_PCIeCarrier_PCB.PcbDoc
+Date     : 02.07.2025
+Time     : 9:23:39
+
+Processing Rule : Clearance Constraint (Gap=0.762mm) (InDifferentialPairClass('PCIe')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Keep-Out Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.305mm) ((InNet('gnd') AND InPolygon)),((InDifferentialPairClass('All Differential Pairs')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (InNetClass('All Nets')),(All)
+   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad J5-1(49.5mm,59mm) on Multi-Layer And Track (48.75mm,59.75mm)(49.5mm,59mm) on Int4 (PWR) 
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad J5-1(49.5mm,59mm) on Multi-Layer And Track (48.75mm,59.75mm)(49.5mm,59mm) on Int4 (PWR) Location : [X = 201.494mm][Y = 190.756mm]
+Rule Violations :1
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=1.27mm) (Preferred=0.254mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.152mm) (Max=25.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Track (48.75mm,59.75mm)(49.5mm,59mm) on Int4 (PWR) 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm) (InDifferentialPairClass('HDMI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm) (InDifferentialPairClass('ETHERNET_DIFF_IO'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.254mm) (InDifferentialPairClass('PCIe'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('PCONN_TX1') OR InDifferentialPair ('PCONN_TX2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('PCONN_RX1') OR InDifferentialPair ('PCONN_RX2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('CONN_TX1') OR InDifferentialPair ('CONN_TX2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('USB_TX2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('CONN_RX1') OR InDifferentialPair ('CONN_RX2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('USB_TX_INT') OR InDifferentialPair ('USB_RX_INT'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('USB_RX2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('USB_TX1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair ('USB_RX1'))
+Rule Violations :0
+
+Processing Rule : Maximum Via Count Constraint (Limit=3) (InDifferentialPairClass('All Differential Pairs'))
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Waived Violations Of Rule : Clearance Constraint (Gap=0.102mm) (InNetClass('All Nets')),(All)
+   Waived Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad Free-MH1(4.802mm,4.85mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer Waived by Lasse Johnsen at 12.04.2023 15:59:21
+   Waived Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad Free-MH1(4.802mm,4.85mm) on Multi-Layer And Region (0 hole(s)) Top Layer Waived by Lasse Johnsen at 12.04.2023 15:59:17
+Waived Violations :2
+
+
+Violations Detected : 3
+Waived Violations : 2
+Time Elapsed        : 00:00:01

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Documents\Altium\SM_Project\QUANTUM\PCI Mini าลอุ.467883.003\าลอุ.467143.002\Time4CM4_PCIeCarrier_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=time4cm4_pciecarrier_rev.1.0_gbr 2025-07-02 09-26-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=time4cm4_pciecarrier_rev.1.0_gbr 2025-07-02 09-26-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl

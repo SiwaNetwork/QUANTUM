@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Time4CM4_PCIeCarrier_PCB.PcbDoc]
+   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26-RoundHoles.TXT]
+   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26-SlotHoles.TXT]
+   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26.LDP]
+   Generated File[Time4CM4_PCIeCarrier_rev.1.0_GBR 2025-07-02 09-26.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 9:26:33 On 02.07.2025
