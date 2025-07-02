@@ -1,0 +1,12 @@
+Change Component Comment : Designator=R6 Old Comment=0 ohm 0402 New Comment=DNI 0 ohm 0402
+Change Component Comment : Designator=R9 Old Comment=0 ohm 0402 New Comment=DNI 0 ohm 0402
+Change Component Comment : Designator=R10 Old Comment=0 ohm 0402 New Comment=DNI 0 ohm 0402
+Change Component Comment : Designator=J2 Old Comment=SMB_131-3711-301 New Comment=142-0711-301
+Change Component Kind : Designator=R9 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R6 Old Kind=Standard (No BOM) New Kind=Standard
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 153, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Red
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Blue
+Change Class Name : Old Net Name=846-XXXXX_SCH_NEO-M9N_MODULE_2_RECEIVER New Net Name=RECEIVER
+Added Member To Class: ClassName=RECEIVER Member=Component U1 NEO-M9N-00B
+Added Room: Name=RECEIVER
