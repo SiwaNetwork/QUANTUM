@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=M8F
 
 [Preferences]
 PrefsVaultGUID=
@@ -135,7 +136,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TGIQBHPC
 
 [Document6]
-DocumentPath=Time4CM4_Modular.BomDoc
+DocumentPath=..\..\..\..\SHIWA_OUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -145,32 +146,199 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
-DocumentPath=Time4CM4_Modular.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+[ProjectVariant1]
+UniqueId=a909ab35-edcb-49ef-aa5b-d77fefe049d2
+Description=M8F
+AllowFabrication=0
+ParameterCount=0
+VariationCount=12
+Variation1=Designator=U1|UniqueId=\CUGRJGCE|Kind=1|AlternatePart=
+Variation2=Designator=R1|UniqueId=\TIRXDYZA|Kind=1|AlternatePart=
+Variation3=Designator=C6|UniqueId=\FUOAIQPD|Kind=1|AlternatePart=
+Variation4=Designator=C5|UniqueId=\IHDXUWBP|Kind=1|AlternatePart=
+Variation5=Designator=C10|UniqueId=\UVAPSEUG|Kind=1|AlternatePart=
+Variation6=Designator=FB3|UniqueId=\FJNXVKPI|Kind=1|AlternatePart=
+Variation7=Designator=R11|UniqueId=\RBYTHVUT|Kind=1|AlternatePart=
+Variation8=Designator=C8|UniqueId=\HLDOGYMW|Kind=1|AlternatePart=
+Variation9=Designator=L1|UniqueId=\EUMSGSJM|Kind=1|AlternatePart=
+Variation10=Designator=R12|UniqueId=\XLQFJMSY|Kind=1|AlternatePart=
+Variation11=Designator=Y1|UniqueId=\CBHULDGZ|Kind=1|AlternatePart=
+Variation12=Designator=C17|UniqueId=\JWJEGODY|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Time4CM4_Modular_v2\Design Rule Check - Time4CM4_Modular.html
 DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Time4CM4_Modular_v2\Time4CM4_Modular_v2_rev.2_BOM 2025-07-07 12-43.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Output\Time4CM4_Modular_v2_rev.2_BOM 2025-07-07 13-44.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\NC Drill\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.G2
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GM
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\NC Drill\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 12-40\NC Drill\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 12-40.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\NC Drill\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.G1
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.G2
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GM
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\Gerber\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\NC Drill\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Output\Time4CM4_Modular_v2_GBR 2025-07-07 13-43\NC Drill\Time4CM4_Modular_v2_rev.2_GBR 2025-07-07 13-43.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Output\Time4CM4_Modular_v2_P&P 2025-07-07 12-42\Time4CM4_Modular_v2_rev.2_P&P 2025-07-07 12-42.csv
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Output\Time4CM4_Modular_v2_P&P 2025-07-07 12-42\Time4CM4_Modular_v2_rev.2_P&P 2025-07-07 12-42.txt
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Output\Time4CM4_Modular_v2_P&P 2025-07-07 13-44\Time4CM4_Modular_v2_rev.2_P&P 2025-07-07 13-44.csv
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Output\Time4CM4_Modular_v2_P&P 2025-07-07 13-44\Time4CM4_Modular_v2_rev.2_P&P 2025-07-07 13-44.txt
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for Time4CM4_Modular_v2\Time4CM4_Modular_v2_Revision_BOM 2025-07-06 23-37.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for Time4CM4_Modular_v2\Time4CM4_Modular_v2_Revision_BOM 2025-07-06 23-57.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for Time4CM4_Modular_v2\Time4CM4_Modular_v2_Revision_BOM 2025-07-07 00-02.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for Time4CM4_Modular_v2\Time4CM4_Modular_v2_Revision_BOM 2025-07-07 00-24.xlsx
+DItemRevisionGUID=
+
+[Parameter1]
+Name=revision
+Value=rev.2
 
 [Configuration1]
 Name=Sources
@@ -1310,29 +1478,31 @@ Net3=NetName=3V3|NetColor=$000099FF
 Net4=NetName=5V|NetColor=clRed
 Net5=NetName=ETH_SYNC_OUT|NetColor=$008E8145
 Net6=NetName=GND|NetColor=clBlue
-Net7=NetName=GNSS_RESET|NetColor=$004FA86A
-Net8=NetName=GNSS_RF|NetColor=clAqua
-Net9=NetName=GNSS_RF_IN|NetColor=clAqua
-Net10=NetName=GPIO_0|NetColor=clYellow
-Net11=NetName=GPIO_1|NetColor=clYellow
-Net12=NetName=GPIO_10|NetColor=$004FA86A
-Net13=NetName=GPIO_11|NetColor=$004FA86A
-Net14=NetName=GPIO_17|NetColor=clYellow
-Net15=NetName=GPIO_19|NetColor=clYellow
-Net16=NetName=GPIO_21|NetColor=$004FA86A
-Net17=NetName=GPIO_22|NetColor=clYellow
-Net18=NetName=GPIO_44|NetColor=clYellow
-Net19=NetName=GPIO_45|NetColor=clYellow
-Net20=NetName=GPIO_5|NetColor=clBlack
-Net21=NetName=GPIO_6|NetColor=clBlack
-Net22=NetName=GPIO_8|NetColor=$004FA86A
-Net23=NetName=GPIO_9|NetColor=$004FA86A
-Net24=NetName=PPS|NetColor=$00A74E67
-Net25=NetName=PPS_IN|NetColor=$008E8145
-Net26=NetName=PPS_OUT_GNSS|NetColor=$008E8145
-Net27=NetName=TP2|NetColor=clYellow
-Net28=NetName=UART_RX|NetColor=$00A74E67
-Net29=NetName=UART_TX|NetColor=$00A74E67
+Net7=NetName=GNSS_MAX|NetColor=clAqua
+Net8=NetName=GNSS_RESET|NetColor=$004FA86A
+Net9=NetName=GNSS_RF|NetColor=clAqua
+Net10=NetName=GNSS_RF_IN|NetColor=clAqua
+Net11=NetName=GPIO_0|NetColor=clYellow
+Net12=NetName=GPIO_1|NetColor=clYellow
+Net13=NetName=GPIO_10|NetColor=$004FA86A
+Net14=NetName=GPIO_11|NetColor=$004FA86A
+Net15=NetName=GPIO_17|NetColor=clYellow
+Net16=NetName=GPIO_19|NetColor=clYellow
+Net17=NetName=GPIO_21|NetColor=$004FA86A
+Net18=NetName=GPIO_22|NetColor=clYellow
+Net19=NetName=GPIO_44|NetColor=clYellow
+Net20=NetName=GPIO_45|NetColor=clYellow
+Net21=NetName=GPIO_5|NetColor=clBlack
+Net22=NetName=GPIO_6|NetColor=clBlack
+Net23=NetName=GPIO_8|NetColor=$004FA86A
+Net24=NetName=GPIO_9|NetColor=$004FA86A
+Net25=NetName=PPS|NetColor=$00A74E67
+Net26=NetName=PPS_IN|NetColor=$008E8145
+Net27=NetName=PPS_OUT_GNSS|NetColor=$008E8145
+Net28=NetName=PPS_OUT_MAX|NetColor=$00AFA576
+Net29=NetName=TP2|NetColor=clYellow
+Net30=NetName=UART_RX|NetColor=$00A74E67
+Net31=NetName=UART_TX|NetColor=$00A74E67
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
