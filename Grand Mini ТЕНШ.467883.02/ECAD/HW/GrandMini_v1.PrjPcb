@@ -269,24 +269,52 @@ DocumentPath=Project Outputs for GrandMini_v1\GrandMini_v1_rev.1.0_BOM 2025-05-2
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Output\GrandMini_v1_rev.1.0_BOM 2025-07-08 17-39.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Output\GrandMini_v1_rev.1.0_BOM 2025-07-08 17-42.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Output\GrandMini_v1_rev.1.0_BOM 2025-07-08 17-44.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Output\GrandMini_v1_P&P 2025-07-08 17-43\GrandMini_v1_rev.1.0_P&P 2025-07-08 17-43.csv
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Output\GrandMini_v1_P&P 2025-07-08 17-43\GrandMini_v1_rev.1.0_P&P 2025-07-08 17-43.txt
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Output\GrandMini_v1_P&P 2025-07-08 17-44\GrandMini_v1_rev.1.0_P&P 2025-07-08 17-44.csv
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Output\GrandMini_v1_P&P 2025-07-08 17-44\GrandMini_v1_rev.1.0_P&P 2025-07-08 17-44.txt
+DItemRevisionGUID=
+
+[GeneratedDocument10]
 DocumentPath=Project Outputs for GrandMini_v1\GrandMini_v1_Revision_BOM 2025-05-28 16-04.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
-Name=TENSH_PCB
-Value=ТЕНШ.467883.02.11.001
+Name=company
+Value=SHIWA  NETWORK
 
 [Parameter2]
-Name=TENSH_FAB
-Value=ТЕНШ.467883.02.11.000
-
-[Parameter3]
 Name=revision
 Value=rev.1.0
 
+[Parameter3]
+Name=TENSH_FAB
+Value=ТЕНШ.467883.02.11.000
+
 [Parameter4]
-Name=company
-Value=SHIWA  NETWORK
+Name=TENSH_PCB
+Value=ТЕНШ.467883.02.11.001
 
 [Configuration1]
 Name=Sources
@@ -657,6 +685,11 @@ OutputName10=Report Single Pin Nets
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+OutputType11=BoardAssistant
+OutputName11=BoardAssistant text documents
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
 
 [OutputGroup7]
 Name=Other Outputs
