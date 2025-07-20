@@ -1,0 +1,94 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents\Altium\SM_Project\QUANTUM\–¿«–¿¡Œ“ »\Hardware\PTP_SFP\ECAD_V2\ECAD\SFP_RFoF.PcbDoc
+Date     : 20.07.2025
+Time     : 22:16:00
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNet('+12V') OR InNet('+12V_PCIE')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (InNetClass('RF')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (InDifferentialPairClass('PCIE')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.076mm) (Max=2.032mm) (Preferred=0.203mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.203mm) (Max=25.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('DPLL_SMA'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SMA_Length1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SMA_Length2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SMA_Short'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SFP_TX_RX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('DPLL_SFP_TX_RX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('Loopbacks_RX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('Loopbacks_TX'))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.051mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.246mm < 0.305mm) Between Board Edge And Pad P2-A11(55.146mm,3.538mm) on L10-BOT Waived by Julian St. James at 18.01.2024 0:13:42
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.245mm < 0.305mm) Between Board Edge And Pad P2-A12(58.146mm,3.538mm) on L10-BOT Waived by Julian St. James at 18.01.2024 0:13:42
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.246mm < 0.305mm) Between Board Edge And Pad P2-B11(55.146mm,3.538mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:57
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.245mm < 0.305mm) Between Board Edge And Pad P2-B12(58.146mm,3.538mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:57
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.273mm < 0.305mm) Between Board Edge And Track (0.25mm,14.597mm)(0.25mm,32.177mm) on Top Overlay Waived by Julian St. James at 28.01.2024 3:16:59
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.273mm < 0.305mm) Between Board Edge And Track (0.25mm,14.597mm)(4.281mm,14.597mm) on Top Overlay Waived by Julian St. James at 28.01.2024 3:16:59
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.273mm < 0.305mm) Between Board Edge And Track (0.25mm,32.177mm)(4.281mm,32.177mm) on Top Overlay Waived by Julian St. James at 28.01.2024 3:16:59
+Waived Violations :7
+
+
+Violations Detected : 0
+Waived Violations : 7
+Time Elapsed        : 00:00:04
