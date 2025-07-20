@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=PCIE_PERST Pin=P1-2
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Fuchsia
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Blue
+Change Net Color : Old Net Color=RGB(191, 144, 0) New Net Color=RGB(255, 217, 102)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 153, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Red
+Change Net Color : Old Net Color=RGB(191, 144, 0) New Net Color=Lime
+Change Net Color : Old Net Color=RGB(191, 144, 0) New Net Color=Lime
+Change Net Color : Old Net Color=RGB(191, 144, 0) New Net Color=Lime
+Change Net Color : Old Net Color=RGB(191, 144, 0) New Net Color=Lime
+Add Class Member: Failed to add class member : Component J3 M3 screw
+Add Class Member: Failed to add class member : Component J4 M3 screw
