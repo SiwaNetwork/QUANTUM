@@ -157,12 +157,17 @@ UniqueId=07e533a2-fca3-4145-bdc6-832239bfcb45
 Description=release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R15|UniqueId=\RBBSSKDR|Kind=1|AlternatePart=
-Variation2=Designator=R11|UniqueId=\OKHPRUTS|Kind=1|AlternatePart=
-Variation3=Designator=R7|UniqueId=\GPTFOUNV|Kind=1|AlternatePart=
-Variation4=Designator=IC2|UniqueId=\MTKJGUNA|Kind=0|AlternatePart=
-ParamVariationCount=0
+VariationCount=5
+Variation1=Designator=R9|UniqueId=\OKHPRUTS|Kind=1|AlternatePart=
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=R9
+Variation2=Designator=R3|UniqueId=\GPTFOUNV|Kind=1|AlternatePart=
+ParamVariation2=ParameterName=Comment|VariantValue==Value
+ParamDesignator2=R3
+Variation3=Designator=R15|UniqueId=\XPFSOWMK|Kind=1|AlternatePart=
+Variation4=Designator=C6|UniqueId=\VQOTEIJI|Kind=1|AlternatePart=
+Variation5=Designator=IC2|UniqueId=\JMFFLATV|Kind=1|AlternatePart=
+ParamVariationCount=2
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for TIMESTICK_2.1.3\Design Rule Check - TIMESTICK_2.html
@@ -1043,6 +1048,11 @@ OutputName10=BoasTools Html BOM
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+OutputType11=BoardAssistant
+OutputName11=BoardAssistant text documents
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1165,6 +1175,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
