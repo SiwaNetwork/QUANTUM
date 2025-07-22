@@ -1,0 +1,493 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents\Altium\SM_Project\QUANTUM\–¿«–¿¡Œ“ »\Hardware\MiniPTM\ECAD_V5\MiniPTM.PcbDoc
+Date     : 22.07.2025
+Time     : 16:00:50
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNet('+12V') OR InNet('+12V_PCIE')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (InDifferentialPairClass('PCIE')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.076mm) (Max=2.032mm) (Preferred=0.203mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.203mm) (Max=25.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('DPLL_SMA'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SMA_Length1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SMA_Short'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SMA_Length2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('SFP_TX_RX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('DPLL_SFP_TX_RX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('Loopbacks_RX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.076mm) (InNetClass('Loopbacks_TX'))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.051mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Waived Violations Of Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),(All)
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.296mm,-11.096mm) on L01-TOP And Pad J8-18(38mm,-10.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.391mm,-44.491mm) on L01-TOP And Pad J7-12(38mm,-44.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.442mm,-28.608mm) on L01-TOP And Pad J6-13(37.986mm,-29.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.46mm,-54.01mm) on L01-TOP And Pad J1-18(38mm,-53.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.47mm,-57.08mm) on L01-TOP And Pad J1-13(38mm,-57.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.486mm,-23.764mm) on L01-TOP And Pad J6-19(37.986mm,-24.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.494mm,-16.094mm) on L01-TOP And Pad J8-12(38mm,-15.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.518mm,-14.282mm) on L01-TOP And Pad J8-13(38mm,-14.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.526mm,-25.576mm) on L01-TOP And Pad J6-18(37.986mm,-25.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.542mm,-58.892mm) on L01-TOP And Pad J1-12(38mm,-58.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.552mm,-52.198mm) on L01-TOP And Pad J1-19(38mm,-52.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.57mm,-30.42mm) on L01-TOP And Pad J6-12(37.986mm,-29.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.621mm,-42.679mm) on L01-TOP And Pad J7-13(38mm,-43.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (38.715mm,-9.285mm) on L01-TOP And Pad J8-19(38mm,-10mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-12(38mm,-58.35mm) on L01-TOP And Pad J5-P4_12(38mm,-58.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-12(38mm,-58.35mm) on L01-TOP And Track (38.542mm,-58.126mm)(38.981mm,-58.126mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-12(38mm,-58.35mm) on L01-TOP And Track (38.981mm,-58.126mm)(39.426mm,-58.126mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-13(38mm,-57.55mm) on L01-TOP And Pad J5-P4_13(38mm,-57.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-13(38mm,-57.55mm) on L01-TOP And Track (38.47mm,-57.745mm)(39.179mm,-57.745mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Pad J1-13(38mm,-57.55mm) on L01-TOP And Track (39.179mm,-57.745mm)(39.242mm,-57.745mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-18(38mm,-53.55mm) on L01-TOP And Pad J5-P4_18(38mm,-53.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-18(38mm,-53.55mm) on L01-TOP And Track (38.46mm,-53.36mm)(39.34mm,-53.36mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-19(38mm,-52.75mm) on L01-TOP And Pad J5-P4_19(38mm,-52.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-19(38mm,-52.75mm) on L01-TOP And Track (38.552mm,-52.979mm)(39.378mm,-52.979mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_12(38mm,-15.6mm) on L01-TOP And Pad J8-12(38mm,-15.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_13(38mm,-14.8mm) on L01-TOP And Pad J8-13(38mm,-14.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_18(38mm,-10.8mm) on L01-TOP And Pad J8-18(38mm,-10.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_19(38mm,-10mm) on L01-TOP And Pad J8-19(38mm,-10mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_12(38mm,-29.85mm) on L01-TOP And Pad J6-12(37.986mm,-29.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_13(38mm,-29.05mm) on L01-TOP And Pad J6-13(37.986mm,-29.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_18(38mm,-25.05mm) on L01-TOP And Pad J6-18(37.986mm,-25.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_19(38mm,-24.25mm) on L01-TOP And Pad J6-19(37.986mm,-24.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_12(38mm,-44.1mm) on L01-TOP And Pad J7-12(38mm,-44.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_13(38mm,-43.3mm) on L01-TOP And Pad J7-13(38mm,-43.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_18(38mm,-39.3mm) on L01-TOP And Pad J7-18(38mm,-39.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_19(38mm,-38.5mm) on L01-TOP And Pad J7-19(38mm,-38.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-12(37.986mm,-29.85mm) on L01-TOP And Track (38.57mm,-29.614mm)(39mm,-29.614mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-12(37.986mm,-29.85mm) on L01-TOP And Track (39mm,-29.614mm)(39.318mm,-29.614mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-13(37.986mm,-29.05mm) on L01-TOP And Track (38.442mm,-29.233mm)(39.308mm,-29.233mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-18(37.986mm,-25.05mm) on L01-TOP And Track (38.526mm,-24.832mm)(39.192mm,-24.832mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-19(37.986mm,-24.25mm) on L01-TOP And Track (38.486mm,-24.451mm)(39.325mm,-24.451mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-12(38mm,-44.1mm) on L01-TOP And Track (38.391mm,-43.938mm)(39.387mm,-43.938mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-13(38mm,-43.3mm) on L01-TOP And Track (38.621mm,-43.557mm)(39.389mm,-43.557mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:08:30
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (38.186mm,-39.113mm)(38.988mm,-39.113mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (38.988mm,-39.113mm)(39.011mm,-39.09mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (38mm,-39.3mm)(38.186mm,-39.113mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (39.011mm,-39.09mm)(40.055mm,-39.09mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (38.186mm,-38.686mm)(38.988mm,-38.686mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (38.988mm,-38.686mm)(39.011mm,-38.709mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (38mm,-38.5mm)(38.186mm,-38.686mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (39.011mm,-38.709mm)(40.054mm,-38.709mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:21:37
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-12(38mm,-15.6mm) on L01-TOP And Track (38.494mm,-15.396mm)(40.603mm,-15.396mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-13(38mm,-14.8mm) on L01-TOP And Track (38.518mm,-15.015mm)(40.576mm,-15.015mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-18(38mm,-10.8mm) on L01-TOP And Track (38.296mm,-10.677mm)(39.756mm,-10.677mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-19(38mm,-10mm) on L01-TOP And Track (38.715mm,-10.296mm)(40.724mm,-10.296mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+Waived Violations :55
+
+Waived Violations Of Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-1(29.8mm,-52.35mm) on L01-TOP And Pad J5-P4_1(29.8mm,-52.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-1(29.8mm,-52.35mm) on L01-TOP And Track (28.323mm,-52.35mm)(29.8mm,-52.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-10(29.8mm,-59.55mm) on L01-TOP And Pad J5-P4_10(29.8mm,-59.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-10(29.8mm,-59.55mm) on L01-TOP And Track (28.261mm,-59.55mm)(29.8mm,-59.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-11(38mm,-59.15mm) on L01-TOP And Pad J5-P4_11(38mm,-59.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-11(38mm,-59.15mm) on L01-TOP And Track (36.4mm,-59.15mm)(38mm,-59.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-14(38mm,-56.75mm) on L01-TOP And Pad J5-P4_14(38mm,-56.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:54:45
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-14(38mm,-56.75mm) on L01-TOP And Track (35.87mm,-56.75mm)(38mm,-56.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 21:54:45
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-15(38mm,-55.95mm) on L01-TOP And Pad J5-P4_15(38mm,-55.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-15(38mm,-55.95mm) on L01-TOP And Track (36.171mm,-55.95mm)(37.254mm,-55.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-16(38mm,-55.15mm) on L01-TOP And Pad J5-P4_16(38mm,-55.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-16(38mm,-55.15mm) on L01-TOP And Track (36.25mm,-55.15mm)(38mm,-55.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-17(38mm,-54.35mm) on L01-TOP And Pad J5-P4_17(38mm,-54.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-17(38mm,-54.35mm) on L01-TOP And Track (36.348mm,-54.35mm)(38mm,-54.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-2(29.8mm,-53.15mm) on L01-TOP And Pad J5-P4_2(29.8mm,-53.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-2(29.8mm,-53.15mm) on L01-TOP And Track (28.268mm,-53.15mm)(29.8mm,-53.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-20(38mm,-51.95mm) on L01-TOP And Pad J5-P4_20(38mm,-51.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-20(38mm,-51.95mm) on L01-TOP And Track (36.366mm,-51.95mm)(38mm,-51.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-3(29.8mm,-53.95mm) on L01-TOP And Pad J5-P4_3(29.8mm,-53.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-3(29.8mm,-53.95mm) on L01-TOP And Track (28.349mm,-53.95mm)(29.8mm,-53.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-4(29.8mm,-54.75mm) on L01-TOP And Pad J5-P4_4(29.8mm,-54.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-4(29.8mm,-54.75mm) on L01-TOP And Track (27.806mm,-54.75mm)(29.8mm,-54.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-5(29.8mm,-55.55mm) on L01-TOP And Pad J5-P4_5(29.8mm,-55.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-5(29.8mm,-55.55mm) on L01-TOP And Track (28.094mm,-55.55mm)(29.8mm,-55.55mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-6(29.8mm,-56.35mm) on L01-TOP And Pad J5-P4_6(29.8mm,-56.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-6(29.8mm,-56.35mm) on L01-TOP And Track (28.143mm,-56.35mm)(29.8mm,-56.35mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-7(29.8mm,-57.15mm) on L01-TOP And Pad J5-P4_7(29.8mm,-57.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-7(29.8mm,-57.15mm) on L01-TOP And Track (28.361mm,-57.15mm)(29.8mm,-57.15mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-8(29.8mm,-57.95mm) on L01-TOP And Pad J5-P4_8(29.8mm,-57.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-8(29.8mm,-57.95mm) on L01-TOP And Track (28.129mm,-57.95mm)(29.8mm,-57.95mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:56
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-9(29.8mm,-58.75mm) on L01-TOP And Pad J5-P4_9(29.8mm,-58.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J1-9(29.8mm,-58.75mm) on L01-TOP And Track (28.342mm,-58.75mm)(29.8mm,-58.75mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:06:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_1(29.8mm,-9.6mm) on L01-TOP And Pad J8-1(29.8mm,-9.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_10(29.8mm,-16.8mm) on L01-TOP And Pad J8-10(29.8mm,-16.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_11(38mm,-16.4mm) on L01-TOP And Pad J8-11(38mm,-16.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_14(38mm,-14mm) on L01-TOP And Pad J8-14(38mm,-14mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_15(38mm,-13.2mm) on L01-TOP And Pad J8-15(38mm,-13.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_16(38mm,-12.4mm) on L01-TOP And Pad J8-16(38mm,-12.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_17(38mm,-11.6mm) on L01-TOP And Pad J8-17(38mm,-11.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_2(29.8mm,-10.4mm) on L01-TOP And Pad J8-2(29.8mm,-10.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_20(38mm,-9.2mm) on L01-TOP And Pad J8-20(38mm,-9.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_3(29.8mm,-11.2mm) on L01-TOP And Pad J8-3(29.8mm,-11.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_4(29.8mm,-12mm) on L01-TOP And Pad J8-4(29.8mm,-12mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_5(29.8mm,-12.8mm) on L01-TOP And Pad J8-5(29.8mm,-12.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_6(29.8mm,-13.6mm) on L01-TOP And Pad J8-6(29.8mm,-13.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_7(29.8mm,-14.4mm) on L01-TOP And Pad J8-7(29.8mm,-14.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_8(29.8mm,-15.2mm) on L01-TOP And Pad J8-8(29.8mm,-15.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P1_9(29.8mm,-16mm) on L01-TOP And Pad J8-9(29.8mm,-16mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_1(29.8mm,-23.85mm) on L01-TOP And Pad J6-1(29.786mm,-23.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_10(29.8mm,-31.05mm) on L01-TOP And Pad J6-10(29.786mm,-31.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_11(38mm,-30.65mm) on L01-TOP And Pad J6-11(37.986mm,-30.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_14(38mm,-28.25mm) on L01-TOP And Pad J6-14(37.986mm,-28.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_15(38mm,-27.45mm) on L01-TOP And Pad J6-15(37.986mm,-27.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_16(38mm,-26.65mm) on L01-TOP And Pad J6-16(37.986mm,-26.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_17(38mm,-25.85mm) on L01-TOP And Pad J6-17(37.986mm,-25.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_2(29.8mm,-24.65mm) on L01-TOP And Pad J6-2(29.786mm,-24.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_20(38mm,-23.45mm) on L01-TOP And Pad J6-20(37.986mm,-23.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_3(29.8mm,-25.45mm) on L01-TOP And Pad J6-3(29.786mm,-25.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_4(29.8mm,-26.25mm) on L01-TOP And Pad J6-4(29.786mm,-26.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_5(29.8mm,-27.05mm) on L01-TOP And Pad J6-5(29.786mm,-27.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_6(29.8mm,-27.85mm) on L01-TOP And Pad J6-6(29.786mm,-27.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_7(29.8mm,-28.65mm) on L01-TOP And Pad J6-7(29.786mm,-28.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_8(29.8mm,-29.45mm) on L01-TOP And Pad J6-8(29.786mm,-29.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P2_9(29.8mm,-30.25mm) on L01-TOP And Pad J6-9(29.786mm,-30.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_1(29.8mm,-38.1mm) on L01-TOP And Pad J7-1(29.8mm,-38.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_10(29.8mm,-45.3mm) on L01-TOP And Pad J7-10(29.8mm,-45.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_11(38mm,-44.9mm) on L01-TOP And Pad J7-11(38mm,-44.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_14(38mm,-42.5mm) on L01-TOP And Pad J7-14(38mm,-42.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_15(38mm,-41.7mm) on L01-TOP And Pad J7-15(38mm,-41.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_16(38mm,-40.9mm) on L01-TOP And Pad J7-16(38mm,-40.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_17(38mm,-40.1mm) on L01-TOP And Pad J7-17(38mm,-40.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_2(29.8mm,-38.9mm) on L01-TOP And Pad J7-2(29.8mm,-38.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_20(38mm,-37.7mm) on L01-TOP And Pad J7-20(38mm,-37.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_3(29.8mm,-39.7mm) on L01-TOP And Pad J7-3(29.8mm,-39.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_4(29.8mm,-40.5mm) on L01-TOP And Pad J7-4(29.8mm,-40.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_5(29.8mm,-41.3mm) on L01-TOP And Pad J7-5(29.8mm,-41.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_6(29.8mm,-42.1mm) on L01-TOP And Pad J7-6(29.8mm,-42.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_7(29.8mm,-42.9mm) on L01-TOP And Pad J7-7(29.8mm,-42.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_8(29.8mm,-43.7mm) on L01-TOP And Pad J7-8(29.8mm,-43.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J5-P3_9(29.8mm,-44.5mm) on L01-TOP And Pad J7-9(29.8mm,-44.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:09
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-1(29.786mm,-23.85mm) on L01-TOP And Track (28.323mm,-23.85mm)(29.8mm,-23.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-10(29.786mm,-31.05mm) on L01-TOP And Track (28.261mm,-31.05mm)(29.8mm,-31.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-11(37.986mm,-30.65mm) on L01-TOP And Track (36.4mm,-30.65mm)(38mm,-30.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-14(37.986mm,-28.25mm) on L01-TOP And Track (38mm,-28.25mm)(39.54mm,-28.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-15(37.986mm,-27.45mm) on L01-TOP And Track (36.171mm,-27.45mm)(37.254mm,-27.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-16(37.986mm,-26.65mm) on L01-TOP And Track (36.25mm,-26.65mm)(38mm,-26.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-17(37.986mm,-25.85mm) on L01-TOP And Track (36.348mm,-25.85mm)(38mm,-25.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-2(29.786mm,-24.65mm) on L01-TOP And Track (28.268mm,-24.65mm)(29.8mm,-24.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-20(37.986mm,-23.45mm) on L01-TOP And Track (36.366mm,-23.45mm)(38mm,-23.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-3(29.786mm,-25.45mm) on L01-TOP And Track (28.349mm,-25.45mm)(29.8mm,-25.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-4(29.786mm,-26.25mm) on L01-TOP And Track (27.806mm,-26.25mm)(29.8mm,-26.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-5(29.786mm,-27.05mm) on L01-TOP And Track (28.094mm,-27.05mm)(29.8mm,-27.05mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-6(29.786mm,-27.85mm) on L01-TOP And Track (28.143mm,-27.85mm)(29.8mm,-27.85mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-7(29.786mm,-28.65mm) on L01-TOP And Track (28.361mm,-28.65mm)(29.8mm,-28.65mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-8(29.786mm,-29.45mm) on L01-TOP And Track (28.129mm,-29.45mm)(29.8mm,-29.45mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J6-9(29.786mm,-30.25mm) on L01-TOP And Track (28.342mm,-30.25mm)(29.8mm,-30.25mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-1(29.8mm,-38.1mm) on L01-TOP And Track (28.323mm,-38.1mm)(29.8mm,-38.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-10(29.8mm,-45.3mm) on L01-TOP And Track (28.261mm,-45.3mm)(29.8mm,-45.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-11(38mm,-44.9mm) on L01-TOP And Track (36.4mm,-44.9mm)(38mm,-44.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-14(38mm,-42.5mm) on L01-TOP And Track (38mm,-42.5mm)(39.54mm,-42.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-15(38mm,-41.7mm) on L01-TOP And Track (36.171mm,-41.7mm)(37.254mm,-41.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-16(38mm,-40.9mm) on L01-TOP And Track (36.25mm,-40.9mm)(38mm,-40.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-17(38mm,-40.1mm) on L01-TOP And Track (36.348mm,-40.1mm)(38mm,-40.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-2(29.8mm,-38.9mm) on L01-TOP And Track (28.268mm,-38.9mm)(29.8mm,-38.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-20(38mm,-37.7mm) on L01-TOP And Track (36.479mm,-37.7mm)(38mm,-37.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-3(29.8mm,-39.7mm) on L01-TOP And Track (28.349mm,-39.7mm)(29.8mm,-39.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-4(29.8mm,-40.5mm) on L01-TOP And Track (27.806mm,-40.5mm)(29.8mm,-40.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-4(29.8mm,-40.5mm) on L01-TOP And Track (29.8mm,-40.5mm)(31.325mm,-40.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-5(29.8mm,-41.3mm) on L01-TOP And Track (28.094mm,-41.3mm)(29.8mm,-41.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-5(29.8mm,-41.3mm) on L01-TOP And Track (29.8mm,-41.3mm)(31.242mm,-41.3mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-6(29.8mm,-42.1mm) on L01-TOP And Track (28.143mm,-42.1mm)(29.8mm,-42.1mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-7(29.8mm,-42.9mm) on L01-TOP And Track (28.361mm,-42.9mm)(29.8mm,-42.9mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-8(29.8mm,-43.7mm) on L01-TOP And Track (28.129mm,-43.7mm)(29.8mm,-43.7mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:07:21
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J7-9(29.8mm,-44.5mm) on L01-TOP And Track (28.342mm,-44.5mm)(29.8mm,-44.5mm) on L01-TOP Waived by Julian St. James at 28.01.2024 3:10:11
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-1(29.8mm,-9.6mm) on L01-TOP And Track (28.386mm,-9.596mm)(29.796mm,-9.596mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-1(29.8mm,-9.6mm) on L01-TOP And Track (29.796mm,-9.596mm)(29.8mm,-9.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:22
+   Waived Violation between Clearance Constraint: (0.002mm < 0.127mm) Between Pad J8-10(29.8mm,-16.8mm) on L01-TOP And Track (28.249mm,-17.096mm)(28.544mm,-16.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-10(29.8mm,-16.8mm) on L01-TOP And Track (28.544mm,-16.8mm)(29.8mm,-16.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-11(38mm,-16.4mm) on L01-TOP And Track (36.211mm,-16.4mm)(38.75mm,-16.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-14(38mm,-14mm) on L01-TOP And Track (38mm,-14mm)(39.739mm,-14mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-15(38mm,-13.2mm) on L01-TOP And Track (36.215mm,-13.2mm)(38mm,-13.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-16(38mm,-12.4mm) on L01-TOP And Track (35.949mm,-12.4mm)(37.254mm,-12.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-17(38mm,-11.6mm) on L01-TOP And Track (35.988mm,-11.6mm)(38mm,-11.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-2(29.8mm,-10.4mm) on L01-TOP And Track (27.92mm,-10.4mm)(29.8mm,-10.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-20(38mm,-9.2mm) on L01-TOP And Track (35.991mm,-9.2mm)(38mm,-9.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-3(29.8mm,-11.2mm) on L01-TOP And Track (28.204mm,-11.2mm)(29.8mm,-11.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-4(29.8mm,-12mm) on L01-TOP And Track (28.101mm,-12mm)(29.8mm,-12mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-5(29.8mm,-12.8mm) on L01-TOP And Track (28.015mm,-12.8mm)(29.8mm,-12.8mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-6(29.8mm,-13.6mm) on L01-TOP And Track (28.209mm,-13.6mm)(29.8mm,-13.6mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-7(29.8mm,-14.4mm) on L01-TOP And Track (28.32mm,-14.4mm)(29.8mm,-14.4mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-8(29.8mm,-15.2mm) on L01-TOP And Track (28.368mm,-15.2mm)(29.8mm,-15.2mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-9(29.8mm,-16mm) on L01-TOP And Track (28.412mm,-16.004mm)(29.796mm,-16.004mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad J8-9(29.8mm,-16mm) on L01-TOP And Track (29.796mm,-16.004mm)(29.8mm,-16mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:27
+Waived Violations :133
+
+Waived Violations Of Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.296mm,-11.096mm) on L01-TOP And Pad J8-18(38mm,-10.8mm) on L01-TOP Location : [X = 197.548mm][Y = 221.824mm]Waived by Julian St. James at 24.04.2024 19:50:34
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.391mm,-44.491mm) on L01-TOP And Pad J7-12(38mm,-44.1mm) on L01-TOP Location : [X = 197.595mm][Y = 188.544mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.442mm,-28.608mm) on L01-TOP And Pad J6-13(37.986mm,-29.05mm) on L01-TOP Location : [X = 197.621mm][Y = 203.42mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.46mm,-54.01mm) on L01-TOP And Pad J1-18(38mm,-53.55mm) on L01-TOP Location : [X = 197.63mm][Y = 179.105mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.47mm,-57.08mm) on L01-TOP And Pad J1-13(38mm,-57.55mm) on L01-TOP Location : [X = 197.635mm][Y = 174.92mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.486mm,-23.764mm) on L01-TOP And Pad J6-19(37.986mm,-24.25mm) on L01-TOP Location : [X = 197.643mm][Y = 208.22mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.494mm,-16.094mm) on L01-TOP And Pad J8-12(38mm,-15.6mm) on L01-TOP Location : [X = 197.647mm][Y = 217.055mm]Waived by Julian St. James at 24.04.2024 19:50:34
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.518mm,-14.282mm) on L01-TOP And Pad J8-13(38mm,-14.8mm) on L01-TOP Location : [X = 197.659mm][Y = 217.67mm]Waived by Julian St. James at 24.04.2024 19:50:34
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.526mm,-25.576mm) on L01-TOP And Pad J6-18(37.986mm,-25.05mm) on L01-TOP Location : [X = 197.663mm][Y = 207.605mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.542mm,-58.892mm) on L01-TOP And Pad J1-12(38mm,-58.35mm) on L01-TOP Location : [X = 197.671mm][Y = 174.305mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.552mm,-52.198mm) on L01-TOP And Pad J1-19(38mm,-52.75mm) on L01-TOP Location : [X = 197.676mm][Y = 179.72mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.57mm,-30.42mm) on L01-TOP And Pad J6-12(37.986mm,-29.85mm) on L01-TOP Location : [X = 197.685mm][Y = 202.805mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.621mm,-42.679mm) on L01-TOP And Pad J7-13(38mm,-43.3mm) on L01-TOP Location : [X = 197.71mm][Y = 189.17mm]Waived by Julian St. James at 28.01.2024 3:08:40
+   Waived Violation between Short-Circuit Constraint: Between Arc (38.715mm,-9.285mm) on L01-TOP And Pad J8-19(38mm,-10mm) on L01-TOP Location : [X = 197.748mm][Y = 222.47mm]Waived by Julian St. James at 24.04.2024 19:50:34
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-1(29.8mm,-52.35mm) on L01-TOP And Pad J5-P4_1(29.8mm,-52.35mm) on L01-TOP Location : [X = 189.2mm][Y = 180.212mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-1(29.8mm,-52.35mm) on L01-TOP And Track (28.323mm,-52.35mm)(29.8mm,-52.35mm) on L01-TOP Location : [X = 188.815mm][Y = 180.212mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-10(29.8mm,-59.55mm) on L01-TOP And Pad J5-P4_10(29.8mm,-59.55mm) on L01-TOP Location : [X = 189.2mm][Y = 173.012mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-10(29.8mm,-59.55mm) on L01-TOP And Track (28.261mm,-59.55mm)(29.8mm,-59.55mm) on L01-TOP Location : [X = 188.815mm][Y = 173.012mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-11(38mm,-59.15mm) on L01-TOP And Pad J5-P4_11(38mm,-59.15mm) on L01-TOP Location : [X = 197.4mm][Y = 173.412mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-11(38mm,-59.15mm) on L01-TOP And Track (36.4mm,-59.15mm)(38mm,-59.15mm) on L01-TOP Location : [X = 197.015mm][Y = 173.412mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-12(38mm,-58.35mm) on L01-TOP And Pad J5-P4_12(38mm,-58.35mm) on L01-TOP Location : [X = 197.4mm][Y = 174.212mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-12(38mm,-58.35mm) on L01-TOP And Track (38.542mm,-58.126mm)(38.981mm,-58.126mm) on L01-TOP Location : [X = 198.139mm][Y = 174.417mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-12(38mm,-58.35mm) on L01-TOP And Track (38.981mm,-58.126mm)(39.426mm,-58.126mm) on L01-TOP Location : [X = 198.358mm][Y = 174.417mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-13(38mm,-57.55mm) on L01-TOP And Pad J5-P4_13(38mm,-57.55mm) on L01-TOP Location : [X = 197.4mm][Y = 175.012mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-13(38mm,-57.55mm) on L01-TOP And Track (38.47mm,-57.745mm)(39.179mm,-57.745mm) on L01-TOP Location : [X = 198.102mm][Y = 174.823mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-14(38mm,-56.75mm) on L01-TOP And Pad J5-P4_14(38mm,-56.75mm) on L01-TOP Location : [X = 197.4mm][Y = 175.812mm]Waived by Julian St. James at 28.01.2024 21:54:50
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-14(38mm,-56.75mm) on L01-TOP And Track (35.87mm,-56.75mm)(38mm,-56.75mm) on L01-TOP Location : [X = 196.996mm][Y = 175.812mm]Waived by Julian St. James at 28.01.2024 21:54:50
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-15(38mm,-55.95mm) on L01-TOP And Pad J5-P4_15(38mm,-55.95mm) on L01-TOP Location : [X = 197.4mm][Y = 176.612mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-15(38mm,-55.95mm) on L01-TOP And Track (36.171mm,-55.95mm)(37.254mm,-55.95mm) on L01-TOP Location : [X = 196.655mm][Y = 176.612mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-16(38mm,-55.15mm) on L01-TOP And Pad J5-P4_16(38mm,-55.15mm) on L01-TOP Location : [X = 197.4mm][Y = 177.412mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-16(38mm,-55.15mm) on L01-TOP And Track (36.25mm,-55.15mm)(38mm,-55.15mm) on L01-TOP Location : [X = 197.015mm][Y = 177.412mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-17(38mm,-54.35mm) on L01-TOP And Pad J5-P4_17(38mm,-54.35mm) on L01-TOP Location : [X = 197.4mm][Y = 178.212mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-17(38mm,-54.35mm) on L01-TOP And Track (36.348mm,-54.35mm)(38mm,-54.35mm) on L01-TOP Location : [X = 197.015mm][Y = 178.212mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-18(38mm,-53.55mm) on L01-TOP And Pad J5-P4_18(38mm,-53.55mm) on L01-TOP Location : [X = 197.4mm][Y = 179.012mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-18(38mm,-53.55mm) on L01-TOP And Track (38.46mm,-53.36mm)(39.34mm,-53.36mm) on L01-TOP Location : [X = 198.098mm][Y = 179.2mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-19(38mm,-52.75mm) on L01-TOP And Pad J5-P4_19(38mm,-52.75mm) on L01-TOP Location : [X = 197.4mm][Y = 179.812mm]Waived by Julian St. James at 28.01.2024 3:09:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-19(38mm,-52.75mm) on L01-TOP And Track (38.552mm,-52.979mm)(39.378mm,-52.979mm) on L01-TOP Location : [X = 198.144mm][Y = 179.606mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-2(29.8mm,-53.15mm) on L01-TOP And Pad J5-P4_2(29.8mm,-53.15mm) on L01-TOP Location : [X = 189.2mm][Y = 179.412mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-2(29.8mm,-53.15mm) on L01-TOP And Track (28.268mm,-53.15mm)(29.8mm,-53.15mm) on L01-TOP Location : [X = 188.747mm][Y = 179.412mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-20(38mm,-51.95mm) on L01-TOP And Pad J5-P4_20(38mm,-51.95mm) on L01-TOP Location : [X = 197.4mm][Y = 180.612mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-20(38mm,-51.95mm) on L01-TOP And Track (36.366mm,-51.95mm)(38mm,-51.95mm) on L01-TOP Location : [X = 197.015mm][Y = 180.612mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-3(29.8mm,-53.95mm) on L01-TOP And Pad J5-P4_3(29.8mm,-53.95mm) on L01-TOP Location : [X = 189.2mm][Y = 178.612mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-3(29.8mm,-53.95mm) on L01-TOP And Track (28.349mm,-53.95mm)(29.8mm,-53.95mm) on L01-TOP Location : [X = 188.747mm][Y = 178.612mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-4(29.8mm,-54.75mm) on L01-TOP And Pad J5-P4_4(29.8mm,-54.75mm) on L01-TOP Location : [X = 189.2mm][Y = 177.812mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-4(29.8mm,-54.75mm) on L01-TOP And Track (27.806mm,-54.75mm)(29.8mm,-54.75mm) on L01-TOP Location : [X = 188.747mm][Y = 177.812mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-5(29.8mm,-55.55mm) on L01-TOP And Pad J5-P4_5(29.8mm,-55.55mm) on L01-TOP Location : [X = 189.2mm][Y = 177.012mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-5(29.8mm,-55.55mm) on L01-TOP And Track (28.094mm,-55.55mm)(29.8mm,-55.55mm) on L01-TOP Location : [X = 188.747mm][Y = 177.012mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-6(29.8mm,-56.35mm) on L01-TOP And Pad J5-P4_6(29.8mm,-56.35mm) on L01-TOP Location : [X = 189.2mm][Y = 176.212mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-6(29.8mm,-56.35mm) on L01-TOP And Track (28.143mm,-56.35mm)(29.8mm,-56.35mm) on L01-TOP Location : [X = 188.747mm][Y = 176.212mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-7(29.8mm,-57.15mm) on L01-TOP And Pad J5-P4_7(29.8mm,-57.15mm) on L01-TOP Location : [X = 189.2mm][Y = 175.412mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-7(29.8mm,-57.15mm) on L01-TOP And Track (28.361mm,-57.15mm)(29.8mm,-57.15mm) on L01-TOP Location : [X = 188.747mm][Y = 175.412mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-8(29.8mm,-57.95mm) on L01-TOP And Pad J5-P4_8(29.8mm,-57.95mm) on L01-TOP Location : [X = 189.2mm][Y = 174.612mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-8(29.8mm,-57.95mm) on L01-TOP And Track (28.129mm,-57.95mm)(29.8mm,-57.95mm) on L01-TOP Location : [X = 188.747mm][Y = 174.612mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-9(29.8mm,-58.75mm) on L01-TOP And Pad J5-P4_9(29.8mm,-58.75mm) on L01-TOP Location : [X = 189.2mm][Y = 173.812mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-9(29.8mm,-58.75mm) on L01-TOP And Track (28.342mm,-58.75mm)(29.8mm,-58.75mm) on L01-TOP Location : [X = 188.815mm][Y = 173.812mm]Waived by Julian St. James at 28.01.2024 3:09:12
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-MH1(33.9mm,-50.95mm) on Multi-Layer And Pad J5-(33.9mm,-50.95mm) on Multi-Layer Location : [X = 193.3mm][Y = 181.612mm]Waived by Julian St. James at 28.01.2024 3:10:18
+   Waived Violation between Short-Circuit Constraint: Between Pad J1-MH2(33.9mm,-60.55mm) on Multi-Layer And Pad J5-(33.9mm,-60.55mm) on Multi-Layer Location : [X = 193.3mm][Y = 172.012mm]Waived by Julian St. James at 28.01.2024 3:10:18
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-(33.9mm,-17.8mm) on Multi-Layer And Pad J8-MH2(33.9mm,-17.8mm) on Multi-Layer Location : [X = 193.3mm][Y = 214.762mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-(33.9mm,-22.45mm) on Multi-Layer And Pad J6-MH1(33.886mm,-22.45mm) on Multi-Layer Location : [X = 193.286mm][Y = 210.112mm]Waived by Julian St. James at 28.01.2024 3:10:18
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-(33.9mm,-32.05mm) on Multi-Layer And Pad J6-MH2(33.886mm,-32.05mm) on Multi-Layer Location : [X = 193.286mm][Y = 200.512mm]Waived by Julian St. James at 28.01.2024 3:10:18
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-(33.9mm,-36.7mm) on Multi-Layer And Pad J7-MH1(33.9mm,-36.7mm) on Multi-Layer Location : [X = 193.3mm][Y = 195.862mm]Waived by Julian St. James at 28.01.2024 3:10:18
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-(33.9mm,-46.3mm) on Multi-Layer And Pad J7-MH2(33.9mm,-46.3mm) on Multi-Layer Location : [X = 193.3mm][Y = 186.262mm]Waived by Julian St. James at 28.01.2024 3:10:18
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-(33.9mm,-8.2mm) on Multi-Layer And Pad J8-MH1(33.9mm,-8.2mm) on Multi-Layer Location : [X = 193.3mm][Y = 224.362mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_1(29.8mm,-9.6mm) on L01-TOP And Pad J8-1(29.8mm,-9.6mm) on L01-TOP Location : [X = 189.2mm][Y = 222.962mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_10(29.8mm,-16.8mm) on L01-TOP And Pad J8-10(29.8mm,-16.8mm) on L01-TOP Location : [X = 189.2mm][Y = 215.762mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_11(38mm,-16.4mm) on L01-TOP And Pad J8-11(38mm,-16.4mm) on L01-TOP Location : [X = 197.4mm][Y = 216.162mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_12(38mm,-15.6mm) on L01-TOP And Pad J8-12(38mm,-15.6mm) on L01-TOP Location : [X = 197.4mm][Y = 216.962mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_13(38mm,-14.8mm) on L01-TOP And Pad J8-13(38mm,-14.8mm) on L01-TOP Location : [X = 197.4mm][Y = 217.762mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_14(38mm,-14mm) on L01-TOP And Pad J8-14(38mm,-14mm) on L01-TOP Location : [X = 197.4mm][Y = 218.562mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_15(38mm,-13.2mm) on L01-TOP And Pad J8-15(38mm,-13.2mm) on L01-TOP Location : [X = 197.4mm][Y = 219.362mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_16(38mm,-12.4mm) on L01-TOP And Pad J8-16(38mm,-12.4mm) on L01-TOP Location : [X = 197.4mm][Y = 220.162mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_17(38mm,-11.6mm) on L01-TOP And Pad J8-17(38mm,-11.6mm) on L01-TOP Location : [X = 197.4mm][Y = 220.962mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_18(38mm,-10.8mm) on L01-TOP And Pad J8-18(38mm,-10.8mm) on L01-TOP Location : [X = 197.4mm][Y = 221.762mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_19(38mm,-10mm) on L01-TOP And Pad J8-19(38mm,-10mm) on L01-TOP Location : [X = 197.4mm][Y = 222.562mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_2(29.8mm,-10.4mm) on L01-TOP And Pad J8-2(29.8mm,-10.4mm) on L01-TOP Location : [X = 189.2mm][Y = 222.162mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_20(38mm,-9.2mm) on L01-TOP And Pad J8-20(38mm,-9.2mm) on L01-TOP Location : [X = 197.4mm][Y = 223.362mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_3(29.8mm,-11.2mm) on L01-TOP And Pad J8-3(29.8mm,-11.2mm) on L01-TOP Location : [X = 189.2mm][Y = 221.362mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_4(29.8mm,-12mm) on L01-TOP And Pad J8-4(29.8mm,-12mm) on L01-TOP Location : [X = 189.2mm][Y = 220.562mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_5(29.8mm,-12.8mm) on L01-TOP And Pad J8-5(29.8mm,-12.8mm) on L01-TOP Location : [X = 189.2mm][Y = 219.762mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_6(29.8mm,-13.6mm) on L01-TOP And Pad J8-6(29.8mm,-13.6mm) on L01-TOP Location : [X = 189.2mm][Y = 218.962mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_7(29.8mm,-14.4mm) on L01-TOP And Pad J8-7(29.8mm,-14.4mm) on L01-TOP Location : [X = 189.2mm][Y = 218.162mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_8(29.8mm,-15.2mm) on L01-TOP And Pad J8-8(29.8mm,-15.2mm) on L01-TOP Location : [X = 189.2mm][Y = 217.362mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P1_9(29.8mm,-16mm) on L01-TOP And Pad J8-9(29.8mm,-16mm) on L01-TOP Location : [X = 189.2mm][Y = 216.562mm]Waived by Julian St. James at 24.04.2024 19:50:42
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_1(29.8mm,-23.85mm) on L01-TOP And Pad J6-1(29.786mm,-23.85mm) on L01-TOP Location : [X = 189.193mm][Y = 208.712mm]Waived by Julian St. James at 28.01.2024 3:10:47
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_10(29.8mm,-31.05mm) on L01-TOP And Pad J6-10(29.786mm,-31.05mm) on L01-TOP Location : [X = 189.193mm][Y = 201.512mm]Waived by Julian St. James at 28.01.2024 3:10:47
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_11(38mm,-30.65mm) on L01-TOP And Pad J6-11(37.986mm,-30.65mm) on L01-TOP Location : [X = 197.393mm][Y = 201.912mm]Waived by Julian St. James at 28.01.2024 3:10:47
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_12(38mm,-29.85mm) on L01-TOP And Pad J6-12(37.986mm,-29.85mm) on L01-TOP Location : [X = 197.393mm][Y = 202.712mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_13(38mm,-29.05mm) on L01-TOP And Pad J6-13(37.986mm,-29.05mm) on L01-TOP Location : [X = 197.393mm][Y = 203.512mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_14(38mm,-28.25mm) on L01-TOP And Pad J6-14(37.986mm,-28.25mm) on L01-TOP Location : [X = 197.393mm][Y = 204.312mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_15(38mm,-27.45mm) on L01-TOP And Pad J6-15(37.986mm,-27.45mm) on L01-TOP Location : [X = 197.393mm][Y = 205.112mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_16(38mm,-26.65mm) on L01-TOP And Pad J6-16(37.986mm,-26.65mm) on L01-TOP Location : [X = 197.393mm][Y = 205.912mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_17(38mm,-25.85mm) on L01-TOP And Pad J6-17(37.986mm,-25.85mm) on L01-TOP Location : [X = 197.393mm][Y = 206.712mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_18(38mm,-25.05mm) on L01-TOP And Pad J6-18(37.986mm,-25.05mm) on L01-TOP Location : [X = 197.393mm][Y = 207.512mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_19(38mm,-24.25mm) on L01-TOP And Pad J6-19(37.986mm,-24.25mm) on L01-TOP Location : [X = 197.393mm][Y = 208.312mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_2(29.8mm,-24.65mm) on L01-TOP And Pad J6-2(29.786mm,-24.65mm) on L01-TOP Location : [X = 189.193mm][Y = 207.912mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_20(38mm,-23.45mm) on L01-TOP And Pad J6-20(37.986mm,-23.45mm) on L01-TOP Location : [X = 197.393mm][Y = 209.112mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_3(29.8mm,-25.45mm) on L01-TOP And Pad J6-3(29.786mm,-25.45mm) on L01-TOP Location : [X = 189.193mm][Y = 207.112mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_4(29.8mm,-26.25mm) on L01-TOP And Pad J6-4(29.786mm,-26.25mm) on L01-TOP Location : [X = 189.193mm][Y = 206.312mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_5(29.8mm,-27.05mm) on L01-TOP And Pad J6-5(29.786mm,-27.05mm) on L01-TOP Location : [X = 189.193mm][Y = 205.512mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_6(29.8mm,-27.85mm) on L01-TOP And Pad J6-6(29.786mm,-27.85mm) on L01-TOP Location : [X = 189.193mm][Y = 204.712mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_7(29.8mm,-28.65mm) on L01-TOP And Pad J6-7(29.786mm,-28.65mm) on L01-TOP Location : [X = 189.193mm][Y = 203.912mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_8(29.8mm,-29.45mm) on L01-TOP And Pad J6-8(29.786mm,-29.45mm) on L01-TOP Location : [X = 189.193mm][Y = 203.112mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P2_9(29.8mm,-30.25mm) on L01-TOP And Pad J6-9(29.786mm,-30.25mm) on L01-TOP Location : [X = 189.193mm][Y = 202.312mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_1(29.8mm,-38.1mm) on L01-TOP And Pad J7-1(29.8mm,-38.1mm) on L01-TOP Location : [X = 189.2mm][Y = 194.462mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_10(29.8mm,-45.3mm) on L01-TOP And Pad J7-10(29.8mm,-45.3mm) on L01-TOP Location : [X = 189.2mm][Y = 187.262mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_11(38mm,-44.9mm) on L01-TOP And Pad J7-11(38mm,-44.9mm) on L01-TOP Location : [X = 197.4mm][Y = 187.662mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_12(38mm,-44.1mm) on L01-TOP And Pad J7-12(38mm,-44.1mm) on L01-TOP Location : [X = 197.4mm][Y = 188.462mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_13(38mm,-43.3mm) on L01-TOP And Pad J7-13(38mm,-43.3mm) on L01-TOP Location : [X = 197.4mm][Y = 189.262mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_14(38mm,-42.5mm) on L01-TOP And Pad J7-14(38mm,-42.5mm) on L01-TOP Location : [X = 197.4mm][Y = 190.062mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_15(38mm,-41.7mm) on L01-TOP And Pad J7-15(38mm,-41.7mm) on L01-TOP Location : [X = 197.4mm][Y = 190.862mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_16(38mm,-40.9mm) on L01-TOP And Pad J7-16(38mm,-40.9mm) on L01-TOP Location : [X = 197.4mm][Y = 191.662mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_17(38mm,-40.1mm) on L01-TOP And Pad J7-17(38mm,-40.1mm) on L01-TOP Location : [X = 197.4mm][Y = 192.462mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_18(38mm,-39.3mm) on L01-TOP And Pad J7-18(38mm,-39.3mm) on L01-TOP Location : [X = 197.4mm][Y = 193.262mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_19(38mm,-38.5mm) on L01-TOP And Pad J7-19(38mm,-38.5mm) on L01-TOP Location : [X = 197.4mm][Y = 194.062mm]Waived by Julian St. James at 28.01.2024 3:10:55
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_2(29.8mm,-38.9mm) on L01-TOP And Pad J7-2(29.8mm,-38.9mm) on L01-TOP Location : [X = 189.2mm][Y = 193.662mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_20(38mm,-37.7mm) on L01-TOP And Pad J7-20(38mm,-37.7mm) on L01-TOP Location : [X = 197.4mm][Y = 194.862mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_3(29.8mm,-39.7mm) on L01-TOP And Pad J7-3(29.8mm,-39.7mm) on L01-TOP Location : [X = 189.2mm][Y = 192.862mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_4(29.8mm,-40.5mm) on L01-TOP And Pad J7-4(29.8mm,-40.5mm) on L01-TOP Location : [X = 189.2mm][Y = 192.062mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_5(29.8mm,-41.3mm) on L01-TOP And Pad J7-5(29.8mm,-41.3mm) on L01-TOP Location : [X = 189.2mm][Y = 191.262mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_6(29.8mm,-42.1mm) on L01-TOP And Pad J7-6(29.8mm,-42.1mm) on L01-TOP Location : [X = 189.2mm][Y = 190.462mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_7(29.8mm,-42.9mm) on L01-TOP And Pad J7-7(29.8mm,-42.9mm) on L01-TOP Location : [X = 189.2mm][Y = 189.662mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_8(29.8mm,-43.7mm) on L01-TOP And Pad J7-8(29.8mm,-43.7mm) on L01-TOP Location : [X = 189.2mm][Y = 188.862mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J5-P3_9(29.8mm,-44.5mm) on L01-TOP And Pad J7-9(29.8mm,-44.5mm) on L01-TOP Location : [X = 189.2mm][Y = 188.062mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-1(29.786mm,-23.85mm) on L01-TOP And Track (28.323mm,-23.85mm)(29.8mm,-23.85mm) on L01-TOP Location : [X = 188.808mm][Y = 208.712mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-10(29.786mm,-31.05mm) on L01-TOP And Track (28.261mm,-31.05mm)(29.8mm,-31.05mm) on L01-TOP Location : [X = 188.808mm][Y = 201.512mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-11(37.986mm,-30.65mm) on L01-TOP And Track (36.4mm,-30.65mm)(38mm,-30.65mm) on L01-TOP Location : [X = 197.008mm][Y = 201.912mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-12(37.986mm,-29.85mm) on L01-TOP And Track (38.57mm,-29.614mm)(39mm,-29.614mm) on L01-TOP Location : [X = 198.146mm][Y = 202.923mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-12(37.986mm,-29.85mm) on L01-TOP And Track (39mm,-29.614mm)(39.318mm,-29.614mm) on L01-TOP Location : [X = 198.361mm][Y = 202.924mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-13(37.986mm,-29.05mm) on L01-TOP And Track (38.442mm,-29.233mm)(39.308mm,-29.233mm) on L01-TOP Location : [X = 198.082mm][Y = 203.329mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-14(37.986mm,-28.25mm) on L01-TOP And Track (38mm,-28.25mm)(39.54mm,-28.25mm) on L01-TOP Location : [X = 197.778mm][Y = 204.312mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-15(37.986mm,-27.45mm) on L01-TOP And Track (36.171mm,-27.45mm)(37.254mm,-27.45mm) on L01-TOP Location : [X = 196.648mm][Y = 205.112mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-16(37.986mm,-26.65mm) on L01-TOP And Track (36.25mm,-26.65mm)(38mm,-26.65mm) on L01-TOP Location : [X = 197.009mm][Y = 205.912mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-17(37.986mm,-25.85mm) on L01-TOP And Track (36.348mm,-25.85mm)(38mm,-25.85mm) on L01-TOP Location : [X = 197.009mm][Y = 206.712mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-18(37.986mm,-25.05mm) on L01-TOP And Track (38.526mm,-24.832mm)(39.192mm,-24.832mm) on L01-TOP Location : [X = 198.124mm][Y = 207.714mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-19(37.986mm,-24.25mm) on L01-TOP And Track (38.486mm,-24.451mm)(39.325mm,-24.451mm) on L01-TOP Location : [X = 198.104mm][Y = 208.119mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-2(29.786mm,-24.65mm) on L01-TOP And Track (28.268mm,-24.65mm)(29.8mm,-24.65mm) on L01-TOP Location : [X = 188.74mm][Y = 207.912mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-20(37.986mm,-23.45mm) on L01-TOP And Track (36.366mm,-23.45mm)(38mm,-23.45mm) on L01-TOP Location : [X = 197.009mm][Y = 209.112mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-3(29.786mm,-25.45mm) on L01-TOP And Track (28.349mm,-25.45mm)(29.8mm,-25.45mm) on L01-TOP Location : [X = 188.74mm][Y = 207.112mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-4(29.786mm,-26.25mm) on L01-TOP And Track (27.806mm,-26.25mm)(29.8mm,-26.25mm) on L01-TOP Location : [X = 188.74mm][Y = 206.312mm]Waived by Julian St. James at 28.01.2024 3:11:03
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-5(29.786mm,-27.05mm) on L01-TOP And Track (28.094mm,-27.05mm)(29.8mm,-27.05mm) on L01-TOP Location : [X = 188.74mm][Y = 205.512mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-6(29.786mm,-27.85mm) on L01-TOP And Track (28.143mm,-27.85mm)(29.8mm,-27.85mm) on L01-TOP Location : [X = 188.74mm][Y = 204.712mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-7(29.786mm,-28.65mm) on L01-TOP And Track (28.361mm,-28.65mm)(29.8mm,-28.65mm) on L01-TOP Location : [X = 188.74mm][Y = 203.912mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-8(29.786mm,-29.45mm) on L01-TOP And Track (28.129mm,-29.45mm)(29.8mm,-29.45mm) on L01-TOP Location : [X = 188.74mm][Y = 203.112mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J6-9(29.786mm,-30.25mm) on L01-TOP And Track (28.342mm,-30.25mm)(29.8mm,-30.25mm) on L01-TOP Location : [X = 188.808mm][Y = 202.312mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-1(29.8mm,-38.1mm) on L01-TOP And Track (28.323mm,-38.1mm)(29.8mm,-38.1mm) on L01-TOP Location : [X = 188.815mm][Y = 194.462mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-10(29.8mm,-45.3mm) on L01-TOP And Track (28.261mm,-45.3mm)(29.8mm,-45.3mm) on L01-TOP Location : [X = 188.815mm][Y = 187.262mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-11(38mm,-44.9mm) on L01-TOP And Track (36.4mm,-44.9mm)(38mm,-44.9mm) on L01-TOP Location : [X = 197.015mm][Y = 187.662mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-12(38mm,-44.1mm) on L01-TOP And Track (38.391mm,-43.938mm)(39.387mm,-43.938mm) on L01-TOP Location : [X = 198.063mm][Y = 188.624mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-13(38mm,-43.3mm) on L01-TOP And Track (38.621mm,-43.557mm)(39.389mm,-43.557mm) on L01-TOP Location : [X = 198.179mm][Y = 189.041mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-14(38mm,-42.5mm) on L01-TOP And Track (38mm,-42.5mm)(39.54mm,-42.5mm) on L01-TOP Location : [X = 197.785mm][Y = 190.062mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-15(38mm,-41.7mm) on L01-TOP And Track (36.171mm,-41.7mm)(37.254mm,-41.7mm) on L01-TOP Location : [X = 196.655mm][Y = 190.862mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-16(38mm,-40.9mm) on L01-TOP And Track (36.25mm,-40.9mm)(38mm,-40.9mm) on L01-TOP Location : [X = 197.015mm][Y = 191.662mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-17(38mm,-40.1mm) on L01-TOP And Track (36.348mm,-40.1mm)(38mm,-40.1mm) on L01-TOP Location : [X = 197.015mm][Y = 192.462mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (38.186mm,-39.113mm)(38.988mm,-39.113mm) on L01-TOP Location : [X = 197.961mm][Y = 193.448mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (38.988mm,-39.113mm)(39.011mm,-39.09mm) on L01-TOP Location : [X = 198.362mm][Y = 193.448mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (38mm,-39.3mm)(38.186mm,-39.113mm) on L01-TOP Location : [X = 197.493mm][Y = 193.355mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-18(38mm,-39.3mm) on L01-TOP And Track (39.011mm,-39.09mm)(40.055mm,-39.09mm) on L01-TOP Location : [X = 198.373mm][Y = 193.461mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (38.186mm,-38.686mm)(38.988mm,-38.686mm) on L01-TOP Location : [X = 197.961mm][Y = 193.877mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (38.988mm,-38.686mm)(39.011mm,-38.709mm) on L01-TOP Location : [X = 198.362mm][Y = 193.877mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (38mm,-38.5mm)(38.186mm,-38.686mm) on L01-TOP Location : [X = 197.493mm][Y = 193.97mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-19(38mm,-38.5mm) on L01-TOP And Track (39.011mm,-38.709mm)(40.054mm,-38.709mm) on L01-TOP Location : [X = 198.373mm][Y = 193.864mm]Waived by Julian St. James at 28.01.2024 21:22:41
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-2(29.8mm,-38.9mm) on L01-TOP And Track (28.268mm,-38.9mm)(29.8mm,-38.9mm) on L01-TOP Location : [X = 188.747mm][Y = 193.662mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-20(38mm,-37.7mm) on L01-TOP And Track (36.479mm,-37.7mm)(38mm,-37.7mm) on L01-TOP Location : [X = 197.015mm][Y = 194.862mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-3(29.8mm,-39.7mm) on L01-TOP And Track (28.349mm,-39.7mm)(29.8mm,-39.7mm) on L01-TOP Location : [X = 188.747mm][Y = 192.862mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-4(29.8mm,-40.5mm) on L01-TOP And Track (27.806mm,-40.5mm)(29.8mm,-40.5mm) on L01-TOP Location : [X = 188.747mm][Y = 192.062mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-4(29.8mm,-40.5mm) on L01-TOP And Track (29.8mm,-40.5mm)(31.325mm,-40.5mm) on L01-TOP Location : [X = 189.653mm][Y = 192.062mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-5(29.8mm,-41.3mm) on L01-TOP And Track (28.094mm,-41.3mm)(29.8mm,-41.3mm) on L01-TOP Location : [X = 188.747mm][Y = 191.262mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-5(29.8mm,-41.3mm) on L01-TOP And Track (29.8mm,-41.3mm)(31.242mm,-41.3mm) on L01-TOP Location : [X = 189.653mm][Y = 191.262mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-6(29.8mm,-42.1mm) on L01-TOP And Track (28.143mm,-42.1mm)(29.8mm,-42.1mm) on L01-TOP Location : [X = 188.747mm][Y = 190.462mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-7(29.8mm,-42.9mm) on L01-TOP And Track (28.361mm,-42.9mm)(29.8mm,-42.9mm) on L01-TOP Location : [X = 188.747mm][Y = 189.662mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-8(29.8mm,-43.7mm) on L01-TOP And Track (28.129mm,-43.7mm)(29.8mm,-43.7mm) on L01-TOP Location : [X = 188.747mm][Y = 188.862mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J7-9(29.8mm,-44.5mm) on L01-TOP And Track (28.342mm,-44.5mm)(29.8mm,-44.5mm) on L01-TOP Location : [X = 188.815mm][Y = 188.062mm]Waived by Julian St. James at 28.01.2024 3:11:09
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-1(29.8mm,-9.6mm) on L01-TOP And Track (28.386mm,-9.596mm)(29.796mm,-9.596mm) on L01-TOP Location : [X = 188.826mm][Y = 222.962mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-1(29.8mm,-9.6mm) on L01-TOP And Track (29.796mm,-9.596mm)(29.8mm,-9.6mm) on L01-TOP Location : [X = 189.198mm][Y = 222.962mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-10(29.8mm,-16.8mm) on L01-TOP And Track (28.544mm,-16.8mm)(29.8mm,-16.8mm) on L01-TOP Location : [X = 188.828mm][Y = 215.762mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-11(38mm,-16.4mm) on L01-TOP And Track (36.211mm,-16.4mm)(38.75mm,-16.4mm) on L01-TOP Location : [X = 197.39mm][Y = 216.162mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-12(38mm,-15.6mm) on L01-TOP And Track (38.494mm,-15.396mm)(40.603mm,-15.396mm) on L01-TOP Location : [X = 198.114mm][Y = 217.157mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-13(38mm,-14.8mm) on L01-TOP And Track (38.518mm,-15.015mm)(40.576mm,-15.015mm) on L01-TOP Location : [X = 198.127mm][Y = 217.563mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-14(38mm,-14mm) on L01-TOP And Track (38mm,-14mm)(39.739mm,-14mm) on L01-TOP Location : [X = 197.785mm][Y = 218.562mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-15(38mm,-13.2mm) on L01-TOP And Track (36.215mm,-13.2mm)(38mm,-13.2mm) on L01-TOP Location : [X = 197.015mm][Y = 219.362mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-16(38mm,-12.4mm) on L01-TOP And Track (35.949mm,-12.4mm)(37.254mm,-12.4mm) on L01-TOP Location : [X = 196.655mm][Y = 220.162mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-17(38mm,-11.6mm) on L01-TOP And Track (35.988mm,-11.6mm)(38mm,-11.6mm) on L01-TOP Location : [X = 197.015mm][Y = 220.962mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-18(38mm,-10.8mm) on L01-TOP And Track (38.296mm,-10.677mm)(39.756mm,-10.677mm) on L01-TOP Location : [X = 198.016mm][Y = 221.885mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-19(38mm,-10mm) on L01-TOP And Track (38.715mm,-10.296mm)(40.724mm,-10.296mm) on L01-TOP Location : [X = 198.235mm][Y = 222.322mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-2(29.8mm,-10.4mm) on L01-TOP And Track (27.92mm,-10.4mm)(29.8mm,-10.4mm) on L01-TOP Location : [X = 188.747mm][Y = 222.162mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-20(38mm,-9.2mm) on L01-TOP And Track (35.991mm,-9.2mm)(38mm,-9.2mm) on L01-TOP Location : [X = 197.015mm][Y = 223.362mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-3(29.8mm,-11.2mm) on L01-TOP And Track (28.204mm,-11.2mm)(29.8mm,-11.2mm) on L01-TOP Location : [X = 188.747mm][Y = 221.362mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-4(29.8mm,-12mm) on L01-TOP And Track (28.101mm,-12mm)(29.8mm,-12mm) on L01-TOP Location : [X = 188.747mm][Y = 220.562mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-5(29.8mm,-12.8mm) on L01-TOP And Track (28.015mm,-12.8mm)(29.8mm,-12.8mm) on L01-TOP Location : [X = 188.747mm][Y = 219.762mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-6(29.8mm,-13.6mm) on L01-TOP And Track (28.209mm,-13.6mm)(29.8mm,-13.6mm) on L01-TOP Location : [X = 188.747mm][Y = 218.962mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-7(29.8mm,-14.4mm) on L01-TOP And Track (28.32mm,-14.4mm)(29.8mm,-14.4mm) on L01-TOP Location : [X = 188.747mm][Y = 218.162mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-8(29.8mm,-15.2mm) on L01-TOP And Track (28.368mm,-15.2mm)(29.8mm,-15.2mm) on L01-TOP Location : [X = 188.747mm][Y = 217.362mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-9(29.8mm,-16mm) on L01-TOP And Track (28.412mm,-16.004mm)(29.796mm,-16.004mm) on L01-TOP Location : [X = 188.826mm][Y = 216.562mm]Waived by Julian St. James at 24.04.2024 19:50:46
+   Waived Violation between Short-Circuit Constraint: Between Pad J8-9(29.8mm,-16mm) on L01-TOP And Track (29.796mm,-16.004mm)(29.8mm,-16mm) on L01-TOP Location : [X = 189.198mm][Y = 216.562mm]Waived by Julian St. James at 24.04.2024 19:50:46
+Waived Violations :194
+
+Waived Violations Of Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-MH1(33.9mm,-50.95mm) on Multi-Layer And Pad J5-(33.9mm,-50.95mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 28.01.2024 3:13:59
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-MH2(33.9mm,-60.55mm) on Multi-Layer And Pad J5-(33.9mm,-60.55mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 28.01.2024 3:13:59
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J5-(33.9mm,-17.8mm) on Multi-Layer And Pad J8-MH2(33.9mm,-17.8mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 24.04.2024 19:50:50
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J5-(33.9mm,-22.45mm) on Multi-Layer And Pad J6-MH1(33.886mm,-22.45mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 28.01.2024 3:13:59
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J5-(33.9mm,-32.05mm) on Multi-Layer And Pad J6-MH2(33.886mm,-32.05mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 28.01.2024 3:13:59
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J5-(33.9mm,-36.7mm) on Multi-Layer And Pad J7-MH1(33.9mm,-36.7mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 28.01.2024 3:13:59
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J5-(33.9mm,-46.3mm) on Multi-Layer And Pad J7-MH2(33.9mm,-46.3mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 28.01.2024 3:13:59
+   Waived Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J5-(33.9mm,-8.2mm) on Multi-Layer And Pad J8-MH1(33.9mm,-8.2mm) on Multi-Layer Pad/Via Touching HolesWaived by Julian St. James at 24.04.2024 19:50:50
+Waived Violations :8
+
+Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.246mm < 0.305mm) Between Board Edge And Pad P2-A11(48.146mm,-101.962mm) on L10-BOT Waived by Julian St. James at 18.01.2024 0:13:42
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.245mm < 0.305mm) Between Board Edge And Pad P2-A12(51.146mm,-101.962mm) on L10-BOT Waived by Julian St. James at 18.01.2024 0:13:42
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.246mm < 0.305mm) Between Board Edge And Pad P2-B11(48.146mm,-101.962mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:57
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.245mm < 0.305mm) Between Board Edge And Pad P2-B12(51.146mm,-101.962mm) on L01-TOP Waived by Julian St. James at 24.04.2024 19:50:57
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-7.11mm,-69.857mm)(-3.079mm,-69.857mm) on Top Overlay Waived by Julian St. James at 28.01.2024 3:16:59
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-7.11mm,-87.437mm)(-3.079mm,-87.437mm) on Top Overlay Waived by Julian St. James at 28.01.2024 3:16:59
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.305mm) Between Board Edge And Track (-7.11mm,-87.437mm)(-7.11mm,-69.857mm) on Top Overlay Waived by Julian St. James at 28.01.2024 3:16:59
+Waived Violations :7
+
+
+Violations Detected : 0
+Waived Violations : 397
+Time Elapsed        : 00:00:07

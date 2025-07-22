@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SFP_RFoF.PcbDoc]
+   Generated File[SFP_RFoF_rev.1_GBR 2025-07-22 15-54.TXT]
+   Generated File[SFP_RFoF_rev.1_GBR 2025-07-22 15-54.LDP]
+   Generated File[SFP_RFoF_rev.1_GBR 2025-07-22 15-54.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:54:48 On 22.07.2025
