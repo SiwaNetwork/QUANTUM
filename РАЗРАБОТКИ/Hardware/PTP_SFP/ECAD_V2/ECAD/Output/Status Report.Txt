@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 0:46:04 On 28.07.2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [release] of Project [SFP_RFoF.PrjPcb]
+   Generated File[SFP_RFoF_rev.1_BOM 2025-07-28 00-46.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 0:46:28 On 28.07.2025
