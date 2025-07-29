@@ -1602,60 +1602,68 @@ DocumentPath=Project Outputs for MiniPTM\MiniPTM_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Soldermask_Bot.gbr
+DocumentPath=Output\MiniPTM_rev.1.0_BOM 2025-07-28 00-48.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Soldermask_Top.gbr
+DocumentPath=Output\MiniPTM_rev.1.0_BOM 2025-07-28 00-51.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Assembly.gbr
+DocumentPath=Output\MiniPTM_Revision_BOM 2025-07-28 00-47.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Component_Center.gbr
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Component_Outline.gbr
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Courtyard.gbr
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Designator.gbr
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Component_Center.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Drawing_1.gbr
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Component_Outline.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Drillmap_1.gbr
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Courtyard.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for MiniPTM\Pick Place for MiniPTM.csv
+DocumentPath=Project Outputs for MiniPTM\MiniPTM_Top_Designator.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for MiniPTM\Pick Place for MiniPTM.txt
+DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument42]
+DocumentPath=Project Outputs for MiniPTM\MiniPTMV1_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for MiniPTM\Pick Place for MiniPTM.csv
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for MiniPTM\Pick Place for MiniPTM.txt
+DItemRevisionGUID=
+
+[GeneratedDocument45]
 DocumentPath=..\..\..\..\..\..\..\..\Users\golub\AppData\Local\Temp\QjzA46D.xls
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectDate
-Value=09/14/21
-
-[Parameter2]
-Name=ProjectRevision
-Value=P3
+Name=Revision
+Value=rev.1.0
 
 [Configuration1]
 Name=Sources
