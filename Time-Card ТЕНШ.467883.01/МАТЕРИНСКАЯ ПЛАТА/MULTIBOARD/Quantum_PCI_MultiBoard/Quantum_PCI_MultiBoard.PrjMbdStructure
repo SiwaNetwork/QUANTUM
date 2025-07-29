@@ -1,0 +1,8 @@
+Record=DiagramHierarchy|SourceDocument=QUANTUM_MB.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB_3|Source=..\..\..\цмяя лндскх\UBlox\ремь.468157.03 RCB-F9T\Altium\ECAD\V1\GPS-RCB-F9T.PrjPcb
+Record=SubProject|SourceDocument=QUANTUM_MB.MbsDoc|ProjectPath=..\..\..\цмяя лндскх\UBlox\ремь.468157.03 RCB-F9T\Altium\ECAD\V1\GPS-RCB-F9T.PrjPcb
+Record=DiagramHierarchy|SourceDocument=QUANTUM_MB.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB_2|Source=..\..\..\цмяя лндскх\UBlox\ремь.468157.03 RCB-F9T\Altium\ECAD\V1\GPS-RCB-F9T.PrjPcb
+Record=SubProject|SourceDocument=QUANTUM_MB.MbsDoc|ProjectPath=..\..\..\цмяя лндскх\UBlox\ремь.468157.03 RCB-F9T\Altium\ECAD\V1\GPS-RCB-F9T.PrjPcb
+Record=DiagramHierarchy|SourceDocument=QUANTUM_MB.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB_1|Source=..\..\ECAD\QUANTUM_PCI_v1\ECAD\QUANTUM_PCI_v1.PrjPcb
+Record=SubProject|SourceDocument=QUANTUM_MB.MbsDoc|ProjectPath=..\..\ECAD\QUANTUM_PCI_v1\ECAD\QUANTUM_PCI_v1.PrjPcb
+Record=DiagramHierarchy|SourceDocument=QUANTUM_MB.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB_4|Source=..\..\..\..\ремь.467879.01 OCXO окюрю\ECAD\ECAD\OCXO_DaughterCard.PrjPcb
+Record=SubProject|SourceDocument=QUANTUM_MB.MbsDoc|ProjectPath=..\..\..\..\ремь.467879.01 OCXO окюрю\ECAD\ECAD\OCXO_DaughterCard.PrjPcb
