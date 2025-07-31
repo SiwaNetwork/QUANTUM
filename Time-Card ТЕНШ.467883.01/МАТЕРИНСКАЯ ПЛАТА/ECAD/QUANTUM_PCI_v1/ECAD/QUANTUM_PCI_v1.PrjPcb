@@ -548,7 +548,11 @@ UniqueId=a02a1acc-7a8c-4695-9f44-72eaeab0b5c2
 Description=release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=4
+Variation1=Designator=U13|UniqueId=\AYZZHDWZ|Kind=0|AlternatePart=
+Variation2=Designator=P1|UniqueId=\REHHNZWT|Kind=1|AlternatePart=
+Variation3=Designator=P5|UniqueId=\HCUBOPWT|Kind=1|AlternatePart=
+Variation4=Designator=R48|UniqueId=\MVDYZAJQ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -1487,12 +1491,20 @@ DocumentPath=Project Outputs for QUANTUM_PCI_v1\QUANTUM_PCI_v1_Rev. 1.0_Pick&Pla
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Revision
-Value=Rev. 1.0
+Name=
+Value=
 
 [Parameter2]
 Name=TENSH
-Value=ТЕНШ.467883.001.00.000
+Value=ТЕНШ.467883.01
+
+[Parameter3]
+Name=Revision
+Value=Rev. 1.1
+
+[Parameter4]
+Name=
+Value=
 
 [Configuration1]
 Name=Sources
@@ -3241,36 +3253,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

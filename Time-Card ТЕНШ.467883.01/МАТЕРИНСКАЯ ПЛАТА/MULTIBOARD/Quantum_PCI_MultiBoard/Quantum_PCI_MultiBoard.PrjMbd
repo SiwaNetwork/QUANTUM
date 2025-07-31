@@ -129,6 +129,23 @@ ManagedProjectGUID=
 RevisionGUID=
 ProjectName=OCXO_DaughterCard.PrjPcb
 
+[Document5]
+DocumentPath=QUANTUM_PCI_MB.MbaDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=22e82ce7-e010-4bf0-aab0-1f9d49e03229
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=

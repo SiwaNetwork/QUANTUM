@@ -1,15 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 12:50:38 On 18.06.2025
+Start Output Generation At 14:37:32 On 30.07.2025
 
 Output: Generates pick and place files
 Type  : Pick Place
 From  : Variant [[No Variations]] of PCB Document [Quantum_PCI_v1.PcbDoc]
-   Generated File[QUANTUM_PCI_v1_Rev. 1.0_Pick&Place 2025-06-18 12-50.txt]
-   Generated File[QUANTUM_PCI_v1_Rev. 1.0_Pick&Place 2025-06-18 12-50.csv]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.1_Pick&Place 2025-07-30 14-37.txt]
+   Generated File[QUANTUM_PCI_v1_Rev. 1.1_Pick&Place 2025-07-30 14-37.csv]
 
 
 Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 12:50:48 On 18.06.2025
+Finished Output Generation At 14:37:42 On 30.07.2025
